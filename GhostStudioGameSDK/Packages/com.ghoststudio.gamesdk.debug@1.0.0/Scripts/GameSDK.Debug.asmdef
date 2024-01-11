@@ -1,0 +1,20 @@
+{
+    "name": "GameSDK.Debug",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4cbf0ee5e58cb48be8d235de33272243",
+        "GUID:05dbf8cd246c9274c8a78a65142e5f8a",
+        "GUID:bcc75752368a72b4aba4043ea13b2a1a",
+        "GUID:e59a2555e209c440289bee8853b424ba",
+        "GUID:715c9487ab5ae4b39899025a17adb964"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

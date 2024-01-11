@@ -1,0 +1,11 @@
+{
+    "name": "com.ghoststudio.gamesdk.hotfix",
+    "version": "1.0.0",
+    "displayName": "GameSDK.Hotfix",
+    "description": "排行榜模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0",
+        "com.ghoststudio.gamesdk.config": "1.0.0",
+        "com.ghoststudio.gamesdk.resource": "1.0.0"
+    }
+}

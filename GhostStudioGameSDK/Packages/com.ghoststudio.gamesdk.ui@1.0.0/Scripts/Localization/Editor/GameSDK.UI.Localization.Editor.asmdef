@@ -1,0 +1,22 @@
+{
+    "name": "TextLocalizationEditor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:0025b92bdb4a841d7b579b930dd13bcd",
+        "GUID:cff761fa621db409bafa5e7cbdc31f1e",
+        "GUID:715c9487ab5ae4b39899025a17adb964",
+        "GUID:6546d7765b4165b40850b3667f981c26"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

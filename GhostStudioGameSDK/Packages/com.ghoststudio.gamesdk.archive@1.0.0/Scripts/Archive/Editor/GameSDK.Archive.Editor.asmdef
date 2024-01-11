@@ -1,0 +1,19 @@
+{
+    "name": "Archive.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3be039126e03346e2a4c77a2b0a27471",
+        "GUID:6547f7f9399154343bf083635157141d"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

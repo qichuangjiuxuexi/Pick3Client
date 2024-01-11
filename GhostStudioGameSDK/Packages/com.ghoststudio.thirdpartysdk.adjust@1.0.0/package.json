@@ -1,0 +1,11 @@
+{
+    "name": "com.ghoststudio.thirdpartysdk.adjust",
+    "version": "1.0.0",
+    "displayName": "ThirdPartySDK.Adjust",
+    "description": "Adjust模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0",
+        "com.ghoststudio.gamesdk.config": "1.0.0",
+        "com.ghoststudio.gamesdk.analytics": "1.0.0"
+    }
+}

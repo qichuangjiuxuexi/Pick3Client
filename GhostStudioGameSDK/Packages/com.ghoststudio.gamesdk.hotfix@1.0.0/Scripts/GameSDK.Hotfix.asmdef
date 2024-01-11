@@ -1,0 +1,22 @@
+{
+    "name": "GameSDK.Hotfix",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4cbf0ee5e58cb48be8d235de33272243",
+        "GUID:0025b92bdb4a841d7b579b930dd13bcd",
+        "GUID:8d0ad675e416c485ea23a04336b24905",
+        "GUID:9e24947de15b9834991c9d8411ea37cf",
+        "GUID:e59a2555e209c440289bee8853b424ba",
+        "GUID:cff761fa621db409bafa5e7cbdc31f1e",
+        "GUID:84651a3751eca9349aac36a66bba901b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

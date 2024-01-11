@@ -1,0 +1,9 @@
+{
+    "name": "com.ghoststudio.gamesdk.debug",
+    "version": "1.0.0",
+    "displayName": "GameSDK.Debug",
+    "description": "调试模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0"
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "com.ghoststudio.gamesdk.oa",
+  "version": "1.0.0",
+  "displayName": "GameSDK.OA",
+  "description": "OA动画模块",
+  "dependencies": {
+    "com.ghoststudio.gamesdk.common": "1.0.0",
+    "com.ghoststudio.gamesdk.resource": "1.0.0"
+  }
+}

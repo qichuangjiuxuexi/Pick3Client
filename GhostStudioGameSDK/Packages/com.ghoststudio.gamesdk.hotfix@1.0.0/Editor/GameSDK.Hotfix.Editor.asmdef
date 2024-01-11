@@ -1,0 +1,24 @@
+{
+    "name": "GameSDK.Hotfix.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:69448af7b92c7f342b298e06a37122aa",
+        "GUID:c5ecc461727906345a35491a0440694f",
+        "GUID:be725ffb03a5f4c0cbab150ad1dd3bc8",
+        "GUID:23be3253bfdd41f294cf19890b3d9204",
+        "GUID:4ad1387d1e5bb4d00984c0a126e2dee9",
+        "GUID:0025b92bdb4a841d7b579b930dd13bcd",
+        "GUID:cff761fa621db409bafa5e7cbdc31f1e"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

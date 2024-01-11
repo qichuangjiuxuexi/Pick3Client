@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e8ed8d658db4c9a871176769c9251c0, type: 3}
+  m_Name: demo_preview_fly_card_clip_3
+  m_EditorClassIdentifier: 
+  clipName: 
+  animationConfigs:
+  - {fileID: 11400000, guid: 51bab92ffa1714298b5256411dbf3bd2, type: 2}
+  - {fileID: 11400000, guid: 667cb954cc3704a5c8cdb38d6568c29f, type: 2}
+  - {fileID: 11400000, guid: 2a5e1147d7f8841bcb9ae6ee8ad36630, type: 2}

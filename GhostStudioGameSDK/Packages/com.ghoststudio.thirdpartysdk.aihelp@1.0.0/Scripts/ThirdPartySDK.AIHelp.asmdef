@@ -1,0 +1,24 @@
+{
+    "name": "ThirdPartySDK.AIHelp",
+    "rootNamespace": "",
+    "references": [
+        "GameSDK.Config",
+        "GameSDK.Common",
+        "GameSDK.UI",
+        "GameSDK.Archive",
+        "GameSDK.Payment",
+        "HotfixAsm.Config",
+        "HotfixAsm.Const",
+        "HotfixAsm.Analytics",
+        "GameSDK.Analytics"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

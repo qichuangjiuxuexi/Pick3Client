@@ -1,0 +1,3 @@
+<linker>
+	<assembly fullname="GameSDK.OA" preserve="all"/>
+</linker>

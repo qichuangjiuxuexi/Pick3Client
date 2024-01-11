@@ -1,0 +1,11 @@
+{
+    "name": "com.ghoststudio.gamesdk.onebyone",
+    "version": "1.0.0",
+    "displayName": "GameSDK.OneByOne",
+    "description": "弹板池模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0",
+        "com.ghoststudio.gamesdk.config": "1.0.0",
+        "com.ghoststudio.gamesdk.ui": "1.0.0"
+    }
+}

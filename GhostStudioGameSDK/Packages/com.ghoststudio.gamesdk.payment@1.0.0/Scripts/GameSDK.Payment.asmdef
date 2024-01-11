@@ -1,0 +1,29 @@
+{
+    "name": "GameSDK.Payment",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4cbf0ee5e58cb48be8d235de33272243",
+        "GUID:0025b92bdb4a841d7b579b930dd13bcd",
+        "GUID:6547f7f9399154343bf083635157141d",
+        "GUID:a5a77311160b840c7a01b6edce2f7b05",
+        "GUID:715c9487ab5ae4b39899025a17adb964",
+        "GUID:cff761fa621db409bafa5e7cbdc31f1e",
+        "GUID:2a83c81e0d4064cb5bad1b19b05e39aa",
+        "GUID:60bfecf5cb232594891bc622f40d6bed",
+        "GUID:08d1c582746949b40ba6a45cdb776bdf",
+        "GUID:94e1de2458b07d0bf1e9f13e6ae06443",
+        "GUID:e63a64384cc3ef04cac761c1ce76e9c2",
+        "GUID:d0bf1e9f644394e1de13e6ae02458b07",
+        "GUID:e59a2555e209c440289bee8853b424ba",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

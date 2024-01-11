@@ -1,0 +1,17 @@
+{
+    "name": "com.ghoststudio.thirdpartysdk.firebase",
+    "version": "1.0.0",
+    "displayName": "ThirdPartySDK.Firebase",
+    "description": "Firebase模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0",
+        "com.ghoststudio.gamesdk.config": "1.0.0",
+        "com.ghoststudio.gamesdk.analytics": "1.0.0",
+        "com.ghoststudio.gamesdk.archive": "1.0.0",
+        "com.google.external-dependency-manager": "1.2.177",
+        "com.google.firebase.app": "11.6.0",
+        "com.google.firebase.analytics": "11.6.0",
+        "com.google.firebase.crashlytics": "11.6.0",
+        "com.google.firebase.messaging": "11.6.0"
+    }
+}

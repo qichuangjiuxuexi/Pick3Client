@@ -1,0 +1,20 @@
+{
+    "name": "GameSDK.OneByOne",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4cbf0ee5e58cb48be8d235de33272243",
+        "GUID:715c9487ab5ae4b39899025a17adb964",
+        "GUID:0025b92bdb4a841d7b579b930dd13bcd",
+        "GUID:cff761fa621db409bafa5e7cbdc31f1e",
+        "GUID:e59a2555e209c440289bee8853b424ba"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

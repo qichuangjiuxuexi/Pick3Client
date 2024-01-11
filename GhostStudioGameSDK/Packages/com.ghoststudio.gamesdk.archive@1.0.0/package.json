@@ -1,0 +1,9 @@
+{
+    "name": "com.ghoststudio.gamesdk.archive",
+    "version": "1.0.0",
+    "displayName": "GameSDK.Archive",
+    "description": "存档模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0"
+    }
+}

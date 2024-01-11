@@ -1,0 +1,14 @@
+{
+    "name": "com.ghoststudio.gamesdk.payment",
+    "version": "1.0.0",
+    "displayName": "GameSDK.Payment",
+    "description": "支付模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0",
+        "com.ghoststudio.gamesdk.config": "1.0.0",
+        "com.ghoststudio.gamesdk.archive": "1.0.0",
+        "com.ghoststudio.gamesdk.analytics": "1.0.0",
+        "com.ghoststudio.gamesdk.ui": "1.0.0",
+        "com.unity.purchasing": "4.9.4"
+    }
+}

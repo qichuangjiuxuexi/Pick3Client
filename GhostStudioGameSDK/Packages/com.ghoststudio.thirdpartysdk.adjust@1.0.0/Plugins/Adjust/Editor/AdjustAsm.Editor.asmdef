@@ -1,0 +1,18 @@
+{
+    "name": "AdjustAsm.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6d1606d97e11c448aa4a7c73fd3b2171"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

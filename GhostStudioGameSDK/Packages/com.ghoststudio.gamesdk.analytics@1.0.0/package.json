@@ -1,0 +1,11 @@
+{
+    "name": "com.ghoststudio.gamesdk.analytics",
+    "version": "1.0.0",
+    "displayName": "GameSDK.Analytics",
+    "description": "打点模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0",
+        "com.ghoststudio.gamesdk.config": "1.0.0",
+        "com.ghoststudio.gamesdk.archive": "1.0.0"
+    }
+}

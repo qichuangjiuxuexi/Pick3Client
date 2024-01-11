@@ -1,0 +1,13 @@
+{
+    "name": "com.ghoststudio.gamesdk.activity",
+    "version": "1.0.0",
+    "displayName": "GameSDK.Activity",
+    "description": "活动模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0",
+        "com.ghoststudio.gamesdk.config": "1.0.0",
+        "com.ghoststudio.gamesdk.ui": "1.0.0",
+        "com.ghoststudio.gamesdk.archive": "1.0.0",
+        "com.ghoststudio.gamesdk.onebyone": "1.0.0"
+    }
+}

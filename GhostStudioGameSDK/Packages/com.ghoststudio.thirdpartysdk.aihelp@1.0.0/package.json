@@ -1,0 +1,10 @@
+{
+    "name": "com.ghoststudio.thirdpartysdk.aihelp",
+    "version": "1.0.0",
+    "displayName": "ThirdPartySDK.AIHelp",
+    "description": "客服AIHelp模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0",
+        "com.ghoststudio.gamesdk.config": "1.0.0"
+    }
+}

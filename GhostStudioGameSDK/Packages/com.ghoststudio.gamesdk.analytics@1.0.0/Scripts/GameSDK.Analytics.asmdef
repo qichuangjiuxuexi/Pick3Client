@@ -1,0 +1,23 @@
+{
+    "name": "GameSDK.Analytics",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4cbf0ee5e58cb48be8d235de33272243",
+        "GUID:0025b92bdb4a841d7b579b930dd13bcd",
+        "GUID:cff761fa621db409bafa5e7cbdc31f1e",
+        "GUID:6d1606d97e11c448aa4a7c73fd3b2171",
+        "GUID:ff4bf6c59d1ac413a8f34ced5be76ecd",
+        "GUID:e59a2555e209c440289bee8853b424ba",
+        "GUID:2a83c81e0d4064cb5bad1b19b05e39aa",
+        "GUID:6547f7f9399154343bf083635157141d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

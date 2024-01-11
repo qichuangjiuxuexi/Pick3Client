@@ -1,0 +1,10 @@
+{
+    "name": "com.ghoststudio.gamesdk.ads",
+    "version": "1.0.0",
+    "displayName": "GameSDK.Ads",
+    "description": "广告模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0",
+        "com.ghoststudio.gamesdk.config": "1.0.0"
+    }
+}

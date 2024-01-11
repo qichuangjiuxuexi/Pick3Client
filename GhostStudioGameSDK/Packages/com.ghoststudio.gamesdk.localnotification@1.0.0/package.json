@@ -1,0 +1,11 @@
+{
+  "name": "com.ghoststudio.gamesdk.localnotification",
+  "version": "1.0.0",
+  "displayName": "GameSDK.LocalNotification",
+  "description": "\u672c\u5730\u63a8\u9001",
+  "dependencies": {
+    "com.ghoststudio.gamesdk.common": "1.0.0",
+    "com.ghoststudio.gamesdk.config": "1.0.0",
+    "com.unity.mobile.notifications": "2.2.2"
+  }
+}
