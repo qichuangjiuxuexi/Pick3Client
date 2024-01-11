@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 266677344e2f541de93c528b11ec001b, type: 3}
+  m_Name: ItemConfig
+  m_EditorClassIdentifier: 
+  keys: 1127000012270000f92a0000fa2a0000e12e0000e22e0000e32e0000e42e0000c9320000ca320000cb320000cc320000b1360000c4360000c5360000813e0000954300009643000097430000f943000051460000b3360000b4360000b5360000b9820100
+  values:
+  - ID: 10001
+    ItemClass: 10
+    IconName: Item_Coin
+    IconScale: 58
+    ModelID: 20001
+    ItemName: itemkey
+    ItemDescription: description
+    ItemUnlockLevel: 
+    FlyItemName: FlyCoinItem
+  - ID: 10002
+    ItemClass: 10
+    IconName: Item_CoinPile
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 11001
+    ItemClass: 11
+    IconName: Item_Life
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: FlyLifeItem
+  - ID: 11002
+    ItemClass: 17
+    IconName: Item_InfiniteLife
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: FlyLifeItem
+  - ID: 12001
+    ItemClass: 12
+    IconName: Booster_Undo
+    IconScale: 0
+    ModelID: 0
+    ItemName: Boosterster_Undo_Name
+    ItemDescription: Booster_Undo_Description
+    ItemUnlockLevel: 3
+    FlyItemName: 
+  - ID: 12002
+    ItemClass: 12
+    IconName: Booster_Magnifier
+    IconScale: 0
+    ModelID: 0
+    ItemName: Booster_Magnifier_Name
+    ItemDescription: Booster_Magnifier_Description
+    ItemUnlockLevel: 5
+    FlyItemName: 
+  - ID: 12003
+    ItemClass: 12
+    IconName: Booster_Bomb
+    IconScale: 0
+    ModelID: 20003
+    ItemName: Booster_Bomb_Name
+    ItemDescription: Booster_Bomb_Description
+    ItemUnlockLevel: 7
+    FlyItemName: 
+  - ID: 12004
+    ItemClass: 12
+    IconName: Booster_Freeze
+    IconScale: 0
+    ModelID: 0
+    ItemName: Booster_Freeze_Name
+    ItemDescription: Booster_Freeze_Description
+    ItemUnlockLevel: 9
+    FlyItemName: 
+  - ID: 13001
+    ItemClass: 13
+    IconName: Booster_Lightning
+    IconScale: 0
+    ModelID: 20004
+    ItemName: Booster_Lightning_Name
+    ItemDescription: Booster_Lightning_Description
+    ItemUnlockLevel: 11
+    FlyItemName: 
+  - ID: 13002
+    ItemClass: 13
+    IconName: Booster_Clock
+    IconScale: 0
+    ModelID: 20005
+    ItemName: Booster_Clock_Name
+    ItemDescription: Booster_Clock_Description
+    ItemUnlockLevel: 14
+    FlyItemName: 
+  - ID: 13003
+    ItemClass: 13
+    IconName: Booster_Magnet
+    IconScale: 0
+    ModelID: 20006
+    ItemName: Booster_Magnet_Name
+    ItemDescription: Booster_Magnet_Description
+    ItemUnlockLevel: 18
+    FlyItemName: 
+  - ID: 13004
+    ItemClass: 13
+    IconName: Booster_DualLightning
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 11
+    FlyItemName: 
+  - ID: 14001
+    ItemClass: 14
+    IconName: Item_Clover
+    IconScale: 0
+    ModelID: 20002
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: FlyCloverItem
+  - ID: 14020
+    ItemClass: 14
+    IconName: Item_Levelstar
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 14021
+    ItemClass: 14
+    IconName: 
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 16001
+    ItemClass: 16
+    IconName: Item_ADS
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 17301
+    ItemClass: 17
+    IconName: Booster_InfiniteLightning
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 17302
+    ItemClass: 17
+    IconName: Booster_InfiniteClock
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 17303
+    ItemClass: 17
+    IconName: Booster_InfiniteMagnet
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 17401
+    ItemClass: 17
+    IconName: Item_DoubleClover
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 18001
+    ItemClass: 18
+    IconName: 
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 14003
+    ItemClass: 14
+    IconName: Item_Rudder
+    IconScale: 0
+    ModelID: 20013
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 14004
+    ItemClass: 14
+    IconName: Item_RumBottle
+    IconScale: 0
+    ModelID: 20014
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 14005
+    ItemClass: 14
+    IconName: Item_Spyglass
+    IconScale: 0
+    ModelID: 20015
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 
+  - ID: 99001
+    ItemClass: 99
+    IconName: Item_Wheat
+    IconScale: 0
+    ModelID: 0
+    ItemName: 
+    ItemDescription: 
+    ItemUnlockLevel: 
+    FlyItemName: 

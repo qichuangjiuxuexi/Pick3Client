@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ada34281bd446ea91e615627945c65, type: 3}
+  m_Name: MatchConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - Heart_Recovery
+  - Heart_Limit
+  - Heart_Fefill_CoinCost
+  - Booster_12001_Price
+  - Booster_12002_Price
+  - Booster_12003_Price
+  - Booster_12004_Price
+  - Booster_13001_Price
+  - Booster_13002_Price
+  - Booster_13003_Price
+  - IAPShopRV_EnableLevel
+  - IAPShopRV_RewardedCoinNum
+  - IAPShopRV_WatchLimit
+  - AdsInterstitialFilters
+  - InterstitialAds_CDInSecond
+  - CloverTreasure_Duration
+  - CloverTreasure_EnableLevel
+  - treasure_itemnum_easy_level
+  - treasure_itemnum_hard_level
+  - DailyBonus_IsEnable
+  - DailyBonus_EnableLevel
+  - Weekly_Race_Enable_Level
+  - Weekly_Race_Begin_At
+  - Weekly_Race_Hour_Point
+  - RateUs_EnableLevel
+  - RateUs_GoogleUrl
+  - RateUs_AppleUrl
+  - SimpleShopCoinKeys
+  - Facebook_Group_Link
+  values:
+  - Key: Heart_Recovery
+    Value: 1800
+  - Key: Heart_Limit
+    Value: 5
+  - Key: Heart_Fefill_CoinCost
+    Value: 200
+  - Key: Booster_12001_Price
+    Value: 100,3
+  - Key: Booster_12002_Price
+    Value: 240,3
+  - Key: Booster_12003_Price
+    Value: 160,3
+  - Key: Booster_12004_Price
+    Value: 200,3
+  - Key: Booster_13001_Price
+    Value: 160,3
+  - Key: Booster_13002_Price
+    Value: 240,3
+  - Key: Booster_13003_Price
+    Value: 210,3
+  - Key: IAPShopRV_EnableLevel
+    Value: 10
+  - Key: IAPShopRV_RewardedCoinNum
+    Value: 10
+  - Key: IAPShopRV_WatchLimit
+    Value: 10
+  - Key: AdsInterstitialFilters
+    Value: 20002,20001,20003
+  - Key: InterstitialAds_CDInSecond
+    Value: 120
+  - Key: CloverTreasure_Duration
+    Value: 604800
+  - Key: CloverTreasure_EnableLevel
+    Value: 12
+  - Key: treasure_itemnum_easy_level
+    Value: 0,1;1,1;2,4;3,4
+  - Key: treasure_itemnum_hard_level
+    Value: 2,1;3,3;4,2
+  - Key: DailyBonus_IsEnable
+    Value: 1
+  - Key: DailyBonus_EnableLevel
+    Value: 13
+  - Key: Weekly_Race_Enable_Level
+    Value: 40
+  - Key: Weekly_Race_Begin_At
+    Value: 1679094000
+  - Key: Weekly_Race_Hour_Point
+    Value: 23
+  - Key: RateUs_EnableLevel
+    Value: 26,51,76,101
+  - Key: RateUs_GoogleUrl
+    Value: https://play.google.com/store/apps/details?id=com.triplematch.tile.game
+  - Key: RateUs_AppleUrl
+    Value: itms-apps://itunes.apple.com/app/id6447222737?action=write-review
+  - Key: SimpleShopCoinKeys
+    Value: sho_coin_199,sho_coin_799,sho_coin_1399
+  - Key: Facebook_Group_Link
+    Value: https://www.facebook.com/profile.php?id=100090566763499

@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 834a59800db9e40e98d9fac5e61b1065, type: 3}
+  m_Name: RocketTreasureConfig
+  m_EditorClassIdentifier: 
+  keys: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f00000020000000
+  values:
+  - RewardLevel: 1
+    PayedRewardID: 
+    RewardType: 12001-1
+    PayedPosition: 
+  - RewardLevel: 2
+    PayedRewardID: 
+    RewardType: 13001-1
+    PayedPosition: 
+  - RewardLevel: 3
+    PayedRewardID: rocket_treasure_299
+    RewardType: 10001-200|13002-1
+    PayedPosition: rocket_treasure_299
+  - RewardLevel: 4
+    PayedRewardID: 
+    RewardType: 12001-1
+    PayedPosition: 
+  - RewardLevel: 5
+    PayedRewardID: 
+    RewardType: 12002-1
+    PayedPosition: 
+  - RewardLevel: 6
+    PayedRewardID: 
+    RewardType: 12003-1
+    PayedPosition: 
+  - RewardLevel: 7
+    PayedRewardID: 
+    RewardType: 12004-1
+    PayedPosition: 
+  - RewardLevel: 8
+    PayedRewardID: 
+    RewardType: 13001-1
+    PayedPosition: 
+  - RewardLevel: 9
+    PayedRewardID: rocket_treasure_499
+    RewardType: 10001-400|11002-1800
+    PayedPosition: rocket_treasure_499
+  - RewardLevel: 10
+    PayedRewardID: 
+    RewardType: 12001-1|13002-1
+    PayedPosition: 
+  - RewardLevel: 11
+    PayedRewardID: 
+    RewardType: 12002-1
+    PayedPosition: 
+  - RewardLevel: 12
+    PayedRewardID: 
+    RewardType: 12003-1
+    PayedPosition: 
+  - RewardLevel: 13
+    PayedRewardID: 
+    RewardType: 12004-1
+    PayedPosition: 
+  - RewardLevel: 14
+    PayedRewardID: 
+    RewardType: 13001-1
+    PayedPosition: 
+  - RewardLevel: 15
+    PayedRewardID: rocket_treasure_799
+    RewardType: 10001-650|12002-1
+    PayedPosition: rocket_treasure_799
+  - RewardLevel: 16
+    PayedRewardID: 
+    RewardType: 12001-1|12002-1|12003-1|13002-1
+    PayedPosition: 
+  - RewardLevel: 17
+    PayedRewardID: 
+    RewardType: 12003-1
+    PayedPosition: 
+  - RewardLevel: 18
+    PayedRewardID: 
+    RewardType: 12004-1|13001-1
+    PayedPosition: 
+  - RewardLevel: 19
+    PayedRewardID: 
+    RewardType: 12004-1
+    PayedPosition: 
+  - RewardLevel: 20
+    PayedRewardID: 
+    RewardType: 12001-1|13003-1
+    PayedPosition: 
+  - RewardLevel: 21
+    PayedRewardID: rocket_treasure_999
+    RewardType: 10001-800|12002-2
+    PayedPosition: rocket_treasure_999
+  - RewardLevel: 22
+    PayedRewardID: 
+    RewardType: 12001-1|12004-1|13002-1|13003-1
+    PayedPosition: 
+  - RewardLevel: 23
+    PayedRewardID: 
+    RewardType: 12003-1
+    PayedPosition: 
+  - RewardLevel: 24
+    PayedRewardID: 
+    RewardType: 12001-1|12004-1|13003-1
+    PayedPosition: 
+  - RewardLevel: 25
+    PayedRewardID: 
+    RewardType: 13001-2
+    PayedPosition: 
+  - RewardLevel: 26
+    PayedRewardID: 
+    RewardType: 12003-1|13002-1
+    PayedPosition: 
+  - RewardLevel: 27
+    PayedRewardID: rocket_treasure_1399
+    RewardType: 10001-1200|11002-3600
+    PayedPosition: rocket_treasure_1399
+  - RewardLevel: 28
+    PayedRewardID: 
+    RewardType: 12001-2|12002-2|12003-2|12004-2
+    PayedPosition: 
+  - RewardLevel: 29
+    PayedRewardID: 
+    RewardType: 13001-2
+    PayedPosition: 
+  - RewardLevel: 30
+    PayedRewardID: 
+    RewardType: 12002-1|13003-2
+    PayedPosition: 
+  - RewardLevel: 31
+    PayedRewardID: 
+    RewardType: 12001-1|12004-1
+    PayedPosition: 
+  - RewardLevel: 32
+    PayedRewardID: 
+    RewardType: 12003-1|13002-2
+    PayedPosition: 

@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e705222bc1a0423f8f1c0afa76b3879, type: 3}
+  m_Name: LevelFeatureConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - LevelList_Version
+  - StreakReward_UnlockLevel
+  - StreakReward_1
+  - StreakReward_2
+  - StreakReward_3
+  - Level_Revive_Coin_Base
+  - Level_Revive_Coin_Add
+  - Level_Revive_Coin_Limit
+  - RVAds_StuckTimeOut_TotalTime
+  - InterstitialAds_IsShow
+  - UseItem_Clock_Time
+  - UseItem_Freeze_Time
+  - LevelKeepScoreCount
+  - LevelHardMinMultiple
+  - LevelHardMaxMultiple
+  - SuccessiveFailuresChange
+  - SuccessiveFailuresWinCount
+  - SuccessiveFailuresHardCount
+  values:
+  - Key: LevelList_Version
+    Value: 0
+  - Key: StreakReward_UnlockLevel
+    Value: 20
+  - Key: StreakReward_1
+    Value: 13001:1
+  - Key: StreakReward_2
+    Value: 13001:2,13002:1
+  - Key: StreakReward_3
+    Value: 13001:3,13002:1,13003:1
+  - Key: Level_Revive_Coin_Base
+    Value: 100
+  - Key: Level_Revive_Coin_Add
+    Value: 50
+  - Key: Level_Revive_Coin_Limit
+    Value: 300
+  - Key: RVAds_StuckTimeOut_TotalTime
+    Value: 2
+  - Key: InterstitialAds_IsShow
+    Value: 1
+  - Key: UseItem_Clock_Time
+    Value: 10
+  - Key: UseItem_Freeze_Time
+    Value: 15
+  - Key: LevelKeepScoreCount
+    Value: 10
+  - Key: LevelHardMinMultiple
+    Value: -0.2
+  - Key: LevelHardMaxMultiple
+    Value: 0.2
+  - Key: SuccessiveFailuresChange
+    Value: 3
+  - Key: SuccessiveFailuresWinCount
+    Value: 0,10,50
+  - Key: SuccessiveFailuresHardCount
+    Value: 2,4,6;3,5,8;4,7,10

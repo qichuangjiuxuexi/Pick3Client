@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12a527e21e7b640458e31121ec93dcd8, type: 3}
+  m_Name: ActivityConfig
+  m_EditorClassIdentifier: 
+  keys: ac0d0000c4090000b80b0000a00f0000e8030000dc05000088130000d0070000
+  values:
+  - activity_id: 3500
+    is_enabled: 1
+    group_id: 1
+    group_priority: 0
+    theme_name: IslandExpedition
+    data_config_name: 7000
+    activity_name: IslandExpeditionModule
+    min_version: 0
+    open_time: 2023-11-23 00:04:00
+    end_time: 
+    timezone_type: 1
+    round_limit: 0
+    round_type: 2
+    round_duration_hours: 24
+    round_cd_hours: 0
+    open_filters: 43270000
+    entrance_type: 1
+    auto_open: 0
+  - activity_id: 2500
+    is_enabled: 1
+    group_id: 2
+    group_priority: 0
+    theme_name: RocketRace
+    data_config_name: 8000
+    activity_name: RocketRaceModule
+    min_version: 0
+    open_time: 2023-11-24 12:00:00
+    end_time: 
+    timezone_type: 1
+    round_limit: 0
+    round_type: 2
+    round_duration_hours: 3
+    round_cd_hours: 16
+    open_filters: 24270000
+    entrance_type: 1
+    auto_open: 0
+  - activity_id: 3000
+    is_enabled: 1
+    group_id: 3
+    group_priority: 0
+    theme_name: Piggy
+    data_config_name: 7001
+    activity_name: MiniPiggyModule
+    min_version: 0
+    open_time: 2023-11-29 12:00:00
+    end_time: 
+    timezone_type: 1
+    round_limit: 0
+    round_type: 0
+    round_duration_hours: 72
+    round_cd_hours: 48
+    open_filters: 44270000
+    entrance_type: 2
+    auto_open: 1
+  - activity_id: 4000
+    is_enabled: 1
+    group_id: 4
+    group_priority: 0
+    theme_name: RocketTreasure
+    data_config_name: 9000
+    activity_name: RocketTreasureModule
+    min_version: 0
+    open_time: 2023-12-05 12:00:00
+    end_time: 
+    timezone_type: 1
+    round_limit: 0
+    round_type: 0
+    round_duration_hours: 72
+    round_cd_hours: 96
+    open_filters: 2e270000
+    entrance_type: 2
+    auto_open: 1
+  - activity_id: 1000
+    is_enabled: 1
+    group_id: 5
+    group_priority: 0
+    theme_name: StarterPack
+    data_config_name: 10000
+    activity_name: StarterPackModule
+    min_version: 0
+    open_time: 2023-12-10 12:00:00
+    end_time: 
+    timezone_type: 1
+    round_limit: 1
+    round_type: 0
+    round_duration_hours: 0
+    round_cd_hours: 0
+    open_filters: 244e0000254e0000
+    entrance_type: 2
+    auto_open: 1
+  - activity_id: 1500
+    is_enabled: 1
+    group_id: 6
+    group_priority: 0
+    theme_name: RemoveADs
+    data_config_name: 11000
+    activity_name: RemoveADsModule
+    min_version: 0
+    open_time: 2023-12-10 12:00:00
+    end_time: 
+    timezone_type: 1
+    round_limit: 1
+    round_type: 0
+    round_duration_hours: 0
+    round_cd_hours: 0
+    open_filters: 4c2700004d270000
+    entrance_type: 1
+    auto_open: 1
+  - activity_id: 5000
+    is_enabled: 1
+    group_id: 7
+    group_priority: 0
+    theme_name: InfinityBundle
+    data_config_name: 12000
+    activity_name: InfinityBundleModule
+    min_version: 0
+    open_time: 2023-12-10 12:00:00
+    end_time: 
+    timezone_type: 2
+    round_limit: 0
+    round_type: 0
+    round_duration_hours: 96
+    round_cd_hours: 72
+    open_filters: 56270000
+    entrance_type: 2
+    auto_open: 1
+  - activity_id: 2000
+    is_enabled: 1
+    group_id: 8
+    group_priority: 0
+    theme_name: BlossomDeal
+    data_config_name: 13000
+    activity_name: BlossomDealModule
+    min_version: 0
+    open_time: 2023-12-10 12:00:00
+    end_time: 
+    timezone_type: 1
+    round_limit: 0
+    round_type: 2
+    round_duration_hours: 48
+    round_cd_hours: 48
+    open_filters: dbb1ffff60270000
+    entrance_type: 2
+    auto_open: 1

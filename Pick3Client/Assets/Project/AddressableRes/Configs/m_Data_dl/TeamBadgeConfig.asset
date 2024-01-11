@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4ff2287b8fca43d0a4e6503892392c3, type: 3}
+  m_Name: TeamBadgeConfig
+  m_EditorClassIdentifier: 
+  values:
+  - ID: 1
+    Res: TeamBadge_01
+  - ID: 2
+    Res: TeamBadge_02
+  - ID: 3
+    Res: TeamBadge_03
+  - ID: 4
+    Res: TeamBadge_04
+  - ID: 5
+    Res: TeamBadge_05
+  - ID: 6
+    Res: TeamBadge_06
+  - ID: 7
+    Res: TeamBadge_07
+  - ID: 8
+    Res: TeamBadge_08
+  - ID: 9
+    Res: TeamBadge_09
+  - ID: 10
+    Res: TeamBadge_10
+  - ID: 11
+    Res: TeamBadge_11
+  - ID: 12
+    Res: TeamBadge_12
+  - ID: 13
+    Res: TeamBadge_13
+  - ID: 14
+    Res: TeamBadge_14
+  - ID: 15
+    Res: TeamBadge_15
+  - ID: 16
+    Res: TeamBadge_16
+  - ID: 17
+    Res: TeamBadge_17
+  - ID: 18
+    Res: TeamBadge_18
+  - ID: 19
+    Res: TeamBadge_19
+  - ID: 20
+    Res: TeamBadge_20

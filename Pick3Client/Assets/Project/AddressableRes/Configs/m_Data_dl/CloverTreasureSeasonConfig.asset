@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 237baff14d8654c29befb6533718b286, type: 3}
+  m_Name: CloverTreasureSeasonConfig
+  m_EditorClassIdentifier: 
+  values:
+  - Season: 1
+    ItemIcon: Item_Clover
+    DoubleItemIcon: Item_DoubleClover
+    ModelId: 20002
+    StartPrefabName: CloverTreasureStartDialog
+    MainDialogTitle: CloverTreasure_Title
+    MainDialogLockTip: CloverTreasure_Locked_Tips
+    GuideText: Guide_CloverTreasure
+    IsLoop: 1
+    SpecialSeasonStartTime: 1680908400
+  - Season: 2
+    ItemIcon: Item_Rainbow
+    DoubleItemIcon: Item_DoubleRainbow
+    ModelId: 20011
+    StartPrefabName: RainbowTreasureStartDialog
+    MainDialogTitle: RainbowTreasure_Title
+    MainDialogLockTip: RainbowTreasure_Locked_Tips
+    GuideText: Guide_RainbowTreasure
+    IsLoop: 1
+    SpecialSeasonStartTime: 1681513200
+  - Season: 3
+    ItemIcon: Item_Sweet
+    DoubleItemIcon: Item_DoubleSweet
+    ModelId: 20008
+    StartPrefabName: SweetTreasureStartDialog
+    MainDialogTitle: SweetTreasure_Title
+    MainDialogLockTip: SweetTreasure_Locked_Tips
+    GuideText: Guide_SweetTreasure
+    IsLoop: 1
+    SpecialSeasonStartTime: 1682118000
+  - Season: 4
+    ItemIcon: Item_Sunny
+    DoubleItemIcon: Item_DoubleSunny
+    ModelId: 20010
+    StartPrefabName: SunnyTreasureStartDialog
+    MainDialogTitle: SunnyTreasure_Title
+    MainDialogLockTip: SunnyTreasure_Locked_Tips
+    GuideText: Guide_SunnyTreasure
+    IsLoop: 1
+    SpecialSeasonStartTime: 1682722800
+  - Season: 5
+    ItemIcon: Item_Magic
+    DoubleItemIcon: Item_DoubleMagic
+    ModelId: 20012
+    StartPrefabName: MagicTreasureStartDialog
+    MainDialogTitle: MagicTreasure_Title
+    MainDialogLockTip: MagicTreasure_Locked_Tips
+    GuideText: Guide_MagicTreasure
+    IsLoop: 1
+    SpecialSeasonStartTime: 1683327600
+  - Season: 6
+    ItemIcon: Item_Sakura
+    DoubleItemIcon: Item_DoubleSakura
+    ModelId: 20009
+    StartPrefabName: SakuraTreasureStartDialog
+    MainDialogTitle: SakuraTreasure_Title
+    MainDialogLockTip: SakuraTreasure_Locked_Tips
+    GuideText: Guide_SakuraTreasure
+    IsLoop: 1
+    SpecialSeasonStartTime: 1683932400
+  - Season: 7
+    ItemIcon: Item_Firework
+    DoubleItemIcon: Item_DoubleFirework
+    ModelId: 20007
+    StartPrefabName: FireworkTreasureStartDialog
+    MainDialogTitle: FireworkTreasure_Title
+    MainDialogLockTip: FireworkTreasure_Locked_Tips
+    GuideText: Guide_FireworkTreasure
+    IsLoop: 0
+    SpecialSeasonStartTime: 1688166000
+  - Season: 8
+    ItemIcon: Item_Halloween
+    DoubleItemIcon: Item_DoubleHalloween
+    ModelId: 30001
+    StartPrefabName: HalloweenTreasureStartDialog
+    MainDialogTitle: HalloweenTreasure_Title
+    MainDialogLockTip: HalloweenTreasure_Locked_Tips
+    GuideText: Guide_HalloweenTreasure
+    IsLoop: 0
+    SpecialSeasonStartTime: 1697842800
+  - Season: 9
+    ItemIcon: Item_Thanks
+    DoubleItemIcon: Item_DoubleThanks
+    ModelId: 30027
+    StartPrefabName: ThanksTreasureStartDialog
+    MainDialogTitle: ThanksTreasure_Title
+    MainDialogLockTip: ThanksTreasure_Locked_Tips
+    GuideText: Guide_ThanksTreasure
+    IsLoop: 0
+    SpecialSeasonStartTime: 1700262000

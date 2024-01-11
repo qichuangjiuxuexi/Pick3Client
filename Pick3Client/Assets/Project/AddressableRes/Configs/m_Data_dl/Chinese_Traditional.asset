@@ -1,0 +1,1270 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d48ffe636ab84a98b4003e0b9bfb068, type: 3}
+  m_Name: Chinese_Traditional
+  m_EditorClassIdentifier: 
+  keys:
+  - Push_1
+  - Push_2
+  - Push_3
+  - Push_4
+  - Push_5
+  - Push_6
+  - Boosterster_Undo_Name
+  - Booster_Undo_Description
+  - Booster_Magnifier_Name
+  - Booster_Magnifier_Description
+  - Booster_Bomb_Name
+  - Booster_Bomb_Description
+  - Booster_Freeze_Name
+  - Booster_Freeze_Description
+  - Booster_Lightning_Name
+  - Booster_Lightning_Description
+  - Booster_Clock_Name
+  - Booster_Clock_Description
+  - Booster_Magnet_Name
+  - Booster_Magnet_Description
+  - BannerTips_NoNewLevels
+  - Shop_Tip_Purchase_Failed
+  - Shop_No_Internet
+  - Star_Box_Desc
+  - Level_Box_Desc
+  - Level_Box_Desc_Single
+  - RV_loading
+  - RV_failed_des
+  - IAPShop_RemoveADS
+  - IAPShop_PremiumPack
+  - IAPShop_ElitePack
+  - IAPShop_MasterPack
+  - IAPShop_RoyalPack
+  - IAPShop_Coins
+  - IAPShop_Free
+  - IAPShop_PopularTag
+  - IAPShop_ValueTag
+  - IAPShop_Title
+  - IAPShop_FreeCoinsCoolDown
+  - IAPShop_PurchaseSuccessful
+  - IAPShop_Collect
+  - IAPShop_MoreOffer
+  - IAPShop_Common_Coins
+  - IAPShop_SimplifiedShop_Title
+  - RemoveADs_Tag
+  - RemoveADs_Item
+  - RemoveADs_Title_1
+  - RemoveADs_Title_2
+  - InLevel_TopUI_Level
+  - InLevel_BottomUI_Level
+  - InLevel_Plus
+  - LevelFinished_Win
+  - LevelFinished_Btn_Continue
+  - LevelFinished_TimeUsed
+  - LevelFinished_Coins
+  - OutofSpace_Title
+  - OutofSpace_Btn
+  - OutofSpace_Btn_RV
+  - OutofTime_Title
+  - OutofTime_Btn
+  - AreYouSure_Subtitle
+  - AreYouSure_Title
+  - LevelFailed_Btn
+  - LevelFailed_Title
+  - LevelQuit_Btn_Resume
+  - LevelQuit_Btn_Quit
+  - PauseDialog_Title
+  - PauseDialog_Sound
+  - PauseDialog_Music
+  - PauseDialog_Vibration
+  - PauseDialog_ContactUs
+  - PauseDialog_QuitLevel
+  - SettingDialog_Title
+  - PauseDialog_Version
+  - PauseDialog_Language
+  - Localization_en
+  - Localization_de
+  - Localization_fr
+  - Localization_es
+  - Localization_pt
+  - Localization_jp
+  - Localization_kr
+  - DailyBonus_Day
+  - DailyBonus_Title
+  - DailyBonus_Btn_Claim
+  - DailyBonus_Timer
+  - DailyBonus_Day_Entrance
+  - EnterLevel_Subtitle
+  - EnterLevel_UnlockTip
+  - EnterLevel_Btn
+  - EnterLevel_Streak_Faq_Title
+  - EnterLevel_Streak_Faq
+  - EnterLevel_Streak_Faq_1
+  - EnterLevel_Streak_Faq_2
+  - EnterLevel_Streak_Faq_3
+  - Purchase_Heart_Timer
+  - Purchase_Heart_Fill
+  - Purchase_Heart_Title_1
+  - Purchase_Heart_Title_2
+  - Purchase_Heart_Full
+  - Guide_Step_1
+  - Guide_Step_2
+  - Guide_Step_3_Undo
+  - Guide_Step_4_Magnifier
+  - Guide_Step_5_Bomb
+  - Guide_Step_6_Snowflake
+  - Guide_Step_7_Thunder
+  - Guide_Step_8_Clock
+  - Guide_Step_9_Magnet
+  - Guide_Step_10_Streak
+  - Guide_Tap_To_Continue
+  - Guide_CloverTreasure
+  - Guide_SakuraTreasure
+  - Guide_FireworkTreasure
+  - Guide_SweetTreasure
+  - Guide_RainbowTreasure
+  - Guide_SunnyTreasure
+  - Guide_MagicTreasure
+  - Guide_HalloweenTreasure
+  - Guide_ThanksTreasure
+  - Guide_ChristmasTreasure
+  - Guide_RechargeBooster_1
+  - Guide_RechargeBooster_2
+  - Guide_UseBooster
+  - BannerTip_Magnifier
+  - BannerTip_Freeze
+  - BannerTip_Undo
+  - BannerTip_FullLife
+  - Lobby_LevelEntrance_Hard
+  - Lobby_StarChest
+  - Lobby_LevelChest
+  - TermsNotice_Title
+  - TermsNotice_Description
+  - TermsNotice_TermsOfService
+  - TermsNotice_OK
+  - QuitGameNotice_Title
+  - QuitGameNotice_Description
+  - QuitGameNotice_Resume
+  - QuitGameNotice_Quit
+  - CloverTreasure_Title
+  - CloverTreasure_Start_Description
+  - CloverTreasure_Locked_Tips
+  - SakuraTreasure_Title
+  - SakuraTreasure_Start_Description
+  - SakuraTreasure_Locked_Tips
+  - FireworkTreasure_Title
+  - FireworkTreasure_Start_Description
+  - FireworkTreasure_Locked_Tips
+  - SweetTreasure_Title
+  - SweetTreasure_Start_Description
+  - SweetTreasure_Locked_Tips
+  - RainbowTreasure_Title
+  - RainbowTreasure_Start_Description
+  - RainbowTreasure_Locked_Tips
+  - SunnyTreasure_Title
+  - SunnyTreasure_Start_Description
+  - SunnyTreasure_Locked_Tips
+  - MagicTreasure_Title
+  - MagicTreasure_Start_Description
+  - MagicTreasure_Locked_Tips
+  - CloverTreasure_End
+  - HalloweenTreasure_Title
+  - HalloweenTreasure_Start_Description
+  - HalloweenTreasure_Locked_Tips
+  - ThanksTreasure_Title
+  - ThanksTreasure_Start_Description
+  - ThanksTreasure_Locked_Tips
+  - ChristmasTreasure_Title
+  - ChristmasTreasure_Start_Description
+  - ChristmasTreasure_Locked_Tips
+  - CommonReward_Title
+  - StarterPack_Title
+  - StarterPack_Subtitle
+  - Piggy_Title
+  - Piggy_MorePercentage
+  - Piggy_Max
+  - Piggy_Des_1
+  - Piggy_Des_2
+  - Piggy_BuyBtn
+  - Piggy_BreakDes
+  - Piggy_RewardTitle
+  - Piggy_RewardBtn
+  - RateUs_Title
+  - RateUs_Description
+  - RateUs_Btn
+  - MatchRace_You
+  - MatchRace_Player
+  - MatchRace_Status_1
+  - MatchRace_Status_2
+  - MatchRace_Status_3
+  - MatchRace_Status_4
+  - MatchRace_Status_5
+  - MatchRace_Title
+  - MatchRace_Start
+  - BonusLevel_LevelID
+  - BonusLevel_LevelDescription
+  - BonusLevel_EntryDescription
+  - RocketTreasure_Title
+  - RocketTreasure_Subtitle
+  - RocketTreasure_FreeBtn
+  - RocketTreasure_ClaimBtn
+  - RocketTreasure_BannerTip
+  - LobbyNav_Home
+  - LeaderBoard_Title
+  - LeaderBoard_Weekly
+  - LeaderBoard_Teams
+  - LeaderBoard_Players
+  - LeaderBoard_Global
+  - LeaderBoard_Local
+  - LeaderBoard_Check_Internet
+  - LeaderBoard_Connectting
+  - LeaderBoard_Weekly_Finished
+  - LeaderBoard_Weekly_Next
+  - LeaderBoard_Weekly_Locked
+  - LeaderBoard_Weekly_Score
+  - LeaderBoard_Weekly_Score1
+  - LeaderBoard_Weekly_Level
+  - LeaderBoard_Naming_Interval_Tip
+  - LeaderBoard_Naming_Save
+  - LeaderBoard_Naming_Title
+  - LeaderBoard_Weekly_Btn_Finished
+  - LeaderBoard_Weekly_Start_Title
+  - LeaderBoard_Weekly_Reward_Title
+  - LeaderBoard_Weekly_Btn_Start
+  - LeaderBoard_Weekly_Sart_Desc
+  - LeaderBoard_SetName_Invalid_Word
+  - LeaderBoard_SetName_DefaultName
+  - LeaderBoard_FAQ1
+  - LeaderBoard_FAQ2
+  - LeaderBoard_FAQ3
+  - DailySale_Tag_1
+  - DailySale_Tag_2
+  - DailySale_Tag_3
+  - DailySale_Tag_4
+  - DailySale_Tag_5
+  - DailySale_Tag_Off_Shop
+  - DailySale_Tag_Off
+  - DailySale_Title_1
+  - DailySale_Title_2
+  - DailySale_Tag_6
+  - DailySale_Tag_7
+  - DailySale_Tag_8
+  - DailySale_Tag_9
+  - DailySale_Shop_Title
+  - Team_CreateTeam_InvalidDes
+  - Team_CreateTeam_NoName
+  - Team_CreateTeam_InvalidNameLength
+  - Team_CreateTeam_InvalidNumber
+  - Team_NaviName
+  - Team_RecommendTeam_Tab
+  - Team_RecommendTeam_TopDes
+  - Team_RecommendTeam_Join
+  - Team_Info_Member
+  - Team_RecommendTeam_Member
+  - Team_RecommendTeam_View
+  - Team_TeamInfo_Title
+  - Team_TeamInfo_Score
+  - Team_TeamInfo_Leader
+  - Team_CreateTeam_Create
+  - Team_SearchTeam_Tab
+  - Team_CreateTeam_TopDes
+  - Team_CreateTeam_Name
+  - Team_CreateTeam_Name_DefaultInput
+  - Team_CreateTeam_Badge
+  - Team_CreateTeam_Edit
+  - Team_CreateTeam_Des
+  - Team_CreateTeam_Des_DefaultInput
+  - Team_CreateTeam_Level
+  - Team_CreateTeam_EditBadge_Title
+  - Team_CreateTeam_InvalidLevel
+  - Team_CreateTeam_NameExists
+  - Team_Edit_MemberInvalidLevel
+  - Team_RequestLife_Full
+  - Team_RequestLife_CoolDown
+  - Team_KickMember_Btn
+  - Team_KickMember_Title
+  - Team_KickMember_Des
+  - Team_KickMember_Yes
+  - Team_KickMember_AlreadyLeave
+  - Team_KickMember_No
+  - Team_LeaveTeam_Title
+  - Team_LeaveTeam_Des
+  - Team_LeaveTeam_Leave
+  - Team_JoinTeam_TeamNotExists
+  - Team_JoinTeam_Full
+  - Team_JoinTeam_NotEnoughLevel
+  - Team_Free_Life
+  - Team_Send_You_Life
+  - Team_Life_Btn_View
+  - Team_Ask_For_Live
+  - Team_SendLife_ReachLimit
+  - Team_Message_System_Join
+  - Team_Message_System_Exit
+  - Team_Message_System_Kick
+  - Team_Message_System_Promote
+  - Team_Btn_Chat
+  - Team_Btn_Request
+  - Team_Last_Active
+  - Team_Message_Time_Ago
+  - Team_Switch_Team_Title
+  - Team_Switch_Team_Title1
+  - Team_Switch_Team_Title2
+  - Home_Live_Tab
+  - Team_Help_Btn
+  - Live_Btn_Add
+  - Team_Btn_Request_In
+  - InfinityBundle_Title_1
+  - InfinityBundle_Title_2
+  - InfinityBundle_SubTitle
+  - LootAdventure_Title
+  - LootAdventure_Title_2
+  - LootAdventure_Subtitle_1
+  - LootAdventure_Subtitle_2
+  - LootAdventure_Subtitle_3
+  - LootAdventure_LootTitle_1
+  - LootAdventure_LootTitle_2
+  - EditProfile_Title
+  - EditProfile_Save_Btn
+  - IslandExpedition_Title
+  - IslandExpedition_Board_Start1
+  - IslandExpedition_Board_Start2
+  - IslandExpedition_Start_Btn
+  - IslandExpedition_Prize
+  - IslandExpedition_Match
+  - IslandExpedition_Continue
+  - IslandExpedition_Explain1
+  - IslandExpedition_Levels
+  - IslandExpedition_Players
+  - IslandExpedition_Explain2
+  - IslandExpedition_Explain3
+  - IslandExpedition_Explain4
+  - IslandExpedition_Win_Title
+  - IslandExpedition_Fail
+  - IslandExpedition_Next_Round
+  - IslandExpedition_Finish
+  - IslandExpedition_Win1
+  - IslandExpedition_Explain5
+  - IslandExpedition_Claim
+  - IslandExpedition_Notice
+  - IslandExpedition_FAQ1
+  - IslandExpedition_FAQ2
+  - IslandExpedition_FAQ3
+  - IslandExpedition_Bubble1
+  - IslandExpedition_Bubble2
+  - IslandExpedition_Bubble3
+  - IslandExpedition_Bubble4
+  - Labor_Sale_Title
+  - Purchase_Confirmation_Title
+  - Purchase_Confirmation_Text
+  - HarvestChallenge__Start
+  - HarvestChallenge__Tip
+  - HarvestChallenge__First
+  - HarvestChallenge__Win
+  - HarvestChallenge__Fail
+  - HarvestChallenge__Next
+  - HarvestChallenge__Current
+  - HarvestChallenge__Title
+  - HarvestChallenge__Bundle
+  - HarvestChallenge__Type1
+  - HarvestChallenge__Type2
+  - HarvestChallenge__Type3
+  - HarvestChallenge__OK
+  - HarvestChallenge__Oops
+  - HarvestChallenge__Go
+  - HarvestChallenge__Add
+  - HarvestChallenge__Play
+  - HarvestChallenge__Replay
+  - HarvestChallenge__Entrance
+  - HarvestChallenge__Prize
+  - HarvestChallenge__Freetip
+  - HarvestChallenge__Freshtip
+  - Columbus_Title
+  - Balloon_Top1
+  - Balloon_Top2
+  - Balloon_Top3
+  - Balloon_Claim
+  - Balloon_Enter1
+  - Balloon_Enter2
+  - Balloon_Enter3
+  - Balloon_FAQ1
+  - Balloon_FAQ2
+  - Balloon_FAQ3
+  - Balloon_FAQ4
+  - Balloon_Name
+  - Balloon_Finish
+  - Halloween_Sale_Title
+  - Christmas_Sale_Title
+  - GhostHunt_Title
+  - GhostHunt_Title_Christmas
+  - GhostHunt_Tip1
+  - GhostHunt_Tip1_Christmas
+  - GhostHunt_Tip2
+  - GhostHunt_Tip3
+  - GhostHunt_Tip3_Christmas
+  - GhostHunt_Tip4
+  - GhostHunt_Tip4_Christmas
+  - GhostHunt_Reward
+  - GhostHunt_Faq1
+  - GhostHunt_Faq1_Christmas
+  - GhostHunt_Faq2
+  - GhostHunt_Faq3
+  - GhostHunt_button1
+  - GhostHunt_button2
+  - GhostHunt_button2_Christmas
+  - GhostHunt_claimed
+  - GameUpdate_Title
+  - GameUpdate_Text1
+  - GameUpdate_Btn
+  - GameUpdate_Later
+  - BlackFriday_Title
+  - Delete_Text
+  - Delete_First_Title
+  - Delete_First_Text
+  - Delete_Cancel
+  - Delete_ConfirmDelete
+  - Delete_Second_Title
+  - Delete_Second_Text
+  - Delete_FailText
+  values:
+  - Key: Push_1
+    Value: 0
+  - Key: Push_2
+    Value: 0
+  - Key: Push_3
+    Value: 0
+  - Key: Push_4
+    Value: 0
+  - Key: Push_5
+    Value: 0
+  - Key: Push_6
+    Value: 0
+  - Key: Boosterster_Undo_Name
+    Value: 0
+  - Key: Booster_Undo_Description
+    Value: 0
+  - Key: Booster_Magnifier_Name
+    Value: 0
+  - Key: Booster_Magnifier_Description
+    Value: 0
+  - Key: Booster_Bomb_Name
+    Value: 0
+  - Key: Booster_Bomb_Description
+    Value: 0
+  - Key: Booster_Freeze_Name
+    Value: 0
+  - Key: Booster_Freeze_Description
+    Value: 0
+  - Key: Booster_Lightning_Name
+    Value: 0
+  - Key: Booster_Lightning_Description
+    Value: 0
+  - Key: Booster_Clock_Name
+    Value: 0
+  - Key: Booster_Clock_Description
+    Value: 0
+  - Key: Booster_Magnet_Name
+    Value: 0
+  - Key: Booster_Magnet_Description
+    Value: 0
+  - Key: BannerTips_NoNewLevels
+    Value: 0
+  - Key: Shop_Tip_Purchase_Failed
+    Value: 0
+  - Key: Shop_No_Internet
+    Value: 0
+  - Key: Star_Box_Desc
+    Value: 0
+  - Key: Level_Box_Desc
+    Value: 0
+  - Key: Level_Box_Desc_Single
+    Value: 0
+  - Key: RV_loading
+    Value: 0
+  - Key: RV_failed_des
+    Value: 0
+  - Key: IAPShop_RemoveADS
+    Value: 0
+  - Key: IAPShop_PremiumPack
+    Value: 0
+  - Key: IAPShop_ElitePack
+    Value: 0
+  - Key: IAPShop_MasterPack
+    Value: 0
+  - Key: IAPShop_RoyalPack
+    Value: 0
+  - Key: IAPShop_Coins
+    Value: 0
+  - Key: IAPShop_Free
+    Value: 0
+  - Key: IAPShop_PopularTag
+    Value: 0
+  - Key: IAPShop_ValueTag
+    Value: 0
+  - Key: IAPShop_Title
+    Value: 0
+  - Key: IAPShop_FreeCoinsCoolDown
+    Value: 0
+  - Key: IAPShop_PurchaseSuccessful
+    Value: 0
+  - Key: IAPShop_Collect
+    Value: 0
+  - Key: IAPShop_MoreOffer
+    Value: 0
+  - Key: IAPShop_Common_Coins
+    Value: 0
+  - Key: IAPShop_SimplifiedShop_Title
+    Value: 0
+  - Key: RemoveADs_Tag
+    Value: 0
+  - Key: RemoveADs_Item
+    Value: 0
+  - Key: RemoveADs_Title_1
+    Value: 0
+  - Key: RemoveADs_Title_2
+    Value: 0
+  - Key: InLevel_TopUI_Level
+    Value: 0
+  - Key: InLevel_BottomUI_Level
+    Value: 0
+  - Key: InLevel_Plus
+    Value: 0
+  - Key: LevelFinished_Win
+    Value: 0
+  - Key: LevelFinished_Btn_Continue
+    Value: 0
+  - Key: LevelFinished_TimeUsed
+    Value: 0
+  - Key: LevelFinished_Coins
+    Value: 0
+  - Key: OutofSpace_Title
+    Value: 0
+  - Key: OutofSpace_Btn
+    Value: 0
+  - Key: OutofSpace_Btn_RV
+    Value: 0
+  - Key: OutofTime_Title
+    Value: 0
+  - Key: OutofTime_Btn
+    Value: 0
+  - Key: AreYouSure_Subtitle
+    Value: 0
+  - Key: AreYouSure_Title
+    Value: 0
+  - Key: LevelFailed_Btn
+    Value: 0
+  - Key: LevelFailed_Title
+    Value: 0
+  - Key: LevelQuit_Btn_Resume
+    Value: 0
+  - Key: LevelQuit_Btn_Quit
+    Value: 0
+  - Key: PauseDialog_Title
+    Value: 0
+  - Key: PauseDialog_Sound
+    Value: 0
+  - Key: PauseDialog_Music
+    Value: 0
+  - Key: PauseDialog_Vibration
+    Value: 0
+  - Key: PauseDialog_ContactUs
+    Value: 0
+  - Key: PauseDialog_QuitLevel
+    Value: 0
+  - Key: SettingDialog_Title
+    Value: 0
+  - Key: PauseDialog_Version
+    Value: 0
+  - Key: PauseDialog_Language
+    Value: 0
+  - Key: Localization_en
+    Value: 0
+  - Key: Localization_de
+    Value: 0
+  - Key: Localization_fr
+    Value: 0
+  - Key: Localization_es
+    Value: 0
+  - Key: Localization_pt
+    Value: 0
+  - Key: Localization_jp
+    Value: 0
+  - Key: Localization_kr
+    Value: 0
+  - Key: DailyBonus_Day
+    Value: 0
+  - Key: DailyBonus_Title
+    Value: 0
+  - Key: DailyBonus_Btn_Claim
+    Value: 0
+  - Key: DailyBonus_Timer
+    Value: 0
+  - Key: DailyBonus_Day_Entrance
+    Value: 0
+  - Key: EnterLevel_Subtitle
+    Value: 0
+  - Key: EnterLevel_UnlockTip
+    Value: 0
+  - Key: EnterLevel_Btn
+    Value: 0
+  - Key: EnterLevel_Streak_Faq_Title
+    Value: 0
+  - Key: EnterLevel_Streak_Faq
+    Value: 0
+  - Key: EnterLevel_Streak_Faq_1
+    Value: 0
+  - Key: EnterLevel_Streak_Faq_2
+    Value: 0
+  - Key: EnterLevel_Streak_Faq_3
+    Value: 0
+  - Key: Purchase_Heart_Timer
+    Value: 0
+  - Key: Purchase_Heart_Fill
+    Value: 0
+  - Key: Purchase_Heart_Title_1
+    Value: 0
+  - Key: Purchase_Heart_Title_2
+    Value: 0
+  - Key: Purchase_Heart_Full
+    Value: 0
+  - Key: Guide_Step_1
+    Value: 0
+  - Key: Guide_Step_2
+    Value: 0
+  - Key: Guide_Step_3_Undo
+    Value: 0
+  - Key: Guide_Step_4_Magnifier
+    Value: 0
+  - Key: Guide_Step_5_Bomb
+    Value: 0
+  - Key: Guide_Step_6_Snowflake
+    Value: 0
+  - Key: Guide_Step_7_Thunder
+    Value: 0
+  - Key: Guide_Step_8_Clock
+    Value: 0
+  - Key: Guide_Step_9_Magnet
+    Value: 0
+  - Key: Guide_Step_10_Streak
+    Value: 0
+  - Key: Guide_Tap_To_Continue
+    Value: 0
+  - Key: Guide_CloverTreasure
+    Value: 0
+  - Key: Guide_SakuraTreasure
+    Value: 0
+  - Key: Guide_FireworkTreasure
+    Value: 0
+  - Key: Guide_SweetTreasure
+    Value: 0
+  - Key: Guide_RainbowTreasure
+    Value: 0
+  - Key: Guide_SunnyTreasure
+    Value: 0
+  - Key: Guide_MagicTreasure
+    Value: 0
+  - Key: Guide_HalloweenTreasure
+    Value: 0
+  - Key: Guide_ThanksTreasure
+    Value: 0
+  - Key: Guide_ChristmasTreasure
+    Value: 0
+  - Key: Guide_RechargeBooster_1
+    Value: 0
+  - Key: Guide_RechargeBooster_2
+    Value: 0
+  - Key: Guide_UseBooster
+    Value: 0
+  - Key: BannerTip_Magnifier
+    Value: 0
+  - Key: BannerTip_Freeze
+    Value: 0
+  - Key: BannerTip_Undo
+    Value: 0
+  - Key: BannerTip_FullLife
+    Value: 0
+  - Key: Lobby_LevelEntrance_Hard
+    Value: 0
+  - Key: Lobby_StarChest
+    Value: 0
+  - Key: Lobby_LevelChest
+    Value: 0
+  - Key: TermsNotice_Title
+    Value: 0
+  - Key: TermsNotice_Description
+    Value: 0
+  - Key: TermsNotice_TermsOfService
+    Value: 0
+  - Key: TermsNotice_OK
+    Value: 0
+  - Key: QuitGameNotice_Title
+    Value: 0
+  - Key: QuitGameNotice_Description
+    Value: 0
+  - Key: QuitGameNotice_Resume
+    Value: 0
+  - Key: QuitGameNotice_Quit
+    Value: 0
+  - Key: CloverTreasure_Title
+    Value: 0
+  - Key: CloverTreasure_Start_Description
+    Value: 0
+  - Key: CloverTreasure_Locked_Tips
+    Value: 0
+  - Key: SakuraTreasure_Title
+    Value: 0
+  - Key: SakuraTreasure_Start_Description
+    Value: 0
+  - Key: SakuraTreasure_Locked_Tips
+    Value: 0
+  - Key: FireworkTreasure_Title
+    Value: 0
+  - Key: FireworkTreasure_Start_Description
+    Value: 0
+  - Key: FireworkTreasure_Locked_Tips
+    Value: 0
+  - Key: SweetTreasure_Title
+    Value: 0
+  - Key: SweetTreasure_Start_Description
+    Value: 0
+  - Key: SweetTreasure_Locked_Tips
+    Value: 0
+  - Key: RainbowTreasure_Title
+    Value: 0
+  - Key: RainbowTreasure_Start_Description
+    Value: 0
+  - Key: RainbowTreasure_Locked_Tips
+    Value: 0
+  - Key: SunnyTreasure_Title
+    Value: 0
+  - Key: SunnyTreasure_Start_Description
+    Value: 0
+  - Key: SunnyTreasure_Locked_Tips
+    Value: 0
+  - Key: MagicTreasure_Title
+    Value: 0
+  - Key: MagicTreasure_Start_Description
+    Value: 0
+  - Key: MagicTreasure_Locked_Tips
+    Value: 0
+  - Key: CloverTreasure_End
+    Value: 0
+  - Key: HalloweenTreasure_Title
+    Value: 0
+  - Key: HalloweenTreasure_Start_Description
+    Value: 0
+  - Key: HalloweenTreasure_Locked_Tips
+    Value: 0
+  - Key: ThanksTreasure_Title
+    Value: 0
+  - Key: ThanksTreasure_Start_Description
+    Value: 0
+  - Key: ThanksTreasure_Locked_Tips
+    Value: 0
+  - Key: ChristmasTreasure_Title
+    Value: 0
+  - Key: ChristmasTreasure_Start_Description
+    Value: 0
+  - Key: ChristmasTreasure_Locked_Tips
+    Value: 0
+  - Key: CommonReward_Title
+    Value: 0
+  - Key: StarterPack_Title
+    Value: 0
+  - Key: StarterPack_Subtitle
+    Value: 0
+  - Key: Piggy_Title
+    Value: 0
+  - Key: Piggy_MorePercentage
+    Value: 0
+  - Key: Piggy_Max
+    Value: 0
+  - Key: Piggy_Des_1
+    Value: 0
+  - Key: Piggy_Des_2
+    Value: 0
+  - Key: Piggy_BuyBtn
+    Value: 0
+  - Key: Piggy_BreakDes
+    Value: 0
+  - Key: Piggy_RewardTitle
+    Value: 0
+  - Key: Piggy_RewardBtn
+    Value: 0
+  - Key: RateUs_Title
+    Value: 0
+  - Key: RateUs_Description
+    Value: 0
+  - Key: RateUs_Btn
+    Value: 0
+  - Key: MatchRace_You
+    Value: 0
+  - Key: MatchRace_Player
+    Value: 0
+  - Key: MatchRace_Status_1
+    Value: 0
+  - Key: MatchRace_Status_2
+    Value: 0
+  - Key: MatchRace_Status_3
+    Value: 0
+  - Key: MatchRace_Status_4
+    Value: 0
+  - Key: MatchRace_Status_5
+    Value: 0
+  - Key: MatchRace_Title
+    Value: 0
+  - Key: MatchRace_Start
+    Value: 0
+  - Key: BonusLevel_LevelID
+    Value: 0
+  - Key: BonusLevel_LevelDescription
+    Value: 0
+  - Key: BonusLevel_EntryDescription
+    Value: 0
+  - Key: RocketTreasure_Title
+    Value: 0
+  - Key: RocketTreasure_Subtitle
+    Value: 0
+  - Key: RocketTreasure_FreeBtn
+    Value: 0
+  - Key: RocketTreasure_ClaimBtn
+    Value: 0
+  - Key: RocketTreasure_BannerTip
+    Value: 0
+  - Key: LobbyNav_Home
+    Value: 0
+  - Key: LeaderBoard_Title
+    Value: 0
+  - Key: LeaderBoard_Weekly
+    Value: 0
+  - Key: LeaderBoard_Teams
+    Value: 0
+  - Key: LeaderBoard_Players
+    Value: 0
+  - Key: LeaderBoard_Global
+    Value: 0
+  - Key: LeaderBoard_Local
+    Value: 0
+  - Key: LeaderBoard_Check_Internet
+    Value: 0
+  - Key: LeaderBoard_Connectting
+    Value: 0
+  - Key: LeaderBoard_Weekly_Finished
+    Value: 0
+  - Key: LeaderBoard_Weekly_Next
+    Value: 0
+  - Key: LeaderBoard_Weekly_Locked
+    Value: 0
+  - Key: LeaderBoard_Weekly_Score
+    Value: 0
+  - Key: LeaderBoard_Weekly_Score1
+    Value: 0
+  - Key: LeaderBoard_Weekly_Level
+    Value: 0
+  - Key: LeaderBoard_Naming_Interval_Tip
+    Value: 0
+  - Key: LeaderBoard_Naming_Save
+    Value: 0
+  - Key: LeaderBoard_Naming_Title
+    Value: 0
+  - Key: LeaderBoard_Weekly_Btn_Finished
+    Value: 0
+  - Key: LeaderBoard_Weekly_Start_Title
+    Value: 0
+  - Key: LeaderBoard_Weekly_Reward_Title
+    Value: 0
+  - Key: LeaderBoard_Weekly_Btn_Start
+    Value: 0
+  - Key: LeaderBoard_Weekly_Sart_Desc
+    Value: 0
+  - Key: LeaderBoard_SetName_Invalid_Word
+    Value: 0
+  - Key: LeaderBoard_SetName_DefaultName
+    Value: 0
+  - Key: LeaderBoard_FAQ1
+    Value: 0
+  - Key: LeaderBoard_FAQ2
+    Value: 0
+  - Key: LeaderBoard_FAQ3
+    Value: 0
+  - Key: DailySale_Tag_1
+    Value: 0
+  - Key: DailySale_Tag_2
+    Value: 0
+  - Key: DailySale_Tag_3
+    Value: 0
+  - Key: DailySale_Tag_4
+    Value: 0
+  - Key: DailySale_Tag_5
+    Value: 0
+  - Key: DailySale_Tag_Off_Shop
+    Value: 0
+  - Key: DailySale_Tag_Off
+    Value: 0
+  - Key: DailySale_Title_1
+    Value: 0
+  - Key: DailySale_Title_2
+    Value: 0
+  - Key: DailySale_Tag_6
+    Value: 0
+  - Key: DailySale_Tag_7
+    Value: 0
+  - Key: DailySale_Tag_8
+    Value: 0
+  - Key: DailySale_Tag_9
+    Value: 0
+  - Key: DailySale_Shop_Title
+    Value: 0
+  - Key: Team_CreateTeam_InvalidDes
+    Value: 0
+  - Key: Team_CreateTeam_NoName
+    Value: 0
+  - Key: Team_CreateTeam_InvalidNameLength
+    Value: 0
+  - Key: Team_CreateTeam_InvalidNumber
+    Value: 0
+  - Key: Team_NaviName
+    Value: 0
+  - Key: Team_RecommendTeam_Tab
+    Value: 0
+  - Key: Team_RecommendTeam_TopDes
+    Value: 0
+  - Key: Team_RecommendTeam_Join
+    Value: 0
+  - Key: Team_Info_Member
+    Value: 0
+  - Key: Team_RecommendTeam_Member
+    Value: 0
+  - Key: Team_RecommendTeam_View
+    Value: 0
+  - Key: Team_TeamInfo_Title
+    Value: 0
+  - Key: Team_TeamInfo_Score
+    Value: 0
+  - Key: Team_TeamInfo_Leader
+    Value: 0
+  - Key: Team_CreateTeam_Create
+    Value: 0
+  - Key: Team_SearchTeam_Tab
+    Value: 0
+  - Key: Team_CreateTeam_TopDes
+    Value: 0
+  - Key: Team_CreateTeam_Name
+    Value: 0
+  - Key: Team_CreateTeam_Name_DefaultInput
+    Value: 0
+  - Key: Team_CreateTeam_Badge
+    Value: 0
+  - Key: Team_CreateTeam_Edit
+    Value: 0
+  - Key: Team_CreateTeam_Des
+    Value: 0
+  - Key: Team_CreateTeam_Des_DefaultInput
+    Value: 0
+  - Key: Team_CreateTeam_Level
+    Value: 0
+  - Key: Team_CreateTeam_EditBadge_Title
+    Value: 0
+  - Key: Team_CreateTeam_InvalidLevel
+    Value: 0
+  - Key: Team_CreateTeam_NameExists
+    Value: 0
+  - Key: Team_Edit_MemberInvalidLevel
+    Value: 0
+  - Key: Team_RequestLife_Full
+    Value: 0
+  - Key: Team_RequestLife_CoolDown
+    Value: 0
+  - Key: Team_KickMember_Btn
+    Value: 0
+  - Key: Team_KickMember_Title
+    Value: 0
+  - Key: Team_KickMember_Des
+    Value: 0
+  - Key: Team_KickMember_Yes
+    Value: 0
+  - Key: Team_KickMember_AlreadyLeave
+    Value: 0
+  - Key: Team_KickMember_No
+    Value: 0
+  - Key: Team_LeaveTeam_Title
+    Value: 0
+  - Key: Team_LeaveTeam_Des
+    Value: 0
+  - Key: Team_LeaveTeam_Leave
+    Value: 0
+  - Key: Team_JoinTeam_TeamNotExists
+    Value: 0
+  - Key: Team_JoinTeam_Full
+    Value: 0
+  - Key: Team_JoinTeam_NotEnoughLevel
+    Value: 0
+  - Key: Team_Free_Life
+    Value: 0
+  - Key: Team_Send_You_Life
+    Value: 0
+  - Key: Team_Life_Btn_View
+    Value: 0
+  - Key: Team_Ask_For_Live
+    Value: 0
+  - Key: Team_SendLife_ReachLimit
+    Value: 0
+  - Key: Team_Message_System_Join
+    Value: 0
+  - Key: Team_Message_System_Exit
+    Value: 0
+  - Key: Team_Message_System_Kick
+    Value: 0
+  - Key: Team_Message_System_Promote
+    Value: 0
+  - Key: Team_Btn_Chat
+    Value: 0
+  - Key: Team_Btn_Request
+    Value: 0
+  - Key: Team_Last_Active
+    Value: 0
+  - Key: Team_Message_Time_Ago
+    Value: 0
+  - Key: Team_Switch_Team_Title
+    Value: 0
+  - Key: Team_Switch_Team_Title1
+    Value: 0
+  - Key: Team_Switch_Team_Title2
+    Value: 0
+  - Key: Home_Live_Tab
+    Value: 0
+  - Key: Team_Help_Btn
+    Value: 0
+  - Key: Live_Btn_Add
+    Value: 0
+  - Key: Team_Btn_Request_In
+    Value: 0
+  - Key: InfinityBundle_Title_1
+    Value: 0
+  - Key: InfinityBundle_Title_2
+    Value: 0
+  - Key: InfinityBundle_SubTitle
+    Value: 0
+  - Key: LootAdventure_Title
+    Value: 0
+  - Key: LootAdventure_Title_2
+    Value: 0
+  - Key: LootAdventure_Subtitle_1
+    Value: 0
+  - Key: LootAdventure_Subtitle_2
+    Value: 0
+  - Key: LootAdventure_Subtitle_3
+    Value: 0
+  - Key: LootAdventure_LootTitle_1
+    Value: 0
+  - Key: LootAdventure_LootTitle_2
+    Value: 0
+  - Key: EditProfile_Title
+    Value: 0
+  - Key: EditProfile_Save_Btn
+    Value: 0
+  - Key: IslandExpedition_Title
+    Value: 0
+  - Key: IslandExpedition_Board_Start1
+    Value: 0
+  - Key: IslandExpedition_Board_Start2
+    Value: 0
+  - Key: IslandExpedition_Start_Btn
+    Value: 0
+  - Key: IslandExpedition_Prize
+    Value: 0
+  - Key: IslandExpedition_Match
+    Value: 0
+  - Key: IslandExpedition_Continue
+    Value: 0
+  - Key: IslandExpedition_Explain1
+    Value: 0
+  - Key: IslandExpedition_Levels
+    Value: 0
+  - Key: IslandExpedition_Players
+    Value: 0
+  - Key: IslandExpedition_Explain2
+    Value: 0
+  - Key: IslandExpedition_Explain3
+    Value: 0
+  - Key: IslandExpedition_Explain4
+    Value: 0
+  - Key: IslandExpedition_Win_Title
+    Value: 0
+  - Key: IslandExpedition_Fail
+    Value: 0
+  - Key: IslandExpedition_Next_Round
+    Value: 0
+  - Key: IslandExpedition_Finish
+    Value: 0
+  - Key: IslandExpedition_Win1
+    Value: 0
+  - Key: IslandExpedition_Explain5
+    Value: 0
+  - Key: IslandExpedition_Claim
+    Value: 0
+  - Key: IslandExpedition_Notice
+    Value: 0
+  - Key: IslandExpedition_FAQ1
+    Value: 0
+  - Key: IslandExpedition_FAQ2
+    Value: 0
+  - Key: IslandExpedition_FAQ3
+    Value: 0
+  - Key: IslandExpedition_Bubble1
+    Value: 0
+  - Key: IslandExpedition_Bubble2
+    Value: 0
+  - Key: IslandExpedition_Bubble3
+    Value: 0
+  - Key: IslandExpedition_Bubble4
+    Value: 0
+  - Key: Labor_Sale_Title
+    Value: 0
+  - Key: Purchase_Confirmation_Title
+    Value: 0
+  - Key: Purchase_Confirmation_Text
+    Value: 0
+  - Key: HarvestChallenge__Start
+    Value: 0
+  - Key: HarvestChallenge__Tip
+    Value: 0
+  - Key: HarvestChallenge__First
+    Value: 0
+  - Key: HarvestChallenge__Win
+    Value: 0
+  - Key: HarvestChallenge__Fail
+    Value: 0
+  - Key: HarvestChallenge__Next
+    Value: 0
+  - Key: HarvestChallenge__Current
+    Value: 0
+  - Key: HarvestChallenge__Title
+    Value: 0
+  - Key: HarvestChallenge__Bundle
+    Value: 0
+  - Key: HarvestChallenge__Type1
+    Value: 0
+  - Key: HarvestChallenge__Type2
+    Value: 0
+  - Key: HarvestChallenge__Type3
+    Value: 0
+  - Key: HarvestChallenge__OK
+    Value: 0
+  - Key: HarvestChallenge__Oops
+    Value: 0
+  - Key: HarvestChallenge__Go
+    Value: 0
+  - Key: HarvestChallenge__Add
+    Value: 0
+  - Key: HarvestChallenge__Play
+    Value: 0
+  - Key: HarvestChallenge__Replay
+    Value: 0
+  - Key: HarvestChallenge__Entrance
+    Value: 0
+  - Key: HarvestChallenge__Prize
+    Value: 0
+  - Key: HarvestChallenge__Freetip
+    Value: 0
+  - Key: HarvestChallenge__Freshtip
+    Value: 0
+  - Key: Columbus_Title
+    Value: 0
+  - Key: Balloon_Top1
+    Value: 0
+  - Key: Balloon_Top2
+    Value: 0
+  - Key: Balloon_Top3
+    Value: 0
+  - Key: Balloon_Claim
+    Value: 0
+  - Key: Balloon_Enter1
+    Value: 0
+  - Key: Balloon_Enter2
+    Value: 0
+  - Key: Balloon_Enter3
+    Value: 0
+  - Key: Balloon_FAQ1
+    Value: 0
+  - Key: Balloon_FAQ2
+    Value: 0
+  - Key: Balloon_FAQ3
+    Value: 0
+  - Key: Balloon_FAQ4
+    Value: 0
+  - Key: Balloon_Name
+    Value: 0
+  - Key: Balloon_Finish
+    Value: 0
+  - Key: Halloween_Sale_Title
+    Value: 0
+  - Key: Christmas_Sale_Title
+    Value: 0
+  - Key: GhostHunt_Title
+    Value: 0
+  - Key: GhostHunt_Title_Christmas
+    Value: 0
+  - Key: GhostHunt_Tip1
+    Value: 0
+  - Key: GhostHunt_Tip1_Christmas
+    Value: 0
+  - Key: GhostHunt_Tip2
+    Value: 0
+  - Key: GhostHunt_Tip3
+    Value: 0
+  - Key: GhostHunt_Tip3_Christmas
+    Value: 0
+  - Key: GhostHunt_Tip4
+    Value: 0
+  - Key: GhostHunt_Tip4_Christmas
+    Value: 0
+  - Key: GhostHunt_Reward
+    Value: 0
+  - Key: GhostHunt_Faq1
+    Value: 0
+  - Key: GhostHunt_Faq1_Christmas
+    Value: 0
+  - Key: GhostHunt_Faq2
+    Value: 0
+  - Key: GhostHunt_Faq3
+    Value: 0
+  - Key: GhostHunt_button1
+    Value: 0
+  - Key: GhostHunt_button2
+    Value: 0
+  - Key: GhostHunt_button2_Christmas
+    Value: 0
+  - Key: GhostHunt_claimed
+    Value: 0
+  - Key: GameUpdate_Title
+    Value: 0
+  - Key: GameUpdate_Text1
+    Value: 0
+  - Key: GameUpdate_Btn
+    Value: 0
+  - Key: GameUpdate_Later
+    Value: 0
+  - Key: BlackFriday_Title
+    Value: 0
+  - Key: Delete_Text
+    Value: 0
+  - Key: Delete_First_Title
+    Value: 0
+  - Key: Delete_First_Text
+    Value: 0
+  - Key: Delete_Cancel
+    Value: 0
+  - Key: Delete_ConfirmDelete
+    Value: 0
+  - Key: Delete_Second_Title
+    Value: 0
+  - Key: Delete_Second_Text
+    Value: 0
+  - Key: Delete_FailText
+    Value: 0

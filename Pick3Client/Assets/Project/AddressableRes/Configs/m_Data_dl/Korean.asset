@@ -1,0 +1,1437 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d48ffe636ab84a98b4003e0b9bfb068, type: 3}
+  m_Name: Korean
+  m_EditorClassIdentifier: 
+  keys:
+  - Push_1_Title
+  - Push_1
+  - Push_2_Title
+  - Push_2
+  - Push_3_Title
+  - Push_3
+  - Push_4_Title
+  - Push_4
+  - Push_5_Title
+  - Push_5
+  - Push_6_Title
+  - Push_6
+  - Boosterster_Undo_Name
+  - Booster_Undo_Description
+  - Booster_Magnifier_Name
+  - Booster_Magnifier_Description
+  - Booster_Bomb_Name
+  - Booster_Bomb_Description
+  - Booster_Freeze_Name
+  - Booster_Freeze_Description
+  - Booster_Lightning_Name
+  - Booster_Lightning_Description
+  - Booster_Clock_Name
+  - Booster_Clock_Description
+  - Booster_Magnet_Name
+  - Booster_Magnet_Description
+  - BannerTips_NoNewLevels
+  - Shop_Tip_Purchase_Failed
+  - Shop_No_Internet
+  - Star_Box_Desc
+  - Level_Box_Desc
+  - Level_Box_Desc_Single
+  - RV_loading
+  - RV_failed_des
+  - IAPShop_RemoveADS
+  - IAPShop_PremiumPack
+  - IAPShop_ElitePack
+  - IAPShop_MasterPack
+  - IAPShop_RoyalPack
+  - IAPShop_Coins
+  - IAPShop_Free
+  - IAPShop_PopularTag
+  - IAPShop_ValueTag
+  - IAPShop_Title
+  - IAPShop_FreeCoinsCoolDown
+  - IAPShop_PurchaseSuccessful
+  - IAPShop_Collect
+  - IAPShop_MoreOffer
+  - IAPShop_Common_Coins
+  - IAPShop_SimplifiedShop_Title
+  - RemoveADs_Tag
+  - RemoveADs_Item
+  - RemoveADs_Title_1
+  - RemoveADs_Title_2
+  - InLevel_TopUI_Level
+  - InLevel_BottomUI_Level
+  - InLevel_Plus
+  - LevelFinished_Win
+  - LevelFinished_Btn_Continue
+  - LevelFinished_TimeUsed
+  - LevelFinished_Coins
+  - OutofSpace_Title
+  - OutofSpace_Btn
+  - OutofSpace_Btn_RV
+  - OutofTime_Title
+  - OutofTime_Btn
+  - AreYouSure_Subtitle
+  - AreYouSure_Title
+  - LevelFailed_Btn
+  - LevelFailed_Title
+  - LevelQuit_Btn_Resume
+  - LevelQuit_Btn_Quit
+  - PauseDialog_Title
+  - PauseDialog_Sound
+  - PauseDialog_Music
+  - PauseDialog_Vibration
+  - PauseDialog_ContactUs
+  - PauseDialog_QuitLevel
+  - SettingDialog_Title
+  - PauseDialog_Version
+  - PauseDialog_Language
+  - Localization_en
+  - Localization_de
+  - Localization_fr
+  - Localization_es
+  - Localization_pt
+  - Localization_jp
+  - Localization_kr
+  - DailyBonus_Day
+  - DailyBonus_Title
+  - DailyBonus_Btn_Claim
+  - DailyBonus_Timer
+  - DailyBonus_Day_Entrance
+  - EnterLevel_Subtitle
+  - EnterLevel_UnlockTip
+  - EnterLevel_Btn
+  - EnterLevel_Streak_Faq_Title
+  - EnterLevel_Streak_Faq
+  - EnterLevel_Streak_Faq_1
+  - EnterLevel_Streak_Faq_2
+  - EnterLevel_Streak_Faq_3
+  - Purchase_Heart_Timer
+  - Purchase_Heart_Fill
+  - Purchase_Heart_Title_1
+  - Purchase_Heart_Title_2
+  - Purchase_Heart_Full
+  - Guide_Step_1
+  - Guide_Step_2
+  - Guide_Step_3_Undo
+  - Guide_Step_4_Magnifier
+  - Guide_Step_5_Bomb
+  - Guide_Step_6_Snowflake
+  - Guide_Step_7_Thunder
+  - Guide_Step_8_Clock
+  - Guide_Step_9_Magnet
+  - Guide_Step_10_Streak
+  - Guide_Tap_To_Continue
+  - Guide_CloverTreasure
+  - Guide_SakuraTreasure
+  - Guide_FireworkTreasure
+  - Guide_SweetTreasure
+  - Guide_RainbowTreasure
+  - Guide_SunnyTreasure
+  - Guide_MagicTreasure
+  - Guide_HalloweenTreasure
+  - Guide_ThanksTreasure
+  - Guide_ChristmasTreasure
+  - Guide_RechargeBooster_1
+  - Guide_RechargeBooster_2
+  - Guide_UseBooster
+  - BannerTip_Magnifier
+  - BannerTip_Freeze
+  - BannerTip_Undo
+  - BannerTip_FullLife
+  - Lobby_LevelEntrance_Hard
+  - Lobby_StarChest
+  - Lobby_LevelChest
+  - TermsNotice_Title
+  - TermsNotice_Description
+  - TermsNotice_TermsOfService
+  - TermsNotice_OK
+  - QuitGameNotice_Title
+  - QuitGameNotice_Description
+  - QuitGameNotice_Resume
+  - QuitGameNotice_Quit
+  - CloverTreasure_Title
+  - CloverTreasure_Start_Description
+  - CloverTreasure_Locked_Tips
+  - SakuraTreasure_Title
+  - SakuraTreasure_Start_Description
+  - SakuraTreasure_Locked_Tips
+  - FireworkTreasure_Title
+  - FireworkTreasure_Start_Description
+  - FireworkTreasure_Locked_Tips
+  - SweetTreasure_Title
+  - SweetTreasure_Start_Description
+  - SweetTreasure_Locked_Tips
+  - RainbowTreasure_Title
+  - RainbowTreasure_Start_Description
+  - RainbowTreasure_Locked_Tips
+  - SunnyTreasure_Title
+  - SunnyTreasure_Start_Description
+  - SunnyTreasure_Locked_Tips
+  - MagicTreasure_Title
+  - MagicTreasure_Start_Description
+  - MagicTreasure_Locked_Tips
+  - CloverTreasure_End
+  - HalloweenTreasure_Title
+  - HalloweenTreasure_Start_Description
+  - HalloweenTreasure_Locked_Tips
+  - ThanksTreasure_Title
+  - ThanksTreasure_Start_Description
+  - ThanksTreasure_Locked_Tips
+  - ChristmasTreasure_Title
+  - ChristmasTreasure_Start_Description
+  - ChristmasTreasure_Locked_Tips
+  - CommonReward_Title
+  - StarterPack_Title
+  - StarterPack_Subtitle
+  - Piggy_Title
+  - Piggy_MorePercentage
+  - Piggy_Max
+  - Piggy_Des_1
+  - Piggy_Des_2
+  - Piggy_BuyBtn
+  - Piggy_BreakDes
+  - Piggy_RewardTitle
+  - Piggy_RewardBtn
+  - RateUs_Title
+  - RateUs_Description
+  - RateUs_Btn
+  - MatchRace_You
+  - MatchRace_Player
+  - MatchRace_Status_1
+  - MatchRace_Status_2
+  - MatchRace_Status_3
+  - MatchRace_Status_4
+  - MatchRace_Status_5
+  - MatchRace_Title
+  - MatchRace_Start
+  - BonusLevel_LevelID
+  - BonusLevel_LevelDescription
+  - BonusLevel_EntryDescription
+  - RocketTreasure_Title
+  - RocketTreasure_Subtitle
+  - RocketTreasure_FreeBtn
+  - RocketTreasure_ClaimBtn
+  - RocketTreasure_BannerTip
+  - LobbyNav_Home
+  - LeaderBoard_Title
+  - LeaderBoard_Weekly
+  - LeaderBoard_Teams
+  - LeaderBoard_Players
+  - LeaderBoard_Global
+  - LeaderBoard_Local
+  - LeaderBoard_Check_Internet
+  - LeaderBoard_Connectting
+  - LeaderBoard_Weekly_Finished
+  - LeaderBoard_Weekly_Next
+  - LeaderBoard_Weekly_Locked
+  - LeaderBoard_Weekly_Score
+  - LeaderBoard_Weekly_Score1
+  - LeaderBoard_Weekly_Level
+  - LeaderBoard_Naming_Interval_Tip
+  - LeaderBoard_Naming_Save
+  - LeaderBoard_Naming_Title
+  - LeaderBoard_Weekly_Btn_Finished
+  - LeaderBoard_Weekly_Start_Title
+  - LeaderBoard_Weekly_Reward_Title
+  - LeaderBoard_Weekly_Btn_Start
+  - LeaderBoard_Weekly_Sart_Desc
+  - LeaderBoard_SetName_Invalid_Word
+  - LeaderBoard_SetName_DefaultName
+  - LeaderBoard_FAQ1
+  - LeaderBoard_FAQ2
+  - LeaderBoard_FAQ3
+  - LeaderBoard_Weekly_Claim
+  - LeaderBoard_Weekly_Continue
+  - DailySale_Tag_1
+  - DailySale_Tag_2
+  - DailySale_Tag_3
+  - DailySale_Tag_4
+  - DailySale_Tag_5
+  - DailySale_Tag_Off_Shop
+  - DailySale_Tag_Off
+  - DailySale_Title_1
+  - DailySale_Title_2
+  - DailySale_Tag_6
+  - DailySale_Tag_7
+  - DailySale_Tag_8
+  - DailySale_Tag_9
+  - DailySale_Shop_Title
+  - Team_CreateTeam_InvalidDes
+  - Team_CreateTeam_NoName
+  - Team_CreateTeam_InvalidNameLength
+  - Team_CreateTeam_InvalidNumber
+  - Team_NaviName
+  - Team_RecommendTeam_Tab
+  - Team_RecommendTeam_TopDes
+  - Team_RecommendTeam_Join
+  - Team_Info_Member
+  - Team_RecommendTeam_Member
+  - Team_RecommendTeam_View
+  - Team_TeamInfo_Title
+  - Team_TeamInfo_Score
+  - Team_TeamInfo_Leader
+  - Team_CreateTeam_Create
+  - Team_CreateTeam_ChooseLogo
+  - Team_SearchTeam_Tab
+  - Team_Search_Default
+  - Team_CreateTeam_TeamLogo
+  - Team_CreateTeam_TopDes
+  - Team_CreateTeam_Name
+  - Team_Search_TeamName_Default
+  - Team_CreateTeam_Name_DefaultInput
+  - Team_CreateTeam_Badge
+  - Team_CreateTeam_Edit
+  - Team_CreateTeam_Des
+  - Team_CreateTeam_Des_DefaultInput
+  - Team_CreateTeam_Level
+  - Team_Edit_Save
+  - Team_CreateTeam_EditBadge_Title
+  - Team_CreateTeam_InvalidLevel
+  - Team_CreateTeam_NameExists
+  - Team_Edit_MemberInvalidLevel
+  - Team_RequestLife_Full
+  - Team_RequestLife_CoolDown
+  - Team_KickMember_Btn
+  - Team_KickMember_Title
+  - Team_KickMember_Des
+  - Team_KickMember_Yes
+  - Team_KickMember_AlreadyLeave
+  - Team_KickMember_No
+  - Team_LeaveTeam_Title
+  - Team_LeaveTeam_Des
+  - Team_LeaveTeam_Leave
+  - Team_JoinTeam_TeamNotExists
+  - Team_JoinTeam_Full
+  - Team_JoinTeam_NotEnoughLevel
+  - Team_Join_Refresh
+  - Team_SearchTeam_NoMatchTeam
+  - Team_Capacity
+  - Team_Free_Life
+  - Team_RequestLift_MaxOut
+  - Team_Send_You_Life
+  - Team_Life_Btn_View
+  - Team_Ask_For_Live
+  - Team_Life_Received
+  - Team_SendLife_ReachLimit
+  - Team_Message_System_Join
+  - Team_Message_System_Exit
+  - Team_Message_System_Kick
+  - Team_Message_System_Promote
+  - Team_Btn_Chat
+  - Team_Btn_Request
+  - Team_Last_Active
+  - Team_Message_Time_Ago
+  - Team_Switch_Team_Title
+  - Team_Switch_Team_Title1
+  - Team_Switch_Team_Title2
+  - Home_Live_Tab
+  - Team_Help_Btn
+  - Live_Btn_Add
+  - Team_Btn_Request_In
+  - InfinityBundle_Title_1
+  - InfinityBundle_Title_2
+  - InfinityBundle_SubTitle
+  - LootAdventure_Title
+  - LootAdventure_Title_2
+  - LootAdventure_Subtitle_1
+  - LootAdventure_Subtitle_2
+  - LootAdventure_Subtitle_3
+  - LootAdventure_LootTitle_1
+  - LootAdventure_LootTitle_2
+  - EditProfile_Title
+  - EditProfile_Save_Btn
+  - IslandExpedition_Title
+  - IslandExpedition_Board_Start1
+  - IslandExpedition_Board_Start2
+  - IslandExpedition_Start_Btn
+  - IslandExpedition_Prize
+  - IslandExpedition_Match
+  - IslandExpedition_Continue
+  - IslandExpedition_Explain1
+  - IslandExpedition_Levels
+  - IslandExpedition_Players
+  - IslandExpedition_Explain2
+  - IslandExpedition_Explain3
+  - IslandExpedition_Explain4
+  - IslandExpedition_Win_Title
+  - IslandExpedition_Fail
+  - IslandExpedition_Next_Round
+  - IslandExpedition_Finish
+  - IslandExpedition_Win1
+  - IslandExpedition_Explain5
+  - IslandExpedition_Claim
+  - IslandExpedition_Notice
+  - IslandExpedition_FAQ1
+  - IslandExpedition_FAQ2
+  - IslandExpedition_FAQ3
+  - IslandExpedition_Bubble1
+  - IslandExpedition_Bubble2
+  - IslandExpedition_Bubble3
+  - IslandExpedition_Bubble4
+  - Labor_Sale_Title
+  - Purchase_Confirmation_Title
+  - Purchase_Confirmation_Text
+  - HarvestChallenge__Start
+  - HarvestChallenge__Tip
+  - HarvestChallenge__First
+  - HarvestChallenge__Win
+  - HarvestChallenge__Fail
+  - HarvestChallenge__Next
+  - HarvestChallenge__Current
+  - HarvestChallenge__Title
+  - HarvestChallenge__Bundle
+  - HarvestChallenge__Type1
+  - HarvestChallenge__Type2
+  - HarvestChallenge__Type3
+  - HarvestChallenge__OK
+  - HarvestChallenge__Oops
+  - HarvestChallenge__Go
+  - HarvestChallenge__Add
+  - HarvestChallenge__Play
+  - HarvestChallenge__Replay
+  - HarvestChallenge__Entrance
+  - HarvestChallenge__Prize
+  - HarvestChallenge__Freetip
+  - HarvestChallenge__Freshtip
+  - Columbus_Title
+  - Balloon_Top1
+  - Balloon_Top2
+  - Balloon_Top3
+  - Balloon_Claim
+  - Balloon_Enter1
+  - Balloon_Enter2
+  - Balloon_Enter3
+  - Balloon_FAQ1
+  - Balloon_FAQ2
+  - Balloon_FAQ3
+  - Balloon_FAQ4
+  - Balloon_Name
+  - Balloon_Finish
+  - Halloween_Sale_Title
+  - Christmas_Sale_Title
+  - GhostHunt_Title
+  - GhostHunt_Title_Christmas
+  - GhostHunt_Tip1
+  - GhostHunt_Tip1_Christmas
+  - GhostHunt_Tip2
+  - GhostHunt_Tip3
+  - GhostHunt_Tip3_Christmas
+  - GhostHunt_Tip4
+  - GhostHunt_Tip4_Christmas
+  - GhostHunt_Reward
+  - GhostHunt_Faq1
+  - GhostHunt_Faq1_Christmas
+  - GhostHunt_Faq2
+  - GhostHunt_Faq3
+  - GhostHunt_button1
+  - GhostHunt_button2
+  - GhostHunt_button2_Christmas
+  - GhostHunt_claimed
+  - GameUpdate_Title
+  - GameUpdate_Text1
+  - GameUpdate_Btn
+  - GameUpdate_Later
+  - BlackFriday_Title
+  - Delete_Text
+  - Delete_First_Title
+  - Delete_First_Text
+  - Delete_Cancel
+  - Delete_ConfirmDelete
+  - Delete_Second_Title
+  - Delete_Second_Text
+  - Delete_FailText
+  - Come_Text
+  - Liveout_Text
+  - FacebookGroup_Btn
+  - Level_End_Title1
+  - Level_End_Title2
+  - Level_End_Title3
+  values:
+  - Key: Push_1_Title
+    Value: "\U0001F575\uFE0F\u200D\u2642\uFE0F Can you find it?"
+  - Key: Push_1
+    Value: "We've hidden something Special for you. \u23E9 TAP now and let the search
+      begin!"
+  - Key: Push_2_Title
+    Value: "\U0001F44B Hey, Match Master!"
+  - Key: Push_2
+    Value: "Ready to showcase your \U0001F3C5Unmatched Skills? \u2192TAP to play!"
+  - Key: Push_3_Title
+    Value: "\U0001F680Match Fun is READY!"
+  - Key: Push_3
+    Value: "TAP here to start playing an \u2728 Exhilarating New Level!>>>"
+  - Key: Push_4_Title
+    Value: "Need a little focus?\U0001F440"
+  - Key: Push_4
+    Value: "TAP here and hunt down all the hidden items!\U0001F9E9"
+  - Key: Push_5_Title
+    Value: "\U0001F608Hard level awaits!"
+  - Key: Push_5
+    Value: "Are you ready for a challenge? \U0001F449TAP to take it on!"
+  - Key: Push_6_Title
+    Value: "\U0001F914How fast can you solve it?"
+  - Key: Push_6
+    Value: "Find out Now, TAP to Play!\U0001F680"
+  - Key: Boosterster_Undo_Name
+    Value: "\uB418\uB3CC\uB9AC\uAE30"
+  - Key: Booster_Undo_Description
+    Value: "\uB9C8\uC9C0\uB9C9 \uC6C0\uC9C1\uC784\uC744 \uCD08\uAE30\uD654\uD569\uB2C8\uB2E4!"
+  - Key: Booster_Magnifier_Name
+    Value: "\uB3CB\uBCF4\uAE30"
+  - Key: Booster_Magnifier_Description
+    Value: "\uC790\uB3D9\uC73C\uB85C \uC544\uC774\uD15C\uC744 \uCC3E\uACE0 \uB9E4\uCE58\uB97C
+      \uC644\uC131\uD569\uB2C8\uB2E4!"
+  - Key: Booster_Bomb_Name
+    Value: "\uD3ED\uD0C4"
+  - Key: Booster_Bomb_Description
+    Value: "\uD3ED\uD0C4\uC744 \uB5A8\uC5B4\uB728\uB824 \uC8FC\uBCC0\uC758 \uBAA8\uB4E0
+      \uAC83\uC744 \uB0A0\uB9BD\uB2C8\uB2E4!"
+  - Key: Booster_Freeze_Name
+    Value: "\uBAA8\uB798\uC2DC\uACC4"
+  - Key: Booster_Freeze_Description
+    Value: "15\uCD08 \uB3D9\uC548 \uC2DC\uAC04\uC744 \uBA48\uCDA5\uB2C8\uB2E4!"
+  - Key: Booster_Lightning_Name
+    Value: "\uBC88\uAC1C"
+  - Key: Booster_Lightning_Description
+    Value: "\uC4F8\uBAA8\uC5C6\uB294 \uBB34\uC791\uC704 \uC544\uC774\uD15C 3\uAC1C\uB97C
+      \uC81C\uAC70\uD569\uB2C8\uB2E4!"
+  - Key: Booster_Clock_Name
+    Value: "\uC2DC\uACC4"
+  - Key: Booster_Clock_Description
+    Value: "\uAC8C\uC784 \uC2DC\uACC4\uC5D0 10\uCD08\uB97C \uCD94\uAC00\uD569\uB2C8\uB2E4!"
+  - Key: Booster_Magnet_Name
+    Value: "\uC790\uC11D"
+  - Key: Booster_Magnet_Description
+    Value: "\uB9E4\uCE58\uB418\uB294 \uC544\uC774\uD15C 3\uAC1C\uB97C \uCC3E\uC544\uB0C5\uB2C8\uB2E4!"
+  - Key: BannerTips_NoNewLevels
+    Value: "\uBAA8\uB4E0 \uB808\uBCA8\uC744 \uC644\uB8CC\uD588\uC2B5\uB2C8\uB2E4!"
+  - Key: Shop_Tip_Purchase_Failed
+    Value: "\uACB0\uC81C\uB418\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4"
+  - Key: Shop_No_Internet
+    Value: "\uC778\uD130\uB137\uC5D0 \uC5F0\uACB0\uB418\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4"
+  - Key: Star_Box_Desc
+    Value: "<sprite=0> {0}\uAC1C\uB97C \uB354 \uBAA8\uC544\uC11C \uC5EC\uC138\uC694!"
+  - Key: Level_Box_Desc
+    Value: "\uB808\uBCA8 {0}\uAC1C\uB97C \uB354 \uAE68\uC11C \uC5EC\uC138\uC694!"
+  - Key: Level_Box_Desc_Single
+    Value: "\uB808\uBCA8 1\uAC1C\uB97C \uB354 \uAE68\uC11C \uC5EC\uC138\uC694!"
+  - Key: RV_loading
+    Value: "\uB85C\uB529 \uC911"
+  - Key: RV_failed_des
+    Value: "\uC7AC\uC0DD\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4. \uB098\uC911\uC5D0
+      \uB2E4\uC2DC \uC2DC\uB3C4\uD574\uC8FC\uC138\uC694."
+  - Key: IAPShop_RemoveADS
+    Value: "\uAD11\uACE0 \uC81C\uAC70 \uD329"
+  - Key: IAPShop_PremiumPack
+    Value: "\uD504\uB9AC\uBBF8\uC5C4 \uD329"
+  - Key: IAPShop_ElitePack
+    Value: "\uC5D8\uB9AC\uD2B8 \uD329"
+  - Key: IAPShop_MasterPack
+    Value: "\uB9C8\uC2A4\uD130 \uD329"
+  - Key: IAPShop_RoyalPack
+    Value: "\uB85C\uC5F4 \uD329"
+  - Key: IAPShop_Coins
+    Value: "\uCF54\uC778"
+  - Key: IAPShop_Free
+    Value: "\uBB34\uB8CC"
+  - Key: IAPShop_PopularTag
+    Value: "\uCD5C\uACE0 \uC778\uAE30"
+  - Key: IAPShop_ValueTag
+    Value: "\uCD5C\uACE0 \uAC00\uC131\uBE44"
+  - Key: IAPShop_Title
+    Value: "\uC0C1\uC810"
+  - Key: IAPShop_FreeCoinsCoolDown
+    Value: "\uC5D0 \uBB34\uB8CC \uB3D9\uC804\uC774 \uC788\uC2B5\uB2C8\uB2E4"
+  - Key: IAPShop_PurchaseSuccessful
+    Value: "\uAD6C\uB9E4 \uC131\uACF5!"
+  - Key: IAPShop_Collect
+    Value: "\uC218\uC9D1"
+  - Key: IAPShop_MoreOffer
+    Value: "\uB354 \uB9CE\uC740 \uD61C\uD0DD"
+  - Key: IAPShop_Common_Coins
+    Value: "\uCF54\uC778"
+  - Key: IAPShop_SimplifiedShop_Title
+    Value: "\uCF54\uC778 \uBD80\uC871!"
+  - Key: RemoveADs_Tag
+    Value: "4\uBC30\n\uAC00\uCE58"
+  - Key: RemoveADs_Item
+    Value: "\uAD11\uACE0 \uC81C\uAC70"
+  - Key: RemoveADs_Title_1
+    Value: "\uAD11\uACE0 \uC81C\uAC70"
+  - Key: RemoveADs_Title_2
+    Value: "\uD329"
+  - Key: InLevel_TopUI_Level
+    Value: "\uB808\uBCA8 {0}"
+  - Key: InLevel_BottomUI_Level
+    Value: "\uACF5\uAC04\uC774 \uBD80\uC871\uD574\uC694!"
+  - Key: InLevel_Plus
+    Value: 1+
+  - Key: LevelFinished_Win
+    Value: "\uD68D\uB4DD\uD55C \uBCF4\uC0C1"
+  - Key: LevelFinished_Btn_Continue
+    Value: "\uACC4\uC18D\uD558\uAE30"
+  - Key: LevelFinished_TimeUsed
+    Value: "\uC18C\uBAA8\uD55C \uC2DC\uAC04:"
+  - Key: LevelFinished_Coins
+    Value: "\uCF54\uC778 x{0}"
+  - Key: OutofSpace_Title
+    Value: "\uACF5\uAC04 \uBD80\uC871"
+  - Key: OutofSpace_Btn
+    Value: "\uC904 \uCCAD\uC18C"
+  - Key: OutofSpace_Btn_RV
+    Value: "\uBB34\uB8CC"
+  - Key: OutofTime_Title
+    Value: "\uC2DC\uAC04 \uC885\uB8CC!"
+  - Key: OutofTime_Btn
+    Value: "\uCD94\uAC00 \uC2DC\uAC04"
+  - Key: AreYouSure_Subtitle
+    Value: "\uB2E4\uC74C\uC744 \uC783\uC2B5\uB2C8\uB2E4"
+  - Key: AreYouSure_Title
+    Value: "\uD655\uC2E4\uD55C\uAC00\uC694?"
+  - Key: LevelFailed_Btn
+    Value: "\uB2E4\uC2DC \uC2DC\uB3C4\uD558\uAE30"
+  - Key: LevelFailed_Title
+    Value: "\uB808\uBCA8 \uC2E4\uD328"
+  - Key: LevelQuit_Btn_Resume
+    Value: "\uC774\uC5B4\uD558\uAE30"
+  - Key: LevelQuit_Btn_Quit
+    Value: "\uB098\uAC00\uAE30"
+  - Key: PauseDialog_Title
+    Value: "\uC77C\uC2DC \uC911\uC9C0"
+  - Key: PauseDialog_Sound
+    Value: "\uC18C\uB9AC"
+  - Key: PauseDialog_Music
+    Value: "\uC74C\uC545"
+  - Key: PauseDialog_Vibration
+    Value: "\uC9C4\uB3D9"
+  - Key: PauseDialog_ContactUs
+    Value: "\uBB38\uC758\uD558\uAE30"
+  - Key: PauseDialog_QuitLevel
+    Value: "\uB808\uBCA8 \uB098\uAC00\uAE30"
+  - Key: SettingDialog_Title
+    Value: "\uC124\uC815"
+  - Key: PauseDialog_Version
+    Value: "\uBC84\uC804: {0}"
+  - Key: PauseDialog_Language
+    Value: "\uC5B8\uC5B4"
+  - Key: Localization_en
+    Value: English
+  - Key: Localization_de
+    Value: Deutsch
+  - Key: Localization_fr
+    Value: "Fran\xE7ais"
+  - Key: Localization_es
+    Value: "Espa\xF1ol"
+  - Key: Localization_pt
+    Value: "Portugu\xEAs"
+  - Key: Localization_jp
+    Value: "\u65E5\u672C\u8A9E"
+  - Key: Localization_kr
+    Value: "\uD55C\uAD6D\uC5B4"
+  - Key: DailyBonus_Day
+    Value: "{0}\uC77C"
+  - Key: DailyBonus_Title
+    Value: "\uC77C\uC77C \uBCF4\uB108\uC2A4"
+  - Key: DailyBonus_Btn_Claim
+    Value: "\uBC1B\uAE30"
+  - Key: DailyBonus_Timer
+    Value: "\uB2E4\uC74C \uBCF4\uB108\uC2A4\uAE4C\uC9C0"
+  - Key: DailyBonus_Day_Entrance
+    Value: "{0}\n\uC77C"
+  - Key: EnterLevel_Subtitle
+    Value: "\uBD80\uC2A4\uD130 \uC120\uD0DD:"
+  - Key: EnterLevel_UnlockTip
+    Value: "\uB808\uBCA8 {0}\uC5D0\uC11C \uD574\uC81C"
+  - Key: EnterLevel_Btn
+    Value: "\uD50C\uB808\uC774"
+  - Key: EnterLevel_Streak_Faq_Title
+    Value: "\uC5F0\uC2B9 \uBCF4\uC0C1"
+  - Key: EnterLevel_Streak_Faq
+    Value: "\uC774\uAE34 \uAE30\uC6B4\uC744 \uC720\uC9C0\uD558\uACE0 \uB354 \uB9CE\uC740
+      \uBB34\uB8CC \uBD80\uC2A4\uD130\uB97C \uBC1B\uC73C\uC138\uC694!"
+  - Key: EnterLevel_Streak_Faq_1
+    Value: "1\uC5F0\uC2B9"
+  - Key: EnterLevel_Streak_Faq_2
+    Value: "2\uC5F0\uC2B9"
+  - Key: EnterLevel_Streak_Faq_3
+    Value: "3\uC5F0\uC2B9"
+  - Key: Purchase_Heart_Timer
+    Value: "\uBB34\uB8CC \uD558\uD2B8\uAE4C\uC9C0 {0}"
+  - Key: Purchase_Heart_Fill
+    Value: "\uC9C0\uAE08 \uCDA9\uC804"
+  - Key: Purchase_Heart_Title_1
+    Value: "\uD558\uD2B8\uAC00 \uC5C6\uC5B4\uC694!"
+  - Key: Purchase_Heart_Title_2
+    Value: "\uD558\uD2B8 \uCDA9\uC804"
+  - Key: Purchase_Heart_Full
+    Value: "\uAC00\uB4DD\uCC2C"
+  - Key: Guide_Step_1
+    Value: "\uAC19\uC740 \uC544\uC774\uD15C <color=red>3</color>\uAC1C\uB97C \uB20C\uB7EC\uC11C
+      \uB9E4\uCE58\uB97C \uC644\uC131\uD558\uC138\uC694!"
+  - Key: Guide_Step_2
+    Value: "\uD544\uC694\uD55C \uC544\uC774\uD15C\uC744 \uB9E4\uCE58\uD558\uC5EC
+      \uB808\uBCA8\uC744 \uD1B5\uACFC\uD558\uC138\uC694!"
+  - Key: Guide_Step_3_Undo
+    Value: "\uC774 \uBD80\uC2A4\uD130\uB97C \uC0AC\uC6A9\uD558\uC5EC \uB9C8\uC9C0\uB9C9
+      \uC6C0\uC9C1\uC784\uC744 \uB418\uB3CC\uB9AC\uC138\uC694!"
+  - Key: Guide_Step_4_Magnifier
+    Value: "\uB3CB\uBCF4\uAE30\uB97C \uC0AC\uC6A9\uD558\uC5EC \uB9E4\uCE58\uB97C
+      \uC989\uC2DC \uCC3E\uC73C\uC138\uC694!"
+  - Key: Guide_Step_5_Bomb
+    Value: "\uD3ED\uD0C4\uC744 \uB5A8\uC5B4\uB728\uB824 \uC8FC\uBCC0 \uC544\uC774\uD15C\uC744
+      \uB0A0\uB9AC\uC138\uC694!"
+  - Key: Guide_Step_6_Snowflake
+    Value: "\uC774 \uBD80\uC2A4\uD130\uB97C \uC0AC\uC6A9\uD558\uC5EC <color=blue>15</color>\uCD08
+      \uB3D9\uC548 \uC2DC\uAC04\uC744 \uBA48\uCD94\uC138\uC694!"
+  - Key: Guide_Step_7_Thunder
+    Value: "\uBC88\uAC1C\uC640 \uD568\uAED8 \uAC8C\uC784\uC744 \uC2DC\uC791\uD558\uC5EC
+      \uC4F8\uBAA8\uC5C6\uB294 \uC544\uC774\uD15C <color=red>3</color>\uAC1C\uB97C
+      \uC81C\uAC70\uD558\uC138\uC694!"
+  - Key: Guide_Step_8_Clock
+    Value: "\uC870\uC2EC\uD558\uC138\uC694! \uC774 \uB808\uBCA8\uC758 \uB09C\uC774\uB3C4\uB294
+      <color=red>\uC5B4\uB824\uC6C0</color>\uC785\uB2C8\uB2E4. \uC2DC\uACC4\uB97C
+      \uC0AC\uC6A9\uD558\uC5EC \uC2DC\uAC04\uC744 \uCD94\uAC00\uD558\uC138\uC694!"
+  - Key: Guide_Step_9_Magnet
+    Value: "\uC790\uC11D\uC744 \uC0AC\uC6A9\uD558\uC5EC \uB9E4\uCE58 <color=red>3</color>\uAC1C\uB97C
+      \uC989\uC2DC \uCC3E\uC73C\uC138\uC694!"
+  - Key: Guide_Step_10_Streak
+    Value: "\uC774\uAE34 \uAE30\uC6B4\uC744 \uC720\uC9C0\uD558\uACE0 \uB354 \uB9CE\uC740
+      \uBB34\uB8CC \uBD80\uC2A4\uD130\uB97C \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_Tap_To_Continue
+    Value: "\uB20C\uB7EC\uC11C \uACC4\uC18D\uD558\uAE30"
+  - Key: Guide_CloverTreasure
+    Value: "\uD074\uB85C\uBC84\uB97C \uBAA8\uC544\uC11C \uD074\uB85C\uBC84 \uCC3E\uAE30
+      \uC774\uBCA4\uD2B8 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_SakuraTreasure
+    Value: "\uBC9A\uAF43\uC744 \uBAA8\uC544\uC11C \uBC9A\uAF43 \uCC3E\uAE30 \uC774\uBCA4\uD2B8
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_FireworkTreasure
+    Value: "\uD3ED\uC8FD\uC744 \uBAA8\uC544\uC11C \uD3ED\uC8FD \uCC3E\uAE30 \uC774\uBCA4\uD2B8
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_SweetTreasure
+    Value: "\uC544\uC774\uC2A4\uD06C\uB9BC\uC744 \uBAA8\uC544\uC11C \uC544\uC774\uC2A4\uD06C\uB9BC
+      \uCC3E\uAE30 \uC774\uBCA4\uD2B8 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_RainbowTreasure
+    Value: "\uBB34\uC9C0\uAC1C \uBC14\uB78C\uAC1C\uBE44\uB97C \uBAA8\uC544\uC11C
+      \uBB34\uC9C0\uAC1C \uCC3E\uAE30 \uC774\uBCA4\uD2B8 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_SunnyTreasure
+    Value: "\uBC00\uC9DA\uBAA8\uC790\uB97C \uBAA8\uC544\uC11C \uBC00\uC9DA\uBAA8\uC790
+      \uCC3E\uAE30 \uC774\uBCA4\uD2B8 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_MagicTreasure
+    Value: "\uB9C8\uBC95\uC0AC \uBAA8\uC790\uB97C \uBAA8\uC544\uC11C \uB9C8\uBC95
+      \uCC3E\uAE30 \uC774\uBCA4\uD2B8 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_HalloweenTreasure
+    Value: "\uC7AD\uC624\uB79C\uD134\uC744 \uBAA8\uC544\uC11C \uD57C\uB7EC\uC708
+      \uBCF4\uBB3C\uCC3E\uAE30 \uC774\uBCA4\uD2B8 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_ThanksTreasure
+    Value: "\uCE60\uBA74\uC870\uB97C \uBAA8\uC544 \uCE60\uBA74\uC870 \uBCF4\uBB3C\uB85C\uBD80\uD130
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_ChristmasTreasure
+    Value: "\uC885\uC744 \uBAA8\uC544 \uC0B0\uD0C0\uC758 \uBCF4\uBB3C\uC5D0\uC11C
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Guide_RechargeBooster_1
+    Value: "\uB9E4\uCE6D\uC744 \uACC4\uC18D\uD558\uACE0 \uC774 \uBD80\uC2A4\uD130\uB97C
+      \uCDA9\uC804\uD558\uC138\uC694!"
+  - Key: Guide_RechargeBooster_2
+    Value: "\uBD80\uC2A4\uD130\uAC00 \uC900\uBE44\uB418\uC5C8\uC2B5\uB2C8\uB2E4!
+      \uC0AC\uC6A9\uD574\uBCF4\uC138\uC694!"
+  - Key: Guide_UseBooster
+    Value: 
+  - Key: BannerTip_Magnifier
+    Value: "\uB3CB\uBCF4\uAE30\uB97C \uC0AC\uC6A9\uD558\uB824\uBA74 \uC544\uC774\uD15C
+      \uACF5\uAC04\uC744 \uD655\uBCF4\uD558\uC138\uC694!"
+  - Key: BannerTip_Freeze
+    Value: "\uC774\uBBF8 \uC2DC\uAC04\uC774 \uBA48\uCDC4\uC2B5\uB2C8\uB2E4!"
+  - Key: BannerTip_Undo
+    Value: "\uB418\uB3CC\uB9B4 \uC544\uC774\uD15C\uC774 \uC5C6\uC2B5\uB2C8\uB2E4!"
+  - Key: BannerTip_FullLife
+    Value: "\uD558\uD2B8\uAC00 \uAC00\uB4DD \uCC3C\uC5B4\uC694!"
+  - Key: Lobby_LevelEntrance_Hard
+    Value: "\uC5B4\uB824\uC6B4 \uB808\uBCA8"
+  - Key: Lobby_StarChest
+    Value: "\uBCC4 \uC0C1\uC790"
+  - Key: Lobby_LevelChest
+    Value: "\uB808\uBCA8 \uC0C1\uC790"
+  - Key: TermsNotice_Title
+    Value: "\uC911\uC694"
+  - Key: TermsNotice_Description
+    Value: "\uD655\uC778\uC744 \uB204\uB974\uBA74 \uC774\uC6A9 \uC57D\uAD00\uACFC
+      \uAC1C\uC778\uC815\uBCF4\uBCF4\uD638\uC815\uCC45\uC5D0 \uB3D9\uC758\uD569\uB2C8\uB2E4."
+  - Key: TermsNotice_TermsOfService
+    Value: "\uC774\uC6A9 \uC57D\uAD00"
+  - Key: TermsNotice_OK
+    Value: "\uD655\uC778"
+  - Key: QuitGameNotice_Title
+    Value: "\uAC8C\uC784 \uB098\uAC00\uAE30"
+  - Key: QuitGameNotice_Description
+    Value: "\uAC8C\uC784\uC744 \uB098\uAC00\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+  - Key: QuitGameNotice_Resume
+    Value: "\uC774\uC5B4\uD558\uAE30"
+  - Key: QuitGameNotice_Quit
+    Value: "\uB098\uAC00\uAE30"
+  - Key: CloverTreasure_Title
+    Value: "\uD074\uB85C\uBC84 \uCC3E\uAE30"
+  - Key: CloverTreasure_Start_Description
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uD074\uB85C\uBC84\uB97C \uCC3E\uC544 \uBA4B\uC9C4
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: CloverTreasure_Locked_Tips
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uD074\uB85C\uBC84\uB97C \uB354 \uBAA8\uC544\uC11C
+      \uBCF4\uC0C1\uC744 \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: SakuraTreasure_Title
+    Value: "\uBC9A\uAF43 \uCC3E\uAE30"
+  - Key: SakuraTreasure_Start_Description
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uBC9A\uAF43\uC744 \uCC3E\uC544 \uBA4B\uC9C4
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: SakuraTreasure_Locked_Tips
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uBC9A\uAF43\uC744 \uB354 \uBAA8\uC544\uC11C
+      \uBCF4\uC0C1\uC744 \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: FireworkTreasure_Title
+    Value: "\uD3ED\uC8FD \uCC3E\uAE30"
+  - Key: FireworkTreasure_Start_Description
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uD3ED\uC8FD\uC744 \uCC3E\uC544 \uBA4B\uC9C4
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: FireworkTreasure_Locked_Tips
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uD3ED\uC8FD\uC744 \uB354 \uBAA8\uC544\uC11C
+      \uBCF4\uC0C1\uC744 \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: SweetTreasure_Title
+    Value: "\uC544\uC774\uC2A4\uD06C\uB9BC \uCC3E\uAE30"
+  - Key: SweetTreasure_Start_Description
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uC544\uC774\uC2A4\uD06C\uB9BC\uC744 \uCC3E\uC544
+      \uBA4B\uC9C4 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: SweetTreasure_Locked_Tips
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uC544\uC774\uC2A4\uD06C\uB9BC\uC744 \uB354
+      \uBAA8\uC544\uC11C \uBCF4\uC0C1\uC744 \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: RainbowTreasure_Title
+    Value: "\uBB34\uC9C0\uAC1C \uCC3E\uAE30"
+  - Key: RainbowTreasure_Start_Description
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uBB34\uC9C0\uAC1C \uBC14\uB78C\uAC1C\uBE44\uB97C
+      \uCC3E\uC544 \uBA4B\uC9C4 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: RainbowTreasure_Locked_Tips
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uBB34\uC9C0\uAC1C \uBC14\uB78C\uAC1C\uBE44\uB97C
+      \uB354 \uBAA8\uC544\uC11C \uBCF4\uC0C1\uC744 \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: SunnyTreasure_Title
+    Value: "\uBC00\uC9DA\uBAA8\uC790 \uCC3E\uAE30"
+  - Key: SunnyTreasure_Start_Description
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uBC00\uC9DA\uBAA8\uC790\uB97C \uCC3E\uC544
+      \uBA4B\uC9C4 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: SunnyTreasure_Locked_Tips
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uBC00\uC9DA\uBAA8\uC790\uB97C \uB354 \uBAA8\uC544\uC11C
+      \uBCF4\uC0C1\uC744 \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: MagicTreasure_Title
+    Value: "\uB9C8\uBC95 \uCC3E\uAE30"
+  - Key: MagicTreasure_Start_Description
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uB9C8\uBC95\uC0AC \uBAA8\uC790\uB97C \uCC3E\uC544
+      \uBA4B\uC9C4 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: MagicTreasure_Locked_Tips
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uB9C8\uBC95\uC0AC \uBAA8\uC790\uB97C \uB354
+      \uBAA8\uC544\uC11C \uBCF4\uC0C1\uC744 \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: CloverTreasure_End
+    Value: "\uB05D"
+  - Key: HalloweenTreasure_Title
+    Value: "\uD57C\uB7EC\uC708 \uBCF4\uBB3C\uCC3E\uAE30"
+  - Key: HalloweenTreasure_Start_Description
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uC7AD\uC624\uB79C\uD134\uC744 \uCC3E\uC544
+      \uBA4B\uC9C4 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: HalloweenTreasure_Locked_Tips
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uC7AD\uC624\uB79C\uD134\uC744 \uB354 \uBAA8\uC544\uC11C
+      \uBCF4\uC0C1\uC744 \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: ThanksTreasure_Title
+    Value: "\uCE60\uBA74\uC870 \uBCF4\uBB3C"
+  - Key: ThanksTreasure_Start_Description
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uCE60\uBA74\uC870\uB97C \uCC3E\uC544 \uBA4B\uC9C4
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: ThanksTreasure_Locked_Tips
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uCE60\uBA74\uC870\uB97C \uB354 \uBAA8\uC544\uC11C
+      \uBCF4\uC0C1\uC744 \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: ChristmasTreasure_Title
+    Value: "\uC0B0\uD0C0\uC758 \uBCF4\uBB3C"
+  - Key: ChristmasTreasure_Start_Description
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uC885\uC744 \uCC3E\uC544 \uB180\uB77C\uC6B4
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: ChristmasTreasure_Locked_Tips
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uC885\uC744 \uB354 \uBAA8\uC544\uC11C \uBCF4\uC0C1\uC744
+      \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: CommonReward_Title
+    Value: "\uCD95\uD558\uD569\uB2C8\uB2E4!"
+  - Key: StarterPack_Title
+    Value: "\uC2A4\uD0C0\uD130 \uD329!"
+  - Key: StarterPack_Subtitle
+    Value: "\uCCAB \uAD6C\uB9E4 \uC2DC\uC5D0\uB9CC!"
+  - Key: Piggy_Title
+    Value: "\uB3FC\uC9C0 \uC800\uAE08\uD1B5"
+  - Key: Piggy_MorePercentage
+    Value: "{0}\n\uC774\uC0C1!"
+  - Key: Piggy_Max
+    Value: "\uAC00\uB4DD \uCC38"
+  - Key: Piggy_Des_1
+    Value: "\uB808\uBCA8\uC744 \uAE68\uACE0 \uCF54\uC778\uC744 \uC800\uAE08\uD558\uC138\uC694!"
+  - Key: Piggy_Des_2
+    Value: "\uC9C0\uAE08 \uAC00\uB974\uC138\uC694!"
+  - Key: Piggy_BuyBtn
+    Value: "\uAC00\uB974\uACE0 {0} \uBC8C\uAE30"
+  - Key: Piggy_BreakDes
+    Value: "\uB20C\uB7EC\uC11C \uAE68\uC138\uC694!"
+  - Key: Piggy_RewardTitle
+    Value: "\uC800\uAE08\uD55C \uB3C8"
+  - Key: Piggy_RewardBtn
+    Value: "\uBC1B\uAE30"
+  - Key: RateUs_Title
+    Value: "\uC7AC\uBBF8\uC788\uAC8C \uC990\uAE30\uC168\uB098\uC694?"
+  - Key: RateUs_Description
+    Value: "\uBCC4\uC810 5\uC810\uC73C\uB85C \uC560\uC815\uC744 \uBCF4\uC5EC\uC8FC\uC138\uC694!"
+  - Key: RateUs_Btn
+    Value: "\uD3C9\uAC00\uD558\uAE30!"
+  - Key: MatchRace_You
+    Value: "\uB098"
+  - Key: MatchRace_Player
+    Value: 'Player
+
+      {0}'
+  - Key: MatchRace_Status_1
+    Value: "\uB2E4\uB978 \uD50C\uB808\uC774\uC5B4\uBCF4\uB2E4 \uBA3C\uC800 \uB808\uBCA8
+      {0}\uAC1C\uB97C \uAE68\uACE0 \uC5C4\uCCAD\uB09C \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: MatchRace_Status_2
+    Value: "\uACBD\uC8FC\uC5D0\uC11C \uC2B9\uB9AC\uD558\uC9C0 \uBABB\uD588\uC2B5\uB2C8\uB2E4!"
+  - Key: MatchRace_Status_3
+    Value: "1\uB4F1\uC73C\uB85C \uC644\uC8FC\uD558\uC5EC \uBCF4\uC0C1\uC744 \uBC1B\uC558\uC2B5\uB2C8\uB2E4!"
+  - Key: MatchRace_Status_4
+    Value: "2\uB4F1\uC73C\uB85C \uC644\uC8FC\uD558\uC5EC \uBCF4\uC0C1\uC744 \uBC1B\uC558\uC2B5\uB2C8\uB2E4!"
+  - Key: MatchRace_Status_5
+    Value: "3\uB4F1\uC73C\uB85C \uC644\uC8FC\uD558\uC5EC \uBCF4\uC0C1\uC744 \uBC1B\uC558\uC2B5\uB2C8\uB2E4!"
+  - Key: MatchRace_Title
+    Value: "\uB85C\uCF13 \uACBD\uC8FC"
+  - Key: MatchRace_Start
+    Value: "\uC2DC\uC791"
+  - Key: BonusLevel_LevelID
+    Value: "\uBCF4\uB108\uC2A4 \uB808\uBCA8"
+  - Key: BonusLevel_LevelDescription
+    Value: "\uBCF4\uB108\uC2A4 \uB808\uBCA8\uC5D0\uB294 \uACF5\uAC04 \uBC0F \uC2DC\uAC04
+      \uBD80\uC871 \uD398\uB110\uD2F0\uAC00 \uC5C6\uC2B5\uB2C8\uB2E4!"
+  - Key: BonusLevel_EntryDescription
+    Value: "\uB9E4\uCE58\uB97C \uC644\uC131\uD560 \uB54C\uB9C8\uB2E4 \uCF54\uC778\uC774
+      \uB5A8\uC5B4\uC9D1\uB2C8\uB2E4!"
+  - Key: RocketTreasure_Title
+    Value: "\uB85C\uCF13 \uBCF4\uBB3C"
+  - Key: RocketTreasure_Subtitle
+    Value: "\uAC01 \uD61C\uD0DD\uC744 \uBC1B\uACE0 \uBB34\uB8CC \uBCF4\uC0C1\uC744
+      \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: RocketTreasure_FreeBtn
+    Value: "\uBB34\uB8CC"
+  - Key: RocketTreasure_ClaimBtn
+    Value: "\uBC1B\uAE30"
+  - Key: RocketTreasure_BannerTip
+    Value: "\uC774 \uBCF4\uC0C1\uC744 \uD574\uC81C\uD558\uB824\uBA74 \uC774\uC804
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: LobbyNav_Home
+    Value: "\uD648"
+  - Key: LeaderBoard_Title
+    Value: "\uC21C\uC704\uD45C"
+  - Key: LeaderBoard_Weekly
+    Value: "\uC8FC\uAC04"
+  - Key: LeaderBoard_Teams
+    Value: "\uD300"
+  - Key: LeaderBoard_Players
+    Value: "\uD50C\uB808\uC774\uC5B4"
+  - Key: LeaderBoard_Global
+    Value: "\uC804 \uC138\uACC4"
+  - Key: LeaderBoard_Local
+    Value: "\uC9C0\uC5ED"
+  - Key: LeaderBoard_Check_Internet
+    Value: "\uC778\uD130\uB137 \uC5F0\uACB0\uC744 \uD655\uC778\uD558\uC138\uC694"
+  - Key: LeaderBoard_Connectting
+    Value: "\uC5F0\uACB0 \uC911..."
+  - Key: LeaderBoard_Weekly_Finished
+    Value: "\uC774\uBC88 \uC8FC \uB300\uD68C\uAC00 \uC885\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4!"
+  - Key: LeaderBoard_Weekly_Next
+    Value: "\uB2E4\uC74C \uB300\uD68C \uC2DC\uC791\uAE4C\uC9C0 {0}"
+  - Key: LeaderBoard_Weekly_Locked
+    Value: "\uB808\uBCA8 {0}\uC5D0\uC11C \uD574\uC81C"
+  - Key: LeaderBoard_Weekly_Score
+    Value: "\uC810\uC218: {0}"
+  - Key: LeaderBoard_Weekly_Score1
+    Value: "\uC810\uC218"
+  - Key: LeaderBoard_Weekly_Level
+    Value: "\uB808\uBCA8"
+  - Key: LeaderBoard_Naming_Interval_Tip
+    Value: "\uC774\uB984\uC740 \uC77C\uC8FC\uC77C\uC5D0 \uD55C \uBC88\uB9CC \uBCC0\uACBD\uD560
+      \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+  - Key: LeaderBoard_Naming_Save
+    Value: "\uC800\uC7A5"
+  - Key: LeaderBoard_Naming_Title
+    Value: "\uC774\uB984 \uBCC0\uACBD"
+  - Key: LeaderBoard_Weekly_Btn_Finished
+    Value: "\uC885\uB8CC"
+  - Key: LeaderBoard_Weekly_Start_Title
+    Value: "\uC8FC\uAC04\uB300\uD68C"
+  - Key: LeaderBoard_Weekly_Reward_Title
+    Value: "\uC8FC\uAC04 \uB300\uD68C \uBCF4\uC0C1!"
+  - Key: LeaderBoard_Weekly_Btn_Start
+    Value: "\uC2DC\uC791"
+  - Key: LeaderBoard_Weekly_Sart_Desc
+    Value: "\uC77C\uC8FC\uC77C \uB3D9\uC548 \uB2E4\uB978 \uD50C\uB808\uC774\uC5B4\uC640
+      \uACBD\uC7C1\uD558\uC5EC \uBA4B\uC9C4 \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: LeaderBoard_SetName_Invalid_Word
+    Value: "\uC798\uBABB\uB41C \uC774\uB984\uC785\uB2C8\uB2E4!"
+  - Key: LeaderBoard_SetName_DefaultName
+    Value: "\uC774\uB984\uC744 \uC785\uB825\uD558\uC138\uC694..."
+  - Key: LeaderBoard_FAQ1
+    Value: "\uB808\uBCA8 \uAE68\uAE30"
+  - Key: LeaderBoard_FAQ2
+    Value: "\uB300\uD68C \uC6B0\uC2B9"
+  - Key: LeaderBoard_FAQ3
+    Value: "\uBCF4\uC0C1 \uD68D\uB4DD!"
+  - Key: LeaderBoard_Weekly_Claim
+    Value: "\uBC1B\uAE30"
+  - Key: LeaderBoard_Weekly_Continue
+    Value: "\uACC4\uC18D\uD558\uB2E4"
+  - Key: DailySale_Tag_1
+    Value: 40%
+  - Key: DailySale_Tag_2
+    Value: 45%
+  - Key: DailySale_Tag_3
+    Value: 50%
+  - Key: DailySale_Tag_4
+    Value: 55%
+  - Key: DailySale_Tag_5
+    Value: 60%
+  - Key: DailySale_Tag_Off_Shop
+    Value: '{0} OFF'
+  - Key: DailySale_Tag_Off
+    Value: '{0}
+
+      OFF'
+  - Key: DailySale_Title_1
+    Value: "\uB9CC\uAC1C\uD55C"
+  - Key: DailySale_Title_2
+    Value: "\uD61C\uD0DD"
+  - Key: DailySale_Tag_6
+    Value: 65%
+  - Key: DailySale_Tag_7
+    Value: 70%
+  - Key: DailySale_Tag_8
+    Value: 75%
+  - Key: DailySale_Tag_9
+    Value: 80%
+  - Key: DailySale_Shop_Title
+    Value: "\uB9CC\uAC1C\uD55C \uD61C\uD0DD"
+  - Key: Team_CreateTeam_InvalidDes
+    Value: "\uC62C\uBC14\uB974\uC9C0 \uC54A\uC740 \uC124\uBA85\uC785\uB2C8\uB2E4!"
+  - Key: Team_CreateTeam_NoName
+    Value: "\uD300 \uC774\uB984\uC744 \uB9CC\uB4E4\uC5B4\uC57C \uD569\uB2C8\uB2E4"
+  - Key: Team_CreateTeam_InvalidNameLength
+    Value: "\uD300 \uC774\uB984\uC740 3~12\uC790\uC774\uC5B4\uC57C \uD569\uB2C8\uB2E4!"
+  - Key: Team_CreateTeam_InvalidNumber
+    Value: "\uC694\uAD6C \uB808\uBCA8\uC740 \uC22B\uC790\uC5EC\uC57C \uD569\uB2C8\uB2E4!"
+  - Key: Team_NaviName
+    Value: "\uD300"
+  - Key: Team_RecommendTeam_Tab
+    Value: "\uD300"
+  - Key: Team_RecommendTeam_TopDes
+    Value: "\uD300\uC5D0 \uAC00\uC785\uD558\uACE0 \uBB34\uB8CC \uD558\uD2B8\uB97C
+      \uC5BB\uC73C\uC138\uC694!"
+  - Key: Team_RecommendTeam_Join
+    Value: "\uAC00\uC785"
+  - Key: Team_Info_Member
+    Value: "\uBA64\uBC84:"
+  - Key: Team_RecommendTeam_Member
+    Value: "\uBA64\uBC84"
+  - Key: Team_RecommendTeam_View
+    Value: "\uD300 \uBCF4\uAE30"
+  - Key: Team_TeamInfo_Title
+    Value: "\uD300 \uC815\uBCF4"
+  - Key: Team_TeamInfo_Score
+    Value: "\uD300 \uC810\uC218:"
+  - Key: Team_TeamInfo_Leader
+    Value: "\uB9AC\uB354"
+  - Key: Team_CreateTeam_Create
+    Value: "\uB9CC\uB4E4\uAE30"
+  - Key: Team_CreateTeam_ChooseLogo
+    Value: 
+  - Key: Team_SearchTeam_Tab
+    Value: "\uAC80\uC0C9"
+  - Key: Team_Search_Default
+    Value: 
+  - Key: Team_CreateTeam_TeamLogo
+    Value: 
+  - Key: Team_CreateTeam_TopDes
+    Value: "\uD300\uC744 \uB9CC\uB4E4\uACE0 \uB9AC\uB354\uAC00 \uB418\uC138\uC694!"
+  - Key: Team_CreateTeam_Name
+    Value: "\uD300 \uC774\uB984:"
+  - Key: Team_Search_TeamName_Default
+    Value: 
+  - Key: Team_CreateTeam_Name_DefaultInput
+    Value: "\uC774\uB984\uC744 \uC785\uB825\uD558\uC138\uC694..."
+  - Key: Team_CreateTeam_Badge
+    Value: "\uD300 \uBC30\uC9C0:"
+  - Key: Team_CreateTeam_Edit
+    Value: "\uC218\uC815"
+  - Key: Team_CreateTeam_Des
+    Value: "\uC124\uBA85:"
+  - Key: Team_CreateTeam_Des_DefaultInput
+    Value: "\uC124\uBA85\uC744 \uC785\uB825\uD558\uC138\uC694..."
+  - Key: Team_CreateTeam_Level
+    Value: "\uC694\uAD6C \uB808\uBCA8:"
+  - Key: Team_Edit_Save
+    Value: 
+  - Key: Team_CreateTeam_EditBadge_Title
+    Value: "\uBC30\uC9C0 \uC218\uC815"
+  - Key: Team_CreateTeam_InvalidLevel
+    Value: "\uD300 \uAC00\uC785\uC744 \uC704\uD55C \uC694\uAD6C \uB808\uBCA8\uC740
+      \uB0B4 \uD604\uC7AC \uB808\uBCA8\uBCF4\uB2E4 \uB192\uC744 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4!"
+  - Key: Team_CreateTeam_NameExists
+    Value: "\uC774\uBBF8 \uC874\uC7AC\uD558\uB294 \uD300 \uC774\uB984\uC785\uB2C8\uB2E4.
+      \uB2E4\uB978 \uC774\uB984\uC744 \uC120\uD0DD\uD574 \uC8FC\uC138\uC694!"
+  - Key: Team_Edit_MemberInvalidLevel
+    Value: "\uC694\uAD6C \uB808\uBCA8\uC740 \uAC00\uC7A5 \uB0AE\uC740 \uD300 \uBA64\uBC84
+      \uB808\uBCA8\uBCF4\uB2E4 \uB192\uC744 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4!"
+  - Key: Team_RequestLife_Full
+    Value: "\uD558\uD2B8\uAC00 \uAC00\uB4DD \uCC3C\uC5B4\uC694!"
+  - Key: Team_RequestLife_CoolDown
+    Value: "\uC774\uBBF8 \uC694\uCCAD\uC744 \uD588\uC2B5\uB2C8\uB2E4!"
+  - Key: Team_KickMember_Btn
+    Value: "\uB0B4\uBCF4\uB0B4\uAE30"
+  - Key: Team_KickMember_Title
+    Value: "\uBA64\uBC84 \uB0B4\uBCF4\uB0B4\uAE30"
+  - Key: Team_KickMember_Des
+    Value: "\uC774 \uBA64\uBC84\uB97C \uB0B4\uBCF4\uB0B4\uC2DC\uACA0\uC5B4\uC694?"
+  - Key: Team_KickMember_Yes
+    Value: "\uC608"
+  - Key: Team_KickMember_AlreadyLeave
+    Value: "\uC774 \uAD6C\uC131\uC6D0\uC740 \uC774\uBBF8 \uB2F9\uC2E0\uC758 \uD300\uC744
+      \uB5A0\uB0AC\uC2B5\uB2C8\uB2E4!"
+  - Key: Team_KickMember_No
+    Value: "\uC544\uB2C8\uC624"
+  - Key: Team_LeaveTeam_Title
+    Value: "\uD300 \uB098\uAC00\uAE30"
+  - Key: Team_LeaveTeam_Des
+    Value: "\uD300\uC744 \uB098\uAC00\uC2DC\uACA0\uC5B4\uC694?"
+  - Key: Team_LeaveTeam_Leave
+    Value: "\uB098\uAC00\uAE30"
+  - Key: Team_JoinTeam_TeamNotExists
+    Value: "\uC874\uC7AC\uD558\uC9C0 \uC54A\uB294 \uD300\uC785\uB2C8\uB2E4!"
+  - Key: Team_JoinTeam_Full
+    Value: "\uC815\uC6D0\uC774 \uCC2C \uD300\uC785\uB2C8\uB2E4!"
+  - Key: Team_JoinTeam_NotEnoughLevel
+    Value: "\uD604\uC7AC \uB808\uBCA8\uC774 \uC694\uAD6C\uC0AC\uD56D\uC5D0 \uBBF8\uCE58\uC9C0
+      \uBABB\uD569\uB2C8\uB2E4!"
+  - Key: Team_Join_Refresh
+    Value: 
+  - Key: Team_SearchTeam_NoMatchTeam
+    Value: 
+  - Key: Team_Capacity
+    Value: 
+  - Key: Team_Free_Life
+    Value: "\uBB34\uB8CC \uD558\uD2B8"
+  - Key: Team_RequestLift_MaxOut
+    Value: 
+  - Key: Team_Send_You_Life
+    Value: "\uD558\uD2B8\uB97C \uBC1B\uC558\uC2B5\uB2C8\uB2E4!"
+  - Key: Team_Life_Btn_View
+    Value: "\uBDF0"
+  - Key: Team_Ask_For_Live
+    Value: "{0}\uB2D8\uC774 \uC0DD\uBA85\uC744 \uC694\uCCAD\uD588\uC2B5\uB2C8\uB2E4!"
+  - Key: Team_Life_Received
+    Value: 
+  - Key: Team_SendLife_ReachLimit
+    Value: "\uC774\uBBF8 \uC774 \uBA64\uBC84\uC5D0\uAC8C \uD558\uD2B8\uB97C \uBCF4\uB0C8\uC2B5\uB2C8\uB2E4!"
+  - Key: Team_Message_System_Join
+    Value: "{0}\uB2D8\uC774 \uD300\uC5D0 \uAC00\uC785\uD588\uC2B5\uB2C8\uB2E4!"
+  - Key: Team_Message_System_Exit
+    Value: "{0}\uB2D8\uC774 \uD300\uC744 \uB098\uAC14\uC2B5\uB2C8\uB2E4."
+  - Key: Team_Message_System_Kick
+    Value: "{0}\uB2D8\uC774 \uD300\uC5D0\uC11C \uB0B4\uBCF4\uB0B4\uC84C\uC2B5\uB2C8\uB2E4."
+  - Key: Team_Message_System_Promote
+    Value: "{0}\uB2D8\uC774 \uC0C8\uB85C\uC6B4 \uD300 \uB9AC\uB354\uAC00 \uB418\uC5C8\uC2B5\uB2C8\uB2E4!"
+  - Key: Team_Btn_Chat
+    Value: "\uCC44\uD305"
+  - Key: Team_Btn_Request
+    Value: "\uC694\uCCAD"
+  - Key: Team_Last_Active
+    Value: "\uB9C8\uC9C0\uB9C9 \uD65C\uB3D9: {0}"
+  - Key: Team_Message_Time_Ago
+    Value: "{0} \uC804"
+  - Key: Team_Switch_Team_Title
+    Value: "\uD300 \uBCC0\uACBD"
+  - Key: Team_Switch_Team_Title1
+    Value: "\uB098\uAC00\uB824\uB294 \uD604\uC7AC \uD300:"
+  - Key: Team_Switch_Team_Title2
+    Value: "\uAC00\uC785\uD558\uB824\uB294 \uC0C8\uB85C\uC6B4 \uD300:"
+  - Key: Home_Live_Tab
+    Value: "\uD558\uD2B8"
+  - Key: Team_Help_Btn
+    Value: "\uB3C4\uC6C0"
+  - Key: Live_Btn_Add
+    Value: "\uCD94\uAC00\uD558\uB2E4"
+  - Key: Team_Btn_Request_In
+    Value: "\uC694\uCCAD:"
+  - Key: InfinityBundle_Title_1
+    Value: "\uBB34\uD55C"
+  - Key: InfinityBundle_Title_2
+    Value: "\uBC88\uB4E4"
+  - Key: InfinityBundle_SubTitle
+    Value: "\uD558\uB098\uC758 \uBC88\uB4E4\uB85C \uBB34\uC81C\uD55C \uD50C\uB808\uC774"
+  - Key: LootAdventure_Title
+    Value: "\uD574\uC801"
+  - Key: LootAdventure_Title_2
+    Value: "\uC804\uB9AC\uD488"
+  - Key: LootAdventure_Subtitle_1
+    Value: 
+  - Key: LootAdventure_Subtitle_2
+    Value: "\uC218\uC9D1 \uD6C4 \uCD9C\uD56D, \uC804\uB9AC\uD488 \uC218\uC9D1!"
+  - Key: LootAdventure_Subtitle_3
+    Value: "\uD6CC\uB96D\uD569\uB2C8\uB2E4, \uC120\uC7A5\uB2D8!"
+  - Key: LootAdventure_LootTitle_1
+    Value: "\uBA4B\uC9C4 \uC804\uB9AC\uD488!"
+  - Key: LootAdventure_LootTitle_2
+    Value: "\uBCF4\uB108\uC2A4 \uC804\uB9AC\uD488!"
+  - Key: EditProfile_Title
+    Value: "\uD504\uB85C\uD544 \uD3B8\uC9D1"
+  - Key: EditProfile_Save_Btn
+    Value: "\uC800\uC7A5"
+  - Key: IslandExpedition_Title
+    Value: "\uC12C \uC6D0\uC815"
+  - Key: IslandExpedition_Board_Start1
+    Value: "\uC12C \uC6D0\uC815 \uC774\uBCA4\uD2B8\uAC00 \uC2DC\uC791\uB418\uC5C8\uC2B5\uB2C8\uB2E4!"
+  - Key: IslandExpedition_Board_Start2
+    Value: "10\uAC1C\uC758 \uB808\uBCA8\uC744 \uD1B5\uACFC\uD558\uC5EC \uB3C4\uC804\uC744
+      \uC644\uB8CC\uD558\uC138\uC694!"
+  - Key: IslandExpedition_Start_Btn
+    Value: "\uC2DC\uC791"
+  - Key: IslandExpedition_Prize
+    Value: "\uCD5C\uC885 \uBCF4\uC0C1!"
+  - Key: IslandExpedition_Match
+    Value: "\uAC19\uC740 \uB808\uBCA8\uC758 \uD50C\uB808\uC774\uC5B4 \uCC3E\uB294
+      \uC911"
+  - Key: IslandExpedition_Continue
+    Value: "\uB20C\uB7EC\uC11C \uACC4\uC18D\uD558\uAE30"
+  - Key: IslandExpedition_Explain1
+    Value: "10\uAC1C\uC758 \uB808\uBCA8\uC744 \uD1B5\uACFC\uD558\uC5EC \uC774\uBCA4\uD2B8\uB97C
+      \uC644\uB8CC\uD558\uC138\uC694!"
+  - Key: IslandExpedition_Levels
+    Value: "\uB0A8\uC740 \uB808\uBCA8"
+  - Key: IslandExpedition_Players
+    Value: "\uB0A8\uC740 \uD50C\uB808\uC774\uC5B4"
+  - Key: IslandExpedition_Explain2
+    Value: "\uCD95\uD558\uD569\uB2C8\uB2E4! \uB2E4\uC74C \uB808\uBCA8\uB85C \uC9C4\uCD9C\uD588\uC2B5\uB2C8\uB2E4!"
+  - Key: IslandExpedition_Explain3
+    Value: "{0}\uAC1C\uC758 \uB808\uBCA8\uC744 \uB354 \uD1B5\uACFC\uD558\uC5EC \uC774\uBCA4\uD2B8\uB97C
+      \uC644\uB8CC\uD558\uC138\uC694!"
+  - Key: IslandExpedition_Explain4
+    Value: "\uCD95\uD558\uD569\uB2C8\uB2E4! \uC774\uBCA4\uD2B8\uB97C \uC644\uB8CC\uD588\uC2B5\uB2C8\uB2E4!"
+  - Key: IslandExpedition_Win_Title
+    Value: "\uCD95\uD558\uD569\uB2C8\uB2E4!"
+  - Key: IslandExpedition_Fail
+    Value: "\uB3C4\uC804\uC5D0 \uC2E4\uD328\uD588\uC2B5\uB2C8\uB2E4. \uB2E4\uC74C\uC5D4
+      \uD589\uC6B4\uC774 \uC788\uAE38!"
+  - Key: IslandExpedition_Next_Round
+    Value: "\uB2E4\uC74C \uC12C \uC6D0\uC815 \uC2DC\uC791\uAE4C\uC9C0:"
+  - Key: IslandExpedition_Finish
+    Value: "\uC644\uB8CC"
+  - Key: IslandExpedition_Win1
+    Value: "\uD68D\uB4DD:"
+  - Key: IslandExpedition_Explain5
+    Value: "\uB2E4\uB978{0}\uBA85\uC758 \uC2B9\uC790\uC640 \uBCF4\uC0C1\uC744 \uB098\uB220
+      \uBC1B\uAC8C \uB429\uB2C8\uB2E4!"
+  - Key: IslandExpedition_Claim
+    Value: "\uB20C\uB7EC\uC11C \uBC1B\uAE30"
+  - Key: IslandExpedition_Notice
+    Value: "120\uBA85\uC758 \uD50C\uB808\uC774\uC5B4\uAC00 \uC774 \uB3C4\uC804\uC5D0
+      \uCC38\uC5EC\uD558\uACE0 \uC788\uC5B4\uC694!"
+  - Key: IslandExpedition_FAQ1
+    Value: "120\uBA85\uC758 \uD50C\uB808\uC774\uC5B4\uC640 \uD568\uAED8 \uC2DC\uC791\uD558\uC138\uC694!"
+  - Key: IslandExpedition_FAQ2
+    Value: "\uB808\uBCA8\uC744 \uD1B5\uACFC\uD558\uC138\uC694!"
+  - Key: IslandExpedition_FAQ3
+    Value: "\uCF54\uC778 1,000\uAC1C\uB97C \uB098\uB220 \uBC1B\uC73C\uC138\uC694!"
+  - Key: IslandExpedition_Bubble1
+    Value: "\uB808\uBCA8 \uD1B5\uACFC\uC5D0 \uC2E4\uD328\uD558\uBA74 \uC774\uBCA4\uD2B8\uB97C
+      \uC644\uB8CC\uD560 \uC218 \uC5C6\uC5B4\uC694!"
+  - Key: IslandExpedition_Bubble2
+    Value: "\uCD5C\uC885 \uBCF4\uC0C1\uC740 \uBAA8\uB4E0 \uC2B9\uC790\uC5D0\uAC8C
+      \uB3D9\uB4F1\uD558\uAC8C \uBD84\uBC30\uB429\uB2C8\uB2E4!"
+  - Key: IslandExpedition_Bubble3
+    Value: "\uD55C \uBC88\uC5D0 \uB808\uBCA8\uC744 \uD1B5\uACFC\uD558\uC5EC \uBCF4\uC0C1\uC744
+      \uD5A5\uD574 \uB098\uC544\uAC00\uC138\uC694!"
+  - Key: IslandExpedition_Bubble4
+    Value: "\uB0A8\uC740 \uD50C\uB808\uC774\uC5B4\uB294 {0}\uBA85\uC785\uB2C8\uB2E4!"
+  - Key: Labor_Sale_Title
+    Value: "\uB178\uB3D9\uC808 \uC138\uC77C!"
+  - Key: Purchase_Confirmation_Title
+    Value: "\uAD6C\uB9E4 \uD655\uC778"
+  - Key: Purchase_Confirmation_Text
+    Value: "\uCD95\uD558\uD569\uB2C8\uB2E4! \uACB0\uC81C\uAC00 \uC131\uACF5\uC801\uC73C\uB85C
+      \uC774\uB8E8\uC5B4\uC84C\uC2B5\uB2C8\uB2E4. \uAD6C\uB9E4\uD574 \uC8FC\uC154\uC11C
+      \uAC10\uC0AC\uD569\uB2C8\uB2E4!"
+  - Key: HarvestChallenge__Start
+    Value: "\uC544\uC774\uD15C\uC744 \uB20C\uB7EC\uC11C \uC2DC\uC791\uD558\uC138\uC694!"
+  - Key: HarvestChallenge__Tip
+    Value: "\uBAA8\uB4E0 \uBC14\uAD6C\uB2C8\uB97C \uCC44\uC6CC\uC11C \uC5C4\uCCAD\uB09C
+      \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: HarvestChallenge__First
+    Value: "\uC624\uB298\uC758 \uCCAB \uC2B9\uB9AC"
+  - Key: HarvestChallenge__Win
+    Value: "\uB3C4\uC804\uC744 \uC644\uB8CC\uD558\uC5EC \uBCF4\uC0C1\uC744 \uBC1B\uC558\uC2B5\uB2C8\uB2E4."
+  - Key: HarvestChallenge__Fail
+    Value: "\uB2E4\uC74C\uC5D4 \uD589\uC6B4\uC774 \uC788\uAE38. \uD574\uB0BC \uC218
+      \uC788\uC5B4\uC694!"
+  - Key: HarvestChallenge__Next
+    Value: "\uB0B4\uC77C \uB2E4\uC2DC \uB3CC\uC544\uC624\uC138\uC694!"
+  - Key: HarvestChallenge__Current
+    Value: "\uD604\uC7AC:"
+  - Key: HarvestChallenge__Title
+    Value: "\uC218\uD655 \uCC4C\uB9B0\uC9C0"
+  - Key: HarvestChallenge__Bundle
+    Value: "\uB18D\uC791\uBB3C \uBC88\uB4E4"
+  - Key: HarvestChallenge__Type1
+    Value: "\uACFC\uC77C"
+  - Key: HarvestChallenge__Type2
+    Value: "\uB3D9\uBB3C"
+  - Key: HarvestChallenge__Type3
+    Value: "\uC57C\uCC44"
+  - Key: HarvestChallenge__OK
+    Value: "\uD655\uC778"
+  - Key: HarvestChallenge__Oops
+    Value: "\uC5B4\uBA38"
+  - Key: HarvestChallenge__Go
+    Value: "\uD50C\uB808\uC774:"
+  - Key: HarvestChallenge__Add
+    Value: "\uCD94\uAC00\uD558\uAE30"
+  - Key: HarvestChallenge__Play
+    Value: "\uD50C\uB808\uC774"
+  - Key: HarvestChallenge__Replay
+    Value: "\uB2E4\uC2DC \uC2DC\uC791"
+  - Key: HarvestChallenge__Entrance
+    Value: "\uC218\uD655\uD558\uAE30"
+  - Key: HarvestChallenge__Prize
+    Value: "\uC0C1\uD488"
+  - Key: HarvestChallenge__Freetip
+    Value: "\uBB34\uB8CC\uB85C \uD50C\uB808\uC774\uD558\uAE30({0}/2)"
+  - Key: HarvestChallenge__Freshtip
+    Value: "*\uC0C8\uB85C\uACE0\uCE68 \uB300\uAE30 \uC2DC\uAC04: {0}"
+  - Key: Columbus_Title
+    Value: "\uCF5C\uB7FC\uBC84\uC2A4 \uB370\uC774 \uC138\uC77C!"
+  - Key: Balloon_Top1
+    Value: "\uB808\uBCA8\uC744 \uD1B5\uACFC\uD574 \uB0A0\uC544\uC624\uB974\uC138\uC694!"
+  - Key: Balloon_Top2
+    Value: "\uAF2D\uB300\uAE30\uC5D0 \uB3C4\uB2EC\uD588\uC2B5\uB2C8\uB2E4!"
+  - Key: Balloon_Top3
+    Value: "\uC774\uBCA4\uD2B8\uAC00 \uC885\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4!"
+  - Key: Balloon_Claim
+    Value: "\uBC1B\uAE30"
+  - Key: Balloon_Enter1
+    Value: "\uC5F4\uB9BC"
+  - Key: Balloon_Enter2
+    Value: "\uC644\uB8CC"
+  - Key: Balloon_Enter3
+    Value: "\uC885\uB8CC"
+  - Key: Balloon_FAQ1
+    Value: "\uB808\uBCA8\uC744 \uD1B5\uACFC\uD558\uC138\uC694!"
+  - Key: Balloon_FAQ2
+    Value: "Jerry\uC744(\uB97C) \uB744\uC6B0\uC138\uC694!"
+  - Key: Balloon_FAQ3
+    Value: "\uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694!"
+  - Key: Balloon_FAQ4
+    Value: "\uC2E4\uD328\uD560 \uB54C\uB9C8\uB2E4 \uD48D\uC120\uC774 \uD130\uC9D1\uB2C8\uB2E4!
+      \uB808\uBCA8\uC744 \uC2E4\uD328 \uC5C6\uC774 3\uBC88 \uD1B5\uACFC\uD558\uC5EC
+      \uACFC\uC81C\uB97C \uC644\uB8CC\uD558\uC138\uC694!"
+  - Key: Balloon_Name
+    Value: "\uD48D\uC120 \uBE44\uD589"
+  - Key: Balloon_Finish
+    Value: "\uC644\uB8CC"
+  - Key: Halloween_Sale_Title
+    Value: "\uC720\uB839 \uD329"
+  - Key: Christmas_Sale_Title
+    Value: "\uC9D5\uAE00 \uD329"
+  - Key: GhostHunt_Title
+    Value: "\uACE0\uC2A4\uD2B8 \uD5CC\uD2B8"
+  - Key: GhostHunt_Title_Christmas
+    Value: "\uBA54\uB9AC \uB9E4\uCE58"
+  - Key: GhostHunt_Tip1
+    Value: "\uD57C\uB7EC\uC708 \uC544\uC774\uD15C\uC744 \uB354 \uCC3E\uC544\uC11C
+      \uB2EC\uCF64\uD55C \uBCF4\uC0C1\uC73C\uB85C \uAD50\uD658\uD558\uC138\uC694!"
+  - Key: GhostHunt_Tip1_Christmas
+    Value: "\uD06C\uB9AC\uC2A4\uB9C8\uC2A4 \uC544\uC774\uD15C\uC744 \uB354 \uCC3E\uC544\uC11C
+      \uB2EC\uCF64\uD55C \uBCF4\uC0C1\uC73C\uB85C \uAD50\uD658\uD558\uC138\uC694!"
+  - Key: GhostHunt_Tip2
+    Value: "9\uAC00\uC9C0 \uBCF4\uC0C1\uC744 \uC804\uBD80 \uC218\uC9D1\uD558\uC5EC
+      \uCD5C\uC885 \uBCF4\uC0C1\uC744 \uC7A0\uAE08 \uD574\uC81C\uD558\uC138\uC694!"
+  - Key: GhostHunt_Tip3
+    Value: "\uACE0\uC2A4\uD2B8 \uD5CC\uD2B8 \uC774\uBCA4\uD2B8 \uC2DC\uC791!"
+  - Key: GhostHunt_Tip3_Christmas
+    Value: "\uBA54\uB9AC \uB9E4\uCE58 \uC774\uBCA4\uD2B8\uAC00 \uC2DC\uC791\uB418\uC5C8\uC5B4\uC694!"
+  - Key: GhostHunt_Tip4
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uD57C\uB7EC\uC708 \uC544\uC774\uD15C\uC744
+      \uBAA8\uC544 \uBA4B\uC9C4 \uBCF4\uC0C1\uC73C\uB85C \uAD50\uD658\uD558\uC138\uC694!"
+  - Key: GhostHunt_Tip4_Christmas
+    Value: "\uB808\uBCA8\uC5D0\uC11C \uD06C\uB9AC\uC2A4\uB9C8\uC2A4 \uC544\uC774\uD15C\uC744
+      \uBAA8\uC544 \uBA4B\uC9C4 \uBCF4\uC0C1\uC73C\uB85C \uAD50\uD658\uD558\uC138\uC694!"
+  - Key: GhostHunt_Reward
+    Value: "\uC774\uBCA4\uD2B8\uAC00 \uC885\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4!
+      \uBCF4\uC0C1\uC744 \uC218\uB839\uD558\uC138\uC694!"
+  - Key: GhostHunt_Faq1
+    Value: "\uD57C\uB7EC\uC708 \uC544\uC774\uD15C \uC218\uC9D1"
+  - Key: GhostHunt_Faq1_Christmas
+    Value: "\uD06C\uB9AC\uC2A4\uB9C8\uC2A4 \uC544\uC774\uD15C \uC218\uC9D1"
+  - Key: GhostHunt_Faq2
+    Value: "\uBCF4\uC0C1\uC73C\uB85C \uAD50\uD658"
+  - Key: GhostHunt_Faq3
+    Value: "\uCD5C\uC885 \uBCF4\uC0C1 \uC7A0\uAE08 \uD574\uC81C!"
+  - Key: GhostHunt_button1
+    Value: "\uB354 \uC5BB\uAE30!"
+  - Key: GhostHunt_button2
+    Value: "\uD574\uD53C \uD560\uB85C\uC708!"
+  - Key: GhostHunt_button2_Christmas
+    Value: "\uBA54\uB9AC \uD06C\uB9AC\uC2A4\uB9C8\uC2A4!"
+  - Key: GhostHunt_claimed
+    Value: "\uC218\uC9D1 \uC644\uB8CC"
+  - Key: GameUpdate_Title
+    Value: "\uC54C\uB9BC"
+  - Key: GameUpdate_Text1
+    Value: "\uACC4\uC18D \uD50C\uB808\uC774\uD558\uB824\uBA74 App Store\uC5D0\uC11C
+      \uBC84\uC804\uC744 \uC5C5\uB370\uC774\uD2B8\uD574\uC57C \uD569\uB2C8\uB2E4."
+  - Key: GameUpdate_Btn
+    Value: "\uC5C5\uB370\uC774\uD2B8"
+  - Key: GameUpdate_Later
+    Value: "\uD6C4\uC5D0"
+  - Key: BlackFriday_Title
+    Value: "\uC790\uC815\uC758 \uAD11\uB780!"
+  - Key: Delete_Text
+    Value: "\uACC4\uC815 \uC0AD\uC81C"
+  - Key: Delete_First_Title
+    Value: "\uACBD\uACE0"
+  - Key: Delete_First_Text
+    Value: "\uC0AD\uC81C \uD6C4 \uACC4\uC815\uC744 \uBCF5\uAD6C\uD560 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.\n\uC0AD\uC81C\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+  - Key: Delete_Cancel
+    Value: "\uCDE8\uC18C"
+  - Key: Delete_ConfirmDelete
+    Value: "\uC0AD\uC81C"
+  - Key: Delete_Second_Title
+    Value: "\uD655\uC2E4\uD569\uB2C8\uAE4C?"
+  - Key: Delete_Second_Text
+    Value: "\uC774 \uB3D9\uC791\uC740 \uB418\uB3CC\uB9B4 \uC218 \uC5C6\uC2B5\uB2C8\uB2E4.
+      \uC0AD\uC81C\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?\n\uACC4\uC815\uC744 \uC0AD\uC81C\uD558\uBA74
+      \uAC8C\uC784\uC744 \uB2E4\uC2DC \uC2DC\uC791\uD574\uC57C \uD569\uB2C8\uB2E4."
+  - Key: Delete_FailText
+    Value: "\uB124\uD2B8\uC6CC\uD06C \uC5F0\uACB0 \uC2E4\uD328!\n\uB2E4\uC2DC \uC2DC\uB3C4\uD574\uC8FC\uC138\uC694."
+  - Key: Come_Text
+    Value: "\uACE7 \uCD9C\uC2DC \uC608\uC815!"
+  - Key: Liveout_Text
+    Value: "\uBCF4\uC0C1\uC744 \uC218\uC9D1\uD558\uACE0 \uCD94\uAC00 \uD558\uD2B8\uB97C
+      \uCC3E\uC73C\uC138\uC694!"
+  - Key: FacebookGroup_Btn
+    Value: "\uD314\uB85C\uC6B0\uD558\uC138\uC694"
+  - Key: Level_End_Title1
+    Value: "\uD6CC\uB96D\uD574\uC694!"
+  - Key: Level_End_Title2
+    Value: "\uBA4B\uC838\uC694!"
+  - Key: Level_End_Title3
+    Value: "\uC644\uBCBD\uD574\uC694!"

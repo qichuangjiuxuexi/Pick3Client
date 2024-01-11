@@ -1,0 +1,223 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 124f1b10acb854bcaaec4cabeff862b8, type: 3}
+  m_Name: AnalyticsUserStepConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - log
+  - open_gdpr
+  - close_gdpr
+  - first_launch
+  - first_enter_level_1
+  - first_click_lv1_model_1
+  - first_click_lv1_model_2
+  - first_click_lv1_model_3
+  - first_click_lv1_model_4
+  - first_click_lv1_model_5
+  - first_click_lv1_model_6
+  - first_click_lv1_model_7
+  - first_click_lv1_model_8
+  - first_click_lv1_model_9
+  - first_pass_lv1_panel
+  - first_pass_lv1_click_btn
+  - first_enter_level_2
+  - first_click_lv2_model_1
+  - first_click_lv2_model_2
+  - first_click_lv2_model_5
+  - first_click_lv2_model_10
+  - first_pass_lv2_panel
+  - first_pass_lv2_click_btn
+  - first_enter_lobby
+  - first_click_lobby_start_btn
+  - first_click_start_btn
+  - first_enter_level_3
+  - first_use_undo
+  - first_pass_lv3_panel
+  - first_enter_level_4
+  - first_pass_lv4_panel
+  - first_enter_level_5
+  - first_use_magnifier
+  - first_pass_lv5_panel
+  - first_enter_level_6
+  - first_pass_lv6_panel
+  - first_enter_level_7
+  - first_use_bomb
+  - first_pass_lv7_panel
+  - first_enter_level_8
+  - first_pass_lv8_panel
+  - first_enter_level_9
+  - first_use_sandglass
+  - first_pass_lv9_panel
+  - first_enter_level_10
+  - first_pass_lv10_panel
+  - first_enter_level_11
+  - first_pass_lv11_panel
+  - first_enter_level_12
+  - first_click_clover
+  - first_pass_lv12_panel
+  - first_enter_level_13
+  - first_pass_lv13_panel
+  - first_enter_level_14
+  - first_pass_lv14_panel
+  - first_enter_bonus_level
+  - first_pass_bonus_panel
+  - first_enter_level_15
+  - first_pass_lv15_panel
+  - first_enter_level_16
+  - first_pass_lv16_panel
+  - first_enter_level_17
+  - first_pass_lv17_panel
+  - first_enter_level_18
+  - first_pass_lv18_panel
+  - first_enter_level_19
+  - first_pass_lv19_panel
+  - first_enter_level_20
+  - first_pass_lv20panel
+  values:
+  - step_name: log
+    step_id: 100
+  - step_name: open_gdpr
+    step_id: 200
+  - step_name: close_gdpr
+    step_id: 300
+  - step_name: first_launch
+    step_id: 400
+  - step_name: first_enter_level_1
+    step_id: 500
+  - step_name: first_click_lv1_model_1
+    step_id: 600
+  - step_name: first_click_lv1_model_2
+    step_id: 610
+  - step_name: first_click_lv1_model_3
+    step_id: 611
+  - step_name: first_click_lv1_model_4
+    step_id: 612
+  - step_name: first_click_lv1_model_5
+    step_id: 613
+  - step_name: first_click_lv1_model_6
+    step_id: 614
+  - step_name: first_click_lv1_model_7
+    step_id: 615
+  - step_name: first_click_lv1_model_8
+    step_id: 616
+  - step_name: first_click_lv1_model_9
+    step_id: 617
+  - step_name: first_pass_lv1_panel
+    step_id: 700
+  - step_name: first_pass_lv1_click_btn
+    step_id: 800
+  - step_name: first_enter_level_2
+    step_id: 900
+  - step_name: first_click_lv2_model_1
+    step_id: 1000
+  - step_name: first_click_lv2_model_2
+    step_id: 1010
+  - step_name: first_click_lv2_model_5
+    step_id: 1011
+  - step_name: first_click_lv2_model_10
+    step_id: 1012
+  - step_name: first_pass_lv2_panel
+    step_id: 1100
+  - step_name: first_pass_lv2_click_btn
+    step_id: 1200
+  - step_name: first_enter_lobby
+    step_id: 1300
+  - step_name: first_click_lobby_start_btn
+    step_id: 1400
+  - step_name: first_click_start_btn
+    step_id: 1500
+  - step_name: first_enter_level_3
+    step_id: 1600
+  - step_name: first_use_undo
+    step_id: 1700
+  - step_name: first_pass_lv3_panel
+    step_id: 1800
+  - step_name: first_enter_level_4
+    step_id: 1900
+  - step_name: first_pass_lv4_panel
+    step_id: 2000
+  - step_name: first_enter_level_5
+    step_id: 2100
+  - step_name: first_use_magnifier
+    step_id: 2200
+  - step_name: first_pass_lv5_panel
+    step_id: 2300
+  - step_name: first_enter_level_6
+    step_id: 2400
+  - step_name: first_pass_lv6_panel
+    step_id: 2500
+  - step_name: first_enter_level_7
+    step_id: 2600
+  - step_name: first_use_bomb
+    step_id: 2700
+  - step_name: first_pass_lv7_panel
+    step_id: 2800
+  - step_name: first_enter_level_8
+    step_id: 2900
+  - step_name: first_pass_lv8_panel
+    step_id: 3000
+  - step_name: first_enter_level_9
+    step_id: 3100
+  - step_name: first_use_sandglass
+    step_id: 3200
+  - step_name: first_pass_lv9_panel
+    step_id: 3300
+  - step_name: first_enter_level_10
+    step_id: 3400
+  - step_name: first_pass_lv10_panel
+    step_id: 3500
+  - step_name: first_enter_level_11
+    step_id: 3600
+  - step_name: first_pass_lv11_panel
+    step_id: 3700
+  - step_name: first_enter_level_12
+    step_id: 3800
+  - step_name: first_click_clover
+    step_id: 3810
+  - step_name: first_pass_lv12_panel
+    step_id: 3900
+  - step_name: first_enter_level_13
+    step_id: 4000
+  - step_name: first_pass_lv13_panel
+    step_id: 4100
+  - step_name: first_enter_level_14
+    step_id: 4200
+  - step_name: first_pass_lv14_panel
+    step_id: 4300
+  - step_name: first_enter_bonus_level
+    step_id: 4310
+  - step_name: first_pass_bonus_panel
+    step_id: 4320
+  - step_name: first_enter_level_15
+    step_id: 4400
+  - step_name: first_pass_lv15_panel
+    step_id: 4500
+  - step_name: first_enter_level_16
+    step_id: 4600
+  - step_name: first_pass_lv16_panel
+    step_id: 4700
+  - step_name: first_enter_level_17
+    step_id: 4800
+  - step_name: first_pass_lv17_panel
+    step_id: 4900
+  - step_name: first_enter_level_18
+    step_id: 5000
+  - step_name: first_pass_lv18_panel
+    step_id: 5100
+  - step_name: first_enter_level_19
+    step_id: 5200
+  - step_name: first_pass_lv19_panel
+    step_id: 5300
+  - step_name: first_enter_level_20
+    step_id: 5400
+  - step_name: first_pass_lv20panel
+    step_id: 5500

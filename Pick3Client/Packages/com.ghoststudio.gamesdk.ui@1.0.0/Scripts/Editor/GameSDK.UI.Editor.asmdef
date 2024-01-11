@@ -1,0 +1,18 @@
+{
+    "name": "AppBase.UI.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:715c9487ab5ae4b39899025a17adb964"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

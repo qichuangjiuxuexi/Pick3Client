@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 254efa167294d4cdfb86d343561b1a81, type: 3}
+  m_Name: GlobalConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - BundleIdGoogle
+  - BundleIdApple
+  - AppDisplayName
+  - CompanyName
+  - VersionGoogle
+  - VersionCodeGoogle
+  - VersionApple
+  - VersionCodeApple
+  - FacebookId
+  - FacebookToken
+  - AdjustTokenGoogle
+  - AdjustSecretGoogle
+  - AdjustTokenApple
+  - AdjustSecretApple
+  - ThinkingAnalaticsID
+  - ThinkingAnalaticsID_Debug
+  - ThinkingAnalaticsURL
+  - AdsSdkIdGoogle
+  - AdsRewardVideoIdGoogle
+  - AdsInterstitialIdGoogle
+  - AdsBannerIdGoogle
+  - AdsSdkIdApple
+  - AdsRewardVideoIdApple
+  - AdsInterstitialIdApple
+  - AdsBannerIdApple
+  - AdMobAndroidAppId
+  - AdMobIosAppId
+  - ServerUrl
+  - ServerUrl_Debug
+  - ServerAppId
+  - ServerUploadCD
+  - LocalNewDay
+  - GDPR_IsEnable
+  - GDPR_PrivacyUrl
+  - Game_Update_Code
+  - Game_Update_Version
+  - ResourceServerUrl
+  - ResourceServerUrl_Debug
+  - ResourceCatalogVersion
+  - ResourceCatalogVersion_Debug
+  - AIHelp_AppKey_Android
+  - AIHelp_AppID_Android
+  - AIHelp_Domain_Android
+  - AIHelp_AppKey_iOS
+  - AIHelp_AppID_iOS
+  - AIHelp_Domain_iOS
+  values:
+  - Key: BundleIdGoogle
+    Value: com.tile.triplematch.matching
+  - Key: BundleIdApple
+    Value: com.tile.triplematch.matching
+  - Key: AppDisplayName
+    Value: 'Match Miracle: Triple Match Game'
+  - Key: CompanyName
+    Value: GhostStudio
+  - Key: VersionGoogle
+    Value: 1.0.0
+  - Key: VersionCodeGoogle
+    Value: 3
+  - Key: VersionApple
+    Value: 1.0.0
+  - Key: VersionCodeApple
+    Value: 3
+  - Key: FacebookId
+    Value: 24320567727591196
+  - Key: FacebookToken
+    Value: 766b5d6ae3e398ffd1718919c0af12bb
+  - Key: AdjustTokenGoogle
+    Value: ehyh125h6ozk
+  - Key: AdjustSecretGoogle
+    Value: 1,200593092,453762779,583509893,972336200
+  - Key: AdjustTokenApple
+    Value: wa5jxlisbthc
+  - Key: AdjustSecretApple
+    Value: 1,1643951472,658538314,1904914665,473325564
+  - Key: ThinkingAnalaticsID
+    Value: 2a241f76bbb646e4b9007d927f75460d
+  - Key: ThinkingAnalaticsID_Debug
+    Value: d786b7ce77b7486baefe27ef1a9ba53f
+  - Key: ThinkingAnalaticsURL
+    Value: https://ta.me2zengame.com
+  - Key: AdsSdkIdGoogle
+    Value: vXSpR_Quw_4O3emeShVtPukz0WK7P45JcX73WXyRX0rbfaE7Gk-gcidcEyld1qyeL3itaeI7f8iKkyS-fReH8H
+  - Key: AdsRewardVideoIdGoogle
+    Value: 0d40f8284b0f5555
+  - Key: AdsInterstitialIdGoogle
+    Value: e30b3a1ab08493cf
+  - Key: AdsBannerIdGoogle
+    Value: 
+  - Key: AdsSdkIdApple
+    Value: vXSpR_Quw_4O3emeShVtPukz0WK7P45JcX73WXyRX0rbfaE7Gk-gcidcEyld1qyeL3itaeI7f8iKkyS-fReH8H
+  - Key: AdsRewardVideoIdApple
+    Value: e8d8fd18e2913d59
+  - Key: AdsInterstitialIdApple
+    Value: 5757c59864a1b938
+  - Key: AdsBannerIdApple
+    Value: 
+  - Key: AdMobAndroidAppId
+    Value: ca-app-pub-3328791872745867~2114185536
+  - Key: AdMobIosAppId
+    Value: ca-app-pub-3328791872745867~6750352974
+  - Key: ServerUrl
+    Value: https://battle-artist-v2.me2zengame.com/goga-game-server
+  - Key: ServerUrl_Debug
+    Value: https://battle-artist-v2-beta.me2zengame.com/goga-game-server-3
+  - Key: ServerAppId
+    Value: com.tile.triplematch.matching
+  - Key: ServerUploadCD
+    Value: 300
+  - Key: LocalNewDay
+    Value: 4
+  - Key: GDPR_IsEnable
+    Value: 1
+  - Key: GDPR_PrivacyUrl
+    Value: https://www.ghoststudio.net/en/legal/TermsofService
+  - Key: Game_Update_Code
+    Value: 0
+  - Key: Game_Update_Version
+    Value: 1.0.0
+  - Key: ResourceServerUrl
+    Value: https://ali-slots-res.me2zengame.com:42455/MatchUnity--Release
+  - Key: ResourceServerUrl_Debug
+    Value: https://ali-slots-res.me2zengame.com:42455/MatchUnity--Debug
+  - Key: ResourceCatalogVersion
+    Value: 1
+  - Key: ResourceCatalogVersion_Debug
+    Value: 1
+  - Key: AIHelp_AppKey_Android
+    Value: ME2ZEN_app_81ee8a20482e4c2490b5bf526eb284c3
+  - Key: AIHelp_AppID_Android
+    Value: me2zen_platform_e5f6acbe7901b5aea4ce3073c08520c5
+  - Key: AIHelp_Domain_Android
+    Value: me2zen.aihelp.net
+  - Key: AIHelp_AppKey_iOS
+    Value: ME2ZEN_app_81ee8a20482e4c2490b5bf526eb284c3
+  - Key: AIHelp_AppID_iOS
+    Value: me2zen_platform_1822502826c8d9a7577c606d40e4c8fd
+  - Key: AIHelp_Domain_iOS
+    Value: me2zen.aihelp.net

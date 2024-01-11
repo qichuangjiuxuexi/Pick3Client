@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0df1bd6cad4d4104b5d49d012fe7fc1, type: 3}
+  m_Name: PartConfig
+  m_EditorClassIdentifier: 
+  values:
+  - part_id: 10001
+    bg_id: 1000
+    starts_num: 0
+    part_resource: part_1
+    part_resource_t: partIcon_1
+  - part_id: 10002
+    bg_id: 1000
+    starts_num: 10
+    part_resource: part_2
+    part_resource_t: partIcon_2
+  - part_id: 10003
+    bg_id: 1000
+    starts_num: 10
+    part_resource: part_3
+    part_resource_t: partIcon_3
+  - part_id: 10004
+    bg_id: 1000
+    starts_num: 12
+    part_resource: part_4
+    part_resource_t: partIcon_4
+  - part_id: 10005
+    bg_id: 1000
+    starts_num: 15
+    part_resource: part_5
+    part_resource_t: partIcon_5

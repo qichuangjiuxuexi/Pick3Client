@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cda506d5dcff343bf8904846838a3e10, type: 3}
+  m_Name: IAPConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - ad_remove
+  - shop_bundle_999
+  - shop_bundle_1999
+  - shop_bundle_3999
+  - shop_bundle_7999
+  - sho_coin_199
+  - sho_coin_799
+  - sho_coin_1399
+  - sho_coin_2799
+  - sho_coin_5499
+  - sho_coin_9999
+  - piggy_499
+  - rocket_treasure_299
+  - rocket_treasure_499
+  - rocket_treasure_799
+  - rocket_treasure_999
+  - rocket_treasure_1399
+  - first_iap_499
+  - infinity_bundle
+  - blossomdeal_499
+  - blossomdeal_799
+  - blossomdeal_999
+  values:
+  - Key: ad_remove
+    Price: 499
+    DisplayPrice: $4.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.removead
+    AppleProductId: com.me2zen.miracle.removead
+  - Key: shop_bundle_999
+    Price: 999
+    DisplayPrice: $9.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.pack999
+    AppleProductId: com.me2zen.miracle.pack999
+  - Key: shop_bundle_1999
+    Price: 1999
+    DisplayPrice: $19.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.pack1999
+    AppleProductId: com.me2zen.miracle.pack1999
+  - Key: shop_bundle_3999
+    Price: 3999
+    DisplayPrice: $39.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.pack3999
+    AppleProductId: com.me2zen.miracle.pack3999
+  - Key: shop_bundle_7999
+    Price: 7999
+    DisplayPrice: $79.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.pack7999
+    AppleProductId: com.me2zen.miracle.pack7999
+  - Key: sho_coin_199
+    Price: 199
+    DisplayPrice: $1.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.shop199
+    AppleProductId: com.me2zen.miracle.shop199
+  - Key: sho_coin_799
+    Price: 799
+    DisplayPrice: $7.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.shop799
+    AppleProductId: com.me2zen.miracle.shop799
+  - Key: sho_coin_1399
+    Price: 1399
+    DisplayPrice: $13.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.shop1399
+    AppleProductId: com.me2zen.miracle.shop1399
+  - Key: sho_coin_2799
+    Price: 2799
+    DisplayPrice: $27.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.shop2799
+    AppleProductId: com.me2zen.miracle.shop2799
+  - Key: sho_coin_5499
+    Price: 5499
+    DisplayPrice: $54.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.shop5499
+    AppleProductId: com.me2zen.miracle.shop5499
+  - Key: sho_coin_9999
+    Price: 9999
+    DisplayPrice: $99.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.shop9999
+    AppleProductId: com.me2zen.miracle.shop9999
+  - Key: piggy_499
+    Price: 499
+    DisplayPrice: $4.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.piggy499
+    AppleProductId: com.me2zen.miracle.piggy499
+  - Key: rocket_treasure_299
+    Price: 299
+    DisplayPrice: $2.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.rockettreasure299
+    AppleProductId: com.me2zen.miracle.rockettreasure299
+  - Key: rocket_treasure_499
+    Price: 499
+    DisplayPrice: $4.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.rockettreasure499
+    AppleProductId: com.me2zen.miracle.rockettreasure499
+  - Key: rocket_treasure_799
+    Price: 799
+    DisplayPrice: $7.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.rockettreasure799
+    AppleProductId: com.me2zen.miracle.rockettreasure799
+  - Key: rocket_treasure_999
+    Price: 999
+    DisplayPrice: $9.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.rockettreasure999
+    AppleProductId: com.me2zen.miracle.rockettreasure999
+  - Key: rocket_treasure_1399
+    Price: 1399
+    DisplayPrice: $13.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.rockettreasure1399
+    AppleProductId: com.me2zen.miracle.rockettreasure1399
+  - Key: first_iap_499
+    Price: 499
+    DisplayPrice: $4.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.starter499
+    AppleProductId: com.me2zen.miracle.starter499
+  - Key: infinity_bundle
+    Price: 599
+    DisplayPrice: $5.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.infinitybundle599
+    AppleProductId: com.me2zen.miracle.infinitybundle599
+  - Key: blossomdeal_499
+    Price: 499
+    DisplayPrice: $4.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.blossomdeal499
+    AppleProductId: com.me2zen.miracle.blossomdeal499
+  - Key: blossomdeal_799
+    Price: 799
+    DisplayPrice: $7.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.blossomdeal799
+    AppleProductId: com.me2zen.miracle.blossomdeal799
+  - Key: blossomdeal_999
+    Price: 999
+    DisplayPrice: $9.99
+    IAP_Type: 0
+    GoogleProductId: com.me2zen.miracle.blossomdeal999
+    AppleProductId: com.me2zen.miracle.blossomdeal999

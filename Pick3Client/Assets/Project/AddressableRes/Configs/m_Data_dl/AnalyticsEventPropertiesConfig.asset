@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 895c95198a63147869dcef190cc52e43, type: 3}
+  m_Name: AnalyticsEventPropertiesConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - user_level
+  - user_coin
+  values:
+  - property_name: user_level
+    property_type: int
+    is_enable_cache: 0
+  - property_name: user_coin
+    property_type: long
+    is_enable_cache: 0

@@ -1,0 +1,759 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c5aa3c2a40d84104afd7f4178459a84, type: 3}
+  m_Name: AnalyticsEventConfig
+  m_EditorClassIdentifier: 
+  values:
+  - event_name: app_launch
+    param_type: string
+    param: launch_source
+  - event_name: app_launch
+    param_type: string
+    param: variant_name
+  - event_name: app_resume
+    param_type: 
+    param: 
+  - event_name: app_end
+    param_type: string
+    param: last_launch_time
+  - event_name: app_end
+    param_type: int
+    param: user_iap_amount
+  - event_name: app_end
+    param_type: int
+    param: user_iap_times
+  - event_name: app_end
+    param_type: int
+    param: user_streak
+  - event_name: app_end
+    param_type: bool
+    param: user_is_remove_ads
+  - event_name: app_end
+    param_type: int
+    param: user_online_time
+  - event_name: app_end
+    param_type: int
+    param: user_reward_video_times
+  - event_name: resource_got
+    param_type: int
+    param: resource_id
+  - event_name: resource_got
+    param_type: string
+    param: got_type
+  - event_name: resource_got
+    param_type: long
+    param: got_count
+  - event_name: resource_got
+    param_type: long
+    param: count_after_got
+  - event_name: resource_use
+    param_type: int
+    param: resource_id
+  - event_name: resource_use
+    param_type: string
+    param: use_type
+  - event_name: resource_use
+    param_type: long
+    param: use_count
+  - event_name: resource_use
+    param_type: long
+    param: count_after_use
+  - event_name: iap_start
+    param_type: string
+    param: iap_key
+  - event_name: iap_start
+    param_type: string
+    param: product_id
+  - event_name: iap_start
+    param_type: long
+    param: revenue
+  - event_name: iap_success
+    param_type: string
+    param: iap_key
+  - event_name: iap_success
+    param_type: string
+    param: product_id
+  - event_name: iap_success
+    param_type: string
+    param: order_id
+  - event_name: iap_success
+    param_type: long
+    param: revenue
+  - event_name: iap_success
+    param_type: string
+    param: variant_name
+  - event_name: iap_validate
+    param_type: string
+    param: iap_key
+  - event_name: iap_validate
+    param_type: string
+    param: product_id
+  - event_name: iap_validate
+    param_type: string
+    param: order_id
+  - event_name: iap_validate
+    param_type: string
+    param: valid_state
+  - event_name: iap_validate
+    param_type: string
+    param: purchase_exception
+  - event_name: iap_validate
+    param_type: string
+    param: receipt
+  - event_name: iap_failure
+    param_type: string
+    param: iap_key
+  - event_name: iap_failure
+    param_type: string
+    param: product_id
+  - event_name: iap_failure
+    param_type: long
+    param: revenue
+  - event_name: iap_failure
+    param_type: string
+    param: reason
+  - event_name: ads_interstitial
+    param_type: string
+    param: network
+  - event_name: ads_interstitial
+    param_type: string
+    param: position
+  - event_name: ads_interstitial
+    param_type: string
+    param: status
+  - event_name: ads_interstitial
+    param_type: string
+    param: variant_name
+  - event_name: ads_rv
+    param_type: string
+    param: network
+  - event_name: ads_rv
+    param_type: string
+    param: position
+  - event_name: ads_rv
+    param_type: string
+    param: status
+  - event_name: ads_rv
+    param_type: string
+    param: variant_name
+  - event_name: adrevenue_interstitial
+    param_type: double
+    param: adinfo_revenue
+  - event_name: adrevenue_interstitial
+    param_type: string
+    param: adinfo_revenueprecision
+  - event_name: adrevenue_interstitial
+    param_type: string
+    param: adinfo_adformat
+  - event_name: adrevenue_interstitial
+    param_type: string
+    param: adinfo_adunitidentifier
+  - event_name: adrevenue_interstitial
+    param_type: string
+    param: adinfo_placement
+  - event_name: adrevenue_interstitial
+    param_type: string
+    param: adinfo_networkname
+  - event_name: adrevenue_interstitial
+    param_type: string
+    param: adinfo_dspname
+  - event_name: adrevenue_interstitial
+    param_type: string
+    param: adinfo_networkplacement
+  - event_name: adrevenue_interstitial
+    param_type: string
+    param: variant_name
+  - event_name: adrevenue_reward
+    param_type: double
+    param: adinfo_revenue
+  - event_name: adrevenue_reward
+    param_type: string
+    param: adinfo_revenueprecision
+  - event_name: adrevenue_reward
+    param_type: string
+    param: adinfo_adformat
+  - event_name: adrevenue_reward
+    param_type: string
+    param: adinfo_adunitidentifier
+  - event_name: adrevenue_reward
+    param_type: string
+    param: adinfo_placement
+  - event_name: adrevenue_reward
+    param_type: string
+    param: adinfo_networkname
+  - event_name: adrevenue_reward
+    param_type: string
+    param: adinfo_dspname
+  - event_name: adrevenue_reward
+    param_type: string
+    param: adinfo_networkplacement
+  - event_name: adrevenue_reward
+    param_type: string
+    param: variant_name
+  - event_name: user_login
+    param_type: int
+    param: continue_day
+  - event_name: user_login
+    param_type: int
+    param: total_day
+  - event_name: booster_use
+    param_type: int
+    param: level_id
+  - event_name: booster_use
+    param_type: int
+    param: difficulty
+  - event_name: booster_use
+    param_type: int
+    param: resource_id
+  - event_name: booster_use
+    param_type: long
+    param: count_after_use
+  - event_name: booster_use
+    param_type: int
+    param: level_play_time
+  - event_name: booster_use
+    param_type: int
+    param: streak_time
+  - event_name: booster_use
+    param_type: int
+    param: level_click_time
+  - event_name: level_start
+    param_type: int
+    param: level_id
+  - event_name: level_end
+    param_type: int
+    param: real_level_id
+  - event_name: level_start
+    param_type: int
+    param: difficulty
+  - event_name: level_start
+    param_type: int
+    param: difficulty_real
+  - event_name: level_start
+    param_type: int
+    param: current_points
+  - event_name: level_start
+    param_type: int
+    param: level_play_time
+  - event_name: level_start
+    param_type: int
+    param: booster_lightning
+  - event_name: level_start
+    param_type: int
+    param: booster_clock
+  - event_name: level_start
+    param_type: int
+    param: booster_magnet
+  - event_name: level_start
+    param_type: int
+    param: item_double_clover
+  - event_name: level_end
+    param_type: int
+    param: level_id
+  - event_name: level_end
+    param_type: string
+    param: end_type
+  - event_name: level_end
+    param_type: int
+    param: level_play_time
+  - event_name: level_end
+    param_type: int
+    param: coins_get
+  - event_name: level_end
+    param_type: int
+    param: clovers_get
+  - event_name: level_end
+    param_type: int
+    param: booster_lightning
+  - event_name: level_end
+    param_type: int
+    param: booster_clock
+  - event_name: level_end
+    param_type: int
+    param: booster_magnet
+  - event_name: level_end
+    param_type: int
+    param: streak_time
+  - event_name: level_end
+    param_type: string
+    param: stuck_slot_model
+  - event_name: level_end
+    param_type: int
+    param: level_time_used
+  - event_name: level_end
+    param_type: int
+    param: level_click_time
+  - event_name: level_end
+    param_type: int
+    param: level_stuck_time
+  - event_name: level_end
+    param_type: int
+    param: level_timeout_time
+  - event_name: level_end
+    param_type: int
+    param: booster_lightning_use
+  - event_name: level_end
+    param_type: int
+    param: booster_clock_use
+  - event_name: level_end
+    param_type: int
+    param: booster_magnet_use
+  - event_name: level_end
+    param_type: int
+    param: booster_undo_use
+  - event_name: level_end
+    param_type: int
+    param: booster_bomb_use
+  - event_name: level_end
+    param_type: int
+    param: booster_magnifier_use
+  - event_name: level_end
+    param_type: int
+    param: booster_freeze_use
+  - event_name: level_end
+    param_type: int
+    param: item_double_clover
+  - event_name: level_end
+    param_type: int
+    param: max_combo
+  - event_name: level_end
+    param_type: int
+    param: difficulty
+  - event_name: level_end
+    param_type: int
+    param: difficulty_real
+  - event_name: level_end
+    param_type: int
+    param: points_change
+  - event_name: level_end
+    param_type: int
+    param: current_points
+  - event_name: level_end
+    param_type: int
+    param: real_level_id
+  - event_name: level_stuck
+    param_type: int
+    param: level_id
+  - event_name: level_stuck
+    param_type: int
+    param: difficulty
+  - event_name: level_stuck
+    param_type: int
+    param: level_play_time
+  - event_name: level_stuck
+    param_type: int
+    param: booster_lightning
+  - event_name: level_stuck
+    param_type: int
+    param: booster_clock
+  - event_name: level_stuck
+    param_type: int
+    param: booster_magnet
+  - event_name: level_stuck
+    param_type: int
+    param: streak_time
+  - event_name: level_stuck
+    param_type: string
+    param: stuck_slot_model
+  - event_name: level_stuck
+    param_type: int
+    param: level_time_used
+  - event_name: level_stuck
+    param_type: int
+    param: level_click_time
+  - event_name: level_stuck
+    param_type: int
+    param: level_stuck_time
+  - event_name: level_stuck
+    param_type: int
+    param: level_timeout_time
+  - event_name: level_stuck
+    param_type: int
+    param: booster_lightning_use
+  - event_name: level_stuck
+    param_type: int
+    param: booster_clock_use
+  - event_name: level_stuck
+    param_type: int
+    param: booster_magnet_use
+  - event_name: level_stuck
+    param_type: int
+    param: booster_undo_use
+  - event_name: level_stuck
+    param_type: int
+    param: booster_bomb_use
+  - event_name: level_stuck
+    param_type: int
+    param: booster_magnifier_use
+  - event_name: level_stuck
+    param_type: int
+    param: booster_freeze_use
+  - event_name: level_stuck
+    param_type: int
+    param: isEasy
+  - event_name: level_stuck
+    param_type: int
+    param: real_level_id
+  - event_name: level_stuck
+    param_type: int
+    param: item_double_clover
+  - event_name: level_stuck
+    param_type: int
+    param: max_combo
+  - event_name: level_timeout
+    param_type: int
+    param: level_id
+  - event_name: level_timeout
+    param_type: int
+    param: difficulty
+  - event_name: level_timeout
+    param_type: int
+    param: level_play_time
+  - event_name: level_timeout
+    param_type: int
+    param: booster_lightning
+  - event_name: level_timeout
+    param_type: int
+    param: booster_clock
+  - event_name: level_timeout
+    param_type: int
+    param: booster_magnet
+  - event_name: level_timeout
+    param_type: int
+    param: streak_time
+  - event_name: level_timeout
+    param_type: string
+    param: stuck_slot_model
+  - event_name: level_timeout
+    param_type: int
+    param: level_time_used
+  - event_name: level_timeout
+    param_type: int
+    param: level_click_time
+  - event_name: level_timeout
+    param_type: int
+    param: level_stuck_time
+  - event_name: level_timeout
+    param_type: int
+    param: level_timeout_time
+  - event_name: level_timeout
+    param_type: int
+    param: booster_lightning_use
+  - event_name: level_timeout
+    param_type: int
+    param: booster_clock_use
+  - event_name: level_timeout
+    param_type: int
+    param: booster_magnet_use
+  - event_name: level_timeout
+    param_type: int
+    param: booster_undo_use
+  - event_name: level_timeout
+    param_type: int
+    param: booster_bomb_use
+  - event_name: level_timeout
+    param_type: int
+    param: booster_magnifier_use
+  - event_name: level_timeout
+    param_type: int
+    param: booster_freeze_use
+  - event_name: level_timeout
+    param_type: int
+    param: isEasy
+  - event_name: level_timeout
+    param_type: int
+    param: real_level_id
+  - event_name: level_timeout
+    param_type: int
+    param: item_double_clover
+  - event_name: level_timeout
+    param_type: int
+    param: max_combo
+  - event_name: bonus_level_start
+    param_type: int
+    param: level_id
+  - event_name: bonus_level_start
+    param_type: int
+    param: loop
+  - event_name: bonus_level_end
+    param_type: int
+    param: level_id
+  - event_name: bonus_level_end
+    param_type: int
+    param: loop
+  - event_name: bonus_level_end
+    param_type: int
+    param: total_coins
+  - event_name: bonus_level_end
+    param_type: string
+    param: end_type
+  - event_name: bonus_level_end
+    param_type: int
+    param: level_time_used
+  - event_name: bonus_level_end
+    param_type: int
+    param: level_click_time
+  - event_name: loading_step
+    param_type: int
+    param: step_type
+  - event_name: loading_step
+    param_type: double
+    param: loading_time
+  - event_name: contact_support
+    param_type: int
+    param: position
+  - event_name: edit_profile
+    param_type: int
+    param: profile_used
+  - event_name: edit_profile
+    param_type: int
+    param: profile_changed
+  - event_name: match_race_start
+    param_type: int
+    param: race_id
+  - event_name: match_race_end
+    param_type: int
+    param: race_id
+  - event_name: match_race_end
+    param_type: int
+    param: end_type
+  - event_name: match_race_end
+    param_type: int
+    param: rank
+  - event_name: contest_start
+    param_type: int
+    param: contest_id
+  - event_name: contest_start
+    param_type: int
+    param: contest_group
+  - event_name: contest_end
+    param_type: int
+    param: contest_id
+  - event_name: contest_end
+    param_type: int
+    param: contest_group
+  - event_name: contest_end
+    param_type: int
+    param: contest_rank
+  - event_name: contest_end
+    param_type: int
+    param: contest_score
+  - event_name: treasure_event_start
+    param_type: int
+    param: season_id
+  - event_name: treasure_event_end
+    param_type: int
+    param: season_id
+  - event_name: treasure_event_item
+    param_type: int
+    param: season_id
+  - event_name: treasure_event_item
+    param_type: int
+    param: item_get_count
+  - event_name: treasure_event_item
+    param_type: int
+    param: item_get_count_double
+  - event_name: treasure_event_item
+    param_type: int
+    param: item_total_count
+  - event_name: treasure_event_item
+    param_type: int
+    param: level
+  - event_name: team_join
+    param_type: string
+    param: team_name
+  - event_name: team_join
+    param_type: int
+    param: team_level_required
+  - event_name: team_join
+    param_type: int
+    param: team_members
+  - event_name: team_leave
+    param_type: string
+    param: team_name
+  - event_name: team_leave
+    param_type: int
+    param: team_level_required
+  - event_name: team_leave
+    param_type: int
+    param: team_members
+  - event_name: team_create
+    param_type: string
+    param: team_name
+  - event_name: team_create
+    param_type: int
+    param: team_level_required
+  - event_name: team_request
+    param_type: string
+    param: team_name
+  - event_name: team_request
+    param_type: int
+    param: team_level_required
+  - event_name: team_request
+    param_type: int
+    param: team_members
+  - event_name: team_request
+    param_type: int
+    param: type
+  - event_name: team_chat
+    param_type: string
+    param: team_name
+  - event_name: team_chat
+    param_type: int
+    param: team_level_required
+  - event_name: team_chat
+    param_type: int
+    param: team_members
+  - event_name: team_chat
+    param_type: string
+    param: content
+  - event_name: island_expedition_start
+    param_type: int
+    param: current_level
+  - event_name: island_expedition_start
+    param_type: int
+    param: play_round
+  - event_name: island_expedition_fail
+    param_type: int
+    param: current_level
+  - event_name: island_expedition_fail
+    param_type: int
+    param: play_round
+  - event_name: island_expedition_fail
+    param_type: int
+    param: current_progress
+  - event_name: island_expedition_fail
+    param_type: int
+    param: opponents_amount
+  - event_name: island_expedition_advance
+    param_type: int
+    param: current_level
+  - event_name: island_expedition_advance
+    param_type: int
+    param: play_round
+  - event_name: island_expedition_advance
+    param_type: int
+    param: current_progress
+  - event_name: island_expedition_advance
+    param_type: int
+    param: opponents_amount
+  - event_name: island_expedition_reward
+    param_type: int
+    param: reward_amount
+  - event_name: island_expedition_reward
+    param_type: int
+    param: play_round
+  - event_name: island_expedition_reward
+    param_type: int
+    param: opponents_amount
+  - event_name: island_expedition_reward
+    param_type: int
+    param: current_level
+  - event_name: Harvest_Challenge_start
+    param_type: int
+    param: current_level
+  - event_name: Harvest_Challenge_start
+    param_type: int
+    param: play_round
+  - event_name: Harvest_Challenge_start
+    param_type: int
+    param: start_type
+  - event_name: Harvest_Challenge_RV
+    param_type: int
+    param: play_round
+  - event_name: Harvest_Challenge_reward
+    param_type: int
+    param: first_win
+  - event_name: Harvest_Challenge_reward
+    param_type: int
+    param: play_round
+  - event_name: Harvest_Challenge_reward
+    param_type: int
+    param: coin_amount
+  - event_name: Harvest_Challenge_reward
+    param_type: int
+    param: booster_id
+  - event_name: Harvest_Challenge_reward
+    param_type: int
+    param: end_time
+  - event_name: Harvest_Challenge_fail
+    param_type: int
+    param: fail_type
+  - event_name: Harvest_Challenge_fail
+    param_type: int
+    param: play_round
+  - event_name: Harvest_Challenge_fail
+    param_type: int
+    param: end_time
+  - event_name: Harvest_Challenge_fail
+    param_type: string
+    param: end_progress
+  - event_name: Harvest_Challenge_pause
+    param_type: int
+    param: play_round
+  - event_name: Harvest_Challenge_play
+    param_type: int
+    param: play_round
+  - event_name: Balloon_up
+    param_type: int
+    param: current_height
+  - event_name: Balloon_down
+    param_type: int
+    param: current_height
+  - event_name: Balloon_down
+    param_type: int
+    param: last_height
+  - event_name: Balloon_boom
+    param_type: int
+    param: current_height
+  - event_name: Balloon_boom
+    param_type: int
+    param: current_balloons
+  - event_name: Balloon_reward
+    param_type: int
+    param: coin_amount
+  - event_name: Balloon_reward
+    param_type: int
+    param: booster_id
+  - event_name: Balloon_reward
+    param_type: int
+    param: booster_amount
+  - event_name: Balloon_reward_claim
+    param_type: 
+    param: 
+  - event_name: Balloon_finish
+    param_type: 
+    param: 
+  - event_name: Hunt_Exchange_items
+    param_type: int
+    param: item_id
+  - event_name: Hunt_Exchange_items
+    param_type: int
+    param: item_amount
+  - event_name: Hunt_Exchange_match
+    param_type: int
+    param: model_id
+  - event_name: Hunt_Exchange_reward
+    param_type: int
+    param: model_id
+  - event_name: Hunt_Exchange_reward
+    param_type: int
+    param: reward_item
+  - event_name: Hunt_Exchange_reward
+    param_type: int
+    param: reward_amount
+  - event_name: Hunt_Exchang_pop
+    param_type: int
+    param: close_type
+  - event_name: Hunt_Exchange_endprize
+    param_type: 
+    param: 

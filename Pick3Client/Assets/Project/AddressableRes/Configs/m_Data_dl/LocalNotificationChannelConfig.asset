@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0636ae8844bd34d5a85fc67e86bd8752, type: 3}
+  m_Name: LocalNotificationChannelConfig
+  m_EditorClassIdentifier: 
+  values:
+  - ID: Default
+    name: Default Game Channel
+    description: Generic notifications
+    style: 4
+    privacy: 1
+    showBadge: 1
+    showLights: 0
+    vibrates: 1
+    highPriority: 0

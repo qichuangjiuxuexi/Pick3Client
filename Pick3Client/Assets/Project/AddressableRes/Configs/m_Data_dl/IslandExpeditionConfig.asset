@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d81f9588233e54a1d85479a97999dae8, type: 3}
+  m_Name: IslandExpeditionConfig
+  m_EditorClassIdentifier: 
+  values:
+  - ID: 1
+    pass_rate: 0.68
+    min: 80
+    max: 109
+    headNum: 9
+    headPos: ef000000ebfdffff
+  - ID: 2
+    pass_rate: 0.7
+    min: 56
+    max: 71
+    headNum: 9
+    headPos: deffffff24feffff
+  - ID: 3
+    pass_rate: 0.72
+    min: 39
+    max: 58
+    headNum: 8
+    headPos: e5feffff70feffff
+  - ID: 4
+    pass_rate: 0.75
+    min: 31
+    max: 43
+    headNum: 8
+    headPos: c4fefffffbfeffff
+  - ID: 5
+    pass_rate: 0.78
+    min: 20
+    max: 29
+    headNum: 7
+    headPos: 94ffffff5dffffff
+  - ID: 6
+    pass_rate: 0.8
+    min: 16
+    max: 24
+    headNum: 7
+    headPos: ac00000080ffffff
+  - ID: 7
+    pass_rate: 0.8
+    min: 11
+    max: 19
+    headNum: 6
+    headPos: 3e01000006000000
+  - ID: 8
+    pass_rate: 0.8
+    min: 9
+    max: 15
+    headNum: 6
+    headPos: 7f0000006c000000
+  - ID: 9
+    pass_rate: 0.8
+    min: 7
+    max: 14
+    headNum: 5
+    headPos: 69ffffffa3000000
+  - ID: 10
+    pass_rate: 0.8
+    min: 1
+    max: 10
+    headNum: 5
+    headPos: 0800000018010000

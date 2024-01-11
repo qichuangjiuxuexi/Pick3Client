@@ -1,0 +1,196 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae02d6472d8147e88fd7fa827429d4c, type: 3}
+  m_Name: AnalyticsThirdPartyConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - First_Open
+  - New_Register
+  - Login
+  - Login_Day_2
+  - Login_Day_3
+  - Login_Day_4
+  - Login_Day_5
+  - Login_Day_6
+  - Login_Day_7
+  - Login_Day_14
+  - Login_Day_30
+  - Purchased
+  - Purchased_Canceled
+  - Purchased_First_Time
+  - "adjust ad revenue \u529F\u80FD"
+  - Total_Ads_Revenue_001
+  - Total_Ads_Revenue_01
+  - Tutorial_Completion
+  - Level_10_Achieved
+  - Level_20_Achieved
+  - Level_30_Achieved
+  - Level_40_Achieved
+  - Level_50_Achieved
+  - Level_60_Achieved
+  - Level_70_Achieved
+  - Level_80_Achieved
+  - Level_90_Achieved
+  - Level_100_Achieved
+  - Level_150_Achieved
+  - Level_200_Achieved
+  values:
+  - event_name: First_Open
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: First_Open
+    facebook_name: First_Loading_Complete
+  - event_name: New_Register
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: New_Register
+    facebook_name: fb_mobile_complete_registration
+  - event_name: Login
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: session_start
+    facebook_name: Login
+  - event_name: Login_Day_2
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Login_Day2
+    facebook_name: fb_mobile_rate
+  - event_name: Login_Day_3
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Login_Day3
+    facebook_name: 
+  - event_name: Login_Day_4
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Login_Day4
+    facebook_name: 
+  - event_name: Login_Day_5
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Login_Day5
+    facebook_name: 
+  - event_name: Login_Day_6
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Login_Day6
+    facebook_name: 
+  - event_name: Login_Day_7
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Login_Day7
+    facebook_name: fb_mobile_search
+  - event_name: Login_Day_14
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Login_Day14
+    facebook_name: 
+  - event_name: Login_Day_30
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Login_Day30
+    facebook_name: 
+  - event_name: Purchased
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: in_app_purchased
+    facebook_name: fb_mobile_purchase
+  - event_name: Purchased_Canceled
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: 
+    facebook_name: 
+  - event_name: Purchased_First_Time
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Purchased_First_Time
+    facebook_name: 
+  - event_name: "adjust ad revenue \u529F\u80FD"
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: "ARO\u529F\u80FD\u63A5\u5165-ad Impression"
+    facebook_name: 
+  - event_name: Total_Ads_Revenue_001
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Total_Ads_Revenue_001
+    facebook_name: 
+  - event_name: Total_Ads_Revenue_01
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Total_Ads_Revenue_01
+    facebook_name: 
+  - event_name: Tutorial_Completion
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Tutorial_Completion
+    facebook_name: fb_mobile_tutorial_completion
+  - event_name: Level_10_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_10_Achieved
+    facebook_name: fb_mobile_achievement_unlocked
+  - event_name: Level_20_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_20_Achieved
+    facebook_name: 
+  - event_name: Level_30_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_30_Achieved
+    facebook_name: fb_mobile_add_to_wishlist
+  - event_name: Level_40_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_40_Achieved
+    facebook_name: 
+  - event_name: Level_50_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_50_Achieved
+    facebook_name: fb_mobile_content_view
+  - event_name: Level_60_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_60_Achieved
+    facebook_name: 
+  - event_name: Level_70_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_70_Achieved
+    facebook_name: 
+  - event_name: Level_80_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_80_Achieved
+    facebook_name: 
+  - event_name: Level_90_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_90_Achieved
+    facebook_name: 
+  - event_name: Level_100_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_100_Achieved
+    facebook_name: fb_mobile_level_achieved
+  - event_name: Level_150_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_150_Achieved
+    facebook_name: 
+  - event_name: Level_200_Achieved
+    adjust_token_google: 
+    adjust_token_apple: 
+    firebase_name: Level_200_Achieved
+    facebook_name: 

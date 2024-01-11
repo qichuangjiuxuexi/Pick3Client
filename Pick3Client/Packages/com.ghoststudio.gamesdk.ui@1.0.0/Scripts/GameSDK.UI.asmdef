@@ -1,0 +1,26 @@
+{
+    "name": "GameSDK.UI",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4cbf0ee5e58cb48be8d235de33272243",
+        "GUID:8d0ad675e416c485ea23a04336b24905",
+        "GUID:0025b92bdb4a841d7b579b930dd13bcd",
+        "GUID:cff761fa621db409bafa5e7cbdc31f1e",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:bc92efb01dbf14a16882a5ec217ab813",
+        "GUID:e59a2555e209c440289bee8853b424ba",
+        "GUID:15fc0a57446b3144c949da3e2b9737a9",
+        "GUID:84651a3751eca9349aac36a66bba901b",
+        "GUID:179652d7da581408b8baeed6637275e9",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

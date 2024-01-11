@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33176f95151434fbabd4fa3b37086b20, type: 3}
+  m_Name: ActivityDataConfig
+  m_EditorClassIdentifier: 
+  values:
+  - data_config_name: 7000
+    param_name: IslandExpedition_Fail_CD
+    param_value: 1800
+  - data_config_name: 7000
+    param_name: IslandExpedition_Win_Count
+    param_value: 10
+  - data_config_name: 7000
+    param_name: IslandExpedition_Match_Amount
+    param_value: 120
+  - data_config_name: 7000
+    param_name: IslandExpedition_Prize_Amount
+    param_value: 1000
+  - data_config_name: 8000
+    param_name: MatchRace_EnableLevel
+    param_value: 28
+  - data_config_name: 8000
+    param_name: MatchRace_Time
+    param_value: 3
+  - data_config_name: 8000
+    param_name: MatchRace_CDTime
+    param_value: 16
+  - data_config_name: 8000
+    param_name: MatchRace_CDLevel
+    param_value: 2
+  - data_config_name: 8000
+    param_name: MatchRace_FirstPlaceReward
+    param_value: 10001:30,12001:1,11002:900;10001:30,12002:1,11002:900;10001:30,12003:1,11002:900;10001:30,12004:1,11002:900;10001:30,13001:1,11002:900;10001:30,13002:1,11002:900;10001:30,13003:1,11002:900
+  - data_config_name: 8000
+    param_name: MatchRace_SecondPlaceReward
+    param_value: 10001:15,13001:1;10001:15,13002:1;10001:15,13003:1;10001:15,12001:1;10001:15,12002:1;10001:15,12003:1;10001:15,12004:1
+  - data_config_name: 8000
+    param_name: MatchRace_ThirdPlaceReward
+    param_value: 12001:1;12002:1;12003:1;12004:1;13001:1;13002:1;13003:1
+  - data_config_name: 8000
+    param_name: MatchRace_TotalLevel
+    param_value: 15
+  - data_config_name: 7001
+    param_name: Piggy_MinCoins
+    param_value: 200
+  - data_config_name: 7001
+    param_name: Piggy_MaxCoins
+    param_value: 650
+  - data_config_name: 7001
+    param_name: Piggy_SavedCoins
+    param_value: 10
+  - data_config_name: 7001
+    param_name: Piggy_IapId
+    param_value: piggy_499
+  - data_config_name: 10000
+    param_name: First_IAP_Id
+    param_value: first_iap_499
+  - data_config_name: 10000
+    param_name: First_IAP_Reward
+    param_value: 10001:950,11002:14400,12001:2,12002:2,12003:2,12004:2
+  - data_config_name: 11000
+    param_name: RemoveADs_PopUp_ADTimes
+    param_value: 4
+  - data_config_name: 11000
+    param_name: RemoveADs_PopUp_Level
+    param_value: 32
+  - data_config_name: 11000
+    param_name: RemoveADs_IAP_Id
+    param_value: ad_remove
+  - data_config_name: 12000
+    param_name: InfinityBundle_Reward
+    param_value: 17401:3600,17301:3600,17302:3600,17303:3600,11002:3600
+  - data_config_name: 12000
+    param_name: InfinityBundle_PopUp_Levels
+    param_value: 4,8
+  - data_config_name: 12000
+    param_name: InfinityBundle_IAP_Id
+    param_value: infinity_bundle
+  - data_config_name: 13000
+    param_name: blossomdeal_Iap_After_first_iap
+    param_value: 10

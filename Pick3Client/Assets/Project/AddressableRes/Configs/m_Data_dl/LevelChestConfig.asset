@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecf6b36d368d54268b58f7ff757d685e, type: 3}
+  m_Name: LevelChestConfig
+  m_EditorClassIdentifier: 
+  values:
+  - LevelChestID: 1
+    ChestOpenLevel: 10
+    RewardType1: 10001
+    RewardCount1: 20
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 2
+    ChestOpenLevel: 10
+    RewardType1: 12001
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 3
+    ChestOpenLevel: 10
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 4
+    ChestOpenLevel: 10
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 5
+    ChestOpenLevel: 10
+    RewardType1: 13003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 6
+    ChestOpenLevel: 12
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13001
+    RewardCount2: 1
+  - LevelChestID: 7
+    ChestOpenLevel: 12
+    RewardType1: 13002
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 8
+    ChestOpenLevel: 12
+    RewardType1: 13003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 9
+    ChestOpenLevel: 12
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 10
+    ChestOpenLevel: 12
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 11
+    ChestOpenLevel: 15
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 12
+    ChestOpenLevel: 15
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 13
+    ChestOpenLevel: 15
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 14
+    ChestOpenLevel: 15
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 15
+    ChestOpenLevel: 15
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 16
+    ChestOpenLevel: 15
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 17
+    ChestOpenLevel: 15
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 18
+    ChestOpenLevel: 15
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 19
+    ChestOpenLevel: 15
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 20
+    ChestOpenLevel: 15
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 21
+    ChestOpenLevel: 15
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 22
+    ChestOpenLevel: 15
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 23
+    ChestOpenLevel: 15
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 24
+    ChestOpenLevel: 15
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 25
+    ChestOpenLevel: 15
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 26
+    ChestOpenLevel: 15
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 27
+    ChestOpenLevel: 15
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 28
+    ChestOpenLevel: 15
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 29
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 30
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 31
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 32
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 33
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 34
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 35
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 36
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 37
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 38
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 39
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 40
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 41
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 42
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 43
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 44
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 45
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 46
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 47
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 48
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 49
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 50
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 51
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 52
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 53
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 54
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 55
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 56
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 57
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 58
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 59
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 60
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 61
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 62
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 63
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1
+  - LevelChestID: 64
+    ChestOpenLevel: 20
+    RewardType1: 13001
+    RewardCount1: 2
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 65
+    ChestOpenLevel: 20
+    RewardType1: 13002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - LevelChestID: 66
+    ChestOpenLevel: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 13003
+    RewardCount2: 1

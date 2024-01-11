@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81cb38415de424382b6a81adcf8746c4, type: 3}
+  m_Name: DailyBonusConfig
+  m_EditorClassIdentifier: 
+  values:
+  - ID: 1
+    Days: 1
+    Round: 1
+    Reward:
+      keys: fa2a0000
+      values: 84030000
+  - ID: 2
+    Days: 2
+    Round: 1
+    Reward:
+      keys: 11270000
+      values: 14000000
+  - ID: 3
+    Days: 3
+    Round: 1
+    Reward:
+      keys: e12e0000
+      values: 01000000
+  - ID: 4
+    Days: 4
+    Round: 1
+    Reward:
+      keys: e22e0000
+      values: 01000000
+  - ID: 5
+    Days: 5
+    Round: 1
+    Reward:
+      keys: e32e0000
+      values: 01000000
+  - ID: 6
+    Days: 6
+    Round: 1
+    Reward:
+      keys: e42e0000
+      values: 01000000
+  - ID: 7
+    Days: 7
+    Round: 1
+    Reward:
+      keys: 11270000fa2a0000cb320000
+      values: 1e0000000807000002000000
+  - ID: 8
+    Days: 1
+    Round: 2
+    Reward:
+      keys: fa2a0000
+      values: 84030000
+  - ID: 9
+    Days: 2
+    Round: 2
+    Reward:
+      keys: 11270000
+      values: 14000000
+  - ID: 10
+    Days: 3
+    Round: 2
+    Reward:
+      keys: c9320000
+      values: 01000000
+  - ID: 11
+    Days: 4
+    Round: 2
+    Reward:
+      keys: ca320000
+      values: 01000000
+  - ID: 12
+    Days: 5
+    Round: 2
+    Reward:
+      keys: e12e0000
+      values: 01000000
+  - ID: 13
+    Days: 6
+    Round: 2
+    Reward:
+      keys: e22e0000
+      values: 01000000
+  - ID: 14
+    Days: 7
+    Round: 2
+    Reward:
+      keys: 11270000fa2a0000e12e0000
+      values: 1e0000000807000002000000
+  - ID: 15
+    Days: 1
+    Round: 3
+    Reward:
+      keys: fa2a0000
+      values: 84030000
+  - ID: 16
+    Days: 2
+    Round: 3
+    Reward:
+      keys: 11270000
+      values: 14000000
+  - ID: 17
+    Days: 3
+    Round: 3
+    Reward:
+      keys: e12e0000
+      values: 01000000
+  - ID: 18
+    Days: 4
+    Round: 3
+    Reward:
+      keys: e22e0000
+      values: 01000000
+  - ID: 19
+    Days: 5
+    Round: 3
+    Reward:
+      keys: e32e0000
+      values: 01000000
+  - ID: 20
+    Days: 6
+    Round: 3
+    Reward:
+      keys: e42e0000
+      values: 01000000
+  - ID: 21
+    Days: 7
+    Round: 3
+    Reward:
+      keys: 11270000fa2a0000cb320000
+      values: 1e0000000807000002000000
+  - ID: 22
+    Days: 1
+    Round: 4
+    Reward:
+      keys: fa2a0000
+      values: 84030000
+  - ID: 23
+    Days: 2
+    Round: 4
+    Reward:
+      keys: 11270000
+      values: 14000000
+  - ID: 24
+    Days: 3
+    Round: 4
+    Reward:
+      keys: c9320000
+      values: 01000000
+  - ID: 25
+    Days: 4
+    Round: 4
+    Reward:
+      keys: ca320000
+      values: 01000000
+  - ID: 26
+    Days: 5
+    Round: 4
+    Reward:
+      keys: e12e0000
+      values: 01000000
+  - ID: 27
+    Days: 6
+    Round: 4
+    Reward:
+      keys: e22e0000
+      values: 01000000
+  - ID: 28
+    Days: 7
+    Round: 4
+    Reward:
+      keys: 11270000fa2a0000e12e0000
+      values: 1e0000000807000002000000

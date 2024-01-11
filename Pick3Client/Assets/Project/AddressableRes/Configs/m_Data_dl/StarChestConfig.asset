@@ -1,0 +1,645 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70b066ec78e734b67a9a09d6179b4958, type: 3}
+  m_Name: StarChestConfig
+  m_EditorClassIdentifier: 
+  values:
+  - StarChestID: 1
+    ChestOpenStar: 10
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 2
+    ChestOpenStar: 10
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 3
+    ChestOpenStar: 10
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 4
+    ChestOpenStar: 10
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 5
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 6
+    ChestOpenStar: 20
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 7
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 8
+    ChestOpenStar: 20
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 9
+    ChestOpenStar: 20
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 10
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 11
+    ChestOpenStar: 20
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 12
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 13
+    ChestOpenStar: 20
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 14
+    ChestOpenStar: 20
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 15
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 16
+    ChestOpenStar: 20
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 17
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 18
+    ChestOpenStar: 20
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 19
+    ChestOpenStar: 20
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 20
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 21
+    ChestOpenStar: 20
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 22
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 23
+    ChestOpenStar: 20
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 24
+    ChestOpenStar: 20
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 25
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 26
+    ChestOpenStar: 20
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 27
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 28
+    ChestOpenStar: 20
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 29
+    ChestOpenStar: 20
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 30
+    ChestOpenStar: 20
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 31
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 32
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 33
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 34
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 35
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 36
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 37
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 38
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 39
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 40
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 41
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 42
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 43
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 44
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 45
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 46
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 47
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 48
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 49
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 50
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 51
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 52
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 53
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 54
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 55
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 56
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 57
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 58
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 59
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 60
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 61
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 62
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 63
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 64
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 65
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 66
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 67
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 68
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 69
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 70
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 71
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 72
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 73
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 74
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 75
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 76
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 77
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 78
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 79
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 80
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 81
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 82
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 83
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 84
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 85
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 86
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 87
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 88
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 89
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 90
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 91
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 92
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 93
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 94
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 95
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 96
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 97
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 98
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 99
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 100
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2
+  - StarChestID: 101
+    ChestOpenStar: 30
+    RewardType1: 11002
+    RewardCount1: 900
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 102
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12001
+    RewardCount2: 2
+  - StarChestID: 103
+    ChestOpenStar: 30
+    RewardType1: 12002
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 104
+    ChestOpenStar: 30
+    RewardType1: 12003
+    RewardCount1: 1
+    RewardType2: 0
+    RewardCount2: 0
+  - StarChestID: 105
+    ChestOpenStar: 30
+    RewardType1: 10001
+    RewardCount1: 30
+    RewardType2: 12004
+    RewardCount2: 2

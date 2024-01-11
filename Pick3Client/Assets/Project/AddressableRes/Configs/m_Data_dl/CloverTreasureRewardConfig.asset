@@ -1,0 +1,1365 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fcbd0e8d1f724b6b9ababee28e7bb4a, type: 3}
+  m_Name: CloverTreasureRewardConfig
+  m_EditorClassIdentifier: 
+  values:
+  - Season: 1
+    RewardLevel: 1
+    RewardType: 12002
+    RewardCount: 1
+    TargetCloverNum: 3
+  - Season: 1
+    RewardLevel: 2
+    RewardType: 10001
+    RewardCount: 20
+    TargetCloverNum: 9
+  - Season: 1
+    RewardLevel: 3
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 1
+    RewardLevel: 4
+    RewardType: 17301
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 1
+    RewardLevel: 5
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 15
+  - Season: 1
+    RewardLevel: 6
+    RewardType: 10001
+    RewardCount: 30
+    TargetCloverNum: 15
+  - Season: 1
+    RewardLevel: 7
+    RewardType: 13001
+    RewardCount: 2
+    TargetCloverNum: 15
+  - Season: 1
+    RewardLevel: 8
+    RewardType: 17302
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 1
+    RewardLevel: 9
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 1
+    RewardLevel: 10
+    RewardType: 10001
+    RewardCount: 50
+    TargetCloverNum: 20
+  - Season: 1
+    RewardLevel: 11
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 20
+  - Season: 1
+    RewardLevel: 12
+    RewardType: 12001
+    RewardCount: 2
+    TargetCloverNum: 20
+  - Season: 1
+    RewardLevel: 13
+    RewardType: 17303
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 1
+    RewardLevel: 14
+    RewardType: 13002
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 1
+    RewardLevel: 15
+    RewardType: 10001
+    RewardCount: 80
+    TargetCloverNum: 25
+  - Season: 1
+    RewardLevel: 16
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 1
+    RewardLevel: 17
+    RewardType: 12003
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 1
+    RewardLevel: 18
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 25
+  - Season: 1
+    RewardLevel: 19
+    RewardType: 10001
+    RewardCount: 200
+    TargetCloverNum: 25
+  - Season: 1
+    RewardLevel: 20
+    RewardType: 17301
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 1
+    RewardLevel: 21
+    RewardType: 13003
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 1
+    RewardLevel: 22
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 1
+    RewardLevel: 23
+    RewardType: 17302
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 1
+    RewardLevel: 24
+    RewardType: 12004
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 1
+    RewardLevel: 25
+    RewardType: 10001
+    RewardCount: 500
+    TargetCloverNum: 40
+  - Season: 1
+    RewardLevel: 26
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 1
+    RewardLevel: 27
+    RewardType: 11002
+    RewardCount: 3600
+    TargetCloverNum: 40
+  - Season: 1
+    RewardLevel: 28
+    RewardType: 12002
+    RewardCount: 3
+    TargetCloverNum: 50
+  - Season: 1
+    RewardLevel: 29
+    RewardType: 17303
+    RewardCount: 1800
+    TargetCloverNum: 50
+  - Season: 1
+    RewardLevel: 30
+    RewardType: 10001
+    RewardCount: 1000
+    TargetCloverNum: 60
+  - Season: 2
+    RewardLevel: 1
+    RewardType: 12002
+    RewardCount: 1
+    TargetCloverNum: 3
+  - Season: 2
+    RewardLevel: 2
+    RewardType: 10001
+    RewardCount: 20
+    TargetCloverNum: 9
+  - Season: 2
+    RewardLevel: 3
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 2
+    RewardLevel: 4
+    RewardType: 17301
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 2
+    RewardLevel: 5
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 15
+  - Season: 2
+    RewardLevel: 6
+    RewardType: 10001
+    RewardCount: 30
+    TargetCloverNum: 15
+  - Season: 2
+    RewardLevel: 7
+    RewardType: 13001
+    RewardCount: 2
+    TargetCloverNum: 15
+  - Season: 2
+    RewardLevel: 8
+    RewardType: 17302
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 2
+    RewardLevel: 9
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 2
+    RewardLevel: 10
+    RewardType: 10001
+    RewardCount: 50
+    TargetCloverNum: 20
+  - Season: 2
+    RewardLevel: 11
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 20
+  - Season: 2
+    RewardLevel: 12
+    RewardType: 12001
+    RewardCount: 2
+    TargetCloverNum: 20
+  - Season: 2
+    RewardLevel: 13
+    RewardType: 17303
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 2
+    RewardLevel: 14
+    RewardType: 13002
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 2
+    RewardLevel: 15
+    RewardType: 10001
+    RewardCount: 80
+    TargetCloverNum: 25
+  - Season: 2
+    RewardLevel: 16
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 2
+    RewardLevel: 17
+    RewardType: 12003
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 2
+    RewardLevel: 18
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 25
+  - Season: 2
+    RewardLevel: 19
+    RewardType: 10001
+    RewardCount: 200
+    TargetCloverNum: 25
+  - Season: 2
+    RewardLevel: 20
+    RewardType: 17301
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 2
+    RewardLevel: 21
+    RewardType: 13003
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 2
+    RewardLevel: 22
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 2
+    RewardLevel: 23
+    RewardType: 17302
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 2
+    RewardLevel: 24
+    RewardType: 12004
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 2
+    RewardLevel: 25
+    RewardType: 10001
+    RewardCount: 500
+    TargetCloverNum: 40
+  - Season: 2
+    RewardLevel: 26
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 2
+    RewardLevel: 27
+    RewardType: 11002
+    RewardCount: 3600
+    TargetCloverNum: 40
+  - Season: 2
+    RewardLevel: 28
+    RewardType: 12002
+    RewardCount: 3
+    TargetCloverNum: 50
+  - Season: 2
+    RewardLevel: 29
+    RewardType: 17303
+    RewardCount: 1800
+    TargetCloverNum: 50
+  - Season: 2
+    RewardLevel: 30
+    RewardType: 10001
+    RewardCount: 1000
+    TargetCloverNum: 60
+  - Season: 3
+    RewardLevel: 1
+    RewardType: 12002
+    RewardCount: 1
+    TargetCloverNum: 3
+  - Season: 3
+    RewardLevel: 2
+    RewardType: 10001
+    RewardCount: 20
+    TargetCloverNum: 9
+  - Season: 3
+    RewardLevel: 3
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 3
+    RewardLevel: 4
+    RewardType: 17301
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 3
+    RewardLevel: 5
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 15
+  - Season: 3
+    RewardLevel: 6
+    RewardType: 10001
+    RewardCount: 30
+    TargetCloverNum: 15
+  - Season: 3
+    RewardLevel: 7
+    RewardType: 13001
+    RewardCount: 2
+    TargetCloverNum: 15
+  - Season: 3
+    RewardLevel: 8
+    RewardType: 17302
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 3
+    RewardLevel: 9
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 3
+    RewardLevel: 10
+    RewardType: 10001
+    RewardCount: 50
+    TargetCloverNum: 20
+  - Season: 3
+    RewardLevel: 11
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 20
+  - Season: 3
+    RewardLevel: 12
+    RewardType: 12001
+    RewardCount: 2
+    TargetCloverNum: 20
+  - Season: 3
+    RewardLevel: 13
+    RewardType: 17303
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 3
+    RewardLevel: 14
+    RewardType: 13002
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 3
+    RewardLevel: 15
+    RewardType: 10001
+    RewardCount: 80
+    TargetCloverNum: 25
+  - Season: 3
+    RewardLevel: 16
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 3
+    RewardLevel: 17
+    RewardType: 12003
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 3
+    RewardLevel: 18
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 25
+  - Season: 3
+    RewardLevel: 19
+    RewardType: 10001
+    RewardCount: 200
+    TargetCloverNum: 25
+  - Season: 3
+    RewardLevel: 20
+    RewardType: 17301
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 3
+    RewardLevel: 21
+    RewardType: 13003
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 3
+    RewardLevel: 22
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 3
+    RewardLevel: 23
+    RewardType: 17302
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 3
+    RewardLevel: 24
+    RewardType: 12004
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 3
+    RewardLevel: 25
+    RewardType: 10001
+    RewardCount: 500
+    TargetCloverNum: 40
+  - Season: 3
+    RewardLevel: 26
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 3
+    RewardLevel: 27
+    RewardType: 11002
+    RewardCount: 3600
+    TargetCloverNum: 40
+  - Season: 3
+    RewardLevel: 28
+    RewardType: 12002
+    RewardCount: 3
+    TargetCloverNum: 50
+  - Season: 3
+    RewardLevel: 29
+    RewardType: 17303
+    RewardCount: 1800
+    TargetCloverNum: 50
+  - Season: 3
+    RewardLevel: 30
+    RewardType: 10001
+    RewardCount: 1000
+    TargetCloverNum: 60
+  - Season: 4
+    RewardLevel: 1
+    RewardType: 12002
+    RewardCount: 1
+    TargetCloverNum: 3
+  - Season: 4
+    RewardLevel: 2
+    RewardType: 10001
+    RewardCount: 20
+    TargetCloverNum: 9
+  - Season: 4
+    RewardLevel: 3
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 4
+    RewardLevel: 4
+    RewardType: 17301
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 4
+    RewardLevel: 5
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 15
+  - Season: 4
+    RewardLevel: 6
+    RewardType: 10001
+    RewardCount: 30
+    TargetCloverNum: 15
+  - Season: 4
+    RewardLevel: 7
+    RewardType: 13001
+    RewardCount: 2
+    TargetCloverNum: 15
+  - Season: 4
+    RewardLevel: 8
+    RewardType: 17302
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 4
+    RewardLevel: 9
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 4
+    RewardLevel: 10
+    RewardType: 10001
+    RewardCount: 50
+    TargetCloverNum: 20
+  - Season: 4
+    RewardLevel: 11
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 20
+  - Season: 4
+    RewardLevel: 12
+    RewardType: 12001
+    RewardCount: 2
+    TargetCloverNum: 20
+  - Season: 4
+    RewardLevel: 13
+    RewardType: 17303
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 4
+    RewardLevel: 14
+    RewardType: 13002
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 4
+    RewardLevel: 15
+    RewardType: 10001
+    RewardCount: 80
+    TargetCloverNum: 25
+  - Season: 4
+    RewardLevel: 16
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 4
+    RewardLevel: 17
+    RewardType: 12003
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 4
+    RewardLevel: 18
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 25
+  - Season: 4
+    RewardLevel: 19
+    RewardType: 10001
+    RewardCount: 200
+    TargetCloverNum: 25
+  - Season: 4
+    RewardLevel: 20
+    RewardType: 17301
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 4
+    RewardLevel: 21
+    RewardType: 13003
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 4
+    RewardLevel: 22
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 4
+    RewardLevel: 23
+    RewardType: 17302
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 4
+    RewardLevel: 24
+    RewardType: 12004
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 4
+    RewardLevel: 25
+    RewardType: 10001
+    RewardCount: 500
+    TargetCloverNum: 40
+  - Season: 4
+    RewardLevel: 26
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 4
+    RewardLevel: 27
+    RewardType: 11002
+    RewardCount: 3600
+    TargetCloverNum: 40
+  - Season: 4
+    RewardLevel: 28
+    RewardType: 12002
+    RewardCount: 3
+    TargetCloverNum: 50
+  - Season: 4
+    RewardLevel: 29
+    RewardType: 17303
+    RewardCount: 1800
+    TargetCloverNum: 50
+  - Season: 4
+    RewardLevel: 30
+    RewardType: 10001
+    RewardCount: 1000
+    TargetCloverNum: 60
+  - Season: 5
+    RewardLevel: 1
+    RewardType: 12002
+    RewardCount: 1
+    TargetCloverNum: 3
+  - Season: 5
+    RewardLevel: 2
+    RewardType: 10001
+    RewardCount: 20
+    TargetCloverNum: 9
+  - Season: 5
+    RewardLevel: 3
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 5
+    RewardLevel: 4
+    RewardType: 17301
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 5
+    RewardLevel: 5
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 15
+  - Season: 5
+    RewardLevel: 6
+    RewardType: 10001
+    RewardCount: 30
+    TargetCloverNum: 15
+  - Season: 5
+    RewardLevel: 7
+    RewardType: 13001
+    RewardCount: 2
+    TargetCloverNum: 15
+  - Season: 5
+    RewardLevel: 8
+    RewardType: 17302
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 5
+    RewardLevel: 9
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 5
+    RewardLevel: 10
+    RewardType: 10001
+    RewardCount: 50
+    TargetCloverNum: 20
+  - Season: 5
+    RewardLevel: 11
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 20
+  - Season: 5
+    RewardLevel: 12
+    RewardType: 12001
+    RewardCount: 2
+    TargetCloverNum: 20
+  - Season: 5
+    RewardLevel: 13
+    RewardType: 17303
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 5
+    RewardLevel: 14
+    RewardType: 13002
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 5
+    RewardLevel: 15
+    RewardType: 10001
+    RewardCount: 80
+    TargetCloverNum: 25
+  - Season: 5
+    RewardLevel: 16
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 5
+    RewardLevel: 17
+    RewardType: 12003
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 5
+    RewardLevel: 18
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 25
+  - Season: 5
+    RewardLevel: 19
+    RewardType: 10001
+    RewardCount: 200
+    TargetCloverNum: 25
+  - Season: 5
+    RewardLevel: 20
+    RewardType: 17301
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 5
+    RewardLevel: 21
+    RewardType: 13003
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 5
+    RewardLevel: 22
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 5
+    RewardLevel: 23
+    RewardType: 17302
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 5
+    RewardLevel: 24
+    RewardType: 12004
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 5
+    RewardLevel: 25
+    RewardType: 10001
+    RewardCount: 500
+    TargetCloverNum: 40
+  - Season: 5
+    RewardLevel: 26
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 5
+    RewardLevel: 27
+    RewardType: 11002
+    RewardCount: 3600
+    TargetCloverNum: 40
+  - Season: 5
+    RewardLevel: 28
+    RewardType: 12002
+    RewardCount: 3
+    TargetCloverNum: 50
+  - Season: 5
+    RewardLevel: 29
+    RewardType: 17303
+    RewardCount: 1800
+    TargetCloverNum: 50
+  - Season: 5
+    RewardLevel: 30
+    RewardType: 10001
+    RewardCount: 1000
+    TargetCloverNum: 60
+  - Season: 6
+    RewardLevel: 1
+    RewardType: 12002
+    RewardCount: 1
+    TargetCloverNum: 3
+  - Season: 6
+    RewardLevel: 2
+    RewardType: 10001
+    RewardCount: 20
+    TargetCloverNum: 9
+  - Season: 6
+    RewardLevel: 3
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 6
+    RewardLevel: 4
+    RewardType: 17301
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 6
+    RewardLevel: 5
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 15
+  - Season: 6
+    RewardLevel: 6
+    RewardType: 10001
+    RewardCount: 30
+    TargetCloverNum: 15
+  - Season: 6
+    RewardLevel: 7
+    RewardType: 13001
+    RewardCount: 2
+    TargetCloverNum: 15
+  - Season: 6
+    RewardLevel: 8
+    RewardType: 17302
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 6
+    RewardLevel: 9
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 6
+    RewardLevel: 10
+    RewardType: 10001
+    RewardCount: 50
+    TargetCloverNum: 20
+  - Season: 6
+    RewardLevel: 11
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 20
+  - Season: 6
+    RewardLevel: 12
+    RewardType: 12001
+    RewardCount: 2
+    TargetCloverNum: 20
+  - Season: 6
+    RewardLevel: 13
+    RewardType: 17303
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 6
+    RewardLevel: 14
+    RewardType: 13002
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 6
+    RewardLevel: 15
+    RewardType: 10001
+    RewardCount: 80
+    TargetCloverNum: 25
+  - Season: 6
+    RewardLevel: 16
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 6
+    RewardLevel: 17
+    RewardType: 12003
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 6
+    RewardLevel: 18
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 25
+  - Season: 6
+    RewardLevel: 19
+    RewardType: 10001
+    RewardCount: 200
+    TargetCloverNum: 25
+  - Season: 6
+    RewardLevel: 20
+    RewardType: 17301
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 6
+    RewardLevel: 21
+    RewardType: 13003
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 6
+    RewardLevel: 22
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 6
+    RewardLevel: 23
+    RewardType: 17302
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 6
+    RewardLevel: 24
+    RewardType: 12004
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 6
+    RewardLevel: 25
+    RewardType: 10001
+    RewardCount: 500
+    TargetCloverNum: 40
+  - Season: 6
+    RewardLevel: 26
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 6
+    RewardLevel: 27
+    RewardType: 11002
+    RewardCount: 3600
+    TargetCloverNum: 40
+  - Season: 6
+    RewardLevel: 28
+    RewardType: 12002
+    RewardCount: 3
+    TargetCloverNum: 50
+  - Season: 6
+    RewardLevel: 29
+    RewardType: 17303
+    RewardCount: 1800
+    TargetCloverNum: 50
+  - Season: 6
+    RewardLevel: 30
+    RewardType: 10001
+    RewardCount: 1000
+    TargetCloverNum: 60
+  - Season: 7
+    RewardLevel: 1
+    RewardType: 12002
+    RewardCount: 1
+    TargetCloverNum: 3
+  - Season: 7
+    RewardLevel: 2
+    RewardType: 10001
+    RewardCount: 20
+    TargetCloverNum: 9
+  - Season: 7
+    RewardLevel: 3
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 7
+    RewardLevel: 4
+    RewardType: 17301
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 7
+    RewardLevel: 5
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 15
+  - Season: 7
+    RewardLevel: 6
+    RewardType: 10001
+    RewardCount: 30
+    TargetCloverNum: 15
+  - Season: 7
+    RewardLevel: 7
+    RewardType: 13001
+    RewardCount: 2
+    TargetCloverNum: 15
+  - Season: 7
+    RewardLevel: 8
+    RewardType: 17302
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 7
+    RewardLevel: 9
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 7
+    RewardLevel: 10
+    RewardType: 10001
+    RewardCount: 50
+    TargetCloverNum: 20
+  - Season: 7
+    RewardLevel: 11
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 20
+  - Season: 7
+    RewardLevel: 12
+    RewardType: 12001
+    RewardCount: 2
+    TargetCloverNum: 20
+  - Season: 7
+    RewardLevel: 13
+    RewardType: 17303
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 7
+    RewardLevel: 14
+    RewardType: 13002
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 7
+    RewardLevel: 15
+    RewardType: 10001
+    RewardCount: 80
+    TargetCloverNum: 25
+  - Season: 7
+    RewardLevel: 16
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 7
+    RewardLevel: 17
+    RewardType: 12003
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 7
+    RewardLevel: 18
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 25
+  - Season: 7
+    RewardLevel: 19
+    RewardType: 10001
+    RewardCount: 200
+    TargetCloverNum: 25
+  - Season: 7
+    RewardLevel: 20
+    RewardType: 17301
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 7
+    RewardLevel: 21
+    RewardType: 13003
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 7
+    RewardLevel: 22
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 7
+    RewardLevel: 23
+    RewardType: 17302
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 7
+    RewardLevel: 24
+    RewardType: 12004
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 7
+    RewardLevel: 25
+    RewardType: 10001
+    RewardCount: 500
+    TargetCloverNum: 40
+  - Season: 7
+    RewardLevel: 26
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 7
+    RewardLevel: 27
+    RewardType: 11002
+    RewardCount: 3600
+    TargetCloverNum: 40
+  - Season: 7
+    RewardLevel: 28
+    RewardType: 12002
+    RewardCount: 3
+    TargetCloverNum: 50
+  - Season: 7
+    RewardLevel: 29
+    RewardType: 17303
+    RewardCount: 1800
+    TargetCloverNum: 50
+  - Season: 7
+    RewardLevel: 30
+    RewardType: 10001
+    RewardCount: 1000
+    TargetCloverNum: 60
+  - Season: 8
+    RewardLevel: 1
+    RewardType: 12002
+    RewardCount: 1
+    TargetCloverNum: 3
+  - Season: 8
+    RewardLevel: 2
+    RewardType: 10001
+    RewardCount: 20
+    TargetCloverNum: 9
+  - Season: 8
+    RewardLevel: 3
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 8
+    RewardLevel: 4
+    RewardType: 17301
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 8
+    RewardLevel: 5
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 15
+  - Season: 8
+    RewardLevel: 6
+    RewardType: 10001
+    RewardCount: 30
+    TargetCloverNum: 15
+  - Season: 8
+    RewardLevel: 7
+    RewardType: 13001
+    RewardCount: 2
+    TargetCloverNum: 15
+  - Season: 8
+    RewardLevel: 8
+    RewardType: 17302
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 8
+    RewardLevel: 9
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 8
+    RewardLevel: 10
+    RewardType: 10001
+    RewardCount: 50
+    TargetCloverNum: 20
+  - Season: 8
+    RewardLevel: 11
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 20
+  - Season: 8
+    RewardLevel: 12
+    RewardType: 12001
+    RewardCount: 2
+    TargetCloverNum: 20
+  - Season: 8
+    RewardLevel: 13
+    RewardType: 17303
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 8
+    RewardLevel: 14
+    RewardType: 13002
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 8
+    RewardLevel: 15
+    RewardType: 10001
+    RewardCount: 80
+    TargetCloverNum: 25
+  - Season: 8
+    RewardLevel: 16
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 8
+    RewardLevel: 17
+    RewardType: 12003
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 8
+    RewardLevel: 18
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 25
+  - Season: 8
+    RewardLevel: 19
+    RewardType: 10001
+    RewardCount: 200
+    TargetCloverNum: 25
+  - Season: 8
+    RewardLevel: 20
+    RewardType: 17301
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 8
+    RewardLevel: 21
+    RewardType: 13003
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 8
+    RewardLevel: 22
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 8
+    RewardLevel: 23
+    RewardType: 17302
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 8
+    RewardLevel: 24
+    RewardType: 12004
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 8
+    RewardLevel: 25
+    RewardType: 10001
+    RewardCount: 500
+    TargetCloverNum: 40
+  - Season: 8
+    RewardLevel: 26
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 8
+    RewardLevel: 27
+    RewardType: 11002
+    RewardCount: 3600
+    TargetCloverNum: 40
+  - Season: 8
+    RewardLevel: 28
+    RewardType: 12002
+    RewardCount: 3
+    TargetCloverNum: 50
+  - Season: 8
+    RewardLevel: 29
+    RewardType: 17303
+    RewardCount: 1800
+    TargetCloverNum: 50
+  - Season: 8
+    RewardLevel: 30
+    RewardType: 10001
+    RewardCount: 1000
+    TargetCloverNum: 60
+  - Season: 9
+    RewardLevel: 1
+    RewardType: 12002
+    RewardCount: 1
+    TargetCloverNum: 3
+  - Season: 9
+    RewardLevel: 2
+    RewardType: 10001
+    RewardCount: 20
+    TargetCloverNum: 9
+  - Season: 9
+    RewardLevel: 3
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 9
+    RewardLevel: 4
+    RewardType: 17301
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 9
+    RewardLevel: 5
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 15
+  - Season: 9
+    RewardLevel: 6
+    RewardType: 10001
+    RewardCount: 30
+    TargetCloverNum: 15
+  - Season: 9
+    RewardLevel: 7
+    RewardType: 13001
+    RewardCount: 2
+    TargetCloverNum: 15
+  - Season: 9
+    RewardLevel: 8
+    RewardType: 17302
+    RewardCount: 900
+    TargetCloverNum: 15
+  - Season: 9
+    RewardLevel: 9
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 20
+  - Season: 9
+    RewardLevel: 10
+    RewardType: 10001
+    RewardCount: 50
+    TargetCloverNum: 20
+  - Season: 9
+    RewardLevel: 11
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 20
+  - Season: 9
+    RewardLevel: 12
+    RewardType: 12001
+    RewardCount: 2
+    TargetCloverNum: 20
+  - Season: 9
+    RewardLevel: 13
+    RewardType: 17303
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 9
+    RewardLevel: 14
+    RewardType: 13002
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 9
+    RewardLevel: 15
+    RewardType: 10001
+    RewardCount: 80
+    TargetCloverNum: 25
+  - Season: 9
+    RewardLevel: 16
+    RewardType: 17401
+    RewardCount: 900
+    TargetCloverNum: 25
+  - Season: 9
+    RewardLevel: 17
+    RewardType: 12003
+    RewardCount: 2
+    TargetCloverNum: 25
+  - Season: 9
+    RewardLevel: 18
+    RewardType: 11002
+    RewardCount: 1800
+    TargetCloverNum: 25
+  - Season: 9
+    RewardLevel: 19
+    RewardType: 10001
+    RewardCount: 200
+    TargetCloverNum: 25
+  - Season: 9
+    RewardLevel: 20
+    RewardType: 17301
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 9
+    RewardLevel: 21
+    RewardType: 13003
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 9
+    RewardLevel: 22
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 30
+  - Season: 9
+    RewardLevel: 23
+    RewardType: 17302
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 9
+    RewardLevel: 24
+    RewardType: 12004
+    RewardCount: 2
+    TargetCloverNum: 30
+  - Season: 9
+    RewardLevel: 25
+    RewardType: 10001
+    RewardCount: 500
+    TargetCloverNum: 40
+  - Season: 9
+    RewardLevel: 26
+    RewardType: 17401
+    RewardCount: 1800
+    TargetCloverNum: 40
+  - Season: 9
+    RewardLevel: 27
+    RewardType: 11002
+    RewardCount: 3600
+    TargetCloverNum: 40
+  - Season: 9
+    RewardLevel: 28
+    RewardType: 12002
+    RewardCount: 3
+    TargetCloverNum: 50
+  - Season: 9
+    RewardLevel: 29
+    RewardType: 17303
+    RewardCount: 1800
+    TargetCloverNum: 50
+  - Season: 9
+    RewardLevel: 30
+    RewardType: 10001
+    RewardCount: 1000
+    TargetCloverNum: 60

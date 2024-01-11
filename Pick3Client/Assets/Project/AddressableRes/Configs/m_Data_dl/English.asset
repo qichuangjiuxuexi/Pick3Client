@@ -1,0 +1,1367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d48ffe636ab84a98b4003e0b9bfb068, type: 3}
+  m_Name: English
+  m_EditorClassIdentifier: 
+  keys:
+  - Push_1_Title
+  - Push_1
+  - Push_2_Title
+  - Push_2
+  - Push_3_Title
+  - Push_3
+  - Push_4_Title
+  - Push_4
+  - Push_5_Title
+  - Push_5
+  - Push_6_Title
+  - Push_6
+  - Boosterster_Undo_Name
+  - Booster_Undo_Description
+  - Booster_Magnifier_Name
+  - Booster_Magnifier_Description
+  - Booster_Bomb_Name
+  - Booster_Bomb_Description
+  - Booster_Freeze_Name
+  - Booster_Freeze_Description
+  - Booster_Lightning_Name
+  - Booster_Lightning_Description
+  - Booster_Clock_Name
+  - Booster_Clock_Description
+  - Booster_Magnet_Name
+  - Booster_Magnet_Description
+  - BannerTips_NoNewLevels
+  - Shop_Tip_Purchase_Failed
+  - Shop_No_Internet
+  - Star_Box_Desc
+  - Level_Box_Desc
+  - Level_Box_Desc_Single
+  - RV_loading
+  - RV_failed_des
+  - IAPShop_RemoveADS
+  - IAPShop_PremiumPack
+  - IAPShop_ElitePack
+  - IAPShop_MasterPack
+  - IAPShop_RoyalPack
+  - IAPShop_Coins
+  - IAPShop_Free
+  - IAPShop_PopularTag
+  - IAPShop_ValueTag
+  - IAPShop_Title
+  - IAPShop_FreeCoinsCoolDown
+  - IAPShop_PurchaseSuccessful
+  - IAPShop_Collect
+  - IAPShop_MoreOffer
+  - IAPShop_Common_Coins
+  - IAPShop_SimplifiedShop_Title
+  - RemoveADs_Tag
+  - RemoveADs_Item
+  - RemoveADs_Title_1
+  - RemoveADs_Title_2
+  - InLevel_TopUI_Level
+  - InLevel_BottomUI_Level
+  - InLevel_Plus
+  - LevelFinished_Win
+  - LevelFinished_Btn_Continue
+  - LevelFinished_TimeUsed
+  - LevelFinished_Coins
+  - OutofSpace_Title
+  - OutofSpace_Btn
+  - OutofSpace_Btn_RV
+  - OutofTime_Title
+  - OutofTime_Btn
+  - AreYouSure_Subtitle
+  - AreYouSure_Title
+  - LevelFailed_Btn
+  - LevelFailed_Title
+  - LevelQuit_Btn_Resume
+  - LevelQuit_Btn_Quit
+  - PauseDialog_Title
+  - PauseDialog_Sound
+  - PauseDialog_Music
+  - PauseDialog_Vibration
+  - PauseDialog_ContactUs
+  - PauseDialog_QuitLevel
+  - SettingDialog_Title
+  - PauseDialog_Version
+  - PauseDialog_Language
+  - Localization_en
+  - Localization_de
+  - Localization_fr
+  - Localization_es
+  - Localization_pt
+  - Localization_jp
+  - Localization_kr
+  - DailyBonus_Day
+  - DailyBonus_Title
+  - DailyBonus_Btn_Claim
+  - DailyBonus_Timer
+  - DailyBonus_Day_Entrance
+  - EnterLevel_Subtitle
+  - EnterLevel_UnlockTip
+  - EnterLevel_Btn
+  - EnterLevel_Streak_Faq_Title
+  - EnterLevel_Streak_Faq
+  - EnterLevel_Streak_Faq_1
+  - EnterLevel_Streak_Faq_2
+  - EnterLevel_Streak_Faq_3
+  - Purchase_Heart_Timer
+  - Purchase_Heart_Fill
+  - Purchase_Heart_Title_1
+  - Purchase_Heart_Title_2
+  - Purchase_Heart_Full
+  - Guide_Step_1
+  - Guide_Step_2
+  - Guide_Step_3_Undo
+  - Guide_Step_4_Magnifier
+  - Guide_Step_5_Bomb
+  - Guide_Step_6_Snowflake
+  - Guide_Step_7_Thunder
+  - Guide_Step_8_Clock
+  - Guide_Step_9_Magnet
+  - Guide_Step_10_Streak
+  - Guide_Tap_To_Continue
+  - Guide_CloverTreasure
+  - Guide_SakuraTreasure
+  - Guide_FireworkTreasure
+  - Guide_SweetTreasure
+  - Guide_RainbowTreasure
+  - Guide_SunnyTreasure
+  - Guide_MagicTreasure
+  - Guide_HalloweenTreasure
+  - Guide_ThanksTreasure
+  - Guide_ChristmasTreasure
+  - Guide_RechargeBooster_1
+  - Guide_RechargeBooster_2
+  - Guide_UseBooster
+  - BannerTip_Magnifier
+  - BannerTip_Freeze
+  - BannerTip_Undo
+  - BannerTip_FullLife
+  - Lobby_LevelEntrance_Hard
+  - Lobby_StarChest
+  - Lobby_LevelChest
+  - TermsNotice_Title
+  - TermsNotice_Description
+  - TermsNotice_TermsOfService
+  - TermsNotice_OK
+  - QuitGameNotice_Title
+  - QuitGameNotice_Description
+  - QuitGameNotice_Resume
+  - QuitGameNotice_Quit
+  - CloverTreasure_Title
+  - CloverTreasure_Start_Description
+  - CloverTreasure_Locked_Tips
+  - SakuraTreasure_Title
+  - SakuraTreasure_Start_Description
+  - SakuraTreasure_Locked_Tips
+  - FireworkTreasure_Title
+  - FireworkTreasure_Start_Description
+  - FireworkTreasure_Locked_Tips
+  - SweetTreasure_Title
+  - SweetTreasure_Start_Description
+  - SweetTreasure_Locked_Tips
+  - RainbowTreasure_Title
+  - RainbowTreasure_Start_Description
+  - RainbowTreasure_Locked_Tips
+  - SunnyTreasure_Title
+  - SunnyTreasure_Start_Description
+  - SunnyTreasure_Locked_Tips
+  - MagicTreasure_Title
+  - MagicTreasure_Start_Description
+  - MagicTreasure_Locked_Tips
+  - CloverTreasure_End
+  - HalloweenTreasure_Title
+  - HalloweenTreasure_Start_Description
+  - HalloweenTreasure_Locked_Tips
+  - ThanksTreasure_Title
+  - ThanksTreasure_Start_Description
+  - ThanksTreasure_Locked_Tips
+  - ChristmasTreasure_Title
+  - ChristmasTreasure_Start_Description
+  - ChristmasTreasure_Locked_Tips
+  - CommonReward_Title
+  - StarterPack_Title
+  - StarterPack_Subtitle
+  - Piggy_Title
+  - Piggy_MorePercentage
+  - Piggy_Max
+  - Piggy_Des_1
+  - Piggy_Des_2
+  - Piggy_BuyBtn
+  - Piggy_BreakDes
+  - Piggy_RewardTitle
+  - Piggy_RewardBtn
+  - RateUs_Title
+  - RateUs_Description
+  - RateUs_Btn
+  - MatchRace_You
+  - MatchRace_Player
+  - MatchRace_Status_1
+  - MatchRace_Status_2
+  - MatchRace_Status_3
+  - MatchRace_Status_4
+  - MatchRace_Status_5
+  - MatchRace_Title
+  - MatchRace_Start
+  - BonusLevel_LevelID
+  - BonusLevel_LevelDescription
+  - BonusLevel_EntryDescription
+  - RocketTreasure_Title
+  - RocketTreasure_Subtitle
+  - RocketTreasure_FreeBtn
+  - RocketTreasure_ClaimBtn
+  - RocketTreasure_BannerTip
+  - LobbyNav_Home
+  - LeaderBoard_Title
+  - LeaderBoard_Weekly
+  - LeaderBoard_Teams
+  - LeaderBoard_Players
+  - LeaderBoard_Global
+  - LeaderBoard_Local
+  - LeaderBoard_Check_Internet
+  - LeaderBoard_Connectting
+  - LeaderBoard_Weekly_Finished
+  - LeaderBoard_Weekly_Next
+  - LeaderBoard_Weekly_Locked
+  - LeaderBoard_Weekly_Score
+  - LeaderBoard_Weekly_Score1
+  - LeaderBoard_Weekly_Level
+  - LeaderBoard_Naming_Interval_Tip
+  - LeaderBoard_Naming_Save
+  - LeaderBoard_Naming_Title
+  - LeaderBoard_Weekly_Btn_Finished
+  - LeaderBoard_Weekly_Start_Title
+  - LeaderBoard_Weekly_Reward_Title
+  - LeaderBoard_Weekly_Btn_Start
+  - LeaderBoard_Weekly_Sart_Desc
+  - LeaderBoard_SetName_Invalid_Word
+  - LeaderBoard_SetName_DefaultName
+  - LeaderBoard_FAQ1
+  - LeaderBoard_FAQ2
+  - LeaderBoard_FAQ3
+  - LeaderBoard_Weekly_Claim
+  - LeaderBoard_Weekly_Continue
+  - DailySale_Tag_1
+  - DailySale_Tag_2
+  - DailySale_Tag_3
+  - DailySale_Tag_4
+  - DailySale_Tag_5
+  - DailySale_Tag_Off_Shop
+  - DailySale_Tag_Off
+  - DailySale_Title_1
+  - DailySale_Title_2
+  - DailySale_Tag_6
+  - DailySale_Tag_7
+  - DailySale_Tag_8
+  - DailySale_Tag_9
+  - DailySale_Shop_Title
+  - Team_CreateTeam_InvalidDes
+  - Team_CreateTeam_NoName
+  - Team_CreateTeam_InvalidNameLength
+  - Team_CreateTeam_InvalidNumber
+  - Team_NaviName
+  - Team_RecommendTeam_Tab
+  - Team_RecommendTeam_TopDes
+  - Team_RecommendTeam_Join
+  - Team_Info_Member
+  - Team_RecommendTeam_Member
+  - Team_RecommendTeam_View
+  - Team_TeamInfo_Title
+  - Team_TeamInfo_Score
+  - Team_TeamInfo_Leader
+  - Team_CreateTeam_Create
+  - Team_CreateTeam_ChooseLogo
+  - Team_SearchTeam_Tab
+  - Team_Search_Default
+  - Team_CreateTeam_TeamLogo
+  - Team_CreateTeam_TopDes
+  - Team_CreateTeam_Name
+  - Team_Search_TeamName_Default
+  - Team_CreateTeam_Name_DefaultInput
+  - Team_CreateTeam_Badge
+  - Team_CreateTeam_Edit
+  - Team_CreateTeam_Des
+  - Team_CreateTeam_Des_DefaultInput
+  - Team_CreateTeam_Level
+  - Team_Edit_Save
+  - Team_CreateTeam_EditBadge_Title
+  - Team_CreateTeam_InvalidLevel
+  - Team_CreateTeam_NameExists
+  - Team_Edit_MemberInvalidLevel
+  - Team_RequestLife_Full
+  - Team_RequestLife_CoolDown
+  - Team_KickMember_Btn
+  - Team_KickMember_Title
+  - Team_KickMember_Des
+  - Team_KickMember_Yes
+  - Team_KickMember_AlreadyLeave
+  - Team_KickMember_No
+  - Team_LeaveTeam_Title
+  - Team_LeaveTeam_Des
+  - Team_LeaveTeam_Leave
+  - Team_JoinTeam_TeamNotExists
+  - Team_JoinTeam_Full
+  - Team_JoinTeam_NotEnoughLevel
+  - Team_Join_Refresh
+  - Team_SearchTeam_NoMatchTeam
+  - Team_Capacity
+  - Team_Free_Life
+  - Team_RequestLift_MaxOut
+  - Team_Send_You_Life
+  - Team_Life_Btn_View
+  - Team_Ask_For_Live
+  - Team_Life_Received
+  - Team_SendLife_ReachLimit
+  - Team_Message_System_Join
+  - Team_Message_System_Exit
+  - Team_Message_System_Kick
+  - Team_Message_System_Promote
+  - Team_Btn_Chat
+  - Team_Btn_Request
+  - Team_Last_Active
+  - Team_Message_Time_Ago
+  - Team_Switch_Team_Title
+  - Team_Switch_Team_Title1
+  - Team_Switch_Team_Title2
+  - Home_Live_Tab
+  - Team_Help_Btn
+  - Live_Btn_Add
+  - Team_Btn_Request_In
+  - InfinityBundle_Title_1
+  - InfinityBundle_Title_2
+  - InfinityBundle_SubTitle
+  - LootAdventure_Title
+  - LootAdventure_Title_2
+  - LootAdventure_Subtitle_1
+  - LootAdventure_Subtitle_2
+  - LootAdventure_Subtitle_3
+  - LootAdventure_LootTitle_1
+  - LootAdventure_LootTitle_2
+  - EditProfile_Title
+  - EditProfile_Save_Btn
+  - IslandExpedition_Title
+  - IslandExpedition_Board_Start1
+  - IslandExpedition_Board_Start2
+  - IslandExpedition_Start_Btn
+  - IslandExpedition_Prize
+  - IslandExpedition_Match
+  - IslandExpedition_Continue
+  - IslandExpedition_Explain1
+  - IslandExpedition_Levels
+  - IslandExpedition_Players
+  - IslandExpedition_Explain2
+  - IslandExpedition_Explain3
+  - IslandExpedition_Explain4
+  - IslandExpedition_Win_Title
+  - IslandExpedition_Fail
+  - IslandExpedition_Next_Round
+  - IslandExpedition_Finish
+  - IslandExpedition_Win1
+  - IslandExpedition_Explain5
+  - IslandExpedition_Claim
+  - IslandExpedition_Notice
+  - IslandExpedition_FAQ1
+  - IslandExpedition_FAQ2
+  - IslandExpedition_FAQ3
+  - IslandExpedition_Bubble1
+  - IslandExpedition_Bubble2
+  - IslandExpedition_Bubble3
+  - IslandExpedition_Bubble4
+  - Labor_Sale_Title
+  - Purchase_Confirmation_Title
+  - Purchase_Confirmation_Text
+  - HarvestChallenge__Start
+  - HarvestChallenge__Tip
+  - HarvestChallenge__First
+  - HarvestChallenge__Win
+  - HarvestChallenge__Fail
+  - HarvestChallenge__Next
+  - HarvestChallenge__Current
+  - HarvestChallenge__Title
+  - HarvestChallenge__Bundle
+  - HarvestChallenge__Type1
+  - HarvestChallenge__Type2
+  - HarvestChallenge__Type3
+  - HarvestChallenge__OK
+  - HarvestChallenge__Oops
+  - HarvestChallenge__Go
+  - HarvestChallenge__Add
+  - HarvestChallenge__Play
+  - HarvestChallenge__Replay
+  - HarvestChallenge__Entrance
+  - HarvestChallenge__Prize
+  - HarvestChallenge__Freetip
+  - HarvestChallenge__Freshtip
+  - Columbus_Title
+  - Balloon_Top1
+  - Balloon_Top2
+  - Balloon_Top3
+  - Balloon_Claim
+  - Balloon_Enter1
+  - Balloon_Enter2
+  - Balloon_Enter3
+  - Balloon_FAQ1
+  - Balloon_FAQ2
+  - Balloon_FAQ3
+  - Balloon_FAQ4
+  - Balloon_Name
+  - Balloon_Finish
+  - Halloween_Sale_Title
+  - Christmas_Sale_Title
+  - GhostHunt_Title
+  - GhostHunt_Title_Christmas
+  - GhostHunt_Tip1
+  - GhostHunt_Tip1_Christmas
+  - GhostHunt_Tip2
+  - GhostHunt_Tip3
+  - GhostHunt_Tip3_Christmas
+  - GhostHunt_Tip4
+  - GhostHunt_Tip4_Christmas
+  - GhostHunt_Reward
+  - GhostHunt_Faq1
+  - GhostHunt_Faq1_Christmas
+  - GhostHunt_Faq2
+  - GhostHunt_Faq3
+  - GhostHunt_button1
+  - GhostHunt_button2
+  - GhostHunt_button2_Christmas
+  - GhostHunt_claimed
+  - GameUpdate_Title
+  - GameUpdate_Text1
+  - GameUpdate_Btn
+  - GameUpdate_Later
+  - BlackFriday_Title
+  - Delete_Text
+  - Delete_First_Title
+  - Delete_First_Text
+  - Delete_Cancel
+  - Delete_ConfirmDelete
+  - Delete_Second_Title
+  - Delete_Second_Text
+  - Delete_FailText
+  - Come_Text
+  - Liveout_Text
+  - FacebookGroup_Btn
+  - Level_End_Title1
+  - Level_End_Title2
+  - Level_End_Title3
+  values:
+  - Key: Push_1_Title
+    Value: "\U0001F575\uFE0F\u200D\u2642\uFE0F Can you find it?"
+  - Key: Push_1
+    Value: "We've hidden something Special for you. \u23E9 TAP now and let the search
+      begin!"
+  - Key: Push_2_Title
+    Value: "\U0001F44B Hey, Match Master!"
+  - Key: Push_2
+    Value: "Ready to showcase your \U0001F3C5Unmatched Skills? \u2192TAP to play!"
+  - Key: Push_3_Title
+    Value: "\U0001F680Match Fun is READY!"
+  - Key: Push_3
+    Value: "TAP here to start playing an \u2728 Exhilarating New Level!>>>"
+  - Key: Push_4_Title
+    Value: "Need a little focus?\U0001F440"
+  - Key: Push_4
+    Value: "TAP here and hunt down all the hidden items!\U0001F9E9"
+  - Key: Push_5_Title
+    Value: "\U0001F608Hard level awaits!"
+  - Key: Push_5
+    Value: "Are you ready for a challenge? \U0001F449TAP to take it on!"
+  - Key: Push_6_Title
+    Value: "\U0001F914How fast can you solve it?"
+  - Key: Push_6
+    Value: "Find out Now, TAP to Play!\U0001F680"
+  - Key: Boosterster_Undo_Name
+    Value: Undo
+  - Key: Booster_Undo_Description
+    Value: Reset your last move!
+  - Key: Booster_Magnifier_Name
+    Value: Magnifier
+  - Key: Booster_Magnifier_Description
+    Value: Automatically finds and completes a match!
+  - Key: Booster_Bomb_Name
+    Value: Bomb
+  - Key: Booster_Bomb_Description
+    Value: Drop a bomb and blast everything around!
+  - Key: Booster_Freeze_Name
+    Value: Sandglass
+  - Key: Booster_Freeze_Description
+    Value: Freeze your time for 15 seconds!
+  - Key: Booster_Lightning_Name
+    Value: Thunder
+  - Key: Booster_Lightning_Description
+    Value: Remove 3 random junk items!
+  - Key: Booster_Clock_Name
+    Value: Clock
+  - Key: Booster_Clock_Description
+    Value: Add 10 more seconds to the game clock!
+  - Key: Booster_Magnet_Name
+    Value: Magnet
+  - Key: Booster_Magnet_Description
+    Value: Locates 3 target items for you!
+  - Key: BannerTips_NoNewLevels
+    Value: You have finished all levels!
+  - Key: Shop_Tip_Purchase_Failed
+    Value: Purchase Failed!
+  - Key: Shop_No_Internet
+    Value: No internet connection!
+  - Key: Star_Box_Desc
+    Value: Collect {0} more <sprite=0> to open it!
+  - Key: Level_Box_Desc
+    Value: Beat {0} more levels to open it!
+  - Key: Level_Box_Desc_Single
+    Value: Beat 1 more level to open it!
+  - Key: RV_loading
+    Value: Loading...
+  - Key: RV_failed_des
+    Value: Video unavailable. Please try again later.
+  - Key: IAPShop_RemoveADS
+    Value: Remove ADs Pack
+  - Key: IAPShop_PremiumPack
+    Value: Premium Pack
+  - Key: IAPShop_ElitePack
+    Value: Elite Pack
+  - Key: IAPShop_MasterPack
+    Value: Master Pack
+  - Key: IAPShop_RoyalPack
+    Value: Royal Pack
+  - Key: IAPShop_Coins
+    Value: Coins
+  - Key: IAPShop_Free
+    Value: Free
+  - Key: IAPShop_PopularTag
+    Value: Most Popular
+  - Key: IAPShop_ValueTag
+    Value: Best Value
+  - Key: IAPShop_Title
+    Value: Shop
+  - Key: IAPShop_FreeCoinsCoolDown
+    Value: Free Coins in
+  - Key: IAPShop_PurchaseSuccessful
+    Value: Purchase Successful!
+  - Key: IAPShop_Collect
+    Value: Collect
+  - Key: IAPShop_MoreOffer
+    Value: More Offers
+  - Key: IAPShop_Common_Coins
+    Value: COINS
+  - Key: IAPShop_SimplifiedShop_Title
+    Value: Out of Coins!
+  - Key: RemoveADs_Tag
+    Value: '4X
+
+      Value'
+  - Key: RemoveADs_Item
+    Value: Remove ADs Pack
+  - Key: RemoveADs_Title_1
+    Value: Remove ADs
+  - Key: RemoveADs_Title_2
+    Value: Pack
+  - Key: InLevel_TopUI_Level
+    Value: Level {0}
+  - Key: InLevel_BottomUI_Level
+    Value: Low on space!
+  - Key: InLevel_Plus
+    Value: 1+
+  - Key: LevelFinished_Win
+    Value: You won
+  - Key: LevelFinished_Btn_Continue
+    Value: Continue
+  - Key: LevelFinished_TimeUsed
+    Value: 'Time Used:'
+  - Key: LevelFinished_Coins
+    Value: Coins x{0}
+  - Key: OutofSpace_Title
+    Value: Out of Space
+  - Key: OutofSpace_Btn
+    Value: Clear Row
+  - Key: OutofSpace_Btn_RV
+    Value: Free
+  - Key: OutofTime_Title
+    Value: Out of Time!
+  - Key: OutofTime_Btn
+    Value: Extra Time
+  - Key: AreYouSure_Subtitle
+    Value: You will lose
+  - Key: AreYouSure_Title
+    Value: Are You Sure?
+  - Key: LevelFailed_Btn
+    Value: Try Again
+  - Key: LevelFailed_Title
+    Value: Level Failed
+  - Key: LevelQuit_Btn_Resume
+    Value: Resume
+  - Key: LevelQuit_Btn_Quit
+    Value: Quit
+  - Key: PauseDialog_Title
+    Value: Pause
+  - Key: PauseDialog_Sound
+    Value: Sound
+  - Key: PauseDialog_Music
+    Value: Music
+  - Key: PauseDialog_Vibration
+    Value: Vibration
+  - Key: PauseDialog_ContactUs
+    Value: Contact Us
+  - Key: PauseDialog_QuitLevel
+    Value: Quit Level
+  - Key: SettingDialog_Title
+    Value: Settings
+  - Key: PauseDialog_Version
+    Value: 'Version: {0}'
+  - Key: PauseDialog_Language
+    Value: Language
+  - Key: Localization_en
+    Value: English
+  - Key: Localization_de
+    Value: Deutsch
+  - Key: Localization_fr
+    Value: "Fran\xE7ais"
+  - Key: Localization_es
+    Value: "Espa\xF1ol"
+  - Key: Localization_pt
+    Value: "Portugu\xEAs"
+  - Key: Localization_jp
+    Value: "\u65E5\u672C\u8A9E"
+  - Key: Localization_kr
+    Value: "\uD55C\uAD6D\uC5B4"
+  - Key: DailyBonus_Day
+    Value: Day {0}
+  - Key: DailyBonus_Title
+    Value: Daily Bonus
+  - Key: DailyBonus_Btn_Claim
+    Value: Claim
+  - Key: DailyBonus_Timer
+    Value: Next Bonus in
+  - Key: DailyBonus_Day_Entrance
+    Value: 'Day
+
+      {0}'
+  - Key: EnterLevel_Subtitle
+    Value: 'Select Boosters:'
+  - Key: EnterLevel_UnlockTip
+    Value: Unlock at Level {0}
+  - Key: EnterLevel_Btn
+    Value: Play
+  - Key: EnterLevel_Streak_Faq_Title
+    Value: Streak Rewards
+  - Key: EnterLevel_Streak_Faq
+    Value: Keep the winning streak and get more free boosters!
+  - Key: EnterLevel_Streak_Faq_1
+    Value: 1 Streak
+  - Key: EnterLevel_Streak_Faq_2
+    Value: 2 Streaks
+  - Key: EnterLevel_Streak_Faq_3
+    Value: 3 Streaks
+  - Key: Purchase_Heart_Timer
+    Value: Free Life in {0}
+  - Key: Purchase_Heart_Fill
+    Value: Refill now
+  - Key: Purchase_Heart_Title_1
+    Value: Out of Lives!
+  - Key: Purchase_Heart_Title_2
+    Value: Refill Lives
+  - Key: Purchase_Heart_Full
+    Value: Full
+  - Key: Guide_Step_1
+    Value: Tap <color=red>3</color> identical items to make a match!
+  - Key: Guide_Step_2
+    Value: Match the required items to pass the level!
+  - Key: Guide_Step_3_Undo
+    Value: Use this booster to undo your last move!
+  - Key: Guide_Step_4_Magnifier
+    Value: Use the Magnifier to instantly find a match!
+  - Key: Guide_Step_5_Bomb
+    Value: Drop a bomb to blast things around!
+  - Key: Guide_Step_6_Snowflake
+    Value: Use this booster to freeze your time for <color=blue>15</color> seconds!
+  - Key: Guide_Step_7_Thunder
+    Value: Start the game with some Thunder and zap away <color=red>3</color> junk
+      items!
+  - Key: Guide_Step_8_Clock
+    Value: Careful! This level is <color=red>HARD</color>, use the Clock to add more
+      time!
+  - Key: Guide_Step_9_Magnet
+    Value: Use the Magnet to instantly locate <color=red>3</color> matches!
+  - Key: Guide_Step_10_Streak
+    Value: Keep the winning streak and get more free boosters!
+  - Key: Guide_Tap_To_Continue
+    Value: Tap to continue
+  - Key: Guide_CloverTreasure
+    Value: Collect clovers to get rewards from your Clover Treasure!
+  - Key: Guide_SakuraTreasure
+    Value: Collect cherry blossoms to get rewards from your Cherry Blossom Treasure!
+  - Key: Guide_FireworkTreasure
+    Value: Collect fireworks to get rewards from your Firework Treasure!
+  - Key: Guide_SweetTreasure
+    Value: Collect ice cream to get rewards from your Sweet Treasure!
+  - Key: Guide_RainbowTreasure
+    Value: Collect rainbow pinwheel to get rewards from your Rainbow Treasure!
+  - Key: Guide_SunnyTreasure
+    Value: Collect sun hat to get rewards from your Sunny Treasure!
+  - Key: Guide_MagicTreasure
+    Value: Collect wizard hat to get rewards from your Magic Treasure!
+  - Key: Guide_HalloweenTreasure
+    Value: Collect Jack-o'-lanterns to get rewards from your Halloween Treasure!
+  - Key: Guide_ThanksTreasure
+    Value: Collect Turkeys to get rewards from your Turkey Treasure!
+  - Key: Guide_ChristmasTreasure
+    Value: "Collect Bells to get rewards from Santa\u2018s Treasure!"
+  - Key: Guide_RechargeBooster_1
+    Value: Keep matching and recharge this booster!
+  - Key: Guide_RechargeBooster_2
+    Value: Booster is ready! Try it out!
+  - Key: Guide_UseBooster
+    Value: Tap to use the booster!
+  - Key: BannerTip_Magnifier
+    Value: Free up more space to use the Magnifier!
+  - Key: BannerTip_Freeze
+    Value: Your time is already frozen!
+  - Key: BannerTip_Undo
+    Value: You don't have any items to undo!
+  - Key: BannerTip_FullLife
+    Value: Your Life is full!
+  - Key: Lobby_LevelEntrance_Hard
+    Value: Hard Level
+  - Key: Lobby_StarChest
+    Value: Star Chest
+  - Key: Lobby_LevelChest
+    Value: Level Chest
+  - Key: TermsNotice_Title
+    Value: Important
+  - Key: TermsNotice_Description
+    Value: Press OK to accept Terms of Service and Privacy Policy.
+  - Key: TermsNotice_TermsOfService
+    Value: Terms of Service
+  - Key: TermsNotice_OK
+    Value: OK
+  - Key: QuitGameNotice_Title
+    Value: Quit Game
+  - Key: QuitGameNotice_Description
+    Value: Do you want to quit the game?
+  - Key: QuitGameNotice_Resume
+    Value: Resume
+  - Key: QuitGameNotice_Quit
+    Value: Quit
+  - Key: CloverTreasure_Title
+    Value: Clover Treasure
+  - Key: CloverTreasure_Start_Description
+    Value: Find Clovers in levels and win amazing rewards!
+  - Key: CloverTreasure_Locked_Tips
+    Value: Collect more Clovers from levels to unlock this!
+  - Key: SakuraTreasure_Title
+    Value: Cherry Blossom Treasure
+  - Key: SakuraTreasure_Start_Description
+    Value: Find Cherry Blossoms in levels to win amazing rewards!
+  - Key: SakuraTreasure_Locked_Tips
+    Value: Collect more Cherry Blossoms from levels to unlock this!
+  - Key: FireworkTreasure_Title
+    Value: Fireworks Treasure
+  - Key: FireworkTreasure_Start_Description
+    Value: Find Fireworks in levels and win amazing rewards!
+  - Key: FireworkTreasure_Locked_Tips
+    Value: Collect more Fireworks from levels to unlock this!
+  - Key: SweetTreasure_Title
+    Value: Sweet Treasure
+  - Key: SweetTreasure_Start_Description
+    Value: Sweet Treasure
+  - Key: SweetTreasure_Locked_Tips
+    Value: Collect more Ice Creams from levels to unlock this!
+  - Key: RainbowTreasure_Title
+    Value: Rainbow Treasure
+  - Key: RainbowTreasure_Start_Description
+    Value: Find Rainbow Pin Wheels in levels and win amazing rewards!
+  - Key: RainbowTreasure_Locked_Tips
+    Value: Collect more Rainbow Pinwheels from levels to unlock this!
+  - Key: SunnyTreasure_Title
+    Value: Sunny Treasure
+  - Key: SunnyTreasure_Start_Description
+    Value: Find Sun Hats in levels and win amazing rewards!
+  - Key: SunnyTreasure_Locked_Tips
+    Value: Collect more Sun Hats from levels to unlock this!
+  - Key: MagicTreasure_Title
+    Value: Magic Treasure
+  - Key: MagicTreasure_Start_Description
+    Value: Find Wizard Hats in levels and win amazing rewards!
+  - Key: MagicTreasure_Locked_Tips
+    Value: Collect more Wizard Hats from levels to unlock this!
+  - Key: CloverTreasure_End
+    Value: End
+  - Key: HalloweenTreasure_Title
+    Value: Halloween Treasure
+  - Key: HalloweenTreasure_Start_Description
+    Value: Find Jack-o'-lanterns in levels and win amazing rewards!
+  - Key: HalloweenTreasure_Locked_Tips
+    Value: Collect more Jack-o'-lanterns from levels to unlock this!
+  - Key: ThanksTreasure_Title
+    Value: Turkey Treasure
+  - Key: ThanksTreasure_Start_Description
+    Value: Find Turkeys in levels to win amazing rewards!
+  - Key: ThanksTreasure_Locked_Tips
+    Value: Collect more Turkeys from levels to unlock this!
+  - Key: ChristmasTreasure_Title
+    Value: "Santa\u2018s Treasure"
+  - Key: ChristmasTreasure_Start_Description
+    Value: Find Bells in levels to win amazing rewards!
+  - Key: ChristmasTreasure_Locked_Tips
+    Value: Collect more Bells from levels to unlock this!
+  - Key: CommonReward_Title
+    Value: Congratulations!
+  - Key: StarterPack_Title
+    Value: Starter Pack!
+  - Key: StarterPack_Subtitle
+    Value: Only on your first purchase!
+  - Key: Piggy_Title
+    Value: Piggy Bank
+  - Key: Piggy_MorePercentage
+    Value: '{0}
+
+      MORE!'
+  - Key: Piggy_Max
+    Value: MAX
+  - Key: Piggy_Des_1
+    Value: Beat Levels, Save Coins!
+  - Key: Piggy_Des_2
+    Value: BREAK NOW!
+  - Key: Piggy_BuyBtn
+    Value: BREAK FOR {0}
+  - Key: Piggy_BreakDes
+    Value: Tap to Smash!
+  - Key: Piggy_RewardTitle
+    Value: PIGGY SAVINGS
+  - Key: Piggy_RewardBtn
+    Value: COLLECT
+  - Key: RateUs_Title
+    Value: Having Fun?
+  - Key: RateUs_Description
+    Value: Show your love by giving 5 Stars!
+  - Key: RateUs_Btn
+    Value: Rate us!
+  - Key: MatchRace_You
+    Value: You
+  - Key: MatchRace_Player
+    Value: 'Player
+
+      {0}'
+  - Key: MatchRace_Status_1
+    Value: Beat {0} levels before others to win grand prize!
+  - Key: MatchRace_Status_2
+    Value: You failed to win the race!
+  - Key: MatchRace_Status_3
+    Value: You finished first and won the prize!
+  - Key: MatchRace_Status_4
+    Value: You finished second and won the prize!
+  - Key: MatchRace_Status_5
+    Value: You finished third and won the prize!
+  - Key: MatchRace_Title
+    Value: Rocket Race
+  - Key: MatchRace_Start
+    Value: Start
+  - Key: BonusLevel_LevelID
+    Value: Bonus Level
+  - Key: BonusLevel_LevelDescription
+    Value: For Bonus Levels, there's no penalty if you run out of space or run out
+      of time!
+  - Key: BonusLevel_EntryDescription
+    Value: Every match drops a coin!
+  - Key: RocketTreasure_Title
+    Value: Rocket Treasure
+  - Key: RocketTreasure_Subtitle
+    Value: Claim each offer to unlock free rewards!
+  - Key: RocketTreasure_FreeBtn
+    Value: Free
+  - Key: RocketTreasure_ClaimBtn
+    Value: Claim
+  - Key: RocketTreasure_BannerTip
+    Value: Claim the previous rewards to unlock this one!
+  - Key: LobbyNav_Home
+    Value: Home
+  - Key: LeaderBoard_Title
+    Value: Leaderboard
+  - Key: LeaderBoard_Weekly
+    Value: Weekly
+  - Key: LeaderBoard_Teams
+    Value: Teams
+  - Key: LeaderBoard_Players
+    Value: Players
+  - Key: LeaderBoard_Global
+    Value: Global
+  - Key: LeaderBoard_Local
+    Value: Local
+  - Key: LeaderBoard_Check_Internet
+    Value: Please check your internet
+  - Key: LeaderBoard_Connectting
+    Value: Connecting....
+  - Key: LeaderBoard_Weekly_Finished
+    Value: The Contest for this week has ended!
+  - Key: LeaderBoard_Weekly_Next
+    Value: Next Contest will start in {0}
+  - Key: LeaderBoard_Weekly_Locked
+    Value: Unlock at Level {0}
+  - Key: LeaderBoard_Weekly_Score
+    Value: Score:{0}
+  - Key: LeaderBoard_Weekly_Score1
+    Value: Score
+  - Key: LeaderBoard_Weekly_Level
+    Value: Level
+  - Key: LeaderBoard_Naming_Interval_Tip
+    Value: You can only change your name once a week.
+  - Key: LeaderBoard_Naming_Save
+    Value: Save
+  - Key: LeaderBoard_Naming_Title
+    Value: Change Name
+  - Key: LeaderBoard_Weekly_Btn_Finished
+    Value: Finished
+  - Key: LeaderBoard_Weekly_Start_Title
+    Value: Weekly Contest
+  - Key: LeaderBoard_Weekly_Reward_Title
+    Value: Weekly Contest Prize!
+  - Key: LeaderBoard_Weekly_Btn_Start
+    Value: Start
+  - Key: LeaderBoard_Weekly_Sart_Desc
+    Value: Compete with other players during the week and win amazing prizes!
+  - Key: LeaderBoard_SetName_Invalid_Word
+    Value: Invalid name!
+  - Key: LeaderBoard_SetName_DefaultName
+    Value: Enter name...
+  - Key: LeaderBoard_FAQ1
+    Value: Beat Levels
+  - Key: LeaderBoard_FAQ2
+    Value: Win Contest
+  - Key: LeaderBoard_FAQ3
+    Value: Get Prizes!
+  - Key: LeaderBoard_Weekly_Claim
+    Value: Claim
+  - Key: LeaderBoard_Weekly_Continue
+    Value: Continue
+  - Key: DailySale_Tag_1
+    Value: 40%
+  - Key: DailySale_Tag_2
+    Value: 45%
+  - Key: DailySale_Tag_3
+    Value: 50%
+  - Key: DailySale_Tag_4
+    Value: 55%
+  - Key: DailySale_Tag_5
+    Value: 60%
+  - Key: DailySale_Tag_Off_Shop
+    Value: '{0} OFF'
+  - Key: DailySale_Tag_Off
+    Value: '{0}
+
+      OFF'
+  - Key: DailySale_Title_1
+    Value: Blossom
+  - Key: DailySale_Title_2
+    Value: Deal
+  - Key: DailySale_Tag_6
+    Value: 65%
+  - Key: DailySale_Tag_7
+    Value: 70%
+  - Key: DailySale_Tag_8
+    Value: 75%
+  - Key: DailySale_Tag_9
+    Value: 80%
+  - Key: DailySale_Shop_Title
+    Value: Blossom Deal
+  - Key: Team_CreateTeam_InvalidDes
+    Value: Invalid Description!
+  - Key: Team_CreateTeam_NoName
+    Value: You need a Team name to create!
+  - Key: Team_CreateTeam_InvalidNameLength
+    Value: The name should be between 3 and 12 characters!
+  - Key: Team_CreateTeam_InvalidNumber
+    Value: The required level should be a number!
+  - Key: Team_NaviName
+    Value: Team
+  - Key: Team_RecommendTeam_Tab
+    Value: Teams
+  - Key: Team_RecommendTeam_TopDes
+    Value: Join a team and get free lives!
+  - Key: Team_RecommendTeam_Join
+    Value: Join
+  - Key: Team_Info_Member
+    Value: 'Member:'
+  - Key: Team_RecommendTeam_Member
+    Value: Member
+  - Key: Team_RecommendTeam_View
+    Value: View Team
+  - Key: Team_TeamInfo_Title
+    Value: Team Info
+  - Key: Team_TeamInfo_Score
+    Value: Team Score
+  - Key: Team_TeamInfo_Leader
+    Value: Leader
+  - Key: Team_CreateTeam_Create
+    Value: Create
+  - Key: Team_CreateTeam_ChooseLogo
+    Value: Choose
+  - Key: Team_SearchTeam_Tab
+    Value: Search
+  - Key: Team_Search_Default
+    Value: Search to find teams for you
+  - Key: Team_CreateTeam_TeamLogo
+    Value: Team Logo
+  - Key: Team_CreateTeam_TopDes
+    Value: Create a team and be the leader!
+  - Key: Team_CreateTeam_Name
+    Value: Team Name
+  - Key: Team_Search_TeamName_Default
+    Value: Enter team name...
+  - Key: Team_CreateTeam_Name_DefaultInput
+    Value: Enter Name...
+  - Key: Team_CreateTeam_Badge
+    Value: 'Team Badge:'
+  - Key: Team_CreateTeam_Edit
+    Value: Edit
+  - Key: Team_CreateTeam_Des
+    Value: Description
+  - Key: Team_CreateTeam_Des_DefaultInput
+    Value: Enter Description...
+  - Key: Team_CreateTeam_Level
+    Value: 'Required Level:'
+  - Key: Team_Edit_Save
+    Value: Save
+  - Key: Team_CreateTeam_EditBadge_Title
+    Value: Edit Badge
+  - Key: Team_CreateTeam_InvalidLevel
+    Value: The required level to join can't be higher than your current level!
+  - Key: Team_CreateTeam_NameExists
+    Value: The team name already exists, please choose another one!
+  - Key: Team_Edit_MemberInvalidLevel
+    Value: The required level can't be higher than the team member's lowest level!
+  - Key: Team_RequestLife_Full
+    Value: Your life is full!
+  - Key: Team_RequestLife_CoolDown
+    Value: You've already sent a request!
+  - Key: Team_KickMember_Btn
+    Value: Kick Out
+  - Key: Team_KickMember_Title
+    Value: Kick Out Member
+  - Key: Team_KickMember_Des
+    Value: Are you sure you want to kick out this member?
+  - Key: Team_KickMember_Yes
+    Value: Yes
+  - Key: Team_KickMember_AlreadyLeave
+    Value: This member has already left your team!
+  - Key: Team_KickMember_No
+    Value: No
+  - Key: Team_LeaveTeam_Title
+    Value: Leaving Team
+  - Key: Team_LeaveTeam_Des
+    Value: Are you sure you want to leave your team?
+  - Key: Team_LeaveTeam_Leave
+    Value: Leave
+  - Key: Team_JoinTeam_TeamNotExists
+    Value: This team doesn't exist!
+  - Key: Team_JoinTeam_Full
+    Value: This team is full!
+  - Key: Team_JoinTeam_NotEnoughLevel
+    Value: Your current level doesn't meet the requirement!
+  - Key: Team_Join_Refresh
+    Value: Refresh
+  - Key: Team_SearchTeam_NoMatchTeam
+    Value: Sorry, no matching team was found.
+  - Key: Team_Capacity
+    Value: Capacity
+  - Key: Team_Free_Life
+    Value: Free Life
+  - Key: Team_RequestLift_MaxOut
+    Value: You have more than 10 lifes!
+  - Key: Team_Send_You_Life
+    Value: Sent you a life!
+  - Key: Team_Life_Btn_View
+    Value: View
+  - Key: Team_Ask_For_Live
+    Value: Requesting lives!
+  - Key: Team_Life_Received
+    Value: 'Life Received:'
+  - Key: Team_SendLife_ReachLimit
+    Value: You have already sent a life to this member!
+  - Key: Team_Message_System_Join
+    Value: '{0} joined the team!'
+  - Key: Team_Message_System_Exit
+    Value: '{0} left the team.'
+  - Key: Team_Message_System_Kick
+    Value: '{0} was kicked from the team.'
+  - Key: Team_Message_System_Promote
+    Value: '{0} is the new team leader!'
+  - Key: Team_Btn_Chat
+    Value: Chat
+  - Key: Team_Btn_Request
+    Value: Request
+  - Key: Team_Last_Active
+    Value: Last active:{0}
+  - Key: Team_Message_Time_Ago
+    Value: '{0} ago'
+  - Key: Team_Switch_Team_Title
+    Value: Switch Team
+  - Key: Team_Switch_Team_Title1
+    Value: 'Do you want to quit your current team:'
+  - Key: Team_Switch_Team_Title2
+    Value: 'And join the new team:'
+  - Key: Home_Live_Tab
+    Value: Lives
+  - Key: Team_Help_Btn
+    Value: Help
+  - Key: Live_Btn_Add
+    Value: Add
+  - Key: Team_Btn_Request_In
+    Value: 'Request in:'
+  - Key: InfinityBundle_Title_1
+    Value: Infinity
+  - Key: InfinityBundle_Title_2
+    Value: Bundle
+  - Key: InfinityBundle_SubTitle
+    Value: One Bundle, Unlimited Play
+  - Key: LootAdventure_Title
+    Value: "Pirate\u2018s"
+  - Key: LootAdventure_Title_2
+    Value: Loot
+  - Key: LootAdventure_Subtitle_1
+    Value: Collect
+  - Key: LootAdventure_Subtitle_2
+    Value: to sail and loot!
+  - Key: LootAdventure_Subtitle_3
+    Value: Well done! Captain!
+  - Key: LootAdventure_LootTitle_1
+    Value: Epic Loot!
+  - Key: LootAdventure_LootTitle_2
+    Value: Bonus Loot!
+  - Key: EditProfile_Title
+    Value: Edit Profile
+  - Key: EditProfile_Save_Btn
+    Value: Save
+  - Key: IslandExpedition_Title
+    Value: Island Expedition
+  - Key: IslandExpedition_Board_Start1
+    Value: The Island Expedition event has started!
+  - Key: IslandExpedition_Board_Start2
+    Value: Beat 10 levels to complete the challenge!
+  - Key: IslandExpedition_Start_Btn
+    Value: START
+  - Key: IslandExpedition_Prize
+    Value: Grand Prize!
+  - Key: IslandExpedition_Match
+    Value: Finding players on your level
+  - Key: IslandExpedition_Continue
+    Value: Tap to Continue
+  - Key: IslandExpedition_Explain1
+    Value: Beat 10 levels to complete the event!
+  - Key: IslandExpedition_Levels
+    Value: Levels
+  - Key: IslandExpedition_Players
+    Value: Players
+  - Key: IslandExpedition_Explain2
+    Value: Congratulations! You've advanced to the next level!
+  - Key: IslandExpedition_Explain3
+    Value: Beat {0} more levels to complete the event!
+  - Key: IslandExpedition_Explain4
+    Value: Congratulations! You completed the event!
+  - Key: IslandExpedition_Win_Title
+    Value: Congratulations!
+  - Key: IslandExpedition_Fail
+    Value: You failed the challenge. Better luck next time!
+  - Key: IslandExpedition_Next_Round
+    Value: 'Next Island Expedition will start in:'
+  - Key: IslandExpedition_Finish
+    Value: Finished
+  - Key: IslandExpedition_Win1
+    Value: 'You win:'
+  - Key: IslandExpedition_Explain5
+    Value: 'You will be sharing this reward
+
+      with {0} other winners!'
+  - Key: IslandExpedition_Claim
+    Value: Tap to Claim
+  - Key: IslandExpedition_Notice
+    Value: There are 120 players in the challenge!
+  - Key: IslandExpedition_FAQ1
+    Value: Start with 120 players!
+  - Key: IslandExpedition_FAQ2
+    Value: Beat Levels!
+  - Key: IslandExpedition_FAQ3
+    Value: Win your share of 1,000 coins!
+  - Key: IslandExpedition_Bubble1
+    Value: You will fail in the event if you fail a level!
+  - Key: IslandExpedition_Bubble2
+    Value: The grand prize will be shared equally among all winners!
+  - Key: IslandExpedition_Bubble3
+    Value: Beat the Levels in one go to move towards the prize!
+  - Key: IslandExpedition_Bubble4
+    Value: '{0} players left!'
+  - Key: Labor_Sale_Title
+    Value: Labor Sale!
+  - Key: Purchase_Confirmation_Title
+    Value: Purchase Confirmation
+  - Key: Purchase_Confirmation_Text
+    Value: Your payment was successful. Thank you for your purchase!
+  - Key: HarvestChallenge__Start
+    Value: Tap an item to get started!
+  - Key: HarvestChallenge__Tip
+    Value: Fill up all the baskets to win fantastic rewards!
+  - Key: HarvestChallenge__First
+    Value: First win of the day
+  - Key: HarvestChallenge__Win
+    Value: 'You have completed the challenge and won:'
+  - Key: HarvestChallenge__Fail
+    Value: Better luck next time, you can do it!
+  - Key: HarvestChallenge__Next
+    Value: Come back tomorrow!
+  - Key: HarvestChallenge__Current
+    Value: 'Current:'
+  - Key: HarvestChallenge__Title
+    Value: Harvest Challenge
+  - Key: HarvestChallenge__Bundle
+    Value: Crop Bundle
+  - Key: HarvestChallenge__Type1
+    Value: Fruits
+  - Key: HarvestChallenge__Type2
+    Value: Animals
+  - Key: HarvestChallenge__Type3
+    Value: Vegetables
+  - Key: HarvestChallenge__OK
+    Value: OK
+  - Key: HarvestChallenge__Oops
+    Value: Oops
+  - Key: HarvestChallenge__Go
+    Value: Go!
+  - Key: HarvestChallenge__Add
+    Value: Add
+  - Key: HarvestChallenge__Play
+    Value: Play
+  - Key: HarvestChallenge__Replay
+    Value: Replay
+  - Key: HarvestChallenge__Entrance
+    Value: Harvest
+  - Key: HarvestChallenge__Prize
+    Value: Prize
+  - Key: HarvestChallenge__Freetip
+    Value: Play for free({0}/2)
+  - Key: HarvestChallenge__Freshtip
+    Value: '*Refreshes in: {0}'
+  - Key: Columbus_Title
+    Value: Columbus Sale!
+  - Key: Balloon_Top1
+    Value: Win levels to fly up!
+  - Key: Balloon_Top2
+    Value: You've reached the top!
+  - Key: Balloon_Top3
+    Value: The event has ended!
+  - Key: Balloon_Claim
+    Value: Claim
+  - Key: Balloon_Enter1
+    Value: Open
+  - Key: Balloon_Enter2
+    Value: Completed
+  - Key: Balloon_Enter3
+    Value: Ended
+  - Key: Balloon_FAQ1
+    Value: Beat levels!
+  - Key: Balloon_FAQ2
+    Value: Help Jerry fly up!
+  - Key: Balloon_FAQ3
+    Value: Win rewards!
+  - Key: Balloon_FAQ4
+    Value: Every fail pops a balloon! Beat levels without failing 3 times to complete
+      the task!
+  - Key: Balloon_Name
+    Value: Balloon Boost
+  - Key: Balloon_Finish
+    Value: Finished
+  - Key: Halloween_Sale_Title
+    Value: Spook Pack
+  - Key: Christmas_Sale_Title
+    Value: Jingle Pack
+  - Key: GhostHunt_Title
+    Value: Ghost Hunt
+  - Key: GhostHunt_Title_Christmas
+    Value: Merry Match
+  - Key: GhostHunt_Tip1
+    Value: Find more Halloween items to exchange for sweet rewards!
+  - Key: GhostHunt_Tip1_Christmas
+    Value: Find more Christmas items to exchange for sweet rewards!
+  - Key: GhostHunt_Tip2
+    Value: Collect all 9 rewards to unlock the Grand Prize!
+  - Key: GhostHunt_Tip3
+    Value: The Ghost Hunt event has started!
+  - Key: GhostHunt_Tip3_Christmas
+    Value: The Merry Match event has started!
+  - Key: GhostHunt_Tip4
+    Value: Collect Halloween items from levels and use them to exchange for awesome
+      rewards!
+  - Key: GhostHunt_Tip4_Christmas
+    Value: Collect Christmas items from levels and use them to exchange for awesome
+      rewards!
+  - Key: GhostHunt_Reward
+    Value: The event has ended! Collect your rewards!
+  - Key: GhostHunt_Faq1
+    Value: Collect Halloween items
+  - Key: GhostHunt_Faq1_Christmas
+    Value: Collect Christmas items
+  - Key: GhostHunt_Faq2
+    Value: Exchange for rewards
+  - Key: GhostHunt_Faq3
+    Value: Unlock the Grand Prize!
+  - Key: GhostHunt_button1
+    Value: Get More!
+  - Key: GhostHunt_button2
+    Value: Happy Halloween!
+  - Key: GhostHunt_button2_Christmas
+    Value: Merry Christmas!
+  - Key: GhostHunt_claimed
+    Value: Claimed
+  - Key: GameUpdate_Title
+    Value: NOTICE
+  - Key: GameUpdate_Text1
+    Value: To continue playing, you need to update your version on the App Store.
+  - Key: GameUpdate_Btn
+    Value: Update
+  - Key: GameUpdate_Later
+    Value: Later
+  - Key: BlackFriday_Title
+    Value: Midnight Madness!
+  - Key: Delete_Text
+    Value: Delete Account
+  - Key: Delete_First_Title
+    Value: Warning
+  - Key: Delete_First_Text
+    Value: 'Once deleted, your account cannot be recovered.
+
+      Are you sure you
+      want to delete it?'
+  - Key: Delete_Cancel
+    Value: CANCEL
+  - Key: Delete_ConfirmDelete
+    Value: DELETE
+  - Key: Delete_Second_Title
+    Value: Are you sure?
+  - Key: Delete_Second_Text
+    Value: "This\_action\_is\_irreversible,\_are\_you\_sure you\_want\_to\_delete\_it?\nPlease\_note\_that\_deleting\_your\_account
+      will\_require\_you\_to\_restart\_the\_game."
+  - Key: Delete_FailText
+    Value: 'Network connection failed!
+
+      Please try again.'
+  - Key: Come_Text
+    Value: Coming soon!
+  - Key: Liveout_Text
+    Value: Collect rewards to find extra lives!
+  - Key: FacebookGroup_Btn
+    Value: Follow Us
+  - Key: Level_End_Title1
+    Value: Great!
+  - Key: Level_End_Title2
+    Value: Bravo!
+  - Key: Level_End_Title3
+    Value: Perfect!

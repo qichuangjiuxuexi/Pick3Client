@@ -1,0 +1,7 @@
+{
+  "name": "com.ghoststudio.gamesdk.common",
+  "version": "1.0.0",
+  "displayName": "GameSDK.Common",
+  "description": "通用模块",
+  "dependencies": {}
+}

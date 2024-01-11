@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98ee422974450468bbb3a5b172a9d9f5, type: 3}
+  m_Name: TeamConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - Team_Recommend_Count
+  - Team_Recommend_Expired
+  - Team_Recommend_CD
+  - Team_Search_Count
+  - Team_Search_Expired
+  - Team_Search_CD
+  - Team_Name_Min_Char_Count
+  - Team_Name_Most_Char_Count
+  - Team_Chat_Max_Input_Count
+  - Team_MaxMember_Count
+  - Team_Create_Cost
+  - Team_Detail_Expired
+  - Team_Role_Leader_Key
+  - Team_Role_Manager_Key
+  - Team_Role_Normal_Key
+  - Team_Request_Strength_CD
+  - Team_Request_Strength_Enable_Max
+  - Team_Request_Strength_Succ_Help_Count
+  - Team_Name_Require_Level_Step
+  values:
+  - Key: Team_Recommend_Count
+    Value: 50
+  - Key: Team_Recommend_Expired
+    Value: 600
+  - Key: Team_Recommend_CD
+    Value: 0
+  - Key: Team_Search_Count
+    Value: 50
+  - Key: Team_Search_Expired
+    Value: 600
+  - Key: Team_Search_CD
+    Value: 0
+  - Key: Team_Name_Min_Char_Count
+    Value: 3
+  - Key: Team_Name_Most_Char_Count
+    Value: 12
+  - Key: Team_Chat_Max_Input_Count
+    Value: 100
+  - Key: Team_MaxMember_Count
+    Value: 50
+  - Key: Team_Create_Cost
+    Value: 10001:200
+  - Key: Team_Detail_Expired
+    Value: 60
+  - Key: Team_Role_Leader_Key
+    Value: 
+  - Key: Team_Role_Manager_Key
+    Value: 
+  - Key: Team_Role_Normal_Key
+    Value: 
+  - Key: Team_Request_Strength_CD
+    Value: 14400
+  - Key: Team_Request_Strength_Enable_Max
+    Value: 9
+  - Key: Team_Request_Strength_Succ_Help_Count
+    Value: 5
+  - Key: Team_Name_Require_Level_Step
+    Value: 50

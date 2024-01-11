@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079f4235b980443a2b60bd7e605b00e7, type: 3}
+  m_Name: LevelKeepScoreConfig
+  m_EditorClassIdentifier: 
+  keys: 01000000020000000300000004000000
+  values:
+  - HardLevel: 1
+    FailureScore: -10
+    FailureMaxScore: -30
+    SuccessScore: 15
+    ItemCount: 0100000002000000030000000400000005000000
+    ItemScore: fffffffffefffffffdfffffffcfffffffbffffff
+    ReviveCount: 0100000002000000
+    ReviveScore: fbfffffff6ffffff
+  - HardLevel: 2
+    FailureScore: -10
+    FailureMaxScore: -40
+    SuccessScore: 20
+    ItemCount: 0100000002000000030000000400000005000000
+    ItemScore: fffffffffefffffffdfffffffcfffffffbffffff
+    ReviveCount: 0100000002000000
+    ReviveScore: fbfffffff6ffffff
+  - HardLevel: 3
+    FailureScore: -10
+    FailureMaxScore: -60
+    SuccessScore: 25
+    ItemCount: 0100000002000000030000000400000005000000
+    ItemScore: fffffffffefffffffdfffffffcfffffffbffffff
+    ReviveCount: 0100000002000000
+    ReviveScore: fbfffffff6ffffff
+  - HardLevel: 4
+    FailureScore: -10
+    FailureMaxScore: -80
+    SuccessScore: 30
+    ItemCount: 0100000002000000030000000400000005000000
+    ItemScore: fffffffffefffffffdfffffffcfffffffbffffff
+    ReviveCount: 0100000002000000
+    ReviveScore: fbfffffff6ffffff

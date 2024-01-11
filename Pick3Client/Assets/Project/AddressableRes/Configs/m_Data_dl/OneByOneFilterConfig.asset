@@ -1,0 +1,118 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e452658c4cca4a5da7848b15da0b664, type: 3}
+  m_Name: OneByOneFilterConfig
+  m_EditorClassIdentifier: 
+  keys: e8030000e9030000ea030000eb030000ec030000ed030000ee030000ef030000f00300001a2700001b2700002427000025270000262700004227000043270000214e0000224e0000234e000044270000452700002e2700002f270000244e0000254e0000382700004c2700004d2700004e270000562700005727000060270000612700006a270000
+  values:
+  - filter_id: 1000
+    condition_id: 0
+    condition_param: 
+  - filter_id: 1001
+    condition_id: 4001
+    condition_param: 5
+  - filter_id: 1002
+    condition_id: -4001
+    condition_param: 200
+  - filter_id: 1003
+    condition_id: 0
+    condition_param: 
+  - filter_id: 1004
+    condition_id: 0
+    condition_param: 
+  - filter_id: 1005
+    condition_id: 0
+    condition_param: 
+  - filter_id: 1006
+    condition_id: 0
+    condition_param: 
+  - filter_id: 1007
+    condition_id: 0
+    condition_param: 
+  - filter_id: 1008
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10010
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10011
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10020
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10021
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10022
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10050
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10051
+    condition_id: 4001
+    condition_param: 22
+  - filter_id: 20001
+    condition_id: 4003
+    condition_param: 1
+  - filter_id: 20002
+    condition_id: 4002
+    condition_param: 16
+  - filter_id: 20003
+    condition_id: 4001
+    condition_param: 31
+  - filter_id: 10052
+    condition_id: 4001
+    condition_param: 17
+  - filter_id: 10053
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10030
+    condition_id: 4001
+    condition_param: 35
+  - filter_id: 10031
+    condition_id: 0
+    condition_param: 
+  - filter_id: 20004
+    condition_id: 4001
+    condition_param: 16
+  - filter_id: 20005
+    condition_id: -4004
+    condition_param: first_iap_499
+  - filter_id: 10040
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10060
+    condition_id: 4001
+    condition_param: 14
+  - filter_id: 10061
+    condition_id: -4004
+    condition_param: ad_remove
+  - filter_id: 10062
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10070
+    condition_id: 4001
+    condition_param: 35
+  - filter_id: 10071
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10080
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10081
+    condition_id: 0
+    condition_param: 
+  - filter_id: 10090
+    condition_id: 0
+    condition_param: 

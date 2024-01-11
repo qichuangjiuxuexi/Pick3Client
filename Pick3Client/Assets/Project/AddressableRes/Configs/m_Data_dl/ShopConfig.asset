@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f1472238c39f4d62a07e37720fd918d, type: 3}
+  m_Name: ShopConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - ad_remove
+  - shop_bundle_999
+  - shop_bundle_1999
+  - shop_bundle_3999
+  - shop_bundle_7999
+  - sho_coin_199
+  - sho_coin_799
+  - sho_coin_1399
+  - sho_coin_2799
+  - sho_coin_5499
+  - sho_coin_9999
+  values:
+  - Key: ad_remove
+    ItemList:
+      keys: 11270000813e0000e12e0000e22e0000e32e0000e42e0000
+      values: 900100000100000001000000010000000100000001000000
+    CoinIconName: Item_CoinPile_02
+    Bonus: 
+    ShopItemName: IAPShop_RemoveADS
+    ItemTag: 0
+    ShopPack: 0
+  - Key: shop_bundle_999
+    ItemList:
+      keys: 11270000e12e0000e22e0000e32e0000e42e0000c9320000ca320000cb320000
+      values: f401000001000000010000000100000001000000010000000100000001000000
+    CoinIconName: Item_CoinPile_02
+    Bonus: IAPShop_PopularTag
+    ShopItemName: IAPShop_PremiumPack
+    ItemTag: 0
+    ShopPack: 1
+  - Key: shop_bundle_1999
+    ItemList:
+      keys: 11270000fa2a0000e12e0000e22e0000e32e0000e42e0000c9320000ca320000cb320000
+      values: e8030000201c000002000000020000000200000002000000020000000200000002000000
+    CoinIconName: Item_CoinPile_03
+    Bonus: 
+    ShopItemName: IAPShop_ElitePack
+    ItemTag: 0
+    ShopPack: 1
+  - Key: shop_bundle_3999
+    ItemList:
+      keys: 11270000fa2a0000e12e0000e22e0000e32e0000e42e0000c9320000ca320000cb320000
+      values: c40900006054000006000000060000000600000006000000060000000600000006000000
+    CoinIconName: Item_CoinPile_04
+    Bonus: 
+    ShopItemName: IAPShop_MasterPack
+    ItemTag: 0
+    ShopPack: 1
+  - Key: shop_bundle_7999
+    ItemList:
+      keys: 11270000fa2a0000e12e0000e22e0000e32e0000e42e0000c9320000ca320000cb320000
+      values: 88130000c0a800000c0000000c0000000c0000000c0000000c0000000c0000000c000000
+    CoinIconName: Item_CoinPile_05
+    Bonus: IAPShop_ValueTag
+    ShopItemName: IAPShop_RoyalPack
+    ItemTag: 1
+    ShopPack: 1
+  - Key: sho_coin_199
+    ItemList:
+      keys: 11270000
+      values: 64000000
+    CoinIconName: Item_CoinPile_02
+    Bonus: 
+    ShopItemName: 
+    ItemTag: 0
+    ShopPack: 0
+  - Key: sho_coin_799
+    ItemList:
+      keys: 11270000
+      values: f4010000
+    CoinIconName: Item_CoinPile_02
+    Bonus: 
+    ShopItemName: 
+    ItemTag: 0
+    ShopPack: 0
+  - Key: sho_coin_1399
+    ItemList:
+      keys: 11270000
+      values: e8030000
+    CoinIconName: Item_CoinPile_02
+    Bonus: 
+    ShopItemName: 
+    ItemTag: 0
+    ShopPack: 0
+  - Key: sho_coin_2799
+    ItemList:
+      keys: 11270000
+      values: c4090000
+    CoinIconName: Item_CoinPile_02
+    Bonus: 
+    ShopItemName: 
+    ItemTag: 0
+    ShopPack: 0
+  - Key: sho_coin_5499
+    ItemList:
+      keys: 11270000
+      values: 88130000
+    CoinIconName: Item_CoinPile_02
+    Bonus: 
+    ShopItemName: 
+    ItemTag: 0
+    ShopPack: 0
+  - Key: sho_coin_9999
+    ItemList:
+      keys: 11270000
+      values: 10270000
+    CoinIconName: Item_CoinPile_02
+    Bonus: 
+    ShopItemName: 
+    ItemTag: 0
+    ShopPack: 0

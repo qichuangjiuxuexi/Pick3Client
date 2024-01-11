@@ -1,0 +1,244 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef4846d5963df4f0babf7a45275c21ac, type: 3}
+  m_Name: AnalyticsUserPropertiesConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - device_id
+  - device_name
+  - os_name
+  - app_version
+  - first_app_version
+  - res_version
+  - os_version
+  - country_device
+  - language
+  - timezone
+  - gaid
+  - idfa
+  - idfv
+  - adjust_fbInstallReferrer
+  - firebase_id
+  - firebase_fcm_token
+  - user_id
+  - user_nickname
+  - first_debug
+  - user_day_age
+  - user_step
+  - visitor_id
+  - user_iap_total_cent
+  - user_iap_times
+  - first_iap_time
+  - last_iap_time
+  - max_iap_revenue
+  - first_interstitial_video_time
+  - first_reward_video_time
+  - user_interstitial_video_times
+  - user_reward_video_times
+  - user_is_remove_ads
+  - user_level
+  - user_coin
+  - variant_name
+  - first_launch_time
+  - last_launch_time
+  - fb_name
+  values:
+  - property_name: device_id
+    property_type: string
+    is_once: 1
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: device_name
+    property_type: string
+    is_once: 1
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: os_name
+    property_type: string
+    is_once: 1
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: app_version
+    property_type: string
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: first_app_version
+    property_type: string
+    is_once: 1
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: res_version
+    property_type: string
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 1
+  - property_name: os_version
+    property_type: string
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: country_device
+    property_type: string
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: language
+    property_type: string
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: timezone
+    property_type: float
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: gaid
+    property_type: string
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: idfa
+    property_type: string
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: idfv
+    property_type: string
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: adjust_fbInstallReferrer
+    property_type: string
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: firebase_id
+    property_type: string
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 0
+  - property_name: firebase_fcm_token
+    property_type: string
+    is_once: 0
+    is_enable_cache: 1
+    is_login_collect: 0
+  - property_name: user_id
+    property_type: string
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: user_nickname
+    property_type: string
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: first_debug
+    property_type: bool
+    is_once: 1
+    is_enable_cache: 1
+    is_login_collect: 1
+  - property_name: user_day_age
+    property_type: int
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 1
+  - property_name: user_step
+    property_type: int
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: visitor_id
+    property_type: 
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: user_iap_total_cent
+    property_type: int
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: user_iap_times
+    property_type: int
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: first_iap_time
+    property_type: string
+    is_once: 1
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: last_iap_time
+    property_type: 
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: max_iap_revenue
+    property_type: 
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: first_interstitial_video_time
+    property_type: string
+    is_once: 1
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: first_reward_video_time
+    property_type: string
+    is_once: 1
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: user_interstitial_video_times
+    property_type: int
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: user_reward_video_times
+    property_type: int
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: user_is_remove_ads
+    property_type: bool
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: user_level
+    property_type: int
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 1
+  - property_name: user_coin
+    property_type: long
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 1
+  - property_name: variant_name
+    property_type: 
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: first_launch_time
+    property_type: 
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: last_launch_time
+    property_type: 
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0
+  - property_name: fb_name
+    property_type: 
+    is_once: 0
+    is_enable_cache: 0
+    is_login_collect: 0

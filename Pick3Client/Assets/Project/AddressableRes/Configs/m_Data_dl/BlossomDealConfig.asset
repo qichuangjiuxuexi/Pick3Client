@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 142e57ed6efcb44339bdf5fcbef3f01a, type: 3}
+  m_Name: BlossomDealConfig
+  m_EditorClassIdentifier: 
+  keys:
+  - blossomdeal_499
+  - blossomdeal_799
+  - blossomdeal_999
+  values:
+  - Key: blossomdeal_499
+    ItemList:
+      keys: 11270000e12e0000e22e0000e32e0000e42e0000c9320000ca320000cb320000
+      values: 5e01000001000000010000000100000001000000010000000100000001000000
+    discount: 80
+  - Key: blossomdeal_799
+    ItemList:
+      keys: 11270000e12e0000e22e0000e32e0000e42e0000c9320000ca320000cb320000
+      values: 5802000002000000020000000200000002000000010000000100000001000000
+    discount: 75
+  - Key: blossomdeal_999
+    ItemList:
+      keys: 11270000e12e0000e22e0000e32e0000e42e0000c9320000ca320000cb320000
+      values: ee02000002000000020000000200000002000000020000000200000002000000
+    discount: 70

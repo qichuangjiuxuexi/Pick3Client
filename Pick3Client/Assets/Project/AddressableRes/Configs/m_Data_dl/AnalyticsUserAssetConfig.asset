@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 246f7fbb587f345dd9ae289df314231e, type: 3}
+  m_Name: AnalyticsUserAssetConfig
+  m_EditorClassIdentifier: 
+  keys: 11270000f92a0000fa2a0000e12e0000e22e0000e32e0000e42e0000c9320000ca320000cb320000954300009643000097430000f9430000
+  values:
+  - assetId: 10001
+    got_analysis: 1
+    use_analysis: 1
+  - assetId: 11001
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 11002
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 12001
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 12002
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 12003
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 12004
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 13001
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 13002
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 13003
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 17301
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 17302
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 17303
+    got_analysis: 1
+    use_analysis: 0
+  - assetId: 17401
+    got_analysis: 1
+    use_analysis: 0

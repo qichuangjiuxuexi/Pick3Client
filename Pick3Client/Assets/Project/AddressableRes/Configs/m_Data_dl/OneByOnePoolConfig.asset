@@ -1,0 +1,304 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 359983b3b0212444c9feb3e074944e5d, type: 3}
+  m_Name: OneByOnePoolConfig
+  m_EditorClassIdentifier: 
+  keys: d0070000d1070000d2070000d3070000d4070000d7070000d5070000d6070000d8070000
+  values:
+  - pool_id: 2000
+    pool_type: 0
+    event_1: 3000
+    filters_1: 
+    weight_1: 0
+    event_2: 0
+    filters_2: 
+    weight_2: 0
+    event_3: 0
+    filters_3: 
+    weight_3: 0
+    event_4: 0
+    filters_4: 
+    weight_4: 0
+    event_5: 0
+    filters_5: 
+    weight_5: 0
+    event_6: 0
+    filters_6: 
+    weight_6: 0
+    event_7: 0
+    filters_7: 
+    weight_7: 0
+    event_8: 0
+    filters_8: 
+    weight_8: 0
+    event_9: 0
+    filters_9: 
+    weight_9: 0
+    event_10: 0
+    filters_10: 
+    weight_10: 0
+  - pool_id: 2001
+    pool_type: 1
+    event_1: 3001
+    filters_1: 
+    weight_1: 0
+    event_2: 3002
+    filters_2: 
+    weight_2: 0
+    event_3: 0
+    filters_3: 
+    weight_3: 0
+    event_4: 0
+    filters_4: 
+    weight_4: 0
+    event_5: 0
+    filters_5: 
+    weight_5: 0
+    event_6: 0
+    filters_6: 
+    weight_6: 0
+    event_7: 0
+    filters_7: 
+    weight_7: 0
+    event_8: 0
+    filters_8: 
+    weight_8: 0
+    event_9: 0
+    filters_9: 
+    weight_9: 0
+    event_10: 0
+    filters_10: 
+    weight_10: 0
+  - pool_id: 2002
+    pool_type: 0
+    event_1: 3003
+    filters_1: 
+    weight_1: 0
+    event_2: 3004
+    filters_2: 
+    weight_2: 0
+    event_3: 0
+    filters_3: 
+    weight_3: 0
+    event_4: 0
+    filters_4: 
+    weight_4: 0
+    event_5: 0
+    filters_5: 
+    weight_5: 0
+    event_6: 0
+    filters_6: 
+    weight_6: 0
+    event_7: 0
+    filters_7: 
+    weight_7: 0
+    event_8: 0
+    filters_8: 
+    weight_8: 0
+    event_9: 0
+    filters_9: 
+    weight_9: 0
+    event_10: 0
+    filters_10: 
+    weight_10: 0
+  - pool_id: 2003
+    pool_type: 1
+    event_1: 3005
+    filters_1: 
+    weight_1: 0
+    event_2: 0
+    filters_2: 
+    weight_2: 0
+    event_3: 0
+    filters_3: 
+    weight_3: 0
+    event_4: 0
+    filters_4: 
+    weight_4: 0
+    event_5: 0
+    filters_5: 
+    weight_5: 0
+    event_6: 0
+    filters_6: 
+    weight_6: 0
+    event_7: 0
+    filters_7: 
+    weight_7: 0
+    event_8: 0
+    filters_8: 
+    weight_8: 0
+    event_9: 0
+    filters_9: 
+    weight_9: 0
+    event_10: 0
+    filters_10: 
+    weight_10: 0
+  - pool_id: 2004
+    pool_type: 0
+    event_1: 30050
+    filters_1: 
+    weight_1: 0
+    event_2: 30040
+    filters_2: 
+    weight_2: 0
+    event_3: 30041
+    filters_3: 
+    weight_3: 0
+    event_4: 30051
+    filters_4: 
+    weight_4: 0
+    event_5: 30060
+    filters_5: 
+    weight_5: 0
+    event_6: 40001
+    filters_6: 
+    weight_6: 0
+    event_7: 50001
+    filters_7: 
+    weight_7: 0
+    event_8: 30070
+    filters_8: 
+    weight_8: 0
+    event_9: 30080
+    filters_9: 
+    weight_9: 0
+    event_10: 30090
+    filters_10: 
+    weight_10: 0
+  - pool_id: 2007
+    pool_type: 0
+    event_1: 30100
+    filters_1: 
+    weight_1: 0
+    event_2: 0
+    filters_2: 
+    weight_2: 0
+    event_3: 0
+    filters_3: 
+    weight_3: 0
+    event_4: 0
+    filters_4: 
+    weight_4: 0
+    event_5: 0
+    filters_5: 
+    weight_5: 0
+    event_6: 0
+    filters_6: 
+    weight_6: 0
+    event_7: 0
+    filters_7: 
+    weight_7: 0
+    event_8: 0
+    filters_8: 
+    weight_8: 0
+    event_9: 0
+    filters_9: 
+    weight_9: 0
+    event_10: 0
+    filters_10: 
+    weight_10: 0
+  - pool_id: 2005
+    pool_type: 0
+    event_1: 30010
+    filters_1: 
+    weight_1: 0
+    event_2: 0
+    filters_2: 
+    weight_2: 0
+    event_3: 0
+    filters_3: 
+    weight_3: 0
+    event_4: 0
+    filters_4: 
+    weight_4: 0
+    event_5: 0
+    filters_5: 
+    weight_5: 0
+    event_6: 0
+    filters_6: 
+    weight_6: 0
+    event_7: 0
+    filters_7: 
+    weight_7: 0
+    event_8: 0
+    filters_8: 
+    weight_8: 0
+    event_9: 0
+    filters_9: 
+    weight_9: 0
+    event_10: 0
+    filters_10: 
+    weight_10: 0
+  - pool_id: 2006
+    pool_type: 0
+    event_1: 30011
+    filters_1: 
+    weight_1: 0
+    event_2: 0
+    filters_2: 
+    weight_2: 0
+    event_3: 0
+    filters_3: 
+    weight_3: 0
+    event_4: 0
+    filters_4: 
+    weight_4: 0
+    event_5: 0
+    filters_5: 
+    weight_5: 0
+    event_6: 0
+    filters_6: 
+    weight_6: 0
+    event_7: 0
+    filters_7: 
+    weight_7: 0
+    event_8: 0
+    filters_8: 
+    weight_8: 0
+    event_9: 0
+    filters_9: 
+    weight_9: 0
+    event_10: 0
+    filters_10: 
+    weight_10: 0
+  - pool_id: 2008
+    pool_type: 0
+    event_1: 3008
+    filters_1: 
+    weight_1: 0
+    event_2: 0
+    filters_2: 
+    weight_2: 0
+    event_3: 0
+    filters_3: 
+    weight_3: 0
+    event_4: 0
+    filters_4: 
+    weight_4: 0
+    event_5: 0
+    filters_5: 
+    weight_5: 0
+    event_6: 0
+    filters_6: 
+    weight_6: 0
+    event_7: 0
+    filters_7: 
+    weight_7: 0
+    event_8: 0
+    filters_8: 
+    weight_8: 0
+    event_9: 0
+    filters_9: 
+    weight_9: 0
+    event_10: 0
+    filters_10: 
+    weight_10: 0
