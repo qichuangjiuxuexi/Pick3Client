@@ -1,42 +1,56 @@
 {
   "dependencies": {
-    "com.ghoststudio.gamesdk.common": {
-      "version": "file:com.ghoststudio.gamesdk.common@1.0.0",
+    "com.esotericsoftware.spine.spine-csharp": {
+      "version": "file:../LocalPackages/com.esotericsoftware.spine.spine-csharp-4.1",
       "depth": 0,
-      "source": "embedded",
+      "source": "local",
+      "dependencies": {}
+    },
+    "com.esotericsoftware.spine.spine-unity": {
+      "version": "file:../LocalPackages/com.esotericsoftware.spine.spine-unity-4.1",
+      "depth": 0,
+      "source": "local",
+      "dependencies": {
+        "com.esotericsoftware.spine.spine-csharp": "4.1.0"
+      }
+    },
+    "com.ghoststudio.gamesdk.common": {
+      "version": "file:../../GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.common@1.0.0",
+      "depth": 0,
+      "source": "local",
       "dependencies": {}
     },
     "com.ghoststudio.gamesdk.config": {
-      "version": "file:com.ghoststudio.gamesdk.config@1.0.0",
+      "version": "file:../../GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.config@1.0.0",
       "depth": 0,
-      "source": "embedded",
+      "source": "local",
       "dependencies": {
         "com.ghoststudio.gamesdk.common": "1.0.0",
         "com.ghoststudio.gamesdk.resource": "1.0.0"
       }
     },
     "com.ghoststudio.gamesdk.oa": {
-      "version": "file:com.ghoststudio.gamesdk.oa@1.0.0",
+      "version": "file:../../GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.oa@1.0.0",
       "depth": 0,
-      "source": "embedded",
+      "source": "local",
       "dependencies": {
         "com.ghoststudio.gamesdk.common": "1.0.0",
         "com.ghoststudio.gamesdk.resource": "1.0.0"
       }
     },
     "com.ghoststudio.gamesdk.resource": {
-      "version": "file:com.ghoststudio.gamesdk.resource@1.0.0",
+      "version": "file:../../GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.resource@1.0.0",
       "depth": 0,
-      "source": "embedded",
+      "source": "local",
       "dependencies": {
         "com.ghoststudio.gamesdk.common": "1.0.0",
         "com.unity.addressables": "1.21.18"
       }
     },
     "com.ghoststudio.gamesdk.ui": {
-      "version": "file:com.ghoststudio.gamesdk.ui@1.0.0",
+      "version": "file:../../GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.ui@1.0.0",
       "depth": 0,
-      "source": "embedded",
+      "source": "local",
       "dependencies": {
         "com.ghoststudio.gamesdk.common": "1.0.0",
         "com.ghoststudio.gamesdk.resource": "1.0.0",
