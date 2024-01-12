@@ -110,7 +110,7 @@ namespace AppBase.Event
         {
             for (int i = 0; i < listeners.Count; i++)
             {
-                GameBase.Instance.GetModule<EventManager>().Unsubscribe(listeners[i]);
+                GameBase.Instance?.GetModule<EventManager>()?.Unsubscribe(listeners[i]);
             }
             listeners.Clear();
         }

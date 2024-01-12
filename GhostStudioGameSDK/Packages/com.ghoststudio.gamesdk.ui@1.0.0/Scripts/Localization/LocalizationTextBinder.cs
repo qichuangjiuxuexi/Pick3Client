@@ -29,7 +29,7 @@ public class LocalizationTextBinder : MonoBehaviour
 
     private void OnDisable()
         {
-            GameBase.Instance.GetModule<EventManager>().Unsubscribe<LocalizationChangedEvent>(OnLocalizationChanged);
+            GameBase.Instance?.GetModule<EventManager>()?.Unsubscribe<LocalizationChangedEvent>(OnLocalizationChanged);
         }
 
     public void RefreshText()

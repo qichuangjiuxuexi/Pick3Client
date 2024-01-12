@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using Facebook.Unity.Editor;
 using Facebook.Unity.Settings;
 using UnityEditor;
@@ -22,6 +23,42 @@ namespace AppBase.Analytics.Editor
             FacebookSettings.AppIds = new List<string> { config[GlobalConfigKeys.FacebookId].Value };
             FacebookSettings.ClientTokens = new List<string> { config[GlobalConfigKeys.FacebookToken].Value };
             ManifestMod.GenerateManifest();
+            
+            const string packagesFolderPath = "../GhostStudioGameSDK/Packages/com.ghoststudio.thirdpartysdk.facebook@1.0.0/Plugins/FacebookSDK";
+            const string assetsFolderPath = "Assets/FacebookSDK";
+            const string linkFile = "link.xml";
+            
+            Debug.Log("Facebook copy link file");
+            
+            if (AssetDatabase.IsValidFolder(assetsFolderPath) &&
+                File.Exists(Path.Combine(assetsFolderPath, linkFile)))
+            {
+                Debug.Log("FB link file exists in Assets folder.");
+                return;
+            }
+            
+            if (!File.Exists(Path.Combine(packagesFolderPath, linkFile)))
+            {
+                Debug.Log("FB link file exists in Packages folder.");
+                StopBuildWithMessage("FB packages folder not found.");
+                return;
+            }
+
+            if (!Directory.Exists(assetsFolderPath))
+            {
+                Directory.CreateDirectory(assetsFolderPath);
+            }
+            
+            File.Copy(Path.Combine(packagesFolderPath, linkFile),
+                Path.Combine(assetsFolderPath, linkFile));
+            
+            Debug.Log("Copied FB link file from Packages to Assets folder.");
+        }
+    
+        private void StopBuildWithMessage(string message)
+        {
+            var prefix = "[FB] ";
+            throw new BuildPlayerWindow.BuildMethodException(prefix + message);
         }
     }
 }

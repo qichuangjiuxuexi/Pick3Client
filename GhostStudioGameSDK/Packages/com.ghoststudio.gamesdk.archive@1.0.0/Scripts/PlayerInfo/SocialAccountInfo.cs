@@ -12,7 +12,7 @@ namespace AppBase.PlayerInfo
         /// 社交账号类型
         /// 1：Facebook
         /// 2：Google
-        /// 3：Apple
+        /// 3：Appleso
         /// </summary>
         public int type;
 

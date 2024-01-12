@@ -21,9 +21,11 @@ namespace AppBase.UI.Dialog
     {
         public readonly DialogData DialogData;
 
-        public AfterDialogPopEvent(DialogData dialogData)
+        public readonly UIDialog Dialog;
+        public AfterDialogPopEvent(DialogData dialogData,UIDialog dialog)
         {
             DialogData = dialogData;
+            Dialog = dialog;
         }
     }
     /// <summary>

@@ -1,0 +1,24 @@
+{
+    "name": "GameSDK.SocialAccount",
+    "rootNamespace": "",
+    "references": [
+        "GUID:4cbf0ee5e58cb48be8d235de33272243",
+        "GUID:0025b92bdb4a841d7b579b930dd13bcd",
+        "GUID:2370b0c347434428924c8a1ec528d2db",
+        "GUID:cff761fa621db409bafa5e7cbdc31f1e",
+        "GUID:e59a2555e209c440289bee8853b424ba",
+        "GUID:6547f7f9399154343bf083635157141d",
+        "GUID:715c9487ab5ae4b39899025a17adb964",
+        "GUID:bf3e6b3bdfa1e47dea6444777c153cfd",
+        "GUID:1ed07ff861e5f468287b0baef844706d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

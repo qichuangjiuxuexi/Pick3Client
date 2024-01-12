@@ -79,7 +79,7 @@ namespace AppBase.UI.Dialog
                     dialog.GetOrAddComponent<DialogRuntimeComponent>();
                     handler.Release();
                     dialog.SetActive(true);
-                    GameBase.Instance.GetModule<EventManager>().Broadcast(new AfterDialogPopEvent(dialogData));
+                    GameBase.Instance.GetModule<EventManager>().Broadcast(new AfterDialogPopEvent(dialogData,dialog));
                 });
             }, () =>
             {

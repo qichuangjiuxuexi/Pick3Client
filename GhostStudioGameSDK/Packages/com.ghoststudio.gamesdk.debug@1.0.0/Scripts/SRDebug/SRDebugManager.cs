@@ -79,16 +79,12 @@ namespace AppBase.Debugging
         }
 
         public const string user_id = "user_id";
-        private  int[]  DcynamicEntryCode()
+        private int[] DynamicEntryCode()
         {
-            object obj = GameBase.Instance.GetModule<GetOrWaitManager>().GetOrWaitCallBack(user_id,null);
-            if (obj == null)
-                return null;
-            string input = obj.ToString();
-            if (string.IsNullOrEmpty(input))
-                return null;
-            input = $"Player{input}";
-            byte[] inputBytes = System.Text.Encoding.ASCII.GetBytes(input);
+            var uid = GameBase.Instance.GetModule<GetOrWaitManager>()?.GetOrWait<string>(user_id);
+            if (string.IsNullOrEmpty(uid)) return null;
+            var input = $"Player{uid}";
+            byte[] inputBytes = Encoding.ASCII.GetBytes(input);
 
             MD5 md5 = MD5.Create();
             byte[] hashBytes = md5.ComputeHash(inputBytes);
@@ -113,7 +109,7 @@ namespace AppBase.Debugging
             int[] entryCode = null;
             if (AppUtil.IsRelease)
             {
-                entryCode = DcynamicEntryCode();
+                entryCode = DynamicEntryCode();
                 if (entryCode == null)
                     return;   
                 SRDebug.Instance.Settings.RequireCode = true;

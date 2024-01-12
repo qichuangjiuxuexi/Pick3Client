@@ -28,18 +28,30 @@ namespace API.V1.Game {
             "cm9yUmVzcG9uc2USDAoEY29kZRgBIAEoBRIPCgdtZXNzYWdlGAIgASgJEjwK",
             "CG1ldGFkYXRhGAMgAygLMioudjEuZ2FtZS5lcnJvci5FcnJvclJlc3BvbnNl",
             "Lk1ldGFkYXRhRW50cnkaLwoNTWV0YWRhdGFFbnRyeRILCgNrZXkYASABKAkS",
-            "DQoFdmFsdWUYAiABKAk6AjgBKswDCgtFcnJvclJlYXNvbhILCgdTVUNDRVNT",
+            "DQoFdmFsdWUYAiABKAk6AjgBKuwHCgtFcnJvclJlYXNvbhILCgdTVUNDRVNT",
             "EAASCgoGRkFJTEVEEAESDwoLSU5WQUxJRF9VUkwQZRIXChNBVVRIRU5USUNB",
             "VEVfRkFJTEVEEGYSFAoQUkVBRF9CT0RZX0ZBSUxFRBBnEhIKDkRFQ1JZUFRf",
             "RkFJTEVEEGgSEQoNREVDT0RFX0ZBSUxFRBBpEhUKEUlOVkFMSURfUExBWUVS",
             "X0lEEGoSFQoRSU5WQUxJRF9QQVJBTUVURVIQaxIUChBBVVRIT1JJWkVfRkFJ",
             "TEVEEGwSEQoNRU5DT0RFX0ZBSUxFRBBtEhIKDkVOQ1JZUFRfRkFJTEVEEG4S",
             "FQoRV1JJVEVfQk9EWV9GQUlMRUQQbxIUChBQTEFZRVJfTk9UX0ZPVU5EEHAS",
-            "FgoSSU5WQUxJRF9GRUFUVVJFX0lEEHESEgoNU1RPUkFHRV9FUlJPUhDJARIm",
-            "CiBQTEFZRVJfVVBMT0FEX0lOVkFMSURfQ0xJRU5UX1ZFUhDNjwYSJgogUExB",
-            "WUVSX1VQTE9BRF9JTlZBTElEX1NFUlZFUl9WRVIQzo8GEikKI1BMQVlFUl9H",
-            "RVRfTE9DQVRJT05fUEFSU0VfSVBfRkFJTEVEEPmRBkIgWhBhcGkvdjEvZ2Ft",
-            "ZTtnYW1lqgILQVBJLlYxLkdhbWViBnByb3RvMw=="));
+            "FgoSSU5WQUxJRF9GRUFUVVJFX0lEEHESDwoLUEFSQU1fRVJST1IQchIbChdD",
+            "UkVBVEVfQ0xVQl9OQU1FX1JFUEVBVBBzEhMKD0lOVkFMSURfQ0xVQl9JRBB0",
+            "EhUKEUpPSU5fTEVWRUxfSVNfTE9XEHUSHQoZSk9JTl9MRVZFTF9NRU1CRVJf",
+            "SVNfRlVMTBB2EhsKF0VYSVRfQ0xVQl9NRU1CRVJfTk9UX0lOEHcSJQohVVBE",
+            "QVRFX01FTUJFUl9CQVNJQ19NRU1CRVJfTk9UX0lOEHgSJQohVVBEQVRFX01F",
+            "TUJFUl9TQ09SRV9NRU1CRVJfTk9UX0lOEHkSIwofVVBEQVRFX0NMVUJfQkFT",
+            "SUNfTUVNQkVSX05PVF9JThB6EicKI1VQREFURV9DTFVCX0JBU0lDX01FTUJF",
+            "Ul9OT1RfTEVBREVSEHsSHQoZS0lDS19NRU1CRVJfUExBWUVSX05PVF9JThB8",
+            "EiEKHUtJQ0tfTUVNQkVSX09QVF9QTEFZRVJfTk9UX0lOEH0SGQoVS0lDS19N",
+            "RU1CRVJfTk9UX0FETUlOEH4SFAoQS0lDS19NRU1CRVJfU0VMRhB/EhwKF1VQ",
+            "REFURV9NRU1CRVJfUk9MRV9TRUxGEIABEh4KGVVQREFURV9NRU1CRVJfUk9M",
+            "RV9OT1RfSU4QgQESIgodVVBEQVRFX01FTUJFUl9ST0xFX05PVF9MRUFERVIQ",
+            "ggESFwoSUExBWUVSX05PVF9JTl9DTFVCEIMBEhIKDVNUT1JBR0VfRVJST1IQ",
+            "yQESJgogUExBWUVSX1VQTE9BRF9JTlZBTElEX0NMSUVOVF9WRVIQzY8GEiYK",
+            "IFBMQVlFUl9VUExPQURfSU5WQUxJRF9TRVJWRVJfVkVSEM6PBhIpCiNQTEFZ",
+            "RVJfR0VUX0xPQ0FUSU9OX1BBUlNFX0lQX0ZBSUxFRBD5kQZCIFoQYXBpL3Yx",
+            "L2dhbWU7Z2FtZaoCC0FQSS5WMS5HYW1lYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(new[] {typeof(global::API.V1.Game.ErrorReason), }, null, new pbr::GeneratedClrTypeInfo[] {
@@ -111,6 +123,78 @@ namespace API.V1.Game {
     /// featureId无效：排行榜没有此配置
     /// </summary>
     [pbr::OriginalName("INVALID_FEATURE_ID")] InvalidFeatureId = 113,
+    /// <summary>
+    ///工会:
+    /// </summary>
+    [pbr::OriginalName("PARAM_ERROR")] ParamError = 114,
+    /// <summary>
+    ///创建工会名称重复
+    /// </summary>
+    [pbr::OriginalName("CREATE_CLUB_NAME_REPEAT")] CreateClubNameRepeat = 115,
+    /// <summary>
+    ///无效工会ID
+    /// </summary>
+    [pbr::OriginalName("INVALID_CLUB_ID")] InvalidClubId = 116,
+    /// <summary>
+    ///加入工会玩家等级低于工会限制等级
+    /// </summary>
+    [pbr::OriginalName("JOIN_LEVEL_IS_LOW")] JoinLevelIsLow = 117,
+    /// <summary>
+    ///加入工会,成员已满
+    /// </summary>
+    [pbr::OriginalName("JOIN_LEVEL_MEMBER_IS_FULL")] JoinLevelMemberIsFull = 118,
+    /// <summary>
+    ///退出工会,玩家不在工会中
+    /// </summary>
+    [pbr::OriginalName("EXIT_CLUB_MEMBER_NOT_IN")] ExitClubMemberNotIn = 119,
+    /// <summary>
+    ///更新成员信息,玩家不在工会中
+    /// </summary>
+    [pbr::OriginalName("UPDATE_MEMBER_BASIC_MEMBER_NOT_IN")] UpdateMemberBasicMemberNotIn = 120,
+    /// <summary>
+    ///更新成员分数,玩家不在工会中
+    /// </summary>
+    [pbr::OriginalName("UPDATE_MEMBER_SCORE_MEMBER_NOT_IN")] UpdateMemberScoreMemberNotIn = 121,
+    /// <summary>
+    ///更新工会基本信息,玩家不在工会中
+    /// </summary>
+    [pbr::OriginalName("UPDATE_CLUB_BASIC_MEMBER_NOT_IN")] UpdateClubBasicMemberNotIn = 122,
+    /// <summary>
+    ///更新工会基本信息,玩家不是Leader
+    /// </summary>
+    [pbr::OriginalName("UPDATE_CLUB_BASIC_MEMBER_NOT_LEADER")] UpdateClubBasicMemberNotLeader = 123,
+    /// <summary>
+    ///工会踢人,玩家不在工会中
+    /// </summary>
+    [pbr::OriginalName("KICK_MEMBER_PLAYER_NOT_IN")] KickMemberPlayerNotIn = 124,
+    /// <summary>
+    ///工会踢人,被操作玩家不在工会中
+    /// </summary>
+    [pbr::OriginalName("KICK_MEMBER_OPT_PLAYER_NOT_IN")] KickMemberOptPlayerNotIn = 125,
+    /// <summary>
+    ///工会踢人,玩家不是管理员
+    /// </summary>
+    [pbr::OriginalName("KICK_MEMBER_NOT_ADMIN")] KickMemberNotAdmin = 126,
+    /// <summary>
+    ///工会踢人,自己踢自己
+    /// </summary>
+    [pbr::OriginalName("KICK_MEMBER_SELF")] KickMemberSelf = 127,
+    /// <summary>
+    ///修改成员角色,自己改自己
+    /// </summary>
+    [pbr::OriginalName("UPDATE_MEMBER_ROLE_SELF")] UpdateMemberRoleSelf = 128,
+    /// <summary>
+    ///修改成员角色,不在工会中
+    /// </summary>
+    [pbr::OriginalName("UPDATE_MEMBER_ROLE_NOT_IN")] UpdateMemberRoleNotIn = 129,
+    /// <summary>
+    ///修改成员角色,不是Leader
+    /// </summary>
+    [pbr::OriginalName("UPDATE_MEMBER_ROLE_NOT_LEADER")] UpdateMemberRoleNotLeader = 130,
+    /// <summary>
+    ///玩家不在工会中
+    /// </summary>
+    [pbr::OriginalName("PLAYER_NOT_IN_CLUB")] PlayerNotInClub = 131,
     /// <summary>
     /// 服务器错误
     /// </summary>

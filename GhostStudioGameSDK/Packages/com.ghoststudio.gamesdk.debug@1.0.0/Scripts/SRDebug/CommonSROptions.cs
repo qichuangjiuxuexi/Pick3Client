@@ -87,29 +87,8 @@ namespace AppBase.Debugging
         [DisplayName("设置Firebase Token")]
         public string SetFirebaseToken
         {
-            get
-            {
-                var getwait = GameBase.Instance.GetModule<GetOrWaitManager>();
-                if (getwait != null)
-                {
-                    var rst = getwait.GetOrWaitCallBack("firebase_token", null);
-                    if (rst != null)
-                    {
-                        return (string)rst;
-                    }
-
-                    return "";
-                }
-                return "";
-            }
-            set
-            {
-                var getwait = GameBase.Instance.GetModule<GetOrWaitManager>();
-                if (getwait != null)
-                {
-                    getwait.SetData("firebase_token",value);
-                }
-            }
+            get => GameBase.Instance.GetModule<GetOrWaitManager>()?.GetOrWait<string>("firebase_token") ?? "";
+            set => GameBase.Instance.GetModule<GetOrWaitManager>()?.SetData("firebase_token", value);
         }
     }
 }

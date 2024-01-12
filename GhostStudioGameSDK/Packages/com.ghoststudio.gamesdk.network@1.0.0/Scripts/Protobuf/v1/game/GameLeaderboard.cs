@@ -38,7 +38,7 @@ namespace API.V1.Game {
             "ZW50cnkYAyABKAsyJS52MS5nYW1lLmxlYWRlcmJvYXJkLkxlYWRlcmJvYXJk",
             "RW50cnkipwEKElVwZGF0ZUVudHJ5UmVxdWVzdBIRCglwbGF5ZXJfaWQYASAB",
             "KAkSQwoPaWRlbnRpZmllcl9saXN0GAIgAygLMioudjEuZ2FtZS5sZWFkZXJi",
-            "b2FyZC5MZWFkZXJib2FyZElkZW50aWZpZXISOQoKZW50cnlfTGlzdBgDIAMo",
+            "b2FyZC5MZWFkZXJib2FyZElkZW50aWZpZXISOQoKZW50cnlfbGlzdBgDIAMo",
             "CzIlLnYxLmdhbWUubGVhZGVyYm9hcmQuTGVhZGVyYm9hcmRFbnRyeSI7ChNV",
             "cGRhdGVFbnRyeVJlc3BvbnNlEhEKCXBsYXllcl9pZBgBIAEoCRIRCglyYW5r",
             "X2xpc3QYAiADKAUibAoSRGVsZXRlRW50cnlSZXF1ZXN0EhEKCXBsYXllcl9p",
@@ -73,6 +73,9 @@ namespace API.V1.Game {
 
   }
   #region Messages
+  /// <summary>
+  /// 排行榜标识
+  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class LeaderboardIdentifier : pb::IMessage<LeaderboardIdentifier>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -123,7 +126,7 @@ namespace API.V1.Game {
     public const int FeatureIdFieldNumber = 1;
     private string featureId_ = "";
     /// <summary>
-    /// 业务功能/活动id：比如match中的PlayerGlobal,PlayerLocal和Weekly
+    /// 功能ID：比如match中的PlayerGlobal,PlayerLocal和Weekly
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -138,7 +141,7 @@ namespace API.V1.Game {
     public const int GroupIdFieldNumber = 2;
     private string groupId_ = "";
     /// <summary>
-    /// 分组id：比如PlayerLocal中的Asia/Europe，或Weekly中的周次 
+    /// 分组ID：比如PlayerLocal中的Asia/Europe，或Weekly中的周次 
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -306,6 +309,9 @@ namespace API.V1.Game {
 
   }
 
+  /// <summary>
+  /// 排行榜ID
+  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class LeaderboardEntry : pb::IMessage<LeaderboardEntry>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -699,6 +705,9 @@ namespace API.V1.Game {
 
   }
 
+  /// <summary>
+  /// 请求获取排行榜条目
+  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetEntriesRequest : pb::IMessage<GetEntriesRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -750,6 +759,9 @@ namespace API.V1.Game {
     /// <summary>Field number for the "player_id" field.</summary>
     public const int PlayerIdFieldNumber = 1;
     private string playerId_ = "";
+    /// <summary>
+    /// 玩家ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PlayerId {
@@ -762,6 +774,9 @@ namespace API.V1.Game {
     /// <summary>Field number for the "identifier" field.</summary>
     public const int IdentifierFieldNumber = 2;
     private global::API.V1.Game.LeaderboardIdentifier identifier_;
+    /// <summary>
+    /// 排行榜标识
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::API.V1.Game.LeaderboardIdentifier Identifier {
@@ -790,7 +805,7 @@ namespace API.V1.Game {
     public const int CountFieldNumber = 4;
     private int count_;
     /// <summary>
-    /// 数量
+    /// 条目数量
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
@@ -1015,6 +1030,9 @@ namespace API.V1.Game {
 
   }
 
+  /// <summary>
+  /// 返回获取排行榜条目
+  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class GetEntriesResponse : pb::IMessage<GetEntriesResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1065,6 +1083,9 @@ namespace API.V1.Game {
     /// <summary>Field number for the "player_id" field.</summary>
     public const int PlayerIdFieldNumber = 1;
     private string playerId_ = "";
+    /// <summary>
+    /// 玩家ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PlayerId {
@@ -1079,6 +1100,9 @@ namespace API.V1.Game {
     private static readonly pb::FieldCodec<global::API.V1.Game.LeaderboardEntry> _repeated_entries_codec
         = pb::FieldCodec.ForMessage(18, global::API.V1.Game.LeaderboardEntry.Parser);
     private readonly pbc::RepeatedField<global::API.V1.Game.LeaderboardEntry> entries_ = new pbc::RepeatedField<global::API.V1.Game.LeaderboardEntry>();
+    /// <summary>
+    /// 排行榜条目数组
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::API.V1.Game.LeaderboardEntry> Entries {
@@ -1088,6 +1112,9 @@ namespace API.V1.Game {
     /// <summary>Field number for the "self_entry" field.</summary>
     public const int SelfEntryFieldNumber = 3;
     private global::API.V1.Game.LeaderboardEntry selfEntry_;
+    /// <summary>
+    /// 玩家自身条目
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public global::API.V1.Game.LeaderboardEntry SelfEntry {
@@ -1277,6 +1304,9 @@ namespace API.V1.Game {
 
   }
 
+  /// <summary>
+  /// 请求更新排行榜条目
+  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateEntryRequest : pb::IMessage<UpdateEntryRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1327,6 +1357,9 @@ namespace API.V1.Game {
     /// <summary>Field number for the "player_id" field.</summary>
     public const int PlayerIdFieldNumber = 1;
     private string playerId_ = "";
+    /// <summary>
+    /// 玩家ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PlayerId {
@@ -1341,17 +1374,23 @@ namespace API.V1.Game {
     private static readonly pb::FieldCodec<global::API.V1.Game.LeaderboardIdentifier> _repeated_identifierList_codec
         = pb::FieldCodec.ForMessage(18, global::API.V1.Game.LeaderboardIdentifier.Parser);
     private readonly pbc::RepeatedField<global::API.V1.Game.LeaderboardIdentifier> identifierList_ = new pbc::RepeatedField<global::API.V1.Game.LeaderboardIdentifier>();
+    /// <summary>
+    /// 排行榜标识数组
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::API.V1.Game.LeaderboardIdentifier> IdentifierList {
       get { return identifierList_; }
     }
 
-    /// <summary>Field number for the "entry_List" field.</summary>
+    /// <summary>Field number for the "entry_list" field.</summary>
     public const int EntryListFieldNumber = 3;
     private static readonly pb::FieldCodec<global::API.V1.Game.LeaderboardEntry> _repeated_entryList_codec
         = pb::FieldCodec.ForMessage(26, global::API.V1.Game.LeaderboardEntry.Parser);
     private readonly pbc::RepeatedField<global::API.V1.Game.LeaderboardEntry> entryList_ = new pbc::RepeatedField<global::API.V1.Game.LeaderboardEntry>();
+    /// <summary>
+    /// 排行榜条目数组
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::API.V1.Game.LeaderboardEntry> EntryList {
@@ -1519,6 +1558,9 @@ namespace API.V1.Game {
 
   }
 
+  /// <summary>
+  /// 返回更新排行榜条目
+  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class UpdateEntryResponse : pb::IMessage<UpdateEntryResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1568,6 +1610,9 @@ namespace API.V1.Game {
     /// <summary>Field number for the "player_id" field.</summary>
     public const int PlayerIdFieldNumber = 1;
     private string playerId_ = "";
+    /// <summary>
+    /// 玩家ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PlayerId {
@@ -1582,6 +1627,9 @@ namespace API.V1.Game {
     private static readonly pb::FieldCodec<int> _repeated_rankList_codec
         = pb::FieldCodec.ForInt32(18);
     private readonly pbc::RepeatedField<int> rankList_ = new pbc::RepeatedField<int>();
+    /// <summary>
+    /// 更新后的排名数组
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<int> RankList {
@@ -1737,6 +1785,9 @@ namespace API.V1.Game {
 
   }
 
+  /// <summary>
+  /// 请求删除排行榜条目
+  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteEntryRequest : pb::IMessage<DeleteEntryRequest>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -1786,6 +1837,9 @@ namespace API.V1.Game {
     /// <summary>Field number for the "player_id" field.</summary>
     public const int PlayerIdFieldNumber = 1;
     private string playerId_ = "";
+    /// <summary>
+    /// 玩家ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PlayerId {
@@ -1800,6 +1854,9 @@ namespace API.V1.Game {
     private static readonly pb::FieldCodec<global::API.V1.Game.LeaderboardIdentifier> _repeated_identifierList_codec
         = pb::FieldCodec.ForMessage(18, global::API.V1.Game.LeaderboardIdentifier.Parser);
     private readonly pbc::RepeatedField<global::API.V1.Game.LeaderboardIdentifier> identifierList_ = new pbc::RepeatedField<global::API.V1.Game.LeaderboardIdentifier>();
+    /// <summary>
+    /// 排行榜标识数组
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<global::API.V1.Game.LeaderboardIdentifier> IdentifierList {
@@ -1953,6 +2010,9 @@ namespace API.V1.Game {
 
   }
 
+  /// <summary>
+  /// 返回删除排行榜条目
+  /// </summary>
   [global::System.Diagnostics.DebuggerDisplayAttribute("{ToString(),nq}")]
   public sealed partial class DeleteEntryResponse : pb::IMessage<DeleteEntryResponse>
   #if !GOOGLE_PROTOBUF_REFSTRUCT_COMPATIBILITY_MODE
@@ -2002,6 +2062,9 @@ namespace API.V1.Game {
     /// <summary>Field number for the "player_id" field.</summary>
     public const int PlayerIdFieldNumber = 1;
     private string playerId_ = "";
+    /// <summary>
+    /// 玩家ID
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public string PlayerId {
@@ -2016,6 +2079,9 @@ namespace API.V1.Game {
     private static readonly pb::FieldCodec<int> _repeated_countList_codec
         = pb::FieldCodec.ForInt32(18);
     private readonly pbc::RepeatedField<int> countList_ = new pbc::RepeatedField<int>();
+    /// <summary>
+    /// 删除的条目数量数组
+    /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public pbc::RepeatedField<int> CountList {

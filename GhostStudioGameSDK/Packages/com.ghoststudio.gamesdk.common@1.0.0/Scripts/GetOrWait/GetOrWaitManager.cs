@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using AppBase.Module;
 using AppBase.Utils;
+using Object = UnityEngine.Object;
 
 namespace AppBase.GetOrWait
 {
@@ -11,35 +12,25 @@ namespace AppBase.GetOrWait
     /// </summary>
     public class GetOrWaitManager : ModuleBase
     {
-        private Dictionary<string, object> dataMap;
-        Dictionary<string,List<Action<string, object>>> keyCallBackListMap;
+        private Dictionary<string, object> dataMap = new();
+        private Dictionary<string, List<GetOrWaitListener>> listeners = new();
 
         /// <summary>
         /// 数据提供者能提供对应的key的值时，调用此方法
         /// </summary>
-        /// <param name="key"></param>
-        /// <param name="val"></param>
-        public void SetData(string key,object val)
+        public void SetData(string key, object val)
         {
-            dataMap ??= new Dictionary<string, object>();
-            keyCallBackListMap ??= new Dictionary<string, List<Action<string, object>>>();
-            if (dataMap.ContainsKey(key))
+            if (dataMap.TryGetValue(key, out var value))
             {
-                Debugger.LogDWarning($"key already set:{key},old value is {dataMap[key]},new value is {val}");
+                Debugger.LogWarning(TAG, $"key already set: {key}, old value is {value}, new value is {val}");
             }
             //存储数据
             dataMap[key] = val;
-            if (keyCallBackListMap.TryGetValue(key, out var funcs))
+            //通知等待者
+            if (listeners.Remove(key, out var list))
             {
-                for (int i = 0; i < funcs.Count; i++)
-                {
-                    if (dataMap.TryGetValue(key,out object data))
-                    {
-                        funcs[i]?.Invoke(key,data);
-                    }
-                }
-                //因为已经回传给调用方了，可以直接拿到数据了，所以不需要这些回调了。
-                funcs.Clear();
+                list.ForEach(f => f.Invoke(val));
+                list.Clear();
             }
         }
 
@@ -48,33 +39,66 @@ namespace AppBase.GetOrWait
         /// </summary>
         /// <param name="key">属性对应的key</param>
         /// <param name="callBack">当数据没准备好时，通过此回调将数据的key和data告诉调用方</param>
-        /// <returns></returns>
-        public object GetOrWaitCallBack(string key,Action<string,object> callBack)
+        /// <returns>当数据准备好时，可同步返回</returns>
+        public T GetOrWait<T>(string key, Action<T> callBack = null)
         {
-            dataMap ??= new Dictionary<string, object>();
-            //已经有数据了，直接返回
             if (dataMap.TryGetValue(key, out var val))
             {
-                return val;
+                var value = (T)Convert.ChangeType(val, typeof(T));
+                callBack?.Invoke(value);
+                return value;
             }
-
             if (callBack == null)
             {
-                return null;
+                return default;
             }
-            keyCallBackListMap ??= new Dictionary<string, List<Action<string, object>>>();
-            if (keyCallBackListMap.TryGetValue(key, out var funList))
+            if (!listeners.TryGetValue(key, out var list))
             {
-                if (!funList.Contains(callBack))
-                {
-                    funList.Add(callBack);
-                }
-                return null;
+                list = new List<GetOrWaitListener>();
+                listeners[key] = list;
             }
+            else if (list.Find(l => l.callbackObj.Equals(callBack)) != null)
+            {
+                Debugger.LogWarning(TAG, $"key:{key} already has callback:{callBack}");
+                return default;
+            }
+            var listener = new GetOrWaitListener(obj => callBack.Invoke((T)Convert.ChangeType(obj, typeof(T))), callBack, callBack.Target);
+            list.Add(listener);
+            return default;
+        }
 
-            keyCallBackListMap[key] = new List<Action<string, object>>();
-            keyCallBackListMap[key].Add(callBack);
-            return null;
+        /// <summary>
+        /// 解注册
+        /// </summary>
+        public bool Unsubscribe<T>(string key, Action<T> callBack)
+        {
+            if (!listeners.TryGetValue(key, out var list)) return false;
+            var p = list.FindIndex(l => l.callbackObj.Equals(callBack));
+            if (p < 0) return false;
+            list.RemoveAt(p);
+            if (list.Count == 0) listeners.Remove(key);
+            return true;
+        }
+
+        private class GetOrWaitListener
+        {
+            public Action<object> callback;
+            public object callbackObj;
+            public object callbackTarget;
+            
+            public GetOrWaitListener(Action<object> callback, object callbackObj, object callbackTarget)
+            {
+                this.callback = callback;
+                this.callbackObj = callbackObj;
+                this.callbackTarget = callbackTarget;
+            }
+            
+            public void Invoke(object obj)
+            {
+                if (callbackTarget is Object unityObj && unityObj == null) return;
+                if (callbackTarget is ModuleBase moduleBase && !moduleBase.IsModuleInited) return;
+                callback.Invoke(obj);
+            }
         }
     }
 }

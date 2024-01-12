@@ -24,7 +24,7 @@ namespace AppBase.ThirdParty
         /// </summary>
         public override void InitSDK()
         {
-            if (AppUtil.IsDebug) return;
+            // if (AppUtil.IsDebug) return;
             var facebookId = GameBase.Instance.GetModule<ConfigManager>().GetConfigByKey<string, GlobalConfig>(AAConst.GlobalConfig, GlobalConfigKeys.FacebookId)?.Value;
             if (string.IsNullOrEmpty(facebookId)) return;
             if (!FB.IsInitialized)

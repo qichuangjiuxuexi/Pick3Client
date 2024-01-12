@@ -105,7 +105,16 @@ public class TeamManager : ModuleBase
     {
         return myTeamInfo.isValid;
     }
-    
+
+    public bool IsHaveJoinTeam()
+    {
+        if (myTeamInfo.isValid && myTeamInfo.detailInfo != null)
+        {
+            return true;
+        }
+
+        return false;
+    }
 
     public int TeamMemberMaxCount
     {
@@ -114,6 +123,26 @@ public class TeamManager : ModuleBase
             return configTeamMemberMaxCount;
         }
     }
+
+    public void GetSelfTeamInfo(Action<ErrorReason> callBack)
+    {
+        //请求更新
+        GameBase.Instance.GetModule<NetworkManager>().Send<GetSelfTeamInfoProtocol>(new GetSelfTeamInfoProtocol(), (success, protocol) =>
+        {
+            if (!success)
+            {
+                callBack?.Invoke(protocol.errorCode);
+                return;
+            }
+
+            myTeamInfo.detailInfo = protocol.response.ClubComplete;
+            myTeamInfo.isValid = true;
+            callBack?.Invoke(protocol.errorCode);
+            GameBase.Instance.GetModule<EventManager>().Broadcast<EventOnConfirmSelfTeamInfo>();
+        });
+    }
+    
+    
     /// <summary>
     /// 
     /// </summary>

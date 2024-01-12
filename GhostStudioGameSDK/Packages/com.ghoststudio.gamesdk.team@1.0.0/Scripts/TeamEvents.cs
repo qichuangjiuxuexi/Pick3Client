@@ -10,3 +10,13 @@ public struct EventTeamMemberUpdate : IEvent
 {
     
 }
+
+public struct EventOnJoinTeam : IEvent
+{
+        
+}
+
+public struct EventOnConfirmSelfTeamInfo : IEvent
+{
+        
+}

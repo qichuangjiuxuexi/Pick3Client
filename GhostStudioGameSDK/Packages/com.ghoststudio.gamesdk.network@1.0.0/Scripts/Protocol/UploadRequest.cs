@@ -3,6 +3,8 @@ using AppBase.Archive;
 using AppBase.PlayerInfo;
 using AppBase.Utils;
 using API.V1.Game;
+using AppBase.Event;
+using AppBase.Timing;
 
 namespace AppBase.Network
 {
@@ -68,6 +70,11 @@ namespace AppBase.Network
                 }
             }
             return true;
+        }
+
+        public override void OnFail()
+        {
+            GameBase.Instance.GetModule<EventManager>().Broadcast(new UploadRequestFailedEvent(errorCode));
         }
     }
 }

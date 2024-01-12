@@ -87,35 +87,14 @@ namespace AppBase.Support
 
         void TryGetToken()
         {
-            object token = null;
             switch (pushType)
             {
                 case 1://Firebase
-                    token = GameBase.Instance.GetModule<GetOrWaitManager>().GetOrWaitCallBack("firebase_token", OnGetToken);
+                    GameBase.Instance.GetModule<GetOrWaitManager>()?.GetOrWait<string>("firebase_token", SetPushToken);
                     break;
                 case 2://苹果APns
-                    token = GameBase.Instance.GetModule<GetOrWaitManager>().GetOrWaitCallBack("apns_token", OnGetToken);
+                    GameBase.Instance.GetModule<GetOrWaitManager>()?.GetOrWait<string>("apns_token", SetPushToken);
                     break;
-                default:
-                    break;
-            }
-
-            if (token != null)
-            {
-                string strToken = (string)token;
-                if (!string.IsNullOrEmpty(strToken))
-                {
-                    SetPushToken(strToken);
-                }
-            }
-            
-        }
-
-        void OnGetToken(string key,object val)
-        {
-            if (val != null)
-            {
-                SetPushToken((string)val);
             }
         }
 

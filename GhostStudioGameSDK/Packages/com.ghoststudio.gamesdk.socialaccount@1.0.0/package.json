@@ -1,0 +1,11 @@
+{
+    "name": "com.ghoststudio.gamesdk.socialaccount",
+    "version": "1.0.0",
+    "displayName": "GameSDK.SocialAccount",
+    "description": "第三方登录模块",
+    "dependencies": {
+        "com.ghoststudio.gamesdk.common": "1.0.0",
+        "com.ghoststudio.gamesdk.config": "1.0.0",
+        "com.ghoststudio.gamesdk.network": "1.0.0"
+    }
+}

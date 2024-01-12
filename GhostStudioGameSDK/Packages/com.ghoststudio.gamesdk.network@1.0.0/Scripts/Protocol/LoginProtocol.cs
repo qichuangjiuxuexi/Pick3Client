@@ -7,6 +7,7 @@ using AppBase.Analytics;
 using AppBase.Archive;
 using AppBase.Event;
 using AppBase.Timing;
+using UnityEngine;
 
 namespace AppBase.Network
 {
@@ -17,6 +18,8 @@ namespace AppBase.Network
     {
         public override string service => "player";
         public override string action => "login";
+
+        public const string LOGIN_SOCIAL_ACCOUNT_SAVEKEY = "LOGIN_SOCIAL_ACCOUNT_SAVEKEY";
         
         private ArchiveManager archiveManager => GameBase.Instance.GetModule<ArchiveManager>();
         private PlayerInfoArchiveData playerInfo => archiveManager?.GetAchiveData<PlayerInfoArchiveData>(nameof(PlayerInfoRecord));
@@ -30,20 +33,29 @@ namespace AppBase.Network
         {
             //通过社交账号登录
             var socialInfo = playerInfo?.socialAccounts?.FirstOrDefault();
+            string localData = PlayerPrefs.GetString(LOGIN_SOCIAL_ACCOUNT_SAVEKEY, "");
+            if (string.IsNullOrEmpty(localData))
+            {
+                socialInfo = null;
+            }
+            else
+            {
+                socialInfo = JsonUtil.DeserializeObject<SocialAccountInfo>(localData);
+            }
             if (socialInfo == null)
             {
-                request.AccountInfo = new LoginRequest.Types.AccountInfo
+                request.AccountInfo = new AccountInfo
                 {
-                    Type = LoginRequest.Types.AccountInfo.Types.AccountType.AccountGuest,
+                    Type = AccountInfo.Types.AccountType.AccountGuest,
                     Id = AppUtil.DeviceId,
                     Name = ""
                 };
             }
             else
             {
-                request.AccountInfo = new LoginRequest.Types.AccountInfo
+                request.AccountInfo = new AccountInfo
                 {
-                    Type = (LoginRequest.Types.AccountInfo.Types.AccountType)socialInfo.type,
+                    Type = (AccountInfo.Types.AccountType)socialInfo.type,
                     Id = socialInfo.id,
                     Name = socialInfo.name,
                 };
@@ -78,7 +90,7 @@ namespace AppBase.Network
             
             //拉取存档
             if (response.PlayerData?.Data?.Count > 0 &&
-                (playerInfo == null || response.PlayerData.ServerVer > playerInfo.serverVersion || response.PlayerData.ClientVer > playerInfo.levelVersion))
+                (playerInfo == null || playerInfo.userId != response.PlayerId || response.PlayerData.ServerVer > playerInfo.serverVersion || response.PlayerData.ClientVer > playerInfo.levelVersion))
             {
                 archiveManager.SetArchivesFromJson(response.PlayerData.Data, response.PlayerId, response.PlayerData.ServerVer);
             }

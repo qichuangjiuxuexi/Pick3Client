@@ -30,19 +30,9 @@ namespace AppBase.Event
         public object callbackObj;
 
         /// <summary>
-        /// 是否有目标对象
+        /// 目标对象，用于监控目标对象是否被销毁
         /// </summary>
-        private byte hasTarget;
-        
-        /// <summary>
-        /// Unity目标对象，用于监控目标对象是否被销毁
-        /// </summary>
-        private Object targetObject;
-        
-        /// <summary>
-        /// Module目标对象，用于监控目标对象是否被销毁
-        /// </summary>
-        private ModuleBase targetModule;
+        private object callbackTarget;
 
         public EventListener(Type eventType, int priority, Action<IEvent, Action> callback, object callbackObj, object callbackTarget)
         {
@@ -50,23 +40,13 @@ namespace AppBase.Event
             this.callback = callback;
             this.callbackObj = callbackObj;
             this.priority = priority;
-            switch (callbackTarget)
-            {
-                case Object obj:
-                    hasTarget = 1;
-                    targetObject = obj;
-                    break;
-                case ModuleBase module:
-                    hasTarget = 2;
-                    targetModule = module;
-                    break;
-            }
+            this.callbackTarget = callbackTarget;
         }
         
         public void Invoke(IEvent e, Action callback)
         {
             //目标对象被销毁，不执行
-            if (hasTarget == 1 && targetObject == null || hasTarget == 2 && !targetModule.IsModuleInited)
+            if (callbackTarget is Object unityObj && unityObj == null || callbackTarget is ModuleBase moduleBase && !moduleBase.IsModuleInited)
             {
                 //目标对象被销毁，删除监听
                 GameBase.Instance.GetModule<EventManager>().Unsubscribe(this);

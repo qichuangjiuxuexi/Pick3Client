@@ -235,7 +235,7 @@ namespace AppBase.UI.Scene
 
         private async UniTask OnGameRestart(OnGameRestartEvent evt)
         {
-            await SwitchScene(new SceneData(AAConst.LaunchScene, null, SceneType.UIScene));
+            await SwitchScene(new SceneData(AAConst.GetAddress(AppBaseProjectConst.DefaultGameRestartSceneName), null, SceneType.UIScene));
         }
     }
 }

@@ -49,7 +49,8 @@ platform=$( [[ "$extention" == "ipa" ]] && echo "iOS" || echo "Android" )
 appName=$(basename "$(dirname "$projectPath")" | cut -d'_' -f1)
 fileName="${appName}_v${version}_${buildVersion}_$(date +%Y%m%d%H%M%S)_${releaseName}"
 packagePath="${packagePath}/${appName}--${releaseName}/${platform}"
-relativePath="${appName}--${releaseName}/${platform}/${fileName}.${extention}"
+relativeDir="${appName}--${releaseName}/${platform}"
+relativePath="${relativeDir}/${fileName}.${extention}"
 echo "${relativePath}" > "${projectPath}/package_path.txt"
 
 #------------------------------拷贝包------------------------------
@@ -80,7 +81,7 @@ plistPath="${buildPath}/items-services.plist"
 if [[ "$extention" == "ipa" ]] && [[ -f "$plistPath" ]] && [[ ! -z "$remoteUrl" ]]; then
     plutil -insert items.0.assets.0.url -string "${remoteUrl}/${relativePath}" "${plistPath}"
     htmlPath="${buildPath}/items-services.htm"
-    plistUrl="itms-services://?action=download-manifest&url=${fileName}.plist"
+    plistUrl="itms-services://?action=download-manifest&url=${remoteUrl}/${relativeDir}/items-services/${fileName}.plist"
     echo "<!DOCTYPE html><html><head><meta http-equiv='refresh' content=\"0; url='${plistUrl}'\" /></head><body><a href='${plistUrl}'>Click to install ${fileName}.${extention}</a></body></html>" > "$htmlPath"
     mkdir -p "${packagePath}/items-services"
     cp -f "${plistPath}" "${packagePath}/items-services/${fileName}.plist"
