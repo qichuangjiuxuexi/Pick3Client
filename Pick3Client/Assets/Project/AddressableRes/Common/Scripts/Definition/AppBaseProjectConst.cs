@@ -19,5 +19,10 @@ namespace AppBase
         /// 默认是否是全屏对话框
         /// </summary>
         public const bool DefaultIsFullScreenDialog = false;
+        
+        /// <summary>
+        /// 热重启默认加载的场景名字
+        /// </summary>
+        public const string DefaultGameRestartSceneName = "SplashScene";
     }
 }
