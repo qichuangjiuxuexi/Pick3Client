@@ -42,16 +42,30 @@
   </PropertyGroup>
   <ItemGroup>
      <Folder Include="Assets" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="LocalPackages/com.esotericsoftware.spine.spine-unity-4.1/version.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
+     <Folder Include="Assets/TextMesh Pro/Sprites" />
+     <Folder Include="Assets/TextMesh Pro/Resources/Sprite Assets" />
+     <Folder Include="Assets/AddressableAssetsData" />
      <None Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.common@1.0.0/Plugins/UniTask/package.json" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader" />
      <Folder Include="Assets/ThirdPartUtil/FacebookSDK/Plugins" />
+     <Folder Include="Assets/AddressableAssetsData/AssetGroups" />
      <None Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.ui@1.0.0/package.json" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.common@1.0.0" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.ui@1.0.0/Unified-Universal-Blur-main/UnifiedUniversalBlur/Materials" />
+     <Folder Include="Assets/TextMesh Pro/Resources/Fonts &amp; Materials" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader" />
+     <Folder Include="Assets/TextMesh Pro/Resources" />
      <None Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.resource@1.0.0/package.json" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.ui@1.0.0/Unified-Universal-Blur-main" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.oa@1.0.0" />
+     <Folder Include="Assets/Settings" />
+     <Folder Include="Assets/TextMesh Pro" />
      <None Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.oa@1.0.0/package.json" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader" />
      <None Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.ui@1.0.0/Unified-Universal-Blur-main/package.json" />
      <Folder Include="Assets/Scenes" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.common@1.0.0/Plugins/iOS" />
@@ -61,28 +75,51 @@
      <None Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.ui@1.0.0/Unified-Universal-Blur-main/UnifiedUniversalBlur/Shaders/UniversalBlurForUI.shader" />
      <Folder Include="Assets/ThirdPartUtil/FacebookSDK/SDK" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.ui@1.0.0/Unified-Universal-Blur-main/UnifiedUniversalBlur" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF.shader" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.common@1.0.0/Plugins" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt" />
+     <Folder Include="Assets/AddressableAssetsData/DataBuilders" />
      <None Include="LocalPackages/com.esotericsoftware.spine.spine-unity-4.1/package.json" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc" />
      <None Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.common@1.0.0/package.json" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
+     <Folder Include="Assets/TextMesh Pro/Shaders" />
+     <Folder Include="Assets/TextMesh Pro/Resources/Style Sheets" />
+     <Folder Include="Assets/TextMesh Pro/Fonts" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.ui@1.0.0" />
+     <Folder Include="Assets/AddressableAssetsData/AssetGroupTemplates" />
+     <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <None Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.config@1.0.0/package.json" />
      <None Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.ui@1.0.0/Unified-Universal-Blur-main/UnifiedUniversalBlur/Shaders/KawaseBlur.shader" />
      <Folder Include="Assets/ThirdPartUtil/FacebookSDK/Examples" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets/ThirdPartUtil/ParticleEffectForUGUI/Shaders/UIAdditive.shader" />
+     <Folder Include="Assets/AddressableAssetsData/AssetGroups/Schemas" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />
      <Folder Include="Assets/ThirdPartUtil/ParticleEffectForUGUI" />
+     <None Include="Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt" />
      <Folder Include="Assets/ThirdPartUtil" />
+     <Folder Include="Assets/TextMesh Pro/Documentation" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.resource@1.0.0" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.common@1.0.0/Plugins/UniTask" />
      <Folder Include="/Users/qiuguoliang/Study/Pick3Client/GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.config@1.0.0" />
+     <None Include="Assets/TextMesh Pro/Sprites/EmojiOne.json" />
+     <None Include="Assets/TextMesh Pro/Shaders/TMP_Sprite.shader" />
      <Folder Include="LocalPackages/com.esotericsoftware.spine.spine-unity-4.1" />
      <Reference Include="UnityEngine">
-     <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.3f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
      </Reference>
      <Reference Include="UnityEngine.CoreModule">
-     <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.3f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
      </Reference>
      <Reference Include="UnityEditor">
-     <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
+     <HintPath>/Applications/Unity/Hub/Editor/2022.3.3f1c1/Unity.app/Contents/Managed/UnityEngine/UnityEditor.dll</HintPath>
      </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

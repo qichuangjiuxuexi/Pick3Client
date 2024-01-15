@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: m_Launch
+  m_EditorClassIdentifier: 
+  m_GroupName: m_Launch
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 6ff4fa559c08d437d93855b6bc2ca897
+  m_SerializeEntries:
+  - m_GUID: 00cb030d6fee945b2b16aab28fb405bc
+    m_Address: Splash/splash.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d0ccf4055a0dc41889edd714fbda28b1
+    m_Address: Splash/splash2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9508d17ee828c4edabc56627d0e20d6e
+    m_Address: loading_pro_bar
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 317a9f8fa0684477ab6af084659c380f
+    m_Address: loading_pro_bar2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72df4d4b702ac4591905350597a52ed5
+    m_Address: LoadingLaunch_LevelBarBg.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20d5dcca1727942418729ca645fa6097
+    m_Address: loading_pro_bg.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14533e157a7c24c9cb741d991d774254
+    m_Address: LoadingLaunch_LevelBarBg1.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61f599012e1424da791f1833b8b5485d
+    m_Address: Prefabs_dl.SplashScene.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8eabaa2b8bd074184b245c2ee811ab31
+    m_Address: Prefabs_dl.LaunchScene.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 885c905fa26494337a179f1d1303f02b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 4ce30c35d9ba946cd8f10ef25e0a1aa5, type: 2}
+    - {fileID: 11400000, guid: ee03926cd9c0145c3b50c91967428dc5, type: 2}

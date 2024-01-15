@@ -85,7 +85,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7159577023508784936}
-  - component: {fileID: 5057617368389359202}
+  - component: {fileID: 8077722533401708263}
   m_Layer: 5
   m_Name: SplashScene
   m_TagString: Untagged
@@ -114,7 +114,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 777.0591}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &5057617368389359202
+--- !u!114 &8077722533401708263
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

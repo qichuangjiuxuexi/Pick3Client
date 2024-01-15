@@ -1,0 +1,300 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: m_Font
+  m_EditorClassIdentifier: 
+  m_GroupName: m_Font
+  m_Data:
+    m_SerializedData: []
+  m_GUID: fd8fe9ea2005449cb9cb646c609788cf
+  m_SerializeEntries:
+  - m_GUID: f36c29fde7b530d42b1360c27f981e0b
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6483383e176125c468a24198bf6007ba
+    m_Address: English.neo_sans_black_SDF_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90a2e8760dcc38043a2530b322cad16e
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Guide_game_Blank.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 212d2008397bfc841b152d59f4e1f34a
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22892c39f3b55f1499916ad923471584
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_coinshop_Dialog03_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 82596c107d7f7d84ea1365a165136d7c
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans_5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5339183a8a5925b4aaefb3b75ab6094a
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Purple_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b34901f0e5d0f1942a1c34edc059c3c9
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_3_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3a044b06df46e643a46e3a42c508b37
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_RocketTreasure.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44e5f50f09b95c04d83d28e7496fc414
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_3_Trans_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44d7003ed13008646b1405aa37f741e1
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Red_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74ad5d498ba394f46b4d3b210f1f847c
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_shoptxt_blue_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4022d7c9be30364380932c64a2faf23
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_6_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55eaaff0c34ce7a42b555c294efad387
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Purple_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 754731aa0bf29e44b87f16e03ac9f76e
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_ADfreetips_n_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85f3f71dc7441964381cd54039be4dc0
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_infiinitylogo02_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a646c217d7ab73a41979bed19ee2f0b5
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Btn_Yellow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a62f12c1e4973784bb2f14b8c6685bbb
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 178cf5e977b496444aa28a7a6b31c5e3
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27fabfcd1a75ad8449de693388cc6d79
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_tankslogo.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47d9409bd0085a84a81a7f2da74ee3c0
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_8.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 484267a1e92060c40a63b4f18707dc7b
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68b6ab8178de4c7468ec954863b9b8d3
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_AdBtn2_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a846097701c98b0419968a3b3b54b742
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_12_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09c563bc71662604e85bf59cf75284ce
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 198434f07e30c45eca51ca470ccd58a4
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Race_Des.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1979d0ba1659f62469d7482efe75af20
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_infinitytxt02_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 39ed410bc61006b4ab8eb40fef71bd74
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_coinshop_Dialog01_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79e47f554ff33cb43b1addfb8d8bc0cd
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Normal_1_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b96eb690563557a42923ad1b615352af
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_BlackOutline_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9c3816346925014dadf7035992de996
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Firework_logo02_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a0b9c16057c3ba4485a75d8a0b45d3d
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_infiintytxt_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6acdc1a017d331146980d0d0e55d8487
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_1_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a154dd8034f141409e7be2c2ec91481
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Normal_1_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: baaf7b23e04b23c43bf8dd542e0f43eb
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Btn_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca0d083937fca9949876adf563429811
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_0.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bd5ffc8f6152be4c8b16bb0a8444ee5
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Guide_itme_Blank.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b05488c0bfcaef4ebdc272ea6a521f1
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5beadddfcc8b84648b39cc6139a8d87f
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_AdBtn_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c2364994751f254db6d03a51ba8e44d
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Purple_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0dc4781b8f2217b469a0a2646be14747
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_9_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d2ae6c8ffacf4a44ae4f745a7440867
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_3_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1dfbcd9a075cdc04b911bbd7caa6098a
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Gold.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d73905280cf18c42a4fb54cfc959956
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans_4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad3eafbf8cad26245ad03b67ac401b84
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_1_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad7e7e34dc969204db60a363ca5ecf25
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_11_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e5f9815514b5f6419f2df0ebbe853f9
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Christmaslogo_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ec7541a3712b9d438041fce441d7b7b
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Shop_Pupertxt_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f43348f9a803f1458c9f3b4627bf159
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Hard_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f924bbdeed6a5e40b0e53df82870800
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_infiintylogo01_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ffb8ebe58da072419aed54a727d91a7
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_coinshop_Dialog02.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fc01be5f8d45e24ba10abbb99d44549
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans_6.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9fa403556e2c3d046b4516173bcd4e3a
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_BlackOutline_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bff1c5bb5dd9be3439aa95640f4de82e
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ff9dece2962df13468ad8c370dc4a637
+    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Ranking1_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 885c905fa26494337a179f1d1303f02b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3992a78685a3b404c9bfa3daf4151b08, type: 2}
+    - {fileID: 11400000, guid: 0846a2467ec4b44a48f324b007334aea, type: 2}
