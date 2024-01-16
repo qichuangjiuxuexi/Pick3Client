@@ -1,0 +1,295 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: m_Data_dl
+  m_EditorClassIdentifier: 
+  m_GroupName: m_Data_dl
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 248b61cb99bf04faba0f111bd3de21ac
+  m_SerializeEntries:
+  - m_GUID: f5df4340337d74e9aaad0834d3031898
+    m_Address: m_Data_dl.WeeklyContestConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ffb3831a7f4345f087d489aac9cb446
+    m_Address: m_Data_dl.TeamConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f80f710c80b244c2bcdb71b3ba202ea
+    m_Address: m_Data_dl.TeamBadgeConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef1cb2925f99146b39331c49c0b54698
+    m_Address: m_Data_dl.SupportConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4b400d4a686a24641aa664d5145c486d
+    m_Address: m_Data_dl.StarChestConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 77c5537a11cfe4cffbf83786f8daa6dd
+    m_Address: m_Data_dl.Spanish.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecad232d8d7aa417b9ff55acaab0b8ea
+    m_Address: m_Data_dl.ShopConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb3b64653f1844d3ca9437ae2cd7cdf2
+    m_Address: m_Data_dl.RocketTreasureConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a04a7a4517a347419f5c96245948a94
+    m_Address: m_Data_dl.RocketRaceRobotNameConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f353168bedd94677a64dfbdec356dec
+    m_Address: m_Data_dl.RocketRaceRobotConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f611271db6e7463c80703446ed10ca9
+    m_Address: m_Data_dl.RandomListConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83aaca3f051574be980644d6962ae532
+    m_Address: m_Data_dl.Portuguese.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19cef5a8a4d9d48c88ba7349b7c9d5e0
+    m_Address: m_Data_dl.PartConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd5d85fb0ff794628b73fd1ea53dcd86
+    m_Address: m_Data_dl.OneByOneTriggerConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f00566c37d8e4430299dd2ec921263cb
+    m_Address: m_Data_dl.OneByOnePoolConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9569fa8b29f6248c1a6cfdaf879d219b
+    m_Address: m_Data_dl.OneByOneFilterConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a6403b62172240c297d59075264457a
+    m_Address: m_Data_dl.OneByOneEventConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2720cbbbc227841869c034110feed7bb
+    m_Address: m_Data_dl.OneByOneConditionConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28aeaee2f700245828f9dd9a74b50825
+    m_Address: m_Data_dl.ModelConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8054262175da4c8db90c441a6f177cd
+    m_Address: m_Data_dl.MatchLevelConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 824bd827c21f0446a8bb3ae23065f348
+    m_Address: m_Data_dl.MatchConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32679d75be8614d49825ba2189fc1993
+    m_Address: m_Data_dl.LocalNotificationConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ba375237f38941d2a4719528be2adbf
+    m_Address: m_Data_dl.LocalNotificationChannelConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9870555a483f64fbbbce3b97f5280a47
+    m_Address: m_Data_dl.LobbyModelConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62de7a6a65f8b4b51a61e4da2759dfb0
+    m_Address: m_Data_dl.LevelKeepScoreConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6eb57133573cc4d538b9136071c6c20c
+    m_Address: m_Data_dl.LevelFeatureConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a742a7e29f5e4a73879b9e7b53b7d99
+    m_Address: m_Data_dl.LevelChestConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 679468a4c9b07489d90cdb0d2635f217
+    m_Address: m_Data_dl.LeaderboardConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0646a4dd26a0e4e06b2cb9c32e1db6d8
+    m_Address: m_Data_dl.Korean.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e14e0bcbbdfc4cddb40d8f00f5ed3e0
+    m_Address: m_Data_dl.Japanese.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7bc12beafc1545fdb5d23a690b340eb
+    m_Address: m_Data_dl.ItemConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a00c57cc9485a4815a96b228fac0e267
+    m_Address: m_Data_dl.IslandExpeditionConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 438016c51d37845579ef76242719fade
+    m_Address: m_Data_dl.IAPConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 50cdf5a99795e413796e1032ef9e794d
+    m_Address: m_Data_dl.GlobalConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf8ff92d77e844693a2567eba65b1fd0
+    m_Address: m_Data_dl.German.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5fced03550274f7297f6146c1165a99
+    m_Address: m_Data_dl.French.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da5f2df6955e245759f1036765828668
+    m_Address: m_Data_dl.FestiveAirConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c424b2cab296949ceb6673b7f53e3ee4
+    m_Address: m_Data_dl.English.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 11f8996b669ed486e955a4a909b6a3d8
+    m_Address: m_Data_dl.DailyBonusConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cb85e214b2e64cb8b6f57b00274525c
+    m_Address: m_Data_dl.CloverTreasureSeasonConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 561b8d16a6ba245f0aceec737eaf1cc6
+    m_Address: m_Data_dl.CloverTreasureRewardConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6b6d09db3e83448a94eb64bff102621
+    m_Address: m_Data_dl.Chinese_Traditional.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4fd04e2c240264ff2b1496d12473b346
+    m_Address: m_Data_dl.Chinese_Simplified.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea9b5d729e9674ae686150cdf9e73db8
+    m_Address: m_Data_dl.CensorshipConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbae0a67755f144afa20280a25904905
+    m_Address: m_Data_dl.BlossomDealConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7358e83d241384dc2b496c2ab34a5b88
+    m_Address: m_Data_dl.BackgroundConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0fbd3e8bc51b41abb028d0ea53a1c96
+    m_Address: m_Data_dl.AnalyticsUserStepConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc7cc315d05224d7c957c619547adeb1
+    m_Address: m_Data_dl.AnalyticsUserPropertiesConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6879eac09b71b48d8a599cafc16e6624
+    m_Address: m_Data_dl.AnalyticsUserAssetConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c7cd4381fb849443381841cf09917749
+    m_Address: m_Data_dl.AnalyticsThirdPartyConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf78c98df3ac94931b19b130a4beefc7
+    m_Address: m_Data_dl.AnalyticsEventPropertiesConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8a417635838e40ef94ffda7a4c7326a
+    m_Address: m_Data_dl.AnalyticsEventConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3143e5be7a9a41dd82a12c822db14f5
+    m_Address: m_Data_dl.ActivityDataConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e03daa70b98f04fe99b8f95bc3d0d7d5
+    m_Address: m_Data_dl.ActivityConfig.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 885c905fa26494337a179f1d1303f02b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 3c9e887eec553429b88f9039fd30a471, type: 2}
+    - {fileID: 11400000, guid: 7b526bfe7fd1e4d0ab8a5e337098fdd3, type: 2}

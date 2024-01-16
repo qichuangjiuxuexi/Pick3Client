@@ -1,14 +1,15 @@
-using System;
+﻿using System;
 using AppBase.Event;
 using AppBase.UI.Scene;
 using DG.Tweening;
 using TMPro;
 using UnityEngine.UI;
+using WordGame.Utils;
 
 /// <summary>
 /// 启动场景
 /// </summary>
-public class LaunchScene : UIScene
+public partial class LaunchScene : UIScene
 {
     public Image progressBar;
     public TextMeshProUGUI progressTxt;
@@ -41,6 +42,8 @@ public class LaunchScene : UIScene
         {
             progressBar.fillAmount = 1;
             progressTxt?.SetText("100%");
+            ProgressBar.SetActive(false);
+            ButtonParent.SetActive(true);
         }
         else
         {

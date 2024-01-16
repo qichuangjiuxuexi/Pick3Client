@@ -17,8 +17,568 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: fd8fe9ea2005449cb9cb646c609788cf
   m_SerializeEntries:
-  - m_GUID: f36c29fde7b530d42b1360c27f981e0b
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF.asset
+  - m_GUID: f413dff64a87245709cb79ae73693886
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_whiteline.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4847837952de41b2aa7b3d06124005d
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d60cbd04a62ff4ecda5ede2e1c50dd25
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_shoptxt_blue_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: adee305d7917e424c9fdf0e9d1914c8f
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Shop_Pupertxt_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0b76a3e756914c7583aac7c53cd1409
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_RocketTreasure.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6106c05d01a99498b892f1eed707f9ff
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Race_Des.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 587e1279b503345d189ce31fb8d82e95
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Red_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba7b0638583694bbfbf4c3d97927032e
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Ranking1_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8492f2d9622774d9d875752dc744a1b7
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Purple_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1cf721aa8da3e4b449af3728f5e57ccc
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Purple_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c16e9ec4c2724574927339a0da190a4
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Purple_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a06dfc0b70544255b6c428a76c32e33
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Pink_Trans_6.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1244ee09796cb45af8eb184ab2b508c2
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Pink_Trans_5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9d28759c727c436b824793b3a547d06
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Pink_Trans_4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f370303f7d4f5454495a1064795278e1
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Pink_Trans_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8af480dfcc854068bfac86bca2462fc
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Pink_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4fd0108ce037483a8134d9ff9ff9df2
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Pink_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 80e49aa19387f496096afd1179a1b6d0
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Pink_tankslogo.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd998ca408e63441988198a465ea5201
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Pink_Christmaslogo_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d401609ca69944bd6bcfb003408f231b
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Normal_1_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45f82136aef7544cc8da506d32d20bd7
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Normal_1_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2ffd99d29efde4081833b4d14251b803
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Hard_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bdbe45636d1b14df4a4d6636d9868c31
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 840c31da6cdf94986a97609756ad1534
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Level.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e192082c501b453f902c749e6f7fef8
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_infinitytxt02_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 58e206c22b21f4e0584f9ce3cfd1f6fe
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_infiintytxt_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d469728279fd43ebb6f39ab1b30a377
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_infiintylogo01_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eee360f59c43c4562988c6e9823b5ee5
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_infiinitylogo02_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 938c041b7efa74bb6a0551e5a7befc7e
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Guide_itme_Blank.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b67de768d6b564574be431aae14bee10
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Guide_game_Blank.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d25ccba968394a25afc5891423e9e8b
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Gold.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 234cae0978a994ff6a3778adf2e81dfc
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Firework_logo02_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e879a2487ce2e4053b7d601f3f2ae6ed
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_coinshop_Dialog03_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d1817eb3d6d7b46d69b9071a3a626915
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_coinshop_Dialog02.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0c53261136dfc445a9d01735b70e7607
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_coinshop_Dialog01_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28ff9c3fc82b843c2a80775948085f24
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Btn_Yellow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1387b834d1fa04075945138117d91cb7
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_Btn_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6944c77487aa943c58e6894c553cfbac
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_BlackOutline_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9e4449abfc264cbeac6bc7ac394e38d
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_BlackOutline_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a75190f924dc445bbf7065962089993
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_ADfreetips_n_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6340e3d06250449c088981e91b3405ad
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_AdBtn2_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a7ddf8c11d3f47a59952af76e2429c3
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_AdBtn_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cda45f7898e374a12b8053921075c0f8
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_9_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30c0342813e56453f9433176a665fcda
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_8.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b7503bfe1bad47bfbc510b8d77cf191
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_6_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5d86c79a7ff44098bce6d50fa805338
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4a059cef262a94d40990951ab2a00207
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7dabb03885e1b41b2841f77b4eef027c
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_3_Trans_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d038db2c5906e4423bf01eb1c6aa3951
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_3_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5d4e7eeb9b9144d58d4c10bd2817bee
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_3_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aab3b0339b1a04540a6903e533da6cad
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_12_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cabedce63554b44948cbc4e6ea45de6e
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_11_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f96948cb33e544b6a8a6c958463c96ba
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_1_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abbc177ee04a548dfb1d711c170377ee
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_1_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9344f269c72cc420db1a514841b25e75
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean_0.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09aa75efb03404894a04ab7728a9b37b
+    m_Address: Korean_dl.SourceHanSansHW_Bold_SDF_Korean.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaaa8d4cb5edc4d9a9be83c24e15ca91
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_whiteline.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b36ab01d429db4810b1852a894fa7df7
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7488eeae3265a41c889efbb03a85d55b
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_shoptxt_blue_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0862562985ca0491bb127d05cebb615c
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Shop_Pupertxt_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d49915bbefde2423bb1024e28272d99e
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_RocketTreasure.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6046ff975304a4d83a83ce6029bfa35d
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Race_Des.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45cfd7324079a43fd9378b469b258a81
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Red_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b60d23d210baf4497ba9a0c3e1fb584a
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Ranking1_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c66c0e48463ef44338c7b6bb2d174b8d
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Purple_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f5c5a58ed5ed845d785414f402117cd2
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Purple_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5daa9b8ce2465481fb6a6f929c29b62a
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Purple_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26ab235227e544ab89de1096217ea996
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Pink_Trans_6.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45406964daf4a44dbba20ec839a3ac07
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Pink_Trans_5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 95acedfd67a504ac791d33c1cc2783a0
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Pink_Trans_4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69b98b7713f6c479d961ccf13d4891f7
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Pink_Trans_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d951df714a184b828e9a2b5a9950cdc
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Pink_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bd6e0017a16440e4a5223ab895b19f8
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Pink_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d9aa838cd91da48fe9ed6a90b6301b63
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Pink_tankslogo.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35f646a49fe104cf983cc125a526a583
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Pink_Christmaslogo_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1c5b069519874ef28293c0204747a00
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Normal_1_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a19971dee95804ebdad99b21ccd0d485
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Normal_1_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 20a5934493691409193d3ddad00f2c89
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Hard_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 502ba579c033e4b8e81905b1f5f5bdfe
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b0755a41fcb0411b8e5c58054a078d9
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Level.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d167db19ff4d46989b537e8fb218d33
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_infinitytxt02_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fb57c46e4689c4533bff25bd82ac0ad4
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_infiintytxt_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8369e26b8d23e4d19ad7509687b118b7
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_infiintylogo01_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e007ba79dc58a458f961e722fcde7180
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_infiinitylogo02_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e2e63d5503f34d8c8b76df95792c289
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Guide_itme_Blank.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c11841400c9d447daa717415aecab791
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Guide_game_Blank.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec3c5bb4bfb0e403ead2d6a1d42d3ee1
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Gold.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fa1459fb181c4769b2033d2b53f509d
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Firework_logo02_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6c49b13b1917414db2a03492dbafcaa
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_coinshop_Dialog03_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fad9c29d9ff444cfcb6bd3c51027262d
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_coinshop_Dialog02.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 27becc221f5764794adb0e11f2841a72
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_coinshop_Dialog01_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6b402e7bc6b3e43a7a5d7da6b7eea251
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Btn_Yellow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3baa3774bf91488cb3d0b2db554041b
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_Btn_Blue.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67055776b55954ab49bd612b3d0696c6
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_BlackOutline_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df6e0c8013b284ccea51e0bd8ac459b2
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_BlackOutline_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2ad8e86751f744708aec5a45aa05ae0
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_ADfreetips_n_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d87f1311f803e4d188b34e8ac49f3e5b
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_AdBtn2_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa61b827b966446b3a24fd911d13d263
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_AdBtn_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3990b568ac624e2ba05aed86ade7bbc
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_9_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2fcb8ec4d5c2b4de4b0e659961018f10
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_8.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbb641c789b064beb8fb0cdc9d331ded
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_6_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4471d3f11653d411faf3561783990e24
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_5.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3859f46bbdf84312b2b685d2aacaae9
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_4.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea958f9394cb2467d9e8530bd7a10fba
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_3_Trans_3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26ec031c8c1314c7f9fa894f04181229
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_3_Trans_2.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84e6a536161284492a84ae5f2b8644ba
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_3_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f61111ef0d75461597265336b1b07b9
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_12_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26e72705e71d043c19d9139b2935d611
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_11_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cdbc298cf9e724424bd104d5ca8c36e4
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_1_Trans_1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f6ec5770cc9b4b86a623175f98ddff1
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_1_Trans.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4b518cbc88f74155832fb3be379ef9e
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese_0.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6af3475825c94430db648243f39ae29a
+    m_Address: Japanese_dl.SourceHanSansHW_Bold_SDF_Japanese.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faca74e7a0d12a240a452da391900f9d
+    m_Address: English.neo_sans_black_SDF_whiteline.mat
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -27,268 +587,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 90a2e8760dcc38043a2530b322cad16e
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Guide_game_Blank.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 212d2008397bfc841b152d59f4e1f34a
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans_2.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 22892c39f3b55f1499916ad923471584
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_coinshop_Dialog03_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 82596c107d7f7d84ea1365a165136d7c
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans_5.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5339183a8a5925b4aaefb3b75ab6094a
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Purple_Trans_2.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b34901f0e5d0f1942a1c34edc059c3c9
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_3_Trans_2.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c3a044b06df46e643a46e3a42c508b37
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_RocketTreasure.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 44e5f50f09b95c04d83d28e7496fc414
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_3_Trans_3.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 44d7003ed13008646b1405aa37f741e1
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Red_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 74ad5d498ba394f46b4d3b210f1f847c
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_shoptxt_blue_Trans_1.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c4022d7c9be30364380932c64a2faf23
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_6_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 55eaaff0c34ce7a42b555c294efad387
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Purple_Trans_1.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 754731aa0bf29e44b87f16e03ac9f76e
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_ADfreetips_n_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 85f3f71dc7441964381cd54039be4dc0
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_infiinitylogo02_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a646c217d7ab73a41979bed19ee2f0b5
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Btn_Yellow.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a62f12c1e4973784bb2f14b8c6685bbb
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans_3.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 178cf5e977b496444aa28a7a6b31c5e3
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Blue.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 27fabfcd1a75ad8449de693388cc6d79
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_tankslogo.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 47d9409bd0085a84a81a7f2da74ee3c0
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_8.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 484267a1e92060c40a63b4f18707dc7b
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_4.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 68b6ab8178de4c7468ec954863b9b8d3
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_AdBtn2_Trans_1.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a846097701c98b0419968a3b3b54b742
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_12_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 09c563bc71662604e85bf59cf75284ce
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 198434f07e30c45eca51ca470ccd58a4
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Race_Des.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1979d0ba1659f62469d7482efe75af20
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_infinitytxt02_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 39ed410bc61006b4ab8eb40fef71bd74
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_coinshop_Dialog01_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 79e47f554ff33cb43b1addfb8d8bc0cd
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Normal_1_Trans_2.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: b96eb690563557a42923ad1b615352af
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_BlackOutline_Trans_1.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d9c3816346925014dadf7035992de996
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Firework_logo02_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5a0b9c16057c3ba4485a75d8a0b45d3d
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_infiintytxt_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 6acdc1a017d331146980d0d0e55d8487
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_1_Trans_1.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8a154dd8034f141409e7be2c2ec91481
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Normal_1_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: baaf7b23e04b23c43bf8dd542e0f43eb
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Btn_Blue.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ca0d083937fca9949876adf563429811
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_0.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2bd5ffc8f6152be4c8b16bb0a8444ee5
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Guide_itme_Blank.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3b05488c0bfcaef4ebdc272ea6a521f1
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_5.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 5beadddfcc8b84648b39cc6139a8d87f
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_AdBtn_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 8c2364994751f254db6d03a51ba8e44d
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Purple_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0dc4781b8f2217b469a0a2646be14747
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_9_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1d2ae6c8ffacf4a44ae4f745a7440867
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_3_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 1dfbcd9a075cdc04b911bbd7caa6098a
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Gold.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2d73905280cf18c42a4fb54cfc959956
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans_4.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ad3eafbf8cad26245ad03b67ac401b84
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_1_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ad7e7e34dc969204db60a363ca5ecf25
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_11_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3e5f9815514b5f6419f2df0ebbe853f9
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Christmaslogo_1.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 7ec7541a3712b9d438041fce441d7b7b
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Shop_Pupertxt_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0f43348f9a803f1458c9f3b4627bf159
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Hard_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 2f924bbdeed6a5e40b0e53df82870800
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_infiintylogo01_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 4ffb8ebe58da072419aed54a727d91a7
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_coinshop_Dialog02.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9fc01be5f8d45e24ba10abbb99d44549
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Pink_Trans_6.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 9fa403556e2c3d046b4516173bcd4e3a
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_BlackOutline_Trans.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: bff1c5bb5dd9be3439aa95640f4de82e
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level.mat
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ff9dece2962df13468ad8c370dc4a637
-    m_Address: Assets/Project/AddressableRes/m_Font/TextMeshPro/English/neo_sans_black_SDF_Level_Ranking1_Trans.mat
+  - m_GUID: f36c29fde7b530d42b1360c27f981e0b
+    m_Address: English.neo_sans_black_SDF.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
