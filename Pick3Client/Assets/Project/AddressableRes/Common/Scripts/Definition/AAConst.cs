@@ -79,6 +79,13 @@ public class AAConst
 	public static string au_weeklycontest_chest_open = "m_SoundComon_dl.au_weeklycontest_chest_open.mp3";
 	public static string audio_default_progress_bar = "m_SoundComon_dl.audio_default_progress_bar.mp3";
 	public static string BackgroundConfig = "m_Data_dl.BackgroundConfig.asset";
+	public static string Ball0 = "m_Modell_dl.Ball0.prefab";
+	public static string Ball1 = "m_Modell_dl.Ball1.prefab";
+	public static string Ball2 = "m_Modell_dl.Ball2.prefab";
+	public static string Ball3 = "m_Modell_dl.Ball3.prefab";
+	public static string Ball4 = "m_Modell_dl.Ball4.prefab";
+	public static string Ball5 = "m_Modell_dl.Ball5.prefab";
+	public static string Ball6 = "m_Modell_dl.Ball6.prefab";
 	public static string BlossomDealConfig = "m_Data_dl.BlossomDealConfig.asset";
 	public static string CensorshipConfig = "m_Data_dl.CensorshipConfig.asset";
 	public static string Chinese_Simplified = "m_Data_dl.Chinese_Simplified.asset";
@@ -319,6 +326,13 @@ public class AAConst
 		{"au_weeklycontest_chest_open" , au_weeklycontest_chest_open},
 		{"audio_default_progress_bar" , audio_default_progress_bar},
 		{"BackgroundConfig" , BackgroundConfig},
+		{"Ball0" , Ball0},
+		{"Ball1" , Ball1},
+		{"Ball2" , Ball2},
+		{"Ball3" , Ball3},
+		{"Ball4" , Ball4},
+		{"Ball5" , Ball5},
+		{"Ball6" , Ball6},
 		{"BlossomDealConfig" , BlossomDealConfig},
 		{"CensorshipConfig" , CensorshipConfig},
 		{"Chinese_Simplified" , Chinese_Simplified},

@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: m_Modell_dl
+  m_EditorClassIdentifier: 
+  m_GroupName: m_Modell_dl
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 05964165a0b3c4430a59700715c288b9
+  m_SerializeEntries:
+  - m_GUID: c08149cdc8f92ad47bab62965b3855ab
+    m_Address: m_Modell_dl.Ball6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae8c032bbbcfd4e498274bc5ccd99e3e
+    m_Address: m_Modell_dl.Ball5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3bc486d90d8b9b743b1fc24d227b2fa7
+    m_Address: m_Modell_dl.Ball4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f194f68b974a16e41963ea1173222507
+    m_Address: m_Modell_dl.Ball3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91a3cf1c88f93094086a130407a8fa37
+    m_Address: m_Modell_dl.Ball2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0000dc65d5c6f3649a992d799fdb015a
+    m_Address: m_Modell_dl.Ball1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c58dfa5f9331bea44947c8fad9ae08bf
+    m_Address: m_Modell_dl.Ball0.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 885c905fa26494337a179f1d1303f02b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 102f13544f1a746709d6573c72cfdd1b, type: 2}
+    - {fileID: 11400000, guid: 3510d4b09c82241c3aa6d02ef5c4cc38, type: 2}

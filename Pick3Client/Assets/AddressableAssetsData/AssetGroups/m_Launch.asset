@@ -17,78 +17,88 @@ MonoBehaviour:
     m_SerializedData: []
   m_GUID: 6ff4fa559c08d437d93855b6bc2ca897
   m_SerializeEntries:
-  - m_GUID: 9508d17ee828c4edabc56627d0e20d6e
-    m_Address: LaunchScene.loading_pro_bar.png
+  - m_GUID: 5c60f6795e63646a6920575698e78135
+    m_Address: Effects.Star Shine.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 129a504731d774d51bc0e9e74c4cc2eb
-    m_Address: LaunchScene.Gradient.png
+  - m_GUID: b4dfadfe88ef147afb25dc92065ee7dc
+    m_Address: Effects.Radial Shine.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36ac48352a1534c0a8ea272586c70954
+    m_Address: Effects.Inner Glow - Rounded Rectangle.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9205c2a39e2b92943aa68b1dc9fe9293
-    m_Address: LaunchScene.Cloud 5.png
+    m_Address: cloud.Cloud5.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: e06ca59e7fa69ad41a560de246a6fdc7
-    m_Address: LaunchScene.Cloud 4.png
+    m_Address: cloud.Cloud4.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9cbe748e9855563469d6c414219ba7d0
-    m_Address: LaunchScene.Cloud 3.png
+    m_Address: cloud.Cloud3.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 04701df28ddb2f948a985387d8705586
-    m_Address: LaunchScene.Cloud 2.png
+    m_Address: cloud.Cloud2.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9b9249e190053224ab83bdfaacd53848
-    m_Address: LaunchScene.Cloud 1.png
+    m_Address: cloud.Cloud1.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c08149cdc8f92ad47bab62965b3855ab
-    m_Address: prefab.Ball6.prefab
+  - m_GUID: 71bfdea0e335d435da2fcc889bee8fc1
+    m_Address: bg.Square.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: ae8c032bbbcfd4e498274bc5ccd99e3e
-    m_Address: prefab.Ball5.prefab
+  - m_GUID: d0ccf4055a0dc41889edd714fbda28b1
+    m_Address: bg.splash2.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 3bc486d90d8b9b743b1fc24d227b2fa7
-    m_Address: prefab.Ball4.prefab
+  - m_GUID: 00cb030d6fee945b2b16aab28fb405bc
+    m_Address: bg.splash.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: f194f68b974a16e41963ea1173222507
-    m_Address: prefab.Ball3.prefab
+  - m_GUID: 129a504731d774d51bc0e9e74c4cc2eb
+    m_Address: bg.Gradient.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 91a3cf1c88f93094086a130407a8fa37
-    m_Address: prefab.Ball2.prefab
+  - m_GUID: 14533e157a7c24c9cb741d991d774254
+    m_Address: bar.LoadingLaunch_LevelBarBg1.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 0000dc65d5c6f3649a992d799fdb015a
-    m_Address: prefab.Ball1.prefab
+  - m_GUID: 72df4d4b702ac4591905350597a52ed5
+    m_Address: bar.LoadingLaunch_LevelBarBg.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c58dfa5f9331bea44947c8fad9ae08bf
-    m_Address: prefab.Ball0.prefab
+  - m_GUID: 20d5dcca1727942418729ca645fa6097
+    m_Address: bar.loading_pro_bg.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: a27d4b94194c2ec4f8cc674ab89ec13a
-    m_Address: dependency.BallAtlas0.spriteatlas
+  - m_GUID: 317a9f8fa0684477ab6af084659c380f
+    m_Address: bar.loading_pro_bar2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9508d17ee828c4edabc56627d0e20d6e
+    m_Address: bar.loading_pro_bar.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
@@ -109,41 +119,6 @@ MonoBehaviour:
     FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 038e88b4f74f8490c89cdcaafec60496
     m_Address: Animator.lanchscene_enter_splash.anim
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 317a9f8fa0684477ab6af084659c380f
-    m_Address: LaunchScene.loading_pro_bar2.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 20d5dcca1727942418729ca645fa6097
-    m_Address: LaunchScene.loading_pro_bg.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 72df4d4b702ac4591905350597a52ed5
-    m_Address: LaunchScene.LoadingLaunch_LevelBarBg.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 14533e157a7c24c9cb741d991d774254
-    m_Address: LaunchScene.LoadingLaunch_LevelBarBg1.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 71bfdea0e335d435da2fcc889bee8fc1
-    m_Address: LaunchScene.Square.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 00cb030d6fee945b2b16aab28fb405bc
-    m_Address: Splash.splash.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: d0ccf4055a0dc41889edd714fbda28b1
-    m_Address: Splash.splash2.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     FlaggedDuringContentUpdateRestriction: 0
