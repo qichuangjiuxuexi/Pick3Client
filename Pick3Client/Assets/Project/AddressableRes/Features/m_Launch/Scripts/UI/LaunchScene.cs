@@ -3,6 +3,7 @@ using AppBase.Event;
 using AppBase.UI.Scene;
 using DG.Tweening;
 using TMPro;
+using UnityEngine;
 using UnityEngine.UI;
 using WordGame.Utils;
 
@@ -22,6 +23,12 @@ public partial class LaunchScene : UIScene
     {
         gameObject.AddComponent<EventBehaviour>()
             .Subscribe<LoadingProgressEvent>(OnProgressUpdate);
+        
+        UICommonFun.AddButtonLisenter(StartButton.Button, () =>
+        {
+            // Game.Scene.SwitchScene(new TransitionData(AAConst.PickScene, new UISceneData(AAConst.PickScene)));
+            Game.Scene.SwitchScene(new UISceneData(AAConst.PickScene));
+        });
     }
 
     protected void OnProgressUpdate(LoadingProgressEvent e)
@@ -66,6 +73,6 @@ public partial class LaunchScene : UIScene
 
     public override void OnPlayExitAnim(Action callback)
     {
-        
+        callback?.Invoke();
     }
 }

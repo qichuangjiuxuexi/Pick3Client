@@ -96,6 +96,7 @@ public class AAConst
 	public static string English = "m_Data_dl.English.asset";
 	public static string FestiveAirConfig = "m_Data_dl.FestiveAirConfig.asset";
 	public static string French = "m_Data_dl.French.asset";
+	public static string GameEndUi = "Prefabs_dl.GameEndUi.prefab";
 	public static string German = "m_Data_dl.German.asset";
 	public static string GlobalConfig = "m_Data_dl.GlobalConfig.asset";
 	public static string IAPConfig = "m_Data_dl.IAPConfig.asset";
@@ -120,6 +121,7 @@ public class AAConst
 	public static string OneByOnePoolConfig = "m_Data_dl.OneByOnePoolConfig.asset";
 	public static string OneByOneTriggerConfig = "m_Data_dl.OneByOneTriggerConfig.asset";
 	public static string PartConfig = "m_Data_dl.PartConfig.asset";
+	public static string PickScene = "Prefabs_dl.PickScene.prefab";
 	public static string Portuguese = "m_Data_dl.Portuguese.asset";
 	public static string RandomListConfig = "m_Data_dl.RandomListConfig.asset";
 	public static string RocketRaceRobotConfig = "m_Data_dl.RocketRaceRobotConfig.asset";
@@ -343,6 +345,7 @@ public class AAConst
 		{"English" , English},
 		{"FestiveAirConfig" , FestiveAirConfig},
 		{"French" , French},
+		{"GameEndUi" , GameEndUi},
 		{"German" , German},
 		{"GlobalConfig" , GlobalConfig},
 		{"IAPConfig" , IAPConfig},
@@ -367,6 +370,7 @@ public class AAConst
 		{"OneByOnePoolConfig" , OneByOnePoolConfig},
 		{"OneByOneTriggerConfig" , OneByOneTriggerConfig},
 		{"PartConfig" , PartConfig},
+		{"PickScene" , PickScene},
 		{"Portuguese" , Portuguese},
 		{"RandomListConfig" , RandomListConfig},
 		{"RocketRaceRobotConfig" , RocketRaceRobotConfig},

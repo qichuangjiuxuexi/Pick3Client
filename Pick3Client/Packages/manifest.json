@@ -7,6 +7,7 @@
     "com.ghoststudio.gamesdk.oa": "file:../../GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.oa@1.0.0",
     "com.ghoststudio.gamesdk.resource": "file:../../GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.resource@1.0.0",
     "com.ghoststudio.gamesdk.ui": "file:../../GhostStudioGameSDK/Packages/com.ghoststudio.gamesdk.ui@1.0.0",
+    "com.unity.2d.sprite": "1.0.0",
     "com.unity.collab-proxy": "2.0.5",
     "com.unity.feature.development": "1.0.1",
     "com.unity.nuget.newtonsoft-json": "3.2.1",

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: m_PickGame
+  m_EditorClassIdentifier: 
+  m_GroupName: m_PickGame
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 9a2591ab54689490cb3b1ec86d0dd623
+  m_SerializeEntries:
+  - m_GUID: 7741273c0501d4b27ab66b189ef69ab0
+    m_Address: Prefabs_dl.GameEndUi.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dab6791ed27b3420ebfe94dcdfc44d00
+    m_Address: Prefabs_dl.PickScene.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 850390017e2834efd81d6f0b95fd791f
+    m_Address: Bombs.Bomb.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 885c905fa26494337a179f1d1303f02b, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 45dd992c50c2e4bd7a056a32be42e7ce, type: 2}
+    - {fileID: 11400000, guid: 50bd903378d7b4e9097d4e4b1fb27198, type: 2}
